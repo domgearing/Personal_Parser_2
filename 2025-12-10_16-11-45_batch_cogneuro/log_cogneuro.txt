@@ -1,0 +1,3401 @@
+
+
+===== Preprocess personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 108 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.jsonl
+Wrote cleaned essay for personal_cognitive_neuroscience to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.txt
+
+[STEP COMPLETED] Preprocess personal text in 3.63s
+
+
+===== Preprocess GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 96 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.jsonl
+Wrote cleaned essay for gpt_cognitive_neuroscience to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt
+
+[STEP COMPLETED] Preprocess GPT text in 3.12s
+
+
+===== Build POS trees for personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 108 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.jsonl
+Successfully parsed 108 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees for personal text in 11.15s
+
+
+===== Build POS trees for GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 96 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.jsonl
+Successfully parsed 96 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees for GPT text in 8.83s
+
+
+===== Visualize POS trees (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_trees_graphviz.py --jsonl /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl --out-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_personal --num-examples 3
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 108 tree records from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl
+================================================================================
+Sentence:
+The world can be a tough place.
+
+Tree (pretty_print):
+                TOP                    
+                 |                      
+                 S                     
+      ___________|___________________   
+     |               VP              | 
+     |        _______|___            |  
+     |       |           VP          | 
+     |       |    _______|___        |  
+     NP      |   |           NP      | 
+  ___|___    |   |    _______|___    |  
+ DT      NN  MD  VB  DT      JJ  NN  . 
+ |       |   |   |   |       |   |   |  
+ DT      NN  MD  VB  DT      JJ  NN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_personal/tree_0.pdf
+================================================================================
+Sentence:
+Especially in an age where we hear about every bad thing happening at a moment’s notice, it’s easy to believe that people suck.
+
+Tree (pretty_print):
+                                                                 TOP                                                                  
+                                                                  |                                                                    
+                                                                  S                                                                   
+       ___________________________________________________________|_________________________________________________________________   
+      PP                                                                          |   |                |                            | 
+  ____|___________                                                                |   |                |                            |  
+ |    |           NP                                                              |   |                |                            | 
+ |    |        ___|__________                                                     |   |                |                            |  
+ |    |       |             SBAR                                                  |   |                |                            | 
+ |    |       |         _____|____                                                |   |                |                            |  
+ |    |       |        |          S                                               |   |                VP                           | 
+ |    |       |        |      ____|___                                            |   |    ____________|___                         |  
+ |    |       |        |     |        VP                                          |   |   |                VP                       | 
+ |    |       |        |     |     ___|___                                        |   |   |    ____________|___                     |  
+ |    |       |        |     |    |       PP                                      |   |   |   |   |            S                    | 
+ |    |       |        |     |    |    ___|_______                                |   |   |   |   |            |                    |  
+ |    |       |        |     |    |   |           NP                              |   |   |   |   |            VP                   | 
+ |    |       |        |     |    |   |        ___|_______                        |   |   |   |   |     _______|___                 |  
+ |    |       |        |     |    |   |       |           VP                      |   |   |   |   |    |           VP               | 
+ |    |       |        |     |    |   |       |        ___|_______                |   |   |   |   |    |    _______|___             |  
+ |    |       |        |     |    |   |       |       |           PP              |   |   |   |   |    |   |          SBAR          | 
+ |    |       |        |     |    |   |       |       |    _______|___            |   |   |   |   |    |   |    _______|____        |  
+ |    |       |        |     |    |   |       |       |   |           NP          |   NP  |   |   |    |   |   |            S       | 
+ |    |       |        |     |    |   |       |       |   |        ___|_______    |   |   |   |   |    |   |   |        ____|___    |  
+ADVP  |       NP     WHADVP  NP   |   |       NP      |   |       NP          |   |   NP  |   |  ADJP  |   |   |       NP       VP  | 
+ |    |    ___|___     |     |    |   |    ___|___    |   |    ___|_______    |   |   |   |   |   |    |   |   |       |        |   |  
+ RB   IN  DT      NN  WRB   PRP  VBP  IN  DT  JJ  NN VBG  IN  DT  NN  FW POS  NN  ,  PRP VBP VBZ  JJ   TO  VB  IN     NNS      VBP  . 
+ |    |   |       |    |     |    |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |    |   |   |       |        |   |  
+ RB   IN  DT      NN  WRB   PRP  VBP  IN  DT  JJ  NN VBG  IN  DT  NN  FW POS  NN  ,  PRP VBP VBZ  JJ   TO  VB  IN     NNS      VBP  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_personal/tree_1.pdf
+================================================================================
+Sentence:
+And a lot of the time, they do.
+
+Tree (pretty_print):
+                    TOP                        
+                     |                          
+                     S                         
+  ___________________|_______________________   
+ |               NP              |   |   |   | 
+ |        _______|___            |   |   |   |  
+ |       |           PP          |   |   |   | 
+ |       |        ___|___        |   |   |   |  
+ |       NP      |       NP      |   NP  VP  | 
+ |    ___|___    |    ___|___    |   |   |   |  
+ CC  DT      NN  IN  DT      NN  ,  PRP VBP  . 
+ |   |       |   |   |       |   |   |   |   |  
+ CC  DT      NN  IN  DT      NN  ,  PRP VBP  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_personal/tree_2.pdf
+
+[STEP COMPLETED] Visualize POS trees (personal) in 1.36s
+
+
+===== Visualize POS trees (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_trees_graphviz.py --jsonl /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl --out-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_gpt --num-examples 3
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 96 tree records from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl
+================================================================================
+Sentence:
+Most of us are raised with some version of the idea that being good pays off.
+
+Tree (pretty_print):
+                                        TOP                                             
+                                         |                                               
+                                         S                                              
+      ___________________________________|____________________________________________   
+     |               VP                                                               | 
+     |            ___|___                                                             |  
+     |           |       VP                                                           | 
+     |           |    ___|___________                                                 |  
+     |           |   |               PP                                               | 
+     |           |   |    ___________|___________                                     |  
+     |           |   |   |                       NP                                   | 
+     |           |   |   |        _______________|___                                 |  
+     |           |   |   |       |                   PP                               | 
+     |           |   |   |       |        ___________|___                             |  
+     |           |   |   |       |       |               NP                           | 
+     |           |   |   |       |       |    ___________|_______                     |  
+     |           |   |   |       |       |   |   |              SBAR                  | 
+     |           |   |   |       |       |   |   |    ___________|____                |  
+     |           |   |   |       |       |   |   |   |                S               | 
+     |           |   |   |       |       |   |   |   |        ________|_______        |  
+     NP          |   |   |       |       |   |   |   |       S                |       | 
+  ___|___        |   |   |       |       |   |   |   |       |                |       |  
+ |       PP      |   |   |       |       |   |   |   |       VP               VP      | 
+ |    ___|___    |   |   |       |       |   |   |   |    ___|___          ___|___    |  
+ NP  |       NP  |   |   |       NP      |   |   |   |   |      ADJP      |      PRT  | 
+ |   |       |   |   |   |    ___|___    |   |   |   |   |       |        |       |   |  
+JJS  IN     PRP VBP VBN  IN  DT      NN  IN  DT  NN  IN VBG      JJ      VBZ      RP  . 
+ |   |       |   |   |   |   |       |   |   |   |   |   |       |        |       |   |  
+JJS  IN     PRP VBP VBN  IN  DT      NN  IN  DT  NN  IN VBG      JJ      VBZ      RP  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_gpt/tree_0.pdf
+================================================================================
+Sentence:
+Teachers say kindness will be rewarded.
+
+Tree (pretty_print):
+            TOP                     
+             |                       
+             S                      
+  ___________|____________________   
+ |           VP                   | 
+ |    _______|___                 |  
+ |   |          SBAR              | 
+ |   |           |                |  
+ |   |           S                | 
+ |   |    _______|____            |  
+ |   |   |            VP          | 
+ |   |   |    ________|___        |  
+ |   |   |   |            VP      | 
+ |   |   |   |         ___|___    |  
+ NP  |   NP  |        |       VP  | 
+ |   |   |   |        |       |   |  
+NNS VBP  NN  MD       VB     VBN  . 
+ |   |   |   |        |       |   |  
+NNS VBP  NN  MD       VB     VBN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_gpt/tree_1.pdf
+================================================================================
+Sentence:
+Parents say honesty keeps your conscience light and your life on track.
+
+Tree (pretty_print):
+                             TOP                                      
+                              |                                        
+                              S                                       
+  ____________________________|_____________________________________   
+ |           VP                                                     | 
+ |    _______|________________                                      |  
+ |   |                       SBAR                                   | 
+ |   |                        |                                     |  
+ |   |                        S                                     | 
+ |   |    ____________________|____                                 |  
+ |   |   |                         VP                               | 
+ |   |   |             ____________|________________                |  
+ |   |   |            VP           |                |               | 
+ |   |   |    ________|___         |                |               |  
+ |   |   |   |            S        |                S               | 
+ |   |   |   |         ___|___     |         _______|_______        |  
+ |   |   |   |        |       S    |        |               PP      | 
+ |   |   |   |        |       |    |        |            ___|___    |  
+ NP  |   NP  |        NP     ADJP  |        NP          |       NP  | 
+ |   |   |   |    ____|___    |    |    ____|___        |       |   |  
+NNS VBP  NN VBZ PRP$      NN  JJ   CC PRP$      NN      IN      NN  . 
+ |   |   |   |   |        |   |    |   |        |       |       |   |  
+NNS VBP  NN VBZ PRP$      NN  JJ   CC PRP$      NN      IN      NN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/trees_gpt/tree_2.pdf
+
+[STEP COMPLETED] Visualize POS trees (GPT) in 1.28s
+
+
+===== Estimate POS-based PCFG for personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 108 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_pos_trees.jsonl
+Processed 100 trees... total productions so far: 7402
+Collected total of 8032 productions from 108 trees
+Built POS-based PCFG with 64 LHS nonterminals
+Saved POS PCFG with 64 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json
+
+[STEP COMPLETED] Estimate POS-based PCFG for personal text in 1.17s
+
+
+===== Estimate POS-based PCFG for GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 96 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_pos_trees.jsonl
+Collected total of 3304 productions from 96 trees
+Built POS-based PCFG with 54 LHS nonterminals
+Saved POS PCFG with 54 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json
+
+[STEP COMPLETED] Estimate POS-based PCFG for GPT text in 1.13s
+
+
+===== Describe PCFG (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/describe_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --csv-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_personal.csv --md-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_personal.md
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+PCFG summary
+  Nonterminals (LHS): 64
+  Total rules:        478
+
+SYM      TYPE    #RULES  DESCRIPTION
+--------------------------------------------------------------------------------
+         pos?    2       Likely POS tag (not in table)
+$        pos?    1       Likely POS tag (not in table)
+''       pos     1       Closing quote
+,        pos     1       Comma
+.        pos     1       Sentence-final punctuation (. ! ?)
+:        pos     1       Colon, semi-colon, dash
+ADJP     phrase  30      Adjective phrase
+ADVP     phrase  12      Adverb phrase
+CC       pos     1       Coordinating conjunction (and, or, but)
+CD       pos     1       Cardinal number
+CONJP    phrase  3       Conjunction phrase
+DT       pos     1       Determiner (the, a, this)
+EX       pos     1       Existential 'there'
+FRAG     phrase? 6       Likely phrase/category (not in table)
+FW       pos     1       Foreign word
+IN       pos     1       Preposition/subordinating conjunction (in, on, because)
+JJ       pos     1       Adjective
+JJR      pos     1       Adjective, comparative (bigger)
+JJS      pos     1       Adjective, superlative (biggest)
+LS       pos     1       List item marker
+MD       pos     1       Modal (can, will, should)
+NML      phrase? 16      Likely phrase/category (not in table)
+NN       pos     1       Noun, singular or mass
+NNP      pos     1       Proper noun, singular
+NNS      pos     1       Noun, plural
+NP       phrase  107     Noun phrase
+NP+NP    phrase? 1       Likely phrase/category (not in table)
+PDT      pos     1       Predeterminer (all, many)
+POS      pos     1       Possessive ending ('s)
+PP       phrase  24      Prepositional phrase
+PRN      phrase? 5       Likely phrase/category (not in table)
+PRP      pos     1       Personal pronoun (I, you, we)
+PRP$     pos     1       Possessive pronoun (my, your, our)
+PRT      phrase  1       Particle
+QP       phrase  7       Quantifier phrase
+RB       pos     1       Adverb (quickly, not)
+RBR      pos     1       Adverb, comparative (faster)
+RBS      pos     1       Adverb, superlative (fastest)
+RP       pos     1       Particle (up, off)
+S        phrase  47      Clause / sentence
+S+NP     phrase? 1       Likely phrase/category (not in table)
+S+VP     phrase? 33      Likely phrase/category (not in table)
+SBAR     phrase  25      Subordinate clause (introduced by 'that', 'because', etc.)
+SBAR+S   phrase? 7       Likely phrase/category (not in table)
+SBAR+S+VP phrase? 1       Likely phrase/category (not in table)
+SINV     phrase  3       Inverted declarative sentence
+SQ       phrase  10      Inverted yes/no question
+SYM      pos     1       Symbol
+TO       pos     1       Infinitive 'to'
+TOP      phrase? 5       Likely phrase/category (not in table)
+VB       pos     1       Verb, base form
+VBD      pos     1       Verb, past tense
+VBG      pos     1       Verb, gerund/present participle
+VBN      pos     1       Verb, past participle
+VBP      pos     1       Verb, non-3sg present
+VBZ      pos     1       Verb, 3sg present
+VP       phrase  89      Verb phrase
+WDT      pos     1       Wh-determiner (which, that)
+WHADVP   phrase  1       Wh-adverb phrase (why, how...)
+WHNP     phrase  2       Wh-noun phrase (who, what, which...)
+WHPP     phrase  1       Wh-prepositional phrase (in which, to whom...)
+WP       pos     1       Wh-pronoun (who, what)
+WRB      pos     1       Wh-adverb (where, when, how)
+``       pos     1       Opening quote
+Wrote symbol table to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_personal.csv and /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_personal.md
+
+[STEP COMPLETED] Describe PCFG (personal) in 0.03s
+
+
+===== Describe PCFG (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/describe_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --csv-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_gpt.csv --md-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_gpt.md
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+PCFG summary
+  Nonterminals (LHS): 54
+  Total rules:        277
+
+SYM      TYPE    #RULES  DESCRIPTION
+--------------------------------------------------------------------------------
+''       pos     1       Closing quote
+,        pos     1       Comma
+.        pos     1       Sentence-final punctuation (. ! ?)
+:        pos     1       Colon, semi-colon, dash
+ADJP     phrase  18      Adjective phrase
+ADVP     phrase  4       Adverb phrase
+CC       pos     1       Coordinating conjunction (and, or, but)
+CD       pos     1       Cardinal number
+CONJP    phrase  2       Conjunction phrase
+DT       pos     1       Determiner (the, a, this)
+FRAG     phrase? 4       Likely phrase/category (not in table)
+FW       pos     1       Foreign word
+IN       pos     1       Preposition/subordinating conjunction (in, on, because)
+JJ       pos     1       Adjective
+JJR      pos     1       Adjective, comparative (bigger)
+JJS      pos     1       Adjective, superlative (biggest)
+MD       pos     1       Modal (can, will, should)
+NML      phrase? 1       Likely phrase/category (not in table)
+NN       pos     1       Noun, singular or mass
+NNS      pos     1       Noun, plural
+NP       phrase  57      Noun phrase
+NP+NP    phrase? 1       Likely phrase/category (not in table)
+POS      pos     1       Possessive ending ('s)
+PP       phrase  11      Prepositional phrase
+PRP      pos     1       Personal pronoun (I, you, we)
+PRP$     pos     1       Possessive pronoun (my, your, our)
+PRT      phrase  1       Particle
+RB       pos     1       Adverb (quickly, not)
+RBR      pos     1       Adverb, comparative (faster)
+RBS      pos     1       Adverb, superlative (fastest)
+RP       pos     1       Particle (up, off)
+S        phrase  33      Clause / sentence
+S+ADJP   phrase? 1       Likely phrase/category (not in table)
+S+VP     phrase? 27      Likely phrase/category (not in table)
+SBAR     phrase  13      Subordinate clause (introduced by 'that', 'because', etc.)
+SBAR+S   phrase? 1       Likely phrase/category (not in table)
+SQ       phrase  7       Inverted yes/no question
+TO       pos     1       Infinitive 'to'
+TOP      phrase? 3       Likely phrase/category (not in table)
+UH       pos     1       Interjection (uh, well)
+VB       pos     1       Verb, base form
+VBD      pos     1       Verb, past tense
+VBG      pos     1       Verb, gerund/present participle
+VBN      pos     1       Verb, past participle
+VBP      pos     1       Verb, non-3sg present
+VBZ      pos     1       Verb, 3sg present
+VP       phrase  54      Verb phrase
+WDT      pos     1       Wh-determiner (which, that)
+WHADVP   phrase  2       Wh-adverb phrase (why, how...)
+WHNP     phrase  2       Wh-noun phrase (who, what, which...)
+WHPP     phrase  1       Wh-prepositional phrase (in which, to whom...)
+WP       pos     1       Wh-pronoun (who, what)
+WRB      pos     1       Wh-adverb (where, when, how)
+``       pos     1       Opening quote
+Wrote symbol table to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_gpt.csv and /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/nonterminals_gpt.md
+
+[STEP COMPLETED] Describe PCFG (GPT) in 0.03s
+
+
+===== Analyze grammar entropy/top rules (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_grammar.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --top-k 6
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+== S top 6 rules ==
+Entropy H(S) = 2.722
+S -> NP VP   (p=0.229)
+S -> S .   (p=0.187)
+S -> S VP   (p=0.105)
+S -> S NP   (p=0.089)
+S -> S ,   (p=0.056)
+S -> S    (p=0.036)
+
+== NP top 6 rules ==
+Entropy H(NP) = 3.483
+NP -> NP ,   (p=0.101)
+NP -> NP NP   (p=0.093)
+NP -> NP NNP   (p=0.079)
+NP -> NP PP   (p=0.076)
+NP -> NP NN   (p=0.062)
+NP -> NN   (p=0.057)
+
+== VP top 6 rules ==
+Entropy H(VP) = 3.817
+VP -> VP PP   (p=0.078)
+VP -> VP ,   (p=0.077)
+VP -> VP VP   (p=0.069)
+VP -> VB NP   (p=0.054)
+VP -> VP CC   (p=0.044)
+VP -> VBD NP   (p=0.038)
+
+== PP top 6 rules ==
+Entropy H(PP) = 1.081
+PP -> IN NP   (p=0.777)
+PP -> IN S+VP   (p=0.063)
+PP -> PP    (p=0.036)
+PP -> PP NP   (p=0.030)
+PP -> IN S   (p=0.014)
+PP -> VBN PP   (p=0.011)
+
+== SBAR top 6 rules ==
+Entropy H(SBAR) = 2.334
+SBAR -> IN S   (p=0.430)
+SBAR -> WHNP S+VP   (p=0.083)
+SBAR -> WHNP S   (p=0.066)
+SBAR -> WHADVP S   (p=0.050)
+SBAR -> WHADVP S+VP   (p=0.041)
+SBAR -> SBAR CC   (p=0.033)
+
+== ADJP top 6 rules ==
+Entropy H(ADJP) = 2.919
+ADJP -> ADJP JJ   (p=0.157)
+ADJP -> JJ   (p=0.102)
+ADJP -> RB JJ   (p=0.087)
+ADJP -> RBR JJ   (p=0.079)
+ADJP -> ADJP CC   (p=0.071)
+ADJP -> ADJP ,   (p=0.071)
+
+== ADVP top 6 rules ==
+Entropy H(ADVP) = 1.046
+ADVP -> RB   (p=0.774)
+ADVP -> RBR   (p=0.043)
+ADVP -> ADVP PP   (p=0.032)
+ADVP -> RB RB   (p=0.032)
+ADVP -> ADVP RB   (p=0.022)
+ADVP -> NP RBR   (p=0.022)
+
+[STEP COMPLETED] Analyze grammar entropy/top rules (personal) in 0.03s
+
+
+===== Analyze grammar entropy/top rules (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_grammar.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --top-k 6
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+== S top 6 rules ==
+Entropy H(S) = 2.210
+S -> S .   (p=0.296)
+S -> NP VP   (p=0.296)
+S -> S VP   (p=0.104)
+S -> S NP   (p=0.044)
+S -> NP ADVP   (p=0.035)
+S -> S+VP VP   (p=0.028)
+
+== NP top 6 rules ==
+Entropy H(NP) = 3.141
+NP -> NN   (p=0.153)
+NP -> NP NN   (p=0.120)
+NP -> PRP   (p=0.065)
+NP -> NP ,   (p=0.065)
+NP -> NP PP   (p=0.061)
+NP -> DT NN   (p=0.059)
+
+== VP top 6 rules ==
+Entropy H(VP) = 3.398
+VP -> VBZ NP   (p=0.166)
+VP -> VP VP   (p=0.081)
+VP -> VBP NP   (p=0.062)
+VP -> VP PP   (p=0.062)
+VP -> VB NP   (p=0.053)
+VP -> VP ,   (p=0.053)
+
+== PP top 6 rules ==
+Entropy H(PP) = 0.779
+PP -> IN NP   (p=0.842)
+PP -> IN S+VP   (p=0.035)
+PP -> ADVP IN   (p=0.026)
+PP -> IN SBAR   (p=0.018)
+PP -> IN ADJP   (p=0.018)
+PP -> PP NP   (p=0.018)
+
+== SBAR top 6 rules ==
+Entropy H(SBAR) = 2.036
+SBAR -> WHNP S+VP   (p=0.298)
+SBAR -> IN S   (p=0.193)
+SBAR -> WHADVP S   (p=0.175)
+SBAR -> WHNP S   (p=0.105)
+SBAR -> SBAR S   (p=0.053)
+SBAR -> SBAR CC   (p=0.035)
+
+== ADJP top 6 rules ==
+Entropy H(ADJP) = 2.521
+ADJP -> JJ   (p=0.214)
+ADJP -> ADJP JJ   (p=0.129)
+ADJP -> RB JJ   (p=0.100)
+ADJP -> ADJP ,   (p=0.100)
+ADJP -> ADJP ADJP   (p=0.071)
+ADJP -> RBR JJ   (p=0.071)
+
+== ADVP top 6 rules ==
+Entropy H(ADVP) = 0.324
+ADVP -> RB   (p=0.932)
+ADVP -> ADVP RB   (p=0.023)
+ADVP -> RB CC   (p=0.023)
+ADVP -> RBR   (p=0.023)
+
+[STEP COMPLETED] Analyze grammar entropy/top rules (GPT) in 0.03s
+
+
+===== Compare structural style gaps (personal vs GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compare_styles.py --personal-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --top-k 12
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+=== Structural rules that are MOST 'you-ish' (you >> GPT) ===
+EX    -> EX                          Δ(you-GPT)= 20.00
+LS    -> LS                          Δ(you-GPT)= 20.00
+SINV  -> SINV PP                     Δ(you-GPT)= 18.90
+SINV  -> VBZ NP+NP                   Δ(you-GPT)= 18.90
+SINV  -> SINV S+VP                   Δ(you-GPT)= 18.90
+QP    -> QP CD                       Δ(you-GPT)= 18.80
+CONJP -> CONJP IN                    Δ(you-GPT)= 18.75
+NML   -> JJ NN                       Δ(you-GPT)= 18.53
+QP    -> JJR IN                      Δ(you-GPT)= 18.39
+CONJP -> CC RB                       Δ(you-GPT)= 18.05
+NML   -> CD NN                       Δ(you-GPT)= 17.95
+QP    -> QP IN                       Δ(you-GPT)= 17.70
+
+=== Structural rules that are MOST 'GPT-ish' (GPT >> you) ===
+UH    -> UH                          Δ(you-GPT)=-20.00
+CONJP -> RB IN                       Δ(you-GPT)=-19.31
+SQ    -> VBZ NP                      Δ(you-GPT)=-18.05
+SQ    -> VBZ NP+NP                   Δ(you-GPT)=-18.05
+WHADVP -> ADVP WRB                    Δ(you-GPT)=-17.60
+ADJP  -> DT RBR                      Δ(you-GPT)=-15.75
+ADJP  -> JJ RB                       Δ(you-GPT)=-15.75
+ADJP  -> ADJP IN                     Δ(you-GPT)=-15.75
+ADJP  -> RBR VBN                     Δ(you-GPT)=-15.75
+VP    -> VBZ                         Δ(you-GPT)=-15.62
+PP    -> PP S+VP                     Δ(you-GPT)=-15.26
+VP    -> VBP SBAR+S                  Δ(you-GPT)=-14.92
+
+[STEP COMPLETED] Compare structural style gaps (personal vs GPT) in 0.03s
+
+
+===== Graphviz PCFG fragment (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_graph_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --focus-lhs S,NP,VP,PP,SBAR --top-n-rules 5 --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/pcfg_fragment_personal
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Graph written to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/pcfg_fragment_personal.pdf
+
+[STEP COMPLETED] Graphviz PCFG fragment (personal) in 0.16s
+
+
+===== Graphviz PCFG fragment (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_graph_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --focus-lhs S,NP,VP,PP,SBAR --top-n-rules 5 --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/pcfg_fragment_gpt
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Graph written to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/pcfg_fragment_gpt.pdf
+
+[STEP COMPLETED] Graphviz PCFG fragment (GPT) in 0.17s
+
+
+===== CKY sanity check on GPT text (personal grammar) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/cky_POS.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt --sent-idx 0
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 96 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt
+
+=== WHOLE-TEXT SCORES (POS-based PCFG) ===
+Parsed sentences: 86 / 96
+Total log-prob (sum over parsed sentences): -4181.2797836628115
+Average style score (avg logP per rule across sentences): -1.6571065711614752
+
+=== DETAILED DEBUG FOR SENTENCE INDEX 0 ===
+Sentence: Most of us are raised with some version of the idea that being good pays off.
+POS TOKENS: ['JJS', 'IN', 'PRP', 'VBP', 'VBN', 'IN', 'DT', 'NN', 'IN', 'DT', 'NN', 'IN', 'VBG', 'JJ', 'NNS', 'IN', '.']
+JJS → OK
+IN → OK
+PRP → OK
+VBP → OK
+VBN → OK
+IN → OK
+DT → OK
+NN → OK
+IN → OK
+DT → OK
+NN → OK
+IN → OK
+VBG → OK
+JJ → OK
+NNS → OK
+IN → OK
+. → OK
+
+Top 5 biggest style gaps (POS-based):
+LHS: NP gap: 5.318119993844216
+Yield (POS): JJS IN PRP VBP VBN IN DT NN
+
+LHS: S gap: 4.736198448394496
+Yield (POS): JJS IN PRP VBP VBN IN DT NN IN DT NN IN VBG JJ NNS IN
+
+LHS: S gap: 4.04305126783455
+Yield (POS): JJS IN PRP VBP VBN IN DT NN IN DT NN IN VBG JJ NNS
+
+LHS: ADJP gap: 2.995732273553991
+Yield (POS): JJS IN PRP VBP VBN IN
+
+LHS: ADJP gap: 2.995732273553991
+Yield (POS): JJS
+
+Log-prob: -60.1477787826189
+Style score (avg rule log-prob): -1.8226599631096636
+                                                                       S                          
+                                                    ___________________|________________________   
+                                                   S                                            | 
+                                                ___|________________________________________    |  
+                                               S                                            |   | 
+                 ______________________________|_______                                     |   |  
+                NP                                     |                                    |   | 
+            ____|_________________________             |                                    |   |  
+          ADJP                            |            PP                                   |   | 
+  _________|____                          |         ___|___________                         |   |  
+ |             SBAR                       |        |               NP                       |   | 
+ |     _________|____                     |        |        _______|_______                 |   |  
+ |    |              S                    |        |       |               PP               |   | 
+ |    |     _________|___                 |        |       |        _______|___             |   |  
+ |    |    |             VP               |        |       |       |          S+VP          |   | 
+ |    |    |     ________|___             |        |       |       |    _______|____        |   |  
+ |    |    |    |           ADJP         S+NP      |       NP      |   |            NP      |   | 
+ |    |    |    |         ___|____     ___|____    |    ___|___    |   |        ____|___    |   |  
+ADJP  IN NP+NP VBP      VBN       IN  DT       NN  IN  DT      NN  IN VBG      JJ      NNS  IN  . 
+ |    |    |    |        |        |   |        |   |   |       |   |   |       |        |   |   |  
+JJS   IN  PRP  VBP      VBN       IN  DT       NN  IN  DT      NN  IN VBG      JJ      NNS  IN  . 
+
+
+[STEP COMPLETED] CKY sanity check on GPT text (personal grammar) in 1.35s
+
+
+===== Visualize CKY chart on personal sentence 0 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --sent The world can be a tough place. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_personal_0.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: The world can be a tough place.
+POS TOKENS: ['DT', 'NN', 'MD', 'VB', 'DT', 'JJ', 'NN', '.']
+Viterbi log-prob: -19.585573200801832
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_personal_0.png
+
+[STEP COMPLETED] Visualize CKY chart on personal sentence 0 in 1.85s
+
+
+===== Visualize CKY chart on personal sentence 1 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --sent Especially in an age where we hear about every bad thing happening at a moment’s notice, it’s easy to believe that people suck. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_personal_1.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: Especially in an age where we hear about every bad thing happening at a moment’s notice, it’s easy to believe that people suck.
+POS TOKENS: ['RB', 'IN', 'DT', 'NN', 'WRB', 'PRP', 'VBP', 'IN', 'DT', 'JJ', 'NN', 'VBG', 'IN', 'DT', 'NN', 'NN', 'NN', 'NN', ',', 'PRP', 'VBZ', 'JJ', 'JJ', 'TO', 'VB', 'IN', 'NNS', 'VBP', '.']
+Viterbi log-prob: -92.68475162788909
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_personal_1.png
+
+[STEP COMPLETED] Visualize CKY chart on personal sentence 1 in 2.61s
+
+
+===== Visualize CKY chart on GPT sentence 0 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --sent Most of us are raised with some version of the idea that being good pays off. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_gpt_0.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: Most of us are raised with some version of the idea that being good pays off.
+POS TOKENS: ['JJS', 'IN', 'PRP', 'VBP', 'VBN', 'IN', 'DT', 'NN', 'IN', 'DT', 'NN', 'IN', 'VBG', 'JJ', 'NNS', 'IN', '.']
+Viterbi log-prob: -50.974762274231374
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_gpt_0.png
+
+[STEP COMPLETED] Visualize CKY chart on GPT sentence 0 in 2.05s
+
+
+===== Visualize CKY chart on GPT sentence 1 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --sent Teachers say kindness will be rewarded. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_gpt_1.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: Teachers say kindness will be rewarded.
+POS TOKENS: ['NNS', 'VBP', 'NN', 'MD', 'VB', 'VBN', '.']
+Viterbi log-prob: -25.626816981471105
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/viz/cky_chart_gpt_1.png
+
+[STEP COMPLETED] Visualize CKY chart on GPT sentence 1 in 1.88s
+
+
+===== Build POS style statistics (Pw, Ppos, etc.) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/build_style_stats_pos.py --you-text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.txt --gpt-text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_stats_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Building stats for YOU from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.txt ...
+Building stats for GPT from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt ...
+Computing deltas (YOU vs GPT)...
+Saved style stats to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_stats_pos.json
+
+[STEP COMPLETED] Build POS style statistics (Pw, Ppos, etc.) in 1.30s
+
+
+===== Compute style baselines (mu_you_on_you, mu_gpt_on_gpt) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compute_baselines.py --mine-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.txt --gpt-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt --personal_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --gpt_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --out-baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_baselines.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Computing baseline for YOUR grammar on YOUR corpus...
+  mu_you_on_you: -1.545326949317629
+
+Computing baseline for GPT grammar on GPT corpus...
+  mu_gpt_on_gpt: -1.4642291075364966
+
+Saved baselines to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_baselines.json
+
+[STEP COMPLETED] Compute style baselines (mu_you_on_you, mu_gpt_on_gpt) in 4.94s
+
+
+===== Rewrite GPT essay toward personal style (rewrite_POS.py) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/rewrite_POS.py --mine /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/personal_data/personal_cognitive_neuroscience_clean.txt --gpt /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt --you-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_gpt_pos.json --baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_baselines.json --out-essay /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/rewritten_gpt_essay_relative_pos.txt --out-log /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pos_change_log.json --cands /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/data/gpt_candidates_cognitive_neuroscience.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[INFO] Loaded paraphrases for 95 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/data/gpt_candidates_cognitive_neuroscience.jsonl
+=== YOUR ESSAY ===
+Length (chars): 18833
+Average normalized relative style (you - GPT): 0.005204119193918065
+Average normalized logP_you per rule        : -0.04905202674035212
+Average normalized logP_gpt per rule        : -0.05425614593427019
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 8517
+Average normalized relative style (you - GPT): -0.11619531337041344
+Average normalized logP_you per rule        : -0.10349950788026775
+Average normalized logP_gpt per rule        : 0.012695805490145684
+
+
+=== PER-SENTENCE CHANGES (STRUCTURAL / POS-LEVEL) ===
+
+Sentence 0:
+  ORIGINAL : Most of us are raised with some version of the idea that being good pays off.
+  REWRITTEN: From childhood, we hear that doing the right thing eventually benefits us.
+  style_rel(orig) = -0.197, style_rel(new) = 0.039, Δ = 0.236
+  POS pattern (orig): JJS IN PRP VBP VBN IN DT NN IN DT NN IN VBG JJ NNS IN .
+  POS pattern (new) :  IN NN , PRP VBP IN VBG DT JJ NN RB NNS PRP .
+  POS bigram changes:
+    Added:
+      , → PRP
+      DT → JJ
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → RB
+      NNS → PRP
+      PRP → .
+      RB → NNS
+      VBG → DT
+      VBP → IN
+    Removed:
+      DT → NN
+      IN → .
+      IN → DT
+      IN → PRP
+      JJ → NNS
+      JJS → IN
+      NN → IN
+      NNS → IN
+      VBG → JJ
+      VBN → IN
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 1:
+  ORIGINAL : Teachers say kindness will be rewarded.
+  REWRITTEN: Teachers say kindness will be rewarded.
+  style_rel(orig) = -0.089, style_rel(new) = -0.089, Δ = 0.000
+  POS pattern (orig): NNS VBP NN MD VB VBN .
+  POS pattern (new) :  NNS VBP NN MD VB VBN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 2:
+  ORIGINAL : Parents say honesty keeps your conscience light and your life on track.
+  REWRITTEN: Parents insist that being truthful protects both integrity and direction in life.
+  style_rel(orig) = -0.047, style_rel(new) = -0.026, Δ = 0.021
+  POS pattern (orig): NNS VBP JJ NNS PRP$ NN NN CC PRP$ NN IN NN .
+  POS pattern (new) :  NNS VBP IN VBG JJ NNS DT NN CC NN IN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      DT → NN
+      IN → VBG
+      NNS → DT
+      VBG → JJ
+      VBP → IN
+    Removed:
+      CC → PRP$
+      NN → NN
+      NNS → PRP$
+      PRP$ → NN
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 3:
+  ORIGINAL : Religions promise moral accounting.
+  REWRITTEN: Religious doctrine claims good deeds are tallied and rewarded.
+  style_rel(orig) = -0.196, style_rel(new) = 0.226, Δ = 0.422
+  POS pattern (orig): NNS VBP JJ NN .
+  POS pattern (new) :  JJ NN NNS JJ NNS VBP VBN CC VBN .
+  POS bigram changes:
+    Added:
+      CC → VBN
+      JJ → NNS
+      NN → NNS
+      NNS → JJ
+      VBN → .
+      VBN → CC
+      VBP → VBN
+    Removed:
+      NN → .
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 4:
+  ORIGINAL : Even pop psychology slogans claim that “what goes around comes around.” Yet real life rarely feels so tidy.
+  REWRITTEN: Even pop psychology slogans claim that “what goes around comes around.” Yet real life rarely feels so tidy.
+  style_rel(orig) = -1000000.000, style_rel(new) = -1000000.000, Δ = 0.000
+  POS pattern (orig): RB VBP NN NNS VBP IN VBP WP VBZ RB VBZ JJ NNP NNP JJ NN RB VBZ RB JJ .
+  POS pattern (new) :  RB VBP NN NNS VBP IN VBP WP VBZ RB VBZ JJ NNP NNP JJ NN RB VBZ RB JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 5:
+  ORIGINAL : Good people get hurt.
+  REWRITTEN: Sometimes kind individuals suffer anyway.
+  style_rel(orig) = -0.141, style_rel(new) = -0.085, Δ = 0.056
+  POS pattern (orig): JJ NNS VBP VBN .
+  POS pattern (new) :  RB NN NNS VBP RB .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      RB → .
+      RB → NN
+      VBP → RB
+    Removed:
+      JJ → NNS
+      VBN → .
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 6:
+  ORIGINAL : Selfish people get promoted.
+  REWRITTEN: Unethical behavior can sometimes be rewarded with success.
+  style_rel(orig) = -0.141, style_rel(new) = -0.081, Δ = 0.060
+  POS pattern (orig): JJ NNS VBP VBN .
+  POS pattern (new) :  JJ NN MD RB VB VBN IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      JJ → NN
+      MD → RB
+      NN → .
+      NN → MD
+      RB → VB
+      VB → VBN
+      VBN → IN
+    Removed:
+      JJ → NNS
+      NNS → VBP
+      VBN → .
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 7:
+  ORIGINAL : Empathy sometimes feels like an open wound rather than a strength.
+  REWRITTEN: Compassion can feel painful, like a vulnerability not a skill.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.185, Δ = 1000000.185
+  POS pattern (orig): NNP RB VBZ IN DT JJ NN RB IN DT NN .
+  POS pattern (new) :  NN MD VB JJ , IN DT NN RB DT NN .
+  POS bigram changes:
+    Added:
+      , → IN
+      JJ → ,
+      MD → VB
+      NN → MD
+      RB → DT
+      VB → JJ
+    Removed:
+      DT → JJ
+      JJ → NN
+      NNP → RB
+      RB → IN
+      RB → VBZ
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 8:
+  ORIGINAL : So the question demands a serious answer: Is it actually in your own best interests to be a good person?
+  REWRITTEN: We must ask whether moral behavior truly serves our self-interest.
+  style_rel(orig) = -0.203, style_rel(new) = -0.086, Δ = 0.118
+  POS pattern (orig): IN DT NN VBZ DT JJ NN : VBZ PRP RB IN PRP$ JJ JJS NNS TO VB DT JJ NN .
+  POS pattern (new) :  PRP MD VB IN JJ NN RB VBZ PRP$ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      MD → VB
+      NN → RB
+      PRP → MD
+      PRP$ → NN
+      RB → VBZ
+      VB → IN
+      VBZ → PRP$
+    Removed:
+      : → VBZ
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → PRP$
+      JJ → JJS
+      JJS → NNS
+      NN → :
+      NN → VBZ
+      NNS → TO
+      PRP → RB
+      PRP$ → JJ
+      RB → IN
+      TO → VB
+      VB → DT
+      VBZ → DT
+      VBZ → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 9:
+  ORIGINAL : Does kindness, fairness, honesty, altruism lead to a better life?
+  REWRITTEN: Do ethical traits like generosity and integrity improve your life experience?
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.159, Δ = 999999.841
+  POS pattern (orig): NNP VB , NN , NN , NN NN TO DT JJR NN .
+  POS pattern (new) :  VB JJ NNS IN NN CC NN VB PRP$ NN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → NN
+      JJ → NNS
+      NN → CC
+      NN → VB
+      NNS → IN
+      PRP$ → NN
+      VB → JJ
+      VB → PRP$
+    Removed:
+      , → NN
+      DT → JJR
+      JJR → NN
+      NN → ,
+      NN → TO
+      NNP → VB
+      TO → DT
+      VB → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 10:
+  ORIGINAL : To answer that, we need to go beyond comforting cliches and look at what research in neuroscience and performance psychology can tell us.
+  REWRITTEN: To answer that, we need to go beyond comforting cliches and look at what research in neuroscience and performance psychology can tell us.
+  style_rel(orig) = -0.105, style_rel(new) = -0.105, Δ = 0.000
+  POS pattern (orig): TO VB IN , PRP VBP TO VB IN VBG NNS CC NN IN WP NN IN NN CC NN NN MD VB PRP .
+  POS pattern (new) :  TO VB IN , PRP VBP TO VB IN VBG NNS CC NN IN WP NN IN NN CC NN NN MD VB PRP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 11:
+  ORIGINAL : These fields allow us to study how moral behavior influences stress, health, motivation, and the quality of our relationships.
+  REWRITTEN: Such research explores links between virtue and well-being across multiple domains.
+  style_rel(orig) = -0.084, style_rel(new) = -0.049, Δ = 0.035
+  POS pattern (orig): DT NNS VBP PRP TO VB WRB JJ NN NNS RB , NN , NN , CC DT NN IN PRP$ NNS .
+  POS pattern (new) :  JJ NN VBZ VBZ IN NN CC JJ IN JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → JJ
+      IN → NN
+      JJ → IN
+      JJ → NNS
+      NN → CC
+      NN → VBZ
+      VBZ → IN
+      VBZ → VBZ
+    Removed:
+      , → CC
+      , → NN
+      CC → DT
+      DT → NN
+      DT → NNS
+      IN → PRP$
+      NN → ,
+      NN → IN
+      NN → NNS
+      NNS → RB
+      NNS → VBP
+      PRP → TO
+      PRP$ → NNS
+      RB → ,
+      TO → VB
+      VB → WRB
+      VBP → PRP
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 12:
+  ORIGINAL : When taken together, the findings point to a surprisingly straightforward conclusion: being good is not only ethical, it is adaptive.
+  REWRITTEN: Research shows that good behavior benefits survival and success.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.094, Δ = 999999.906
+  POS pattern (orig): WRB VBN RB , DT NNS NN TO DT RB JJ NN : VBG JJ VBZ RB RB JJ , PRP VBZ JJ .
+  POS pattern (new) :  NN VBZ IN JJ NN NNS NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → JJ
+      NN → .
+      NN → CC
+      NN → NNS
+      NN → VBZ
+      VBZ → IN
+    Removed:
+      , → DT
+      , → PRP
+      : → VBG
+      DT → NNS
+      DT → RB
+      JJ → ,
+      JJ → .
+      JJ → VBZ
+      NN → :
+      NN → TO
+      PRP → VBZ
+      RB → ,
+      RB → JJ
+      RB → RB
+      TO → DT
+      VBG → JJ
+      VBN → RB
+      VBZ → JJ
+      VBZ → RB
+      WRB → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 13:
+  ORIGINAL : A prosocial, trustworthy, compassionate lifestyle systematically improves mental health, enhances performance, strengthens relationships, and protects the body from stress-related harm.
+  REWRITTEN: Being trustworthy and kind improves emotions, productivity, and stress resistance.
+  style_rel(orig) = -0.134, style_rel(new) = -0.013, Δ = 0.121
+  POS pattern (orig): DT JJ , JJ , JJ NN RB VBZ JJ NN , VBZ NN , VBZ NNS , CC VBZ DT NN IN JJ NN .
+  POS pattern (new) :  VBG JJ CC NN NNS NNS , NN , CC NN NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → NN
+      JJ → CC
+      NN → NN
+      NN → NNS
+      NNS → NNS
+      VBG → JJ
+    Removed:
+      , → JJ
+      , → VBZ
+      CC → VBZ
+      DT → JJ
+      DT → NN
+      IN → JJ
+      JJ → ,
+      JJ → NN
+      NN → IN
+      NN → RB
+      RB → VBZ
+      VBZ → DT
+      VBZ → JJ
+      VBZ → NN
+      VBZ → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 14:
+  ORIGINAL : Goodness is not just about helping others.
+  REWRITTEN: Being good isn’t only outward-focused.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.007, Δ = 1000000.007
+  POS pattern (orig): NNP VBZ RB RB IN VBG NNS .
+  POS pattern (new) :  VBG JJ NN NN IN RB JJ .
+  POS bigram changes:
+    Added:
+      IN → RB
+      JJ → .
+      JJ → NN
+      NN → IN
+      NN → NN
+      RB → JJ
+      VBG → JJ
+    Removed:
+      IN → VBG
+      NNP → VBZ
+      NNS → .
+      RB → IN
+      RB → RB
+      VBG → NNS
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 15:
+  ORIGINAL : It changes the conditions of your own life.
+  REWRITTEN: Doing good reshapes your personal reality for the better.
+  style_rel(orig) = -0.224, style_rel(new) = 0.144, Δ = 0.369
+  POS pattern (orig): PRP VBZ DT NNS IN PRP$ JJ NN .
+  POS pattern (new) :  VBG JJ NNS PRP$ JJ NN IN DT JJR .
+  POS bigram changes:
+    Added:
+      DT → JJR
+      IN → DT
+      JJ → NNS
+      JJR → .
+      NN → IN
+      NNS → PRP$
+      VBG → JJ
+    Removed:
+      DT → NNS
+      IN → PRP$
+      NN → .
+      NNS → IN
+      PRP → VBZ
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 16:
+  ORIGINAL : Before deciding whether goodness “pays off,” we need to define what a “better life” means in scientific terms.
+  REWRITTEN: Before deciding whether goodness “pays off,” we need to define what a “better life” means in scientific terms.
+  style_rel(orig) = -1000000.000, style_rel(new) = -1000000.000, Δ = 0.000
+  POS pattern (orig): IN VBG IN NN NNP VBZ IN , IN PRP VBP TO VB WP DT NN RBR NN JJ VBZ IN JJ NNS .
+  POS pattern (new) :  IN VBG IN NN NNP VBZ IN , IN PRP VBP TO VB WP DT NN RBR NN JJ VBZ IN JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 17:
+  ORIGINAL : Performance psychology defines optimal functioning as sustained growth, resilience, fulfillment, and success that align with personal values.
+  REWRITTEN: Success, in this field, equals resilience and meaningful development.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.005, Δ = 999999.995
+  POS pattern (orig): NNP NN NNS JJ NN IN JJ NN , NN , NN , CC NN IN NN IN JJ NNS .
+  POS pattern (new) :  NN , IN DT NN , NNS NN CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → IN
+      , → NNS
+      CC → JJ
+      DT → NN
+      IN → DT
+      NN → .
+      NN → CC
+      NNS → NN
+    Removed:
+      , → CC
+      , → NN
+      CC → NN
+      IN → JJ
+      IN → NN
+      JJ → NNS
+      NN → IN
+      NN → NNS
+      NNP → NN
+      NNS → .
+      NNS → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 18:
+  ORIGINAL : Neuroscience adds biological elements: manageable stress, healthy emotional regulation, and strong social connection.
+  REWRITTEN: Neuroscience adds biological elements: manageable stress, healthy emotional regulation, and strong social connection.
+  style_rel(orig) = -1000000.000, style_rel(new) = -1000000.000, Δ = 0.000
+  POS pattern (orig): NNP VBZ JJ NNS : JJ NN , JJ JJ NN , CC JJ JJ NN .
+  POS pattern (new) :  NNP VBZ JJ NNS : JJ NN , JJ JJ NN , CC JJ JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 19:
+  ORIGINAL : Under those definitions, a good life is not simply pleasure or wealth or status.
+  REWRITTEN: Under those definitions, a good life is not simply pleasure or wealth or status.
+  style_rel(orig) = -0.019, style_rel(new) = -0.019, Δ = 0.000
+  POS pattern (orig): IN DT NNS , DT JJ NN VBZ RB RB VB CC VB CC NN .
+  POS pattern (new) :  IN DT NNS , DT JJ NN VBZ RB RB VB CC VB CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 20:
+  ORIGINAL : It is a life in which a person thrives psychologically, performs well in their pursuits, and remains physically healthy.
+  REWRITTEN: True well-being includes mental flourishing, effective action, and bodily health.
+  style_rel(orig) = -0.159, style_rel(new) = 0.006, Δ = 0.164
+  POS pattern (orig): PRP VBZ DT NN IN WDT DT NN VBZ RB , NNS VBP IN PRP$ NNS , CC VBZ RB JJ .
+  POS pattern (new) :  JJ JJ VBZ JJ NN , JJ NN , CC RB NN .
+  POS bigram changes:
+    Added:
+      , → JJ
+      CC → RB
+      JJ → JJ
+      JJ → NN
+      JJ → VBZ
+      NN → ,
+      NN → .
+      RB → NN
+      VBZ → JJ
+    Removed:
+      , → NNS
+      CC → VBZ
+      DT → NN
+      IN → PRP$
+      IN → WDT
+      JJ → .
+      NN → IN
+      NN → VBZ
+      NNS → ,
+      NNS → VBP
+      PRP → VBZ
+      PRP$ → NNS
+      RB → ,
+      RB → JJ
+      VBP → IN
+      VBZ → DT
+      VBZ → RB
+      WDT → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 21:
+  ORIGINAL : The human brain is built for social life.
+  REWRITTEN: Humans are neurologically wired to engage with others.
+  style_rel(orig) = -0.046, style_rel(new) = 0.170, Δ = 0.215
+  POS pattern (orig): DT JJ NN VBZ VBN IN JJ NN .
+  POS pattern (new) :  NNS VBP RB VBN TO VB IN NNS .
+  POS bigram changes:
+    Added:
+      IN → NNS
+      NNS → .
+      NNS → VBP
+      RB → VBN
+      TO → VB
+      VB → IN
+      VBN → TO
+      VBP → RB
+    Removed:
+      DT → JJ
+      IN → JJ
+      JJ → NN
+      NN → .
+      NN → VBZ
+      VBN → IN
+      VBZ → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 22:
+  ORIGINAL : Our survival never depended on physical strength but on cooperation, fairness, and alliance formation.
+  REWRITTEN: We survived through teamwork and trust, not brute force.
+  style_rel(orig) = -0.008, style_rel(new) = 0.036, Δ = 0.044
+  POS pattern (orig): PRP$ NN RB VBD IN JJ NN CC IN NN , NN , CC NN NN .
+  POS pattern (new) :  PRP VBD IN NN CC NN , RB JJ NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      PRP → VBD
+      RB → JJ
+    Removed:
+      , → CC
+      , → NN
+      CC → IN
+      IN → JJ
+      NN → NN
+      NN → RB
+      PRP$ → NN
+      RB → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 23:
+  ORIGINAL : Evolution shaped neural systems for empathy, trust, and moral evaluation.
+  REWRITTEN: Evolution shaped neural systems for empathy, trust, and moral evaluation.
+  style_rel(orig) = 0.080, style_rel(new) = 0.080, Δ = 0.000
+  POS pattern (orig): NN VBD JJ NNS IN NN , NN , CC JJ NN .
+  POS pattern (new) :  NN VBD JJ NNS IN NN , NN , CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 24:
+  ORIGINAL : Helping others activates reward pathways and releases dopamine and endorphins.
+  REWRITTEN: Helping someone can literally cause the brain to release feel-good hormones.
+  style_rel(orig) = -0.094, style_rel(new) = -0.003, Δ = 0.090
+  POS pattern (orig): VBG NNS VBZ JJ NNS CC NNS NN CC NNS .
+  POS pattern (new) :  VBG NN MD RB VB DT NN TO VB JJ NNS .
+  POS bigram changes:
+    Added:
+      DT → NN
+      MD → RB
+      NN → MD
+      NN → TO
+      RB → VB
+      TO → VB
+      VB → DT
+      VB → JJ
+      VBG → NN
+    Removed:
+      CC → NNS
+      NN → CC
+      NNS → CC
+      NNS → NN
+      NNS → VBZ
+      VBG → NNS
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 25:
+  ORIGINAL : Empathy and positive social contact promote oxytocin, which increases bonding and reduces stress.
+  REWRITTEN: Warm interactions boost oxytocin, strengthening relationships and calming the body.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.022, Δ = 1000000.022
+  POS pattern (orig): NNP CC JJ JJ NN NN NN , WDT VBZ NN CC NNS NN .
+  POS pattern (new) :  JJ NNS VBP NN , VBG NNS CC VBG DT NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      CC → VBG
+      DT → NN
+      JJ → NNS
+      NNS → CC
+      NNS → VBP
+      VBG → DT
+      VBG → NNS
+      VBP → NN
+    Removed:
+      , → WDT
+      CC → JJ
+      CC → NNS
+      JJ → JJ
+      JJ → NN
+      NN → CC
+      NN → NN
+      NNP → CC
+      NNS → NN
+      VBZ → NN
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 26:
+  ORIGINAL : The very structure of our emotional and motivational networks suggests that goodness is a strategy that helped early humans survive and continues to serve us now.
+  REWRITTEN: Our emotional wiring shows morality has always been a survival advantage.
+  style_rel(orig) = -0.091, style_rel(new) = -0.066, Δ = 0.025
+  POS pattern (orig): DT JJ NN IN PRP$ JJ CC JJ NNS VBZ IN NN VBZ DT NN WDT VBD JJ NNS JJ CC VBZ TO VB PRP RB .
+  POS pattern (new) :  PRP$ JJ NN NNS NN VBZ RB VBN DT JJ NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NNS
+      NNS → NN
+      RB → VBN
+      VBN → DT
+      VBZ → RB
+    Removed:
+      CC → JJ
+      CC → VBZ
+      DT → NN
+      IN → NN
+      IN → PRP$
+      JJ → CC
+      JJ → NNS
+      NN → IN
+      NN → WDT
+      NNS → JJ
+      NNS → VBZ
+      PRP → RB
+      RB → .
+      TO → VB
+      VB → PRP
+      VBD → JJ
+      VBZ → DT
+      VBZ → IN
+      VBZ → TO
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 27:
+  ORIGINAL : Trust is one of the most valuable assets a person can possess.
+  REWRITTEN: Few resources are as powerful as being trusted.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.116, Δ = 1000000.116
+  POS pattern (orig): NNP VBZ CD IN DT RBS JJ NNS DT NN MD VB .
+  POS pattern (new) :  JJ NNS VBP RB JJ IN VBG VBN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      JJ → IN
+      NNS → VBP
+      RB → JJ
+      VBG → VBN
+      VBN → .
+      VBP → RB
+    Removed:
+      CD → IN
+      DT → NN
+      DT → RBS
+      IN → DT
+      MD → VB
+      NN → MD
+      NNP → VBZ
+      NNS → DT
+      RBS → JJ
+      VB → .
+      VBZ → CD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 28:
+  ORIGINAL : In performance psychology, trust accelerates collaboration, learning, and success.
+  REWRITTEN: In performance psychology, trust accelerates collaboration, learning, and success.
+  style_rel(orig) = 0.032, style_rel(new) = 0.032, Δ = 0.000
+  POS pattern (orig): IN NN NN , NN NNS NN , NN , CC NN .
+  POS pattern (new) :  IN NN NN , NN NNS NN , NN , CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 29:
+  ORIGINAL : Good people generate trust.
+  REWRITTEN: People acting with integrity inspire confidence in others.
+  style_rel(orig) = -0.245, style_rel(new) = -0.078, Δ = 0.167
+  POS pattern (orig): JJ NNS VBP NN .
+  POS pattern (new) :  NNS VBG IN NN NN NN IN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → NNS
+      NN → IN
+      NN → NN
+      NNS → .
+      NNS → VBG
+      VBG → IN
+    Removed:
+      JJ → NNS
+      NN → .
+      NNS → VBP
+      VBP → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 30:
+  ORIGINAL : They become leaders others follow willingly.
+  REWRITTEN: They attract voluntary respect and leadership roles.
+  style_rel(orig) = -0.185, style_rel(new) = -0.083, Δ = 0.101
+  POS pattern (orig): PRP VBP NNS NNS VBP RB .
+  POS pattern (new) :  PRP VBP JJ NN CC NN NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → NN
+      NN → CC
+      NN → NNS
+      NNS → .
+      VBP → JJ
+    Removed:
+      NNS → NNS
+      NNS → VBP
+      RB → .
+      VBP → NNS
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 31:
+  ORIGINAL : This gives them access to social resources that selfish individuals do not reliably possess.
+  REWRITTEN: Their trustworthiness grants them support that exploitative people can’t count on.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.016, Δ = 999999.984
+  POS pattern (orig): DT VBZ PRP NN TO JJ NNS WDT JJ NNS VBP RB RB NN .
+  POS pattern (new) :  PRP$ NN NNS PRP VBP IN JJ NNS MD VB JJ NN IN .
+  POS bigram changes:
+    Added:
+      IN → .
+      IN → JJ
+      JJ → NN
+      MD → VB
+      NN → IN
+      NN → NNS
+      NNS → MD
+      NNS → PRP
+      PRP → VBP
+      PRP$ → NN
+      VB → JJ
+      VBP → IN
+    Removed:
+      DT → VBZ
+      NN → .
+      NN → TO
+      NNS → VBP
+      NNS → WDT
+      PRP → NN
+      RB → NN
+      RB → RB
+      TO → JJ
+      VBP → RB
+      VBZ → PRP
+      WDT → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 32:
+  ORIGINAL : A reputation for integrity becomes a long-term competitive edge.
+  REWRITTEN: Being known as honest pays off strategically over time.
+  style_rel(orig) = -0.142, style_rel(new) = -0.071, Δ = 0.070
+  POS pattern (orig): DT NN IN NN VBZ DT JJ JJ NN .
+  POS pattern (new) :  VBG VBN IN NN VBZ IN RB IN NN .
+  POS bigram changes:
+    Added:
+      IN → RB
+      RB → IN
+      VBG → VBN
+      VBN → IN
+      VBZ → IN
+    Removed:
+      DT → JJ
+      DT → NN
+      JJ → JJ
+      JJ → NN
+      NN → IN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 33:
+  ORIGINAL : Even though individualistic shortcuts can sometimes produce quick results, they rarely generate durable success.
+  REWRITTEN: Even though individualistic shortcuts can sometimes produce quick results, they rarely generate durable success.
+  style_rel(orig) = 0.013, style_rel(new) = 0.013, Δ = 0.000
+  POS pattern (orig): RB IN JJ NNS MD RB VB JJ NNS , PRP RB VBP JJ NN .
+  POS pattern (new) :  RB IN JJ NNS MD RB VB JJ NNS , PRP RB VBP JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 34:
+  ORIGINAL : Being a good person also strengthens meaning, which is one of the strongest predictors of long-term well-being.
+  REWRITTEN: Goodness deepens purpose, a key factor in lifelong happiness.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.015, Δ = 1000000.015
+  POS pattern (orig): VBG DT JJ NN RB VBZ NN , WDT VBZ CD IN DT JJS NNS IN JJ NN .
+  POS pattern (new) :  NN NNS VBP , DT JJ NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      , → DT
+      NN → IN
+      NN → NNS
+      NNS → VBP
+      VBP → ,
+    Removed:
+      , → WDT
+      CD → IN
+      DT → JJS
+      IN → DT
+      JJS → NNS
+      NN → ,
+      NN → RB
+      NNS → IN
+      RB → VBZ
+      VBG → DT
+      VBZ → CD
+      VBZ → NN
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 35:
+  ORIGINAL : Moral behavior gives people a sense of purpose and coherence about who they are and why they matter.
+  REWRITTEN: Doing the right thing strengthens one’s sense of self-worth.
+  style_rel(orig) = -0.251, style_rel(new) = 0.010, Δ = 0.261
+  POS pattern (orig): JJ NN VBZ NNS DT NN IN NN CC NN IN WP PRP VBP CC WRB PRP VBP .
+  POS pattern (new) :  VBG DT JJ NN VBZ CD NN NN NN IN NN .
+  POS bigram changes:
+    Added:
+      CD → NN
+      DT → JJ
+      NN → .
+      NN → NN
+      VBG → DT
+      VBZ → CD
+    Removed:
+      CC → NN
+      CC → WRB
+      DT → NN
+      IN → WP
+      NN → CC
+      NNS → DT
+      PRP → VBP
+      VBP → .
+      VBP → CC
+      VBZ → NNS
+      WP → PRP
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 36:
+  ORIGINAL : Neuroscience shows that purpose activates brain regions that support motivation, emotion regulation, and resilience.
+  REWRITTEN: Neuroscience shows that purpose activates brain regions that support motivation, emotion regulation, and resilience.
+  style_rel(orig) = -0.128, style_rel(new) = -0.128, Δ = 0.000
+  POS pattern (orig): NN NNS WDT VBP NNS NN NNS WDT VBP NN , NN NN , CC NN .
+  POS pattern (new) :  NN NNS WDT VBP NNS NN NNS WDT VBP NN , NN NN , CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 37:
+  ORIGINAL : Meaning protects mental health when life becomes difficult.
+  REWRITTEN: Having purpose cushions people during hardship.
+  style_rel(orig) = -0.355, style_rel(new) = 0.400, Δ = 0.754
+  POS pattern (orig): VBG NNS JJ NN WRB NN VBZ JJ .
+  POS pattern (new) :  VBG JJ NNS NNS IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      JJ → NNS
+      NN → .
+      NNS → IN
+      NNS → NNS
+      VBG → JJ
+    Removed:
+      JJ → .
+      JJ → NN
+      NN → VBZ
+      NN → WRB
+      NNS → JJ
+      VBG → NNS
+      VBZ → JJ
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 38:
+  ORIGINAL : People who live according to ethical values tend to experience less depression, lower anxiety, and a deeper sense of fulfillment.
+  REWRITTEN: Living morally reduces anxiety and boosts emotional well-being.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.153, Δ = 1000000.153
+  POS pattern (orig): NNS WP VBP VBG TO JJ NNS VBP TO VB JJR NN , JJR NN , CC DT JJR NN IN NN .
+  POS pattern (new) :  VBG RB NNS NN CC VBZ JJ NN .
+  POS bigram changes:
+    Added:
+      CC → VBZ
+      JJ → NN
+      NN → CC
+      NNS → NN
+      RB → NNS
+      VBG → RB
+      VBZ → JJ
+    Removed:
+      , → CC
+      , → JJR
+      CC → DT
+      DT → JJR
+      IN → NN
+      JJ → NNS
+      JJR → NN
+      NN → ,
+      NN → IN
+      NNS → VBP
+      NNS → WP
+      TO → JJ
+      TO → VB
+      VB → JJR
+      VBG → TO
+      VBP → TO
+      VBP → VBG
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 39:
+  ORIGINAL : In contrast, immoral behavior may create immediate advantages but carries a psychological toll.
+  REWRITTEN: Unethical actions might seem beneficial but come with mental costs.
+  style_rel(orig) = -0.080, style_rel(new) = 0.206, Δ = 0.286
+  POS pattern (orig): IN NN , JJ NN MD VB JJ NNS CC VBZ DT JJ NN .
+  POS pattern (new) :  JJ NNS MD VB JJ CC JJ IN JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → JJ
+      JJ → CC
+      JJ → IN
+      NNS → .
+      NNS → MD
+    Removed:
+      , → JJ
+      CC → VBZ
+      DT → JJ
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → MD
+      NNS → CC
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 40:
+  ORIGINAL : Lying, cheating, manipulating, and exploiting others force the brain to maintain internal conflict and external vigilance.
+  REWRITTEN: Immoral behavior creates constant tension inside and watchfulness outside.
+  style_rel(orig) = -0.117, style_rel(new) = -0.050, Δ = 0.067
+  POS pattern (orig): VBG , VBG , NN , CC VBG NNS VBP DT NN TO VB JJ NN CC JJ NN .
+  POS pattern (new) :  JJ NN NNS JJ NN IN CC JJ NN .
+  POS bigram changes:
+    Added:
+      IN → CC
+      NN → IN
+      NN → NNS
+      NNS → JJ
+    Removed:
+      , → CC
+      , → NN
+      , → VBG
+      CC → VBG
+      DT → NN
+      NN → ,
+      NN → CC
+      NN → TO
+      NNS → VBP
+      TO → VB
+      VB → JJ
+      VBG → ,
+      VBG → NNS
+      VBP → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 41:
+  ORIGINAL : People who behave unethically often experience ongoing fear of exposure, guilt, and anxiety about judgment.
+  REWRITTEN: Wrongdoers frequently feel guilty, worried about being caught, and anxious about others’ opinions.
+  style_rel(orig) = -0.238, style_rel(new) = 0.217, Δ = 0.455
+  POS pattern (orig): NNS WP VBP RB RB NN VBG NN IN NN , NN , CC NN IN NN .
+  POS pattern (new) :  NNS RB VBP JJ , VBD IN VBG VBN , CC JJ IN NNS JJ NNS .
+  POS bigram changes:
+    Added:
+      , → VBD
+      CC → JJ
+      IN → NNS
+      IN → VBG
+      JJ → ,
+      JJ → IN
+      JJ → NNS
+      NNS → .
+      NNS → JJ
+      NNS → RB
+      RB → VBP
+      VBD → IN
+      VBG → VBN
+      VBN → ,
+      VBP → JJ
+    Removed:
+      , → NN
+      CC → NN
+      IN → NN
+      NN → ,
+      NN → .
+      NN → IN
+      NN → VBG
+      NNS → WP
+      RB → NN
+      RB → RB
+      VBG → NN
+      VBP → RB
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 42:
+  ORIGINAL : These states elevate stress hormones, weaken the immune system, impair sleep, and increase the risk of physical illness.
+  REWRITTEN: These states elevate stress hormones, weaken the immune system, impair sleep, and increase the risk of physical illness.
+  style_rel(orig) = -0.010, style_rel(new) = -0.010, Δ = 0.000
+  POS pattern (orig): DT NNS VBP NN NNS , VBP DT NN NN , JJ NN , CC VB DT NN IN JJ NN .
+  POS pattern (new) :  DT NNS VBP NN NNS , VBP DT NN NN , JJ NN , CC VB DT NN IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 43:
+  ORIGINAL : The body keeps track of moral conflict.
+  REWRITTEN: Ethical turmoil leaves traces in our physical systems.
+  style_rel(orig) = -0.211, style_rel(new) = -0.200, Δ = 0.011
+  POS pattern (orig): DT NN VBZ NN IN JJ NN .
+  POS pattern (new) :  JJ NN VBZ NNS IN PRP$ JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → PRP$
+      JJ → NNS
+      NNS → .
+      NNS → IN
+      PRP$ → JJ
+      VBZ → NNS
+    Removed:
+      DT → NN
+      IN → JJ
+      NN → .
+      NN → IN
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 44:
+  ORIGINAL : Over time, unethical behavior acts like a corrosive substance on mental and physical health.
+  REWRITTEN: The long-term effect of wrongdoing erodes mind and body.
+  style_rel(orig) = -0.011, style_rel(new) = -0.003, Δ = 0.008
+  POS pattern (orig): IN NN , JJ NN NNS IN DT JJ NN IN JJ CC JJ NN .
+  POS pattern (new) :  DT JJ NN IN VBG NNS NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → VBG
+      NN → CC
+      NNS → NN
+      VBG → NNS
+    Removed:
+      , → JJ
+      CC → JJ
+      IN → DT
+      IN → JJ
+      IN → NN
+      JJ → CC
+      NN → ,
+      NN → NNS
+      NNS → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 45:
+  ORIGINAL : When people behave consistently with their values, they develop internal trust in themselves.
+  REWRITTEN: Value-consistent behavior strengthens belief in your own integrity.
+  style_rel(orig) = -0.196, style_rel(new) = -0.108, Δ = 0.088
+  POS pattern (orig): WRB NNS VBP RB IN PRP$ NNS , PRP VBP JJ NN IN PRP .
+  POS pattern (new) :  JJ NN NNS NN IN PRP$ JJ NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NNS
+      NNS → NN
+      PRP$ → JJ
+    Removed:
+      , → PRP
+      IN → PRP
+      NNS → ,
+      NNS → VBP
+      PRP → .
+      PRP → VBP
+      PRP$ → NNS
+      RB → IN
+      VBP → JJ
+      VBP → RB
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 46:
+  ORIGINAL : This strengthens self-esteem and reduces decision fatigue because many choices become clear in advance.
+  REWRITTEN: What this strengthens suggests is that self-esteem and reduces decision fatigue because many choices become clear in advance.
+  style_rel(orig) = -0.039, style_rel(new) = 0.126, Δ = 0.165
+  POS pattern (orig): DT VBZ JJ CC NNS NN NN IN JJ NNS VBP JJ IN NN .
+  POS pattern (new) :  WP DT JJ VBZ VBZ IN JJ CC NNS NN NN IN JJ NNS VBP JJ IN NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → VBZ
+      VBZ → IN
+      VBZ → VBZ
+      WP → DT
+    Removed:
+      DT → VBZ
+      VBZ → JJ
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 47:
+  ORIGINAL : A strong moral identity creates stability under pressure, which improves performance across academics, athletics, and work.
+  REWRITTEN: A clear moral foundation boosts performance in demanding situations.
+  style_rel(orig) = -0.211, style_rel(new) = 0.084, Δ = 0.295
+  POS pattern (orig): DT JJ JJ NN VBZ NN IN NN , WDT VBZ NN IN NNS , NNS , CC NN .
+  POS pattern (new) :  DT JJ JJ NN NNS NN IN VBG NNS .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      NN → NNS
+      NNS → .
+      NNS → NN
+      VBG → NNS
+    Removed:
+      , → CC
+      , → NNS
+      , → WDT
+      CC → NN
+      IN → NN
+      IN → NNS
+      NN → ,
+      NN → .
+      NN → VBZ
+      NNS → ,
+      VBZ → NN
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 48:
+  ORIGINAL : Character is a performance enhancer.
+  REWRITTEN: Moral strength fuels better results.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.006, Δ = 1000000.006
+  POS pattern (orig): NNP VBZ DT NN NN .
+  POS pattern (new) :  JJ NN NNS RBR NNS .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      NN → NNS
+      NNS → .
+      NNS → RBR
+      RBR → NNS
+    Removed:
+      DT → NN
+      NN → .
+      NN → NN
+      NNP → VBZ
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 49:
+  ORIGINAL : Kindness also acts as a force multiplier in groups.
+  REWRITTEN: Caring behavior strengthens collective ability.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.837, Δ = 1000000.837
+  POS pattern (orig): NNP RB VBZ IN DT NN NN IN NNS .
+  POS pattern (new) :  VBG NN NNS JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      NN → .
+      NN → NNS
+      NNS → JJ
+      VBG → NN
+    Removed:
+      DT → NN
+      IN → DT
+      IN → NNS
+      NN → IN
+      NN → NN
+      NNP → RB
+      NNS → .
+      RB → VBZ
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 50:
+  ORIGINAL : Leaders who are fair, empathetic, and supportive create environments in which people are more motivated, more creative, and more loyal.
+  REWRITTEN: Supportive leadership unlocks greater motivation and creativity in others.
+  style_rel(orig) = -0.153, style_rel(new) = -0.013, Δ = 0.140
+  POS pattern (orig): NNS WP VBP JJ , JJ , CC JJ NN NNS IN WDT NNS VBP RBR JJ , RBR JJ , CC JJR NNS .
+  POS pattern (new) :  JJ NN NNS JJR NN CC NN IN NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → NNS
+      JJR → NN
+      NN → CC
+      NN → IN
+      NNS → JJR
+    Removed:
+      , → CC
+      , → JJ
+      , → RBR
+      CC → JJ
+      CC → JJR
+      IN → WDT
+      JJ → ,
+      JJR → NNS
+      NNS → IN
+      NNS → VBP
+      NNS → WP
+      RBR → JJ
+      VBP → JJ
+      VBP → RBR
+      WDT → NNS
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 51:
+  ORIGINAL : A healthy social environment boosts everyone’s ability to perform.
+  REWRITTEN: A healthy social environment boosts everyone’s ability to perform.
+  style_rel(orig) = 0.010, style_rel(new) = 0.010, Δ = 0.000
+  POS pattern (orig): DT JJ JJ NN NNS NN JJ JJ NN TO VB .
+  POS pattern (new) :  DT JJ JJ NN NNS NN JJ JJ NN TO VB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 52:
+  ORIGINAL : Selfishness and cruelty, by contrast, erode trust and create cultures of fear, which ultimately limit growth and potential.
+  REWRITTEN: Harmful behavior destroys confidence and stunts progress.
+  style_rel(orig) = -0.135, style_rel(new) = -0.071, Δ = 0.064
+  POS pattern (orig): NN CC NN , IN NN , VB NN CC NN NNS IN NN , WDT RB VBP NN CC NN .
+  POS pattern (new) :  JJ NN NNS NN CC NNS NN .
+  POS bigram changes:
+    Added:
+      CC → NNS
+      JJ → NN
+      NNS → NN
+    Removed:
+      , → IN
+      , → VB
+      , → WDT
+      CC → NN
+      IN → NN
+      NN → ,
+      NNS → IN
+      RB → VBP
+      VB → NN
+      VBP → NN
+      WDT → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 53:
+  ORIGINAL : A fair objection arises: good people sometimes get exploited while selfish individuals sometimes succeed.
+  REWRITTEN: We must admit that kindness can be taken advantage of and selfishness can win.
+  style_rel(orig) = -0.080, style_rel(new) = -0.003, Δ = 0.077
+  POS pattern (orig): DT JJ NN NNS : JJ NNS RB VBP VBN IN JJ NNS RB VB .
+  POS pattern (new) :  PRP MD VB IN NN MD VB VBN NN IN CC NN MD VB .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → CC
+      IN → NN
+      MD → VB
+      NN → IN
+      NN → MD
+      PRP → MD
+      VB → IN
+      VB → VBN
+      VBN → NN
+    Removed:
+      : → JJ
+      DT → JJ
+      IN → JJ
+      JJ → NN
+      JJ → NNS
+      NN → NNS
+      NNS → :
+      NNS → RB
+      RB → VB
+      RB → VBP
+      VBN → IN
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 54:
+  ORIGINAL : That is undeniably true.
+  REWRITTEN: We can’t deny it.
+  style_rel(orig) = -0.063, style_rel(new) = 0.019, Δ = 0.082
+  POS pattern (orig): DT VBZ RB JJ .
+  POS pattern (new) :  PRP MD VB JJ NN PRP .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      MD → VB
+      NN → PRP
+      PRP → .
+      PRP → MD
+      VB → JJ
+    Removed:
+      DT → VBZ
+      JJ → .
+      RB → JJ
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 55:
+  ORIGINAL : But those successes are usually fragile.
+  REWRITTEN: Yet such victories rarely last.
+  style_rel(orig) = -0.182, style_rel(new) = 0.074, Δ = 0.256
+  POS pattern (orig): CC DT NNS VBP RB JJ .
+  POS pattern (new) :  RB JJ NNS RB JJ .
+  POS bigram changes:
+    Added:
+      JJ → NNS
+      NNS → RB
+    Removed:
+      CC → DT
+      DT → NNS
+      NNS → VBP
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 56:
+  ORIGINAL : Exploitation destroys long-term support networks and often leads to loneliness, stress, and psychological breakdown.
+  REWRITTEN: Exploiting people cuts off social resources, causing isolation and burnout.
+  style_rel(orig) = -0.032, style_rel(new) = -0.017, Δ = 0.015
+  POS pattern (orig): NN VBZ JJ NN NNS CC RB VBZ TO VB , NN , CC JJ NN .
+  POS pattern (new) :  VBG NNS NNS IN JJ NNS , VBG NN CC NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      CC → NN
+      IN → JJ
+      JJ → NNS
+      NN → CC
+      NNS → ,
+      NNS → IN
+      NNS → NNS
+      VBG → NN
+      VBG → NNS
+    Removed:
+      , → CC
+      , → NN
+      CC → JJ
+      CC → RB
+      JJ → NN
+      NN → ,
+      NN → NNS
+      NN → VBZ
+      NNS → CC
+      RB → VBZ
+      TO → VB
+      VB → ,
+      VBZ → JJ
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 57:
+  ORIGINAL : Even when selfishness generates material success, it rarely produces a life defined by love, peace, or meaning.
+  REWRITTEN: You can be rich and still lack connection or purpose if your success harms others.
+  style_rel(orig) = -0.406, style_rel(new) = 0.045, Δ = 0.451
+  POS pattern (orig): RB WRB NN VBZ JJ NN , PRP RB VBZ DT NN VBN IN NN , NN , CC NN .
+  POS pattern (new) :  PRP MD VB JJ CC RB VB NN CC VB IN PRP$ NN VBZ NNS .
+  POS bigram changes:
+    Added:
+      CC → RB
+      CC → VB
+      IN → PRP$
+      JJ → CC
+      MD → VB
+      NN → CC
+      NNS → .
+      PRP → MD
+      PRP$ → NN
+      RB → VB
+      VB → IN
+      VB → JJ
+      VB → NN
+      VBZ → NNS
+    Removed:
+      , → CC
+      , → NN
+      , → PRP
+      CC → NN
+      DT → NN
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → VBN
+      PRP → RB
+      RB → VBZ
+      RB → WRB
+      VBN → IN
+      VBZ → DT
+      VBZ → JJ
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 58:
+  ORIGINAL : A person may win in the short term by harming others, but they often lose in the long term by damaging their own sense of self and their relationships.
+  REWRITTEN: Short-term victory through cruelty costs long-term identity and love.
+  style_rel(orig) = -0.018, style_rel(new) = 0.037, Δ = 0.055
+  POS pattern (orig): DT NN MD VB IN DT JJ NN IN VBG NNS , CC PRP RB VBP IN DT JJ NN IN VBG PRP$ JJ NN IN NN CC PRP$ NNS .
+  POS pattern (new) :  JJ NN IN NN NNS JJ NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      NN → .
+      NN → NNS
+      NNS → JJ
+    Removed:
+      , → CC
+      CC → PRP
+      CC → PRP$
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → VBG
+      MD → VB
+      NN → MD
+      NNS → ,
+      NNS → .
+      PRP → RB
+      PRP$ → JJ
+      PRP$ → NNS
+      RB → VBP
+      VB → IN
+      VBG → NNS
+      VBG → PRP$
+      VBP → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 59:
+  ORIGINAL : Vulnerability is built into goodness.
+  REWRITTEN: Caring invites vulnerability—it’s part of the deal.
+  style_rel(orig) = -0.137, style_rel(new) = -0.086, Δ = 0.051
+  POS pattern (orig): NN VBZ VBN IN NN .
+  POS pattern (new) :  VBG NNS VBP JJ JJ NN IN DT NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      JJ → JJ
+      JJ → NN
+      NN → IN
+      NNS → VBP
+      VBG → NNS
+      VBP → JJ
+    Removed:
+      IN → NN
+      NN → VBZ
+      VBN → IN
+      VBZ → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 60:
+  ORIGINAL : Caring for others and acting with honesty gives people the ability to hurt you.
+  REWRITTEN: Caring for others and acting with honesty gives people the ability to hurt you.
+  style_rel(orig) = -0.094, style_rel(new) = -0.094, Δ = 0.000
+  POS pattern (orig): VBG IN NNS CC VBG IN JJ VBZ NNS DT NN TO VB PRP .
+  POS pattern (new) :  VBG IN NNS CC VBG IN JJ VBZ NNS DT NN TO VB PRP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 61:
+  ORIGINAL : Yet vulnerability is also the gateway to connection, and connection protects well-being.
+  REWRITTEN: Connection grows from vulnerability—and connection keeps us strong.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.113, Δ = 999999.887
+  POS pattern (orig): CC NN VBZ RB DT NN TO NN , CC NN NNS NN .
+  POS pattern (new) :  NN NNS IN NN NN VBZ PRP JJ .
+  POS bigram changes:
+    Added:
+      IN → NN
+      JJ → .
+      NN → NN
+      NNS → IN
+      PRP → JJ
+      VBZ → PRP
+    Removed:
+      , → CC
+      CC → NN
+      DT → NN
+      NN → ,
+      NN → .
+      NN → TO
+      NNS → NN
+      RB → DT
+      TO → NN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 62:
+  ORIGINAL : Social isolation pushes the brain into survival mode, increasing stress and impairing health.
+  REWRITTEN: Being isolated drives harmful stress and worsens physical well-being.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.089, Δ = 999999.911
+  POS pattern (orig): NNP NN VBZ DT NN IN JJ NN , VBG NN CC VBG NN .
+  POS pattern (new) :  VBG VBN NNS JJ NN CC VBZ JJ NN .
+  POS bigram changes:
+    Added:
+      CC → VBZ
+      NNS → JJ
+      VBG → VBN
+      VBN → NNS
+      VBZ → JJ
+    Removed:
+      , → VBG
+      CC → VBG
+      DT → NN
+      IN → JJ
+      NN → ,
+      NN → IN
+      NN → VBZ
+      NNP → NN
+      VBG → NN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 63:
+  ORIGINAL : A life built on goodness may contain risk, but it also creates the relationships that make a human life worth living.
+  REWRITTEN: Though goodness exposes you, it also gives you love and belonging.
+  style_rel(orig) = -0.129, style_rel(new) = -0.066, Δ = 0.063
+  POS pattern (orig): DT NN VBN IN NN MD VB NN , CC PRP RB VBZ DT NNS WDT VBP DT JJ NN IN NN .
+  POS pattern (new) :  IN JJ NNS PRP , PRP RB VBZ PRP VBP CC NN .
+  POS bigram changes:
+    Added:
+      , → PRP
+      CC → NN
+      IN → JJ
+      JJ → NNS
+      NNS → PRP
+      PRP → ,
+      PRP → VBP
+      VBP → CC
+      VBZ → PRP
+    Removed:
+      , → CC
+      CC → PRP
+      DT → JJ
+      DT → NN
+      DT → NNS
+      IN → NN
+      JJ → NN
+      MD → VB
+      NN → ,
+      NN → IN
+      NN → MD
+      NN → VBN
+      NNS → WDT
+      VB → NN
+      VBN → IN
+      VBP → DT
+      VBZ → DT
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 64:
+  ORIGINAL : Another advantage of goodness is that it prevents avoidable suffering.
+  REWRITTEN: Good behavior spares us from many unnecessary problems.
+  style_rel(orig) = -0.179, style_rel(new) = -0.008, Δ = 0.171
+  POS pattern (orig): DT NN IN NN VBZ IN PRP VBZ JJ NN .
+  POS pattern (new) :  JJ NN NNS PRP IN JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → JJ
+      JJ → NNS
+      NN → NNS
+      NNS → .
+      NNS → PRP
+      PRP → IN
+    Removed:
+      DT → NN
+      IN → NN
+      IN → PRP
+      NN → .
+      NN → IN
+      NN → VBZ
+      PRP → VBZ
+      VBZ → IN
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 65:
+  ORIGINAL : When we treat others well, we avoid the conflicts, feuds, and crises that result from dishonesty or harm.
+  REWRITTEN: By being decent, we sidestep fights and disasters caused by betrayal.
+  style_rel(orig) = -0.132, style_rel(new) = -0.023, Δ = 0.108
+  POS pattern (orig): WRB PRP VBP NNS RB , PRP VBP DT NNS , NNS , CC VBZ DT NN IN NN CC NN .
+  POS pattern (new) :  IN VBG JJ , PRP VBP NNS CC NNS VBN IN NN .
+  POS bigram changes:
+    Added:
+      CC → NNS
+      IN → VBG
+      JJ → ,
+      NNS → CC
+      NNS → VBN
+      VBG → JJ
+      VBN → IN
+    Removed:
+      , → CC
+      , → NNS
+      CC → NN
+      CC → VBZ
+      DT → NN
+      DT → NNS
+      NN → CC
+      NN → IN
+      NNS → ,
+      NNS → RB
+      RB → ,
+      VBP → DT
+      VBZ → DT
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 66:
+  ORIGINAL : Many of life’s worst problems come from broken relationships and damaged reputations.
+  REWRITTEN: Ruined trust and loss of respect produce enormous personal pain.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.119, Δ = 999999.881
+  POS pattern (orig): JJ IN NN NNP VBD JJS NNS VBP IN VBN NNS CC VBN NNS .
+  POS pattern (new) :  VBN NN CC NN IN NN VBP JJ JJ NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → JJ
+      JJ → NN
+      NN → .
+      NN → CC
+      NN → IN
+      NN → VBP
+      VBN → NN
+      VBP → JJ
+    Removed:
+      CC → VBN
+      IN → VBN
+      JJ → IN
+      JJS → NNS
+      NN → NNP
+      NNP → VBD
+      NNS → .
+      NNS → CC
+      NNS → VBP
+      VBD → JJS
+      VBN → NNS
+      VBP → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 67:
+  ORIGINAL : Goodness lowers the probability of those kinds of self-inflicted disasters.
+  REWRITTEN: Moral choices help prevent destructive mistakes.
+  style_rel(orig) = -0.167, style_rel(new) = 0.004, Δ = 0.171
+  POS pattern (orig): NN VBZ DT NN IN DT NNS IN JJ NNS .
+  POS pattern (new) :  JJ NNS VBP VB JJ NNS .
+  POS bigram changes:
+    Added:
+      NNS → VBP
+      VB → JJ
+      VBP → VB
+    Removed:
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → JJ
+      NN → IN
+      NN → VBZ
+      NNS → IN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 68:
+  ORIGINAL : Being good does not eliminate suffering, but it does change how we experience it.
+  REWRITTEN: Suffering remains—but goodness makes it less overwhelming.
+  style_rel(orig) = -0.138, style_rel(new) = 0.077, Δ = 0.215
+  POS pattern (orig): VBG JJ VBZ RB VB NN , CC PRP VBZ VB WRB PRP VBP PRP .
+  POS pattern (new) :  VBG NN NN VBZ PRP JJR JJ .
+  POS bigram changes:
+    Added:
+      JJ → .
+      JJR → JJ
+      NN → NN
+      NN → VBZ
+      PRP → JJR
+      VBG → NN
+      VBZ → PRP
+    Removed:
+      , → CC
+      CC → PRP
+      JJ → VBZ
+      NN → ,
+      PRP → .
+      PRP → VBP
+      PRP → VBZ
+      RB → VB
+      VB → NN
+      VB → WRB
+      VBG → JJ
+      VBP → PRP
+      VBZ → RB
+      VBZ → VB
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 69:
+  ORIGINAL : A person who has lived ethically can face difficulty without the added weight of guilt or shame.
+  REWRITTEN: Right conduct frees you from shame during tough times.
+  style_rel(orig) = -0.327, style_rel(new) = -0.038, Δ = 0.289
+  POS pattern (orig): DT NN WP VBZ VBN RB MD VB NN IN DT JJ NN IN NN CC NN .
+  POS pattern (new) :  JJ NN NNS PRP IN NN IN JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NNS
+      NN → NNS
+      NNS → .
+      NNS → PRP
+      PRP → IN
+    Removed:
+      CC → NN
+      DT → JJ
+      DT → NN
+      IN → DT
+      MD → VB
+      NN → .
+      NN → CC
+      NN → WP
+      RB → MD
+      VB → NN
+      VBN → RB
+      VBZ → VBN
+      WP → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 70:
+  ORIGINAL : They are more likely to receive support from others.
+  REWRITTEN: They are more likely to receive support from others.
+  style_rel(orig) = -0.022, style_rel(new) = -0.022, Δ = 0.000
+  POS pattern (orig): PRP VBP RBR JJ TO VB NN IN NNS .
+  POS pattern (new) :  PRP VBP RBR JJ TO VB NN IN NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 71:
+  ORIGINAL : Neuroscience shows that social support can literally reshape how the brain processes pain and fear.
+  REWRITTEN: Neuroscience shows that social support can literally reshape how the brain processes pain and fear.
+  style_rel(orig) = -0.165, style_rel(new) = -0.165, Δ = 0.000
+  POS pattern (orig): NN NNS IN JJ NN MD RB VB WRB DT NN VBZ NN CC NN .
+  POS pattern (new) :  NN NNS IN JJ NN MD RB VB WRB DT NN VBZ NN CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 72:
+  ORIGINAL : Purpose also helps people interpret hardship as meaningful rather than senseless.
+  REWRITTEN: Meaning turns pain into something understandable, not pointless.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.034, Δ = 999999.966
+  POS pattern (orig): NNP RB VBZ NNS JJ NN IN NN RB IN NN .
+  POS pattern (new) :  VBG NNS VBP IN NN JJ , RB NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      JJ → ,
+      NN → JJ
+      NNS → VBP
+      RB → NN
+      VBG → NNS
+      VBP → IN
+    Removed:
+      JJ → NN
+      NN → IN
+      NN → RB
+      NNP → RB
+      NNS → JJ
+      RB → IN
+      RB → VBZ
+      VBZ → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 73:
+  ORIGINAL : Goodness does not shield us from pain, but it makes it less destructive.
+  REWRITTEN: Ethics can’t prevent hurt, but they blunt its long-term damage.
+  style_rel(orig) = -0.158, style_rel(new) = -0.081, Δ = 0.077
+  POS pattern (orig): NN VBZ RB VB PRP IN NN , CC PRP VBZ PRP RBR JJ .
+  POS pattern (new) :  NNS MD VB JJ NN NN , CC PRP VBP PRP$ JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      MD → VB
+      NN → .
+      NN → NN
+      NNS → MD
+      PRP → VBP
+      PRP$ → JJ
+      VB → JJ
+      VBP → PRP$
+    Removed:
+      IN → NN
+      JJ → .
+      NN → VBZ
+      PRP → IN
+      PRP → RBR
+      PRP → VBZ
+      RB → VB
+      RBR → JJ
+      VB → PRP
+      VBZ → PRP
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 74:
+  ORIGINAL : It is also important to understand that being good is not a static trait.
+  REWRITTEN: It is also important to understand that being good is not a static trait.
+  style_rel(orig) = -0.016, style_rel(new) = -0.016, Δ = 0.000
+  POS pattern (orig): PRP VBZ RB JJ TO VB IN VBG JJ VBZ RB DT JJ NN .
+  POS pattern (new) :  PRP VBZ RB JJ TO VB IN VBG JJ VBZ RB DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 75:
+  ORIGINAL : It is a set of habits that can be trained.
+  REWRITTEN: We can strengthen moral behavior like any other routine.
+  style_rel(orig) = -0.123, style_rel(new) = -0.019, Δ = 0.104
+  POS pattern (orig): PRP VBZ DT NN IN NNS WDT MD VB VBN .
+  POS pattern (new) :  PRP MD VB JJ NNS IN DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → DT
+      JJ → NN
+      JJ → NNS
+      NN → .
+      NNS → IN
+      PRP → MD
+      VB → JJ
+    Removed:
+      DT → NN
+      IN → NNS
+      NN → IN
+      NNS → WDT
+      PRP → VBZ
+      VB → VBN
+      VBN → .
+      VBZ → DT
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 76:
+  ORIGINAL : Neuroscience shows that empathy, compassion, gratitude, and fairness become stronger with practice.
+  REWRITTEN: The neural circuits for kindness strengthen through repetition.
+  style_rel(orig) = -0.241, style_rel(new) = -0.083, Δ = 0.158
+  POS pattern (orig): NN NNS WDT VBP , NN , NN , CC JJ NN NN IN NN .
+  POS pattern (new) :  DT JJ NNS IN NN NN IN NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NNS
+      NNS → IN
+    Removed:
+      , → CC
+      , → NN
+      CC → JJ
+      JJ → NN
+      NN → ,
+      NN → NNS
+      NNS → WDT
+      VBP → ,
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 77:
+  ORIGINAL : Acting with integrity reinforces a moral self-image, which in turn makes future good behavior easier.
+  REWRITTEN: Acting with integrity reinforces a moral self-image, which in turn makes future good behavior easier.
+  style_rel(orig) = 0.078, style_rel(new) = 0.078, Δ = 0.000
+  POS pattern (orig): VBG IN NN NNS DT JJ NN , WDT IN NN VBZ RB JJ NN RBR .
+  POS pattern (new) :  VBG IN NN NNS DT JJ NN , WDT IN NN VBZ RB JJ NN RBR .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 78:
+  ORIGINAL : The more goodness one expresses, the more natural it becomes.
+  REWRITTEN: Good actions start to feel automatic as they accumulate.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.098, Δ = 1000000.098
+  POS pattern (orig): DT JJR JJ CD VBZ , DT JJR JJ PRP VBZ .
+  POS pattern (new) :  JJ NNS VBP TO VB JJ IN PRP VBP .
+  POS bigram changes:
+    Added:
+      IN → PRP
+      JJ → IN
+      JJ → NNS
+      NNS → VBP
+      PRP → VBP
+      TO → VB
+      VB → JJ
+      VBP → .
+      VBP → TO
+    Removed:
+      , → DT
+      CD → VBZ
+      DT → JJR
+      JJ → CD
+      JJ → PRP
+      JJR → JJ
+      PRP → VBZ
+      VBZ → ,
+      VBZ → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 79:
+  ORIGINAL : The advantages of goodness accumulate through compounding.
+  REWRITTEN: Moral benefits stack and strengthen over time.
+  style_rel(orig) = -0.124, style_rel(new) = -0.116, Δ = 0.008
+  POS pattern (orig): DT NNS IN NN NN IN NN .
+  POS pattern (new) :  JJ NNS NN CC NN IN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → NNS
+      NN → CC
+      NNS → NN
+    Removed:
+      DT → NNS
+      NN → NN
+      NNS → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 80:
+  ORIGINAL : Each act of kindness strengthens relationships, supports health, deepens meaning, and reinforces a coherent identity.
+  REWRITTEN: Every moment of goodness boosts connection, resilience, and identity.
+  style_rel(orig) = -0.127, style_rel(new) = 0.019, Δ = 0.145
+  POS pattern (orig): DT NN IN NN NNS NNS , VBZ NN , VBZ NN , CC VBZ DT NN NN .
+  POS pattern (new) :  DT NN IN NN NNS NN , NN , CC NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → NN
+      NNS → NN
+    Removed:
+      , → VBZ
+      CC → VBZ
+      NN → NN
+      NNS → ,
+      NNS → NNS
+      VBZ → DT
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 81:
+  ORIGINAL : Each act of selfishness, manipulation, or cruelty breeds stress, mistrust, and insecurity.
+  REWRITTEN: Selfish acts destabilize both mental and social foundations.
+  style_rel(orig) = -0.020, style_rel(new) = 0.011, Δ = 0.031
+  POS pattern (orig): DT NN IN NN , NN , CC NN NNS NN , NN , CC NN .
+  POS pattern (new) :  JJ NNS VB DT JJ CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      DT → JJ
+      JJ → CC
+      JJ → NNS
+      NNS → .
+      NNS → VB
+      VB → DT
+    Removed:
+      , → CC
+      , → NN
+      CC → NN
+      DT → NN
+      IN → NN
+      NN → ,
+      NN → .
+      NN → IN
+      NN → NNS
+      NNS → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 82:
+  ORIGINAL : Over years, these differences create dramatically different life outcomes.
+  REWRITTEN: Small choices accumulate into completely different futures.
+  style_rel(orig) = -0.021, style_rel(new) = 0.203, Δ = 0.224
+  POS pattern (orig): IN NNS , DT NNS VBP RB JJ NN NNS .
+  POS pattern (new) :  JJ NNS VBP IN RB JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → RB
+      JJ → NNS
+      VBP → IN
+    Removed:
+      , → DT
+      DT → NNS
+      IN → NNS
+      JJ → NN
+      NN → NNS
+      NNS → ,
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 83:
+  ORIGINAL : When we look at the whole picture — mental health, physical health, motivation, achievement, purpose, resilience, and the quality of relationships — the conclusion becomes clear.
+  REWRITTEN: All evidence taken together points unambiguously in one direction.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.188, Δ = 1000000.188
+  POS pattern (orig): WRB PRP VBP IN DT JJ NN NNP JJ NN , JJ NN , NN , NN , NN , NN , CC DT NN IN NNS VBP DT NN VBZ JJ .
+  POS pattern (new) :  DT NN VBN RB NNS RB IN CD NN .
+  POS bigram changes:
+    Added:
+      CD → NN
+      IN → CD
+      NN → .
+      NN → VBN
+      NNS → RB
+      RB → IN
+      RB → NNS
+      VBN → RB
+    Removed:
+      , → CC
+      , → JJ
+      , → NN
+      CC → DT
+      DT → JJ
+      IN → DT
+      IN → NNS
+      JJ → .
+      JJ → NN
+      NN → ,
+      NN → IN
+      NN → NNP
+      NN → VBZ
+      NNP → JJ
+      NNS → VBP
+      PRP → VBP
+      VBP → DT
+      VBP → IN
+      VBZ → JJ
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 84:
+  ORIGINAL : Being a good person is one of the most effective long-term strategies for creating a fulfilling and sustainable life.
+  REWRITTEN: Being good sets the foundation for a rich, enduring life.
+  style_rel(orig) = 0.033, style_rel(new) = 0.043, Δ = 0.010
+  POS pattern (orig): VBG DT JJ NN VBZ CD IN DT RBS JJ JJ NNS IN VBG DT NN CC JJ NN .
+  POS pattern (new) :  VBG JJ NNS DT NN IN DT JJ , VBG NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → ,
+      NN → IN
+      NNS → DT
+      VBG → JJ
+      VBG → NN
+    Removed:
+      CC → JJ
+      CD → IN
+      DT → RBS
+      IN → VBG
+      JJ → JJ
+      JJ → NN
+      NN → CC
+      NN → VBZ
+      NNS → IN
+      RBS → JJ
+      VBG → DT
+      VBZ → CD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 85:
+  ORIGINAL : Goodness adapts to our biological wiring, improves how we think and perform, and gives us the best chance at happiness that endures beyond momentary pleasure.
+  REWRITTEN: Moral living aligns with human biology and fosters lasting joy.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.045, Δ = 1000000.045
+  POS pattern (orig): NNP NNS TO PRP$ JJ NN , VBZ WRB PRP VBP CC VBP , CC VBZ PRP DT JJS NN IN NN WDT VBZ IN JJ NN .
+  POS pattern (new) :  JJ NN NNS IN JJ NN CC NNS VBG NN .
+  POS bigram changes:
+    Added:
+      CC → NNS
+      NN → CC
+      NN → NNS
+      NNS → IN
+      NNS → VBG
+      VBG → NN
+    Removed:
+      , → CC
+      , → VBZ
+      CC → VBP
+      CC → VBZ
+      DT → JJS
+      IN → NN
+      JJS → NN
+      NN → ,
+      NN → IN
+      NN → WDT
+      NNP → NNS
+      NNS → TO
+      PRP → DT
+      PRP → VBP
+      PRP$ → JJ
+      TO → PRP$
+      VBP → ,
+      VBP → CC
+      VBZ → IN
+      VBZ → PRP
+      VBZ → WRB
+      WDT → VBZ
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 86:
+  ORIGINAL : This does not mean that every moral choice is rewarded immediately or visibly.
+  REWRITTEN: Not all good deeds deliver instant or obvious benefits.
+  style_rel(orig) = -0.032, style_rel(new) = 0.189, Δ = 0.221
+  POS pattern (orig): DT VBZ RB VB IN DT JJ NN VBZ VBN RB CC RB .
+  POS pattern (new) :  RB DT JJ NNS VB JJ CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      JJ → CC
+      JJ → NNS
+      NNS → .
+      NNS → VB
+      RB → DT
+      VB → JJ
+    Removed:
+      CC → RB
+      DT → VBZ
+      IN → DT
+      JJ → NN
+      NN → VBZ
+      RB → .
+      RB → CC
+      RB → VB
+      VB → IN
+      VBN → RB
+      VBZ → RB
+      VBZ → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 87:
+  ORIGINAL : Life is unpredictable, and bad things happen to good people.
+  REWRITTEN: The world is chaotic; harm still finds the kind.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.216, Δ = 999999.784
+  POS pattern (orig): NNP VBZ JJ , CC JJ NNS VBP TO JJ NNS .
+  POS pattern (new) :  DT NN VBZ JJ : NN RB VBZ DT NN .
+  POS bigram changes:
+    Added:
+      : → NN
+      DT → NN
+      JJ → :
+      NN → .
+      NN → RB
+      NN → VBZ
+      RB → VBZ
+      VBZ → DT
+    Removed:
+      , → CC
+      CC → JJ
+      JJ → ,
+      JJ → NNS
+      NNP → VBZ
+      NNS → .
+      NNS → VBP
+      TO → JJ
+      VBP → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 88:
+  ORIGINAL : But on average, across the full arc of a life, goodness yields better outcomes than selfishness or cruelty.
+  REWRITTEN: Over the long run, goodness creates better lives than harmful behavior.
+  style_rel(orig) = -0.038, style_rel(new) = 0.134, Δ = 0.172
+  POS pattern (orig): CC IN NN , IN DT JJ NN IN DT NN , NN NNS RBR RB IN NN CC NN .
+  POS pattern (new) :  IN DT JJ NN , NN NNS RBR NNS IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      NNS → IN
+      RBR → NNS
+    Removed:
+      , → IN
+      CC → IN
+      CC → NN
+      DT → NN
+      IN → NN
+      NN → CC
+      NN → IN
+      RB → IN
+      RBR → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 89:
+  ORIGINAL : It makes a person stronger, healthier, more connected, and more at peace with themselves.
+  REWRITTEN: Being good supports physical health, deep relationships, and inner harmony.
+  style_rel(orig) = -0.059, style_rel(new) = 0.098, Δ = 0.158
+  POS pattern (orig): PRP VBZ DT NN JJR , JJR , RBR JJ , CC JJR IN NN IN PRP .
+  POS pattern (new) :  VBG JJ NNS JJ NN , JJ NNS , CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → JJ
+      CC → JJ
+      JJ → NN
+      JJ → NNS
+      NN → ,
+      NN → .
+      NNS → ,
+      NNS → JJ
+      VBG → JJ
+    Removed:
+      , → JJR
+      , → RBR
+      CC → JJR
+      DT → NN
+      IN → NN
+      IN → PRP
+      JJ → ,
+      JJR → ,
+      JJR → IN
+      NN → IN
+      NN → JJR
+      PRP → .
+      PRP → VBZ
+      RBR → JJ
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 90:
+  ORIGINAL : So yes: in a very real, deeply grounded psychological and biological sense, it is in your best interests to be a good person.
+  REWRITTEN: So the answer is yes — science supports that goodness benefits you.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.047, Δ = 1000000.047
+  POS pattern (orig): RB RB : IN DT RB JJ , RB JJ JJ CC JJ NN , PRP VBZ IN PRP$ JJS NNS TO VB DT JJ NN .
+  POS pattern (new) :  IN DT NN VBZ RB JJ NN NNS IN NN NNS PRP .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → NN
+      NN → NNS
+      NN → VBZ
+      NNS → IN
+      NNS → PRP
+      PRP → .
+      VBZ → RB
+    Removed:
+      , → PRP
+      , → RB
+      : → IN
+      CC → JJ
+      DT → JJ
+      DT → RB
+      IN → PRP$
+      JJ → ,
+      JJ → CC
+      JJ → JJ
+      JJS → NNS
+      NN → ,
+      NN → .
+      NNS → TO
+      PRP → VBZ
+      PRP$ → JJS
+      RB → :
+      RB → RB
+      TO → VB
+      VB → DT
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 91:
+  ORIGINAL : Goodness is not naïve.
+  REWRITTEN: Choosing kindness does not mean being simple-minded.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.111, Δ = 1000000.111
+  POS pattern (orig): NNP VBZ RB JJ .
+  POS pattern (new) :  VBG NN VBZ RB VB VBG JJ .
+  POS bigram changes:
+    Added:
+      NN → VBZ
+      RB → VB
+      VB → VBG
+      VBG → JJ
+      VBG → NN
+    Removed:
+      NNP → VBZ
+      RB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 92:
+  ORIGINAL : It is a wise investment in your future self.
+  REWRITTEN: Being moral is like investing in the person you will be tomorrow.
+  style_rel(orig) = -0.146, style_rel(new) = 0.002, Δ = 0.148
+  POS pattern (orig): PRP VBZ DT JJ NN IN PRP$ NN NN .
+  POS pattern (new) :  VBG JJ VBZ IN VBG IN DT NN PRP MD VB NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      IN → VBG
+      JJ → VBZ
+      MD → VB
+      NN → PRP
+      PRP → MD
+      VB → NN
+      VBG → IN
+      VBG → JJ
+      VBZ → IN
+    Removed:
+      DT → JJ
+      IN → PRP$
+      JJ → NN
+      NN → IN
+      NN → NN
+      PRP → VBZ
+      PRP$ → NN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 93:
+  ORIGINAL : It builds a life that remains meaningful even in hardship, a life surrounded by people who care, a life that you can look back on without regret.
+  REWRITTEN: Ethical living creates connection, purpose, and a legacy you can be proud of.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.034, Δ = 1000000.034
+  POS pattern (orig): PRP VBZ DT NN WDT VBZ JJ RB IN NN , DT NN VBN IN NNS WP VBP , DT NN IN PRP MD VB RB IN IN NN .
+  POS pattern (new) :  JJ NN VBZ NN , NN , CC DT NN PRP MD VB JJ IN .
+  POS bigram changes:
+    Added:
+      , → CC
+      , → NN
+      CC → DT
+      IN → .
+      JJ → IN
+      JJ → NN
+      NN → PRP
+      NN → VBZ
+      VB → JJ
+      VBZ → NN
+    Removed:
+      , → DT
+      IN → IN
+      IN → NN
+      IN → NNS
+      IN → PRP
+      JJ → RB
+      NN → .
+      NN → IN
+      NN → VBN
+      NN → WDT
+      NNS → WP
+      PRP → VBZ
+      RB → IN
+      VB → RB
+      VBN → IN
+      VBP → ,
+      VBZ → DT
+      VBZ → JJ
+      WDT → VBZ
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 94:
+  ORIGINAL : Goodness does not guarantee a perfect life.
+  REWRITTEN: Goodness does not guarantee a perfect life.
+  style_rel(orig) = -0.172, style_rel(new) = -0.172, Δ = 0.000
+  POS pattern (orig): NN VBZ RB VB DT JJ NN .
+  POS pattern (new) :  NN VBZ RB VB DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 95:
+  ORIGINAL : But it gives you the greatest chance at a life worth living.
+  REWRITTEN: It provides the best odds of a meaningful, joyful existence.
+  style_rel(orig) = -0.148, style_rel(new) = -0.049, Δ = 0.100
+  POS pattern (orig): CC PRP VBZ PRP DT JJS NN IN DT NN IN NN .
+  POS pattern (new) :  PRP VBZ DT JJS NNS IN DT JJ , JJ NN .
+  POS bigram changes:
+    Added:
+      , → JJ
+      DT → JJ
+      JJ → ,
+      JJ → NN
+      JJS → NNS
+      NNS → IN
+      VBZ → DT
+    Removed:
+      CC → PRP
+      DT → NN
+      IN → NN
+      JJS → NN
+      NN → IN
+      PRP → DT
+      VBZ → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+[INFO] Rewrote 78 out of 96 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 6631
+Average normalized relative style (you - GPT): 0.014561774208859969
+Average normalized logP_you per rule        : -0.08298505716194614
+Average normalized logP_gpt per rule        : -0.09754683137080614
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): -0.11619531337041344
+After  (you - GPT): 0.014561774208859969
+Δ (after - before): 0.1308
+-> Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/rewritten_gpt_essay_relative_pos.txt
+[INFO] Saved POS structural change log to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pos_change_log.json
+
+[STEP COMPLETED] Rewrite GPT essay toward personal style (rewrite_POS.py) in 6.68s
+
+
+===== Diagnose per-sentence style (diagnose_sentence_style_pos.py) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/diagnose_sentence_style_pos.py --text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/gpt_data/gpt_cognitive_neuroscience_clean.txt --sent-idx 0 --style-stats /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/style_stats_pos.json --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence:
+Most of us are raised with some version of the idea that being good pays off.
+--------------------------------------------------------------------------------
+WORDS: ['Most', 'of', 'us', 'are', 'raised', 'with', 'some', 'version', 'of', 'the', 'idea', 'that', 'being', 'good', 'pays', 'off', '.']
+POS: ['JJS', 'IN', 'PRP', 'VBP', 'VBN', 'IN', 'DT', 'NN', 'IN', 'DT', 'NN', 'IN', 'VBG', 'JJ', 'NNS', 'IN', '.']
+
+CKY parse log-prob: -60.1477787826189
+Style score (avg rule logP): -1.8226599631096636
+
+                                                                       S                          
+                                                    ___________________|________________________   
+                                                   S                                            | 
+                                                ___|________________________________________    |  
+                                               S                                            |   | 
+                 ______________________________|_______                                     |   |  
+                NP                                     |                                    |   | 
+            ____|_________________________             |                                    |   |  
+          ADJP                            |            PP                                   |   | 
+  _________|____                          |         ___|___________                         |   |  
+ |             SBAR                       |        |               NP                       |   | 
+ |     _________|____                     |        |        _______|_______                 |   |  
+ |    |              S                    |        |       |               PP               |   | 
+ |    |     _________|___                 |        |       |        _______|___             |   |  
+ |    |    |             VP               |        |       |       |          S+VP          |   | 
+ |    |    |     ________|___             |        |       |       |    _______|____        |   |  
+ |    |    |    |           ADJP         S+NP      |       NP      |   |            NP      |   | 
+ |    |    |    |         ___|____     ___|____    |    ___|___    |   |        ____|___    |   |  
+ADJP  IN NP+NP VBP      VBN       IN  DT       NN  IN  DT      NN  IN VBG      JJ      NNS  IN  . 
+ |    |    |    |        |        |   |        |   |   |       |   |   |       |        |   |   |  
+JJS   IN  PRP  VBP      VBN       IN  DT       NN  IN  DT      NN  IN VBG      JJ      NNS  IN  . 
+
+
+Top lexical GPT-ish words (log P_gpt - log P_you):
+  'Most'          POS=JJS    weirdness=18.777
+  'us'            POS=PRP    weirdness=18.708
+  'raised'        POS=VBN    weirdness=17.951
+  'pays'          POS=NNS    weirdness=16.041
+  'version'       POS=NN     weirdness=15.060
+  'off'           POS=IN     weirdness=1.739
+  'some'          POS=DT     weirdness=0.667
+  'idea'          POS=NN     weirdness=0.579
+  'good'          POS=JJ     weirdness=0.233
+  'of'            POS=IN     weirdness=0.199
+
+Top POS bigrams where GPT > YOU (log P_gpt - log P_you):
+  IN    -> .       weirdness=15.903
+  IN    -> PRP     weirdness=0.440
+  DT    -> NN      weirdness=0.165
+  DT    -> NN      weirdness=0.165
+  JJS   -> IN      weirdness=0.134
+  PRP   -> VBP     weirdness=0.003
+  VBN   -> IN      weirdness=-0.073
+  IN    -> DT      weirdness=-0.084
+  IN    -> DT      weirdness=-0.084
+  VBG   -> JJ      weirdness=-0.169
+
+Top 5 rule-level style gaps (your PCFG):
+LHS: NP  gap: 5.318
+Yield (POS): JJS IN PRP VBP VBN IN DT NN
+
+LHS: S  gap: 4.736
+Yield (POS): JJS IN PRP VBP VBN IN DT NN IN DT NN IN VBG JJ NNS IN
+
+LHS: S  gap: 4.043
+Yield (POS): JJS IN PRP VBP VBN IN DT NN IN DT NN IN VBG JJ NNS
+
+LHS: ADJP  gap: 2.996
+Yield (POS): JJS IN PRP VBP VBN IN
+
+LHS: ADJP  gap: 2.996
+Yield (POS): JJS
+
+
+Done.
+
+[STEP COMPLETED] Diagnose per-sentence style (diagnose_sentence_style_pos.py) in 1.19s
+
+
+===== Grammar fingerprint visualizations (PCFG + POS bigrams) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/grammar_fingerprint_viz.py
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol
+[SAVED] viz/pos_bigram_you_vs_gpt_heatmaps.png
+[SAVED] viz/pos_bigram_delta_heatmap.png
+[SAVED] viz/pos_entropy_scatter.png
+[SAVED] viz/pos_radial_fingerprint.png
+[SAVED] Grammar-level Sankey to viz/grammar_rule_sankey.html
+
+[STEP COMPLETED] Grammar fingerprint visualizations (PCFG + POS bigrams) in 2.27s
+
+
+===== Analyze POS changes (aggregate + visualizations) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_pos_changes.py
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-11-45_batch_alcohol
+[INFO] Loaded 96 sentence-level change records from models/pos_change_log.json
+
+=== TOP ADDED POS BIGRAMS (structural patterns you use more) ===
+  JJ → NNS : 21
+  JJ → NN : 18
+  NN → NNS : 18
+  NN → . : 16
+  CC → NN : 14
+  NN → CC : 13
+  NNS → . : 13
+  VB → JJ : 12
+  NNS → IN : 11
+  NN → IN : 11
+  VBG → JJ : 10
+  IN → JJ : 10
+  IN → NN : 9
+  NNS → NN : 9
+  DT → NN : 8
+  MD → VB : 8
+  NNS → VBP : 8
+  DT → JJ : 7
+  IN → VBG : 7
+  NNS → JJ : 7
+
+=== TOP REMOVED POS BIGRAMS (patterns GPT used more) ===
+  DT → NN : 27
+  NN → IN : 26
+  NN → , : 21
+  , → CC : 19
+  IN → NN : 19
+  JJ → NN : 18
+  VBZ → DT : 18
+  NN → . : 17
+  NNS → VBP : 14
+  NN → VBZ : 14
+  DT → JJ : 13
+  PRP → VBZ : 12
+  IN → DT : 11
+  , → NN : 11
+  CC → NN : 11
+  VBZ → JJ : 10
+  JJ → NNS : 9
+  NNS → IN : 9
+  DT → NNS : 9
+  IN → JJ : 9
+
+=== TOP ADDED POS TAGS ===
+  NN: 182
+  JJ: 143
+  NNS: 142
+  IN: 100
+  CC: 57
+  VBG: 47
+  RB: 45
+  VB: 44
+  .: 42
+  VBZ: 38
+  DT: 36
+  PRP: 34
+  VBP: 34
+  ,: 33
+  VBN: 25
+  MD: 23
+  PRP$: 13
+  JJR: 6
+  TO: 6
+  CD: 4
+
+=== TOP REMOVED POS TAGS ===
+  NN: 256
+  IN: 140
+  JJ: 136
+  VBZ: 133
+  NNS: 131
+  DT: 115
+  ,: 109
+  RB: 90
+  CC: 88
+  VBP: 66
+  PRP: 59
+  .: 42
+  VB: 37
+  VBN: 29
+  TO: 28
+  WDT: 26
+  VBG: 25
+  PRP$: 23
+  NNP: 17
+  WRB: 16
+[INFO] Saved plot: models/pos_change_plots/added_bigrams.png
+[INFO] Saved plot: models/pos_change_plots/removed_bigrams.png
+[INFO] Saved plot: models/pos_change_plots/added_pos.png
+[INFO] Saved plot: models/pos_change_plots/removed_pos.png
+[INFO] Saved heatmap: models/pos_change_plots/added_bigrams_heatmap.png
+[INFO] Saved heatmap: models/pos_change_plots/removed_bigrams_heatmap.png
+[INFO] Saved transition diagram: models/pos_change_plots/added_bigrams_graph.png
+[INFO] Saved transition diagram: models/pos_change_plots/removed_bigrams_graph.png
+[INFO] Saved POS bigram flow table (for Sankey) to models/pos_change_plots/pos_bigram_flows.csv
+[INFO] Saved Sankey diagram HTML to models/pos_change_plots/pos_bigram_sankey.html
+
+[STEP COMPLETED] Analyze POS changes (aggregate + visualizations) in 1.59s

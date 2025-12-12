@@ -1,0 +1,280 @@
+<html><head><meta charset='utf-8'>
+<title>Grammar Fingerprint Dashboard</title>
+<style>body{font-family:system-ui, sans-serif;margin:30px;line-height:1.5;}section{margin-bottom:28px;}h1,h2,h3{margin-bottom:10px;}ul{padding-left:20px;}img{max-width:100%;margin:10px 0;border:1px solid #ccc;}pre{background:#f5f5f5;padding:10px;overflow-x:auto;white-space:pre-wrap;}table{border-collapse:collapse;}td,th{border:1px solid #ddd;padding:6px 10px;}.pill{display:inline-block;padding:6px 10px;border-radius:6px;background:#f0f4ff;}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;}</style>
+</head><body>
+<h1>Grammar Fingerprint Run: 2025-12-10_16-11-45_batch_alcohol</h1>
+<section><h2>Inputs</h2>
+<ul>
+<li>Personal text: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/personal_data/personal_cognitive_neuroscience.txt</li>
+<li>GPT text: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/gpt_data/gpt_cognitive_neuroscience.txt</li>
+</ul></section>
+<section><h2>Style Baselines</h2>
+<div class='grid'>
+<div class='pill'>mu_you_on_you: -1.545326949317629</div>
+<div class='pill'>mu_gpt_on_gpt: -1.4642291075364966</div>
+</div>
+<details><summary>View raw style_baselines.json</summary><pre>{
+  "mu_you_on_you": -1.545326949317629,
+  "mu_gpt_on_gpt": -1.4642291075364966
+}</pre></details>
+</section>
+<section><h2>POS Style Stats</h2>
+<div class='grid'>
+<div><h3>Top POS (You)</h3><table><tr><th>Tag</th><th>Count</th><th>%</th></tr><tr><td>NN</td><td>514</td><td>16.8%</td></tr><tr><td>NNP</td><td>427</td><td>13.9%</td></tr><tr><td>IN</td><td>353</td><td>11.5%</td></tr><tr><td>JJ</td><td>307</td><td>10.0%</td></tr><tr><td>NNS</td><td>196</td><td>6.4%</td></tr><tr><td>DT</td><td>187</td><td>6.1%</td></tr><tr><td>CC</td><td>150</td><td>4.9%</td></tr><tr><td>RB</td><td>127</td><td>4.1%</td></tr></table></div>
+<div><h3>Top POS (GPT)</h3><table><tr><th>Tag</th><th>Count</th><th>%</th></tr><tr><td>NN</td><td>288</td><td>22.2%</td></tr><tr><td>JJ</td><td>148</td><td>11.4%</td></tr><tr><td>IN</td><td>124</td><td>9.6%</td></tr><tr><td>NNS</td><td>108</td><td>8.3%</td></tr><tr><td>DT</td><td>96</td><td>7.4%</td></tr><tr><td>VBZ</td><td>87</td><td>6.7%</td></tr><tr><td>CC</td><td>70</td><td>5.4%</td></tr><tr><td>RB</td><td>66</td><td>5.1%</td></tr></table></div>
+</div>
+<details><summary>View raw style_stats_pos.json</summary><pre>{
+  "you": {
+    "pos_unigrams": {
+      "DT": 187,
+      "NN": 514,
+      "MD": 30,
+      "VB": 86,
+      "JJ": 307,
+      ".": 109,
+      "RB": 127,
+      "IN": 353,
+      "WRB": 13,
+      "PRP": 59,
+      "VBP": 55,
+      "VBG": 76,
+      ",": 441,
+      "VBZ": 66,
+      "TO": 76,
+      "NNS": 196,
+      "CC": 150,
+      "CD": 98,
+      "JJR": 44,
+      "EX": 5,
+      ":": 6,
+      "JJS": 8,
+      "PRP$": 13,
+      "WP": 7,
+      "NNP": 427,
+      "VBN": 68,
+      "RBS": 6,
+      "VBD": 61,
+      "(": 74,
+      ")": 59,
+      "FW": 1,
+      "$": 1,
+      "RBR": 14,
+      "PDT": 2,
+      "WDT": 11,
+      "``": 7,
+      "''": 5,
+      "POS": 1,
+      "RP": 1
+    },
+    "P_next": {
+      "DT": {
+        "NN": 0.37967914438502676,
+        "JJ": 0.3155080213903743,
+        ".": 0.0053475935828877,
+        "JJR": 0.0374331550802139,
+        "JJS": 0.026737967914438502,
+        "VBZ": 0.0481283422459893,
+        "RB": 0.0053475935828877,
+        "RBS": 0.026737967914438502,
+        "NNS": 0.06417112299465241,
+        "VBN": 0.0053475935828877,
+        ",": 0.0053475935828877,
+        "MD": 0.0106951871657754,
+        "CD": 0.016042780748663103,
+        "VBP": 0.0106951871657754,
+        "IN": 0.0213903743315508,
+        "WP": 0.0053475935828877,
+        "(": 0.0053475935828877,
+        "RBR": 0.0106951871657754
+      },
+      "NN": {
+        "MD": 0.017509727626459144,
+        ".": 0.07198443579766536,
+        "WRB": 0.005836575875486381,
+        "VBG": 0.007782101167315175,
+        "NN": 0.0914396887159533,
+        ",": 0.1517509727626459,
+        "IN": 0.23346303501945526,
+        "PRP": 0.005836575875486381,
+        "VBZ": 0.0311284046692607,
+        "TO": 0.033073929961089495,
+        ":": 0.0038910505836575876,
+        "JJ": 0.019455252918287938,
+        "NNP": 0.01556... (truncated)</pre></details>
+</section>
+<section><h2>POS Change Log</h2>
+<p>Total rewritten sentences: 96</p>
+<ol>
+<li><strong>Sentence 0:</strong><br><em>Orig:</em> Most of us are raised with some version of the idea that being good pays off.<br><em>New:</em> From childhood, we hear that doing the right thing eventually benefits us.</li>
+<li><strong>Sentence 1:</strong><br><em>Orig:</em> Teachers say kindness will be rewarded.<br><em>New:</em> Teachers say kindness will be rewarded.</li>
+<li><strong>Sentence 2:</strong><br><em>Orig:</em> Parents say honesty keeps your conscience light and your life on track.<br><em>New:</em> Parents insist that being truthful protects both integrity and direction in life.</li>
+<li><strong>Sentence 3:</strong><br><em>Orig:</em> Religions promise moral accounting.<br><em>New:</em> Religious doctrine claims good deeds are tallied and rewarded.</li>
+<li><strong>Sentence 4:</strong><br><em>Orig:</em> Even pop psychology slogans claim that “what goes around comes around.” Yet real life rarely feels so tidy.<br><em>New:</em> Even pop psychology slogans claim that “what goes around comes around.” Yet real life rarely feels so tidy.</li>
+<li>…and 91 more</li>
+</ol>
+<details><summary>View raw pos_change_log.json</summary><pre>[
+  {
+    "sent_idx": 0,
+    "orig": "Most of us are raised with some version of the idea that being good pays off.",
+    "new": "From childhood, we hear that doing the right thing eventually benefits us.",
+    "added": [
+      [
+        ",",
+        "PRP"
+      ],
+      [
+        "DT",
+        "JJ"
+      ],
+      [
+        "IN",
+        "NN"
+      ],
+      [
+        "JJ",
+        "NN"
+      ],
+      [
+        "NN",
+        ","
+      ],
+      [
+        "NN",
+        "RB"
+      ],
+      [
+        "NNS",
+        "PRP"
+      ],
+      [
+        "PRP",
+        "."
+      ],
+      [
+        "RB",
+        "NNS"
+      ],
+      [
+        "VBG",
+        "DT"
+      ],
+      [
+        "VBP",
+        "IN"
+      ]
+    ],
+    "removed": [
+      [
+        "DT",
+        "NN"
+      ],
+      [
+        "IN",
+        "."
+      ],
+      [
+        "IN",
+        "DT"
+      ],
+      [
+        "IN",
+        "PRP"
+      ],
+      [
+        "JJ",
+        "NNS"
+      ],
+      [
+        "JJS",
+        "IN"
+      ],
+      [
+        "NN",
+        "IN"
+      ],
+      [
+        "NNS",
+        "IN"
+      ],
+      [
+        "VBG",
+        "JJ"
+      ],
+      [
+        "VBN",
+        "IN"
+      ],
+      [
+        "VBP",
+        "VBN"
+      ]
+    ]
+  },
+  {
+    "sent_idx": 1,
+    "orig": "Teachers say kindness will be rewarded.",
+    "new": "Teachers say kindness will be rewarded.",
+    "added": [],
+    "removed": []
+  },
+  {
+    "sent_idx": 2,
+    "orig": "Parents say honesty keeps your conscience light and your life on track.",
+    "new": "Parents insist that being truthful protects both integrity and direction in life.",
+    "added": [
+      [
+        "CC",
+        "NN"
+      ],
+      [
+        "DT",
+        "NN"
+      ],
+      [
+        "IN",
+        "VBG"
+      ],
+      [
+        "NNS",
+        "DT"
+    ... (truncated)</pre></details>
+</section>
+<section><h2>Visualizations</h2>
+<h3>Barplots</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams.png</div><img src='viz/added_bigrams.png' /></div>
+<div><div style='font-weight:600'>added_pos.png</div><img src='viz/added_pos.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams.png</div><img src='viz/removed_bigrams.png' /></div>
+<div><div style='font-weight:600'>removed_pos.png</div><img src='viz/removed_pos.png' /></div>
+</div>
+<h3>Heatmaps</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams_heatmap.png</div><img src='viz/added_bigrams_heatmap.png' /></div>
+<div><div style='font-weight:600'>pos_bigram_delta_heatmap.png</div><img src='viz/pos_bigram_delta_heatmap.png' /></div>
+<div><div style='font-weight:600'>pos_bigram_you_vs_gpt_heatmaps.png</div><img src='viz/pos_bigram_you_vs_gpt_heatmaps.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams_heatmap.png</div><img src='viz/removed_bigrams_heatmap.png' /></div>
+</div>
+<h3>Graphs</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams_graph.png</div><img src='viz/added_bigrams_graph.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams_graph.png</div><img src='viz/removed_bigrams_graph.png' /></div>
+</div>
+<h3>Scatter</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>pos_entropy_scatter.png</div><img src='viz/pos_entropy_scatter.png' /></div>
+</div>
+<h3>Fingerprints</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>pos_radial_fingerprint.png</div><img src='viz/pos_radial_fingerprint.png' /></div>
+</div>
+<h3>Other</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>cky_chart_gpt_0.png</div><img src='viz/cky_chart_gpt_0.png' /></div>
+<div><div style='font-weight:600'>cky_chart_gpt_1.png</div><img src='viz/cky_chart_gpt_1.png' /></div>
+<div><div style='font-weight:600'>cky_chart_personal_0.png</div><img src='viz/cky_chart_personal_0.png' /></div>
+<div><div style='font-weight:600'>cky_chart_personal_1.png</div><img src='viz/cky_chart_personal_1.png' /></div>
+<div><div style='font-weight:600'>pcfg_fragment_gpt.png</div><img src='viz/pcfg_fragment_gpt.png' /></div>
+<div><div style='font-weight:600'>pcfg_fragment_personal.png</div><img src='viz/pcfg_fragment_personal.png' /></div>
+</div>
+</section>
+</body></html>

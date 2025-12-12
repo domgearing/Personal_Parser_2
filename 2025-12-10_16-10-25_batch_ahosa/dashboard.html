@@ -1,0 +1,251 @@
+<html><head><meta charset='utf-8'>
+<title>Grammar Fingerprint Dashboard</title>
+<style>body{font-family:system-ui, sans-serif;margin:30px;line-height:1.5;}section{margin-bottom:28px;}h1,h2,h3{margin-bottom:10px;}ul{padding-left:20px;}img{max-width:100%;margin:10px 0;border:1px solid #ccc;}pre{background:#f5f5f5;padding:10px;overflow-x:auto;white-space:pre-wrap;}table{border-collapse:collapse;}td,th{border:1px solid #ddd;padding:6px 10px;}.pill{display:inline-block;padding:6px 10px;border-radius:6px;background:#f0f4ff;}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;}</style>
+</head><body>
+<h1>Grammar Fingerprint Run: 2025-12-10_16-10-25_batch_alcohol</h1>
+<section><h2>Inputs</h2>
+<ul>
+<li>Personal text: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/personal_data/personal_ahosa.txt</li>
+<li>GPT text: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/gpt_data/gpt_ahosa.txt</li>
+</ul></section>
+<section><h2>Style Baselines</h2>
+<div class='grid'>
+<div class='pill'>mu_you_on_you: -1.3991207310404488</div>
+<div class='pill'>mu_gpt_on_gpt: -1.4829016902611747</div>
+</div>
+<details><summary>View raw style_baselines.json</summary><pre>{
+  "mu_you_on_you": -1.3991207310404488,
+  "mu_gpt_on_gpt": -1.4829016902611747
+}</pre></details>
+</section>
+<section><h2>POS Style Stats</h2>
+<div class='grid'>
+<div><h3>Top POS (You)</h3><table><tr><th>Tag</th><th>Count</th><th>%</th></tr><tr><td>NN</td><td>445</td><td>17.8%</td></tr><tr><td>IN</td><td>347</td><td>13.9%</td></tr><tr><td>DT</td><td>315</td><td>12.6%</td></tr><tr><td>JJ</td><td>230</td><td>9.2%</td></tr><tr><td>NNP</td><td>180</td><td>7.2%</td></tr><tr><td>NNS</td><td>163</td><td>6.5%</td></tr><tr><td>VBD</td><td>156</td><td>6.3%</td></tr><tr><td>CC</td><td>107</td><td>4.3%</td></tr></table></div>
+<div><h3>Top POS (GPT)</h3><table><tr><th>Tag</th><th>Count</th><th>%</th></tr><tr><td>NN</td><td>729</td><td>19.6%</td></tr><tr><td>IN</td><td>448</td><td>12.0%</td></tr><tr><td>JJ</td><td>394</td><td>10.6%</td></tr><tr><td>NNS</td><td>360</td><td>9.7%</td></tr><tr><td>DT</td><td>347</td><td>9.3%</td></tr><tr><td>VBD</td><td>265</td><td>7.1%</td></tr><tr><td>CC</td><td>205</td><td>5.5%</td></tr><tr><td>NNP</td><td>191</td><td>5.1%</td></tr></table></div>
+</div>
+<details><summary>View raw style_stats_pos.json</summary><pre>{
+  "you": {
+    "pos_unigrams": {
+      "IN": 347,
+      "DT": 315,
+      "NNP": 180,
+      "RB": 88,
+      "VBD": 156,
+      "CD": 59,
+      ",": 97,
+      "JJ": 230,
+      "NNS": 163,
+      "CC": 107,
+      "PRP$": 24,
+      "NN": 445,
+      "VBN": 66,
+      ".": 96,
+      "POS": 5,
+      "TO": 91,
+      "VB": 68,
+      "(": 14,
+      ")": 14,
+      "VBG": 37,
+      "``": 2,
+      "''": 2,
+      "MD": 7,
+      "RBR": 8,
+      "WRB": 11,
+      "WP": 8,
+      "NNPS": 11,
+      "PRP": 20,
+      "RP": 5,
+      "EX": 5,
+      "VBZ": 11,
+      "WDT": 12,
+      "VBP": 4,
+      "JJS": 6,
+      "JJR": 2,
+      ":": 1,
+      "PDT": 3
+    },
+    "P_next": {
+      "IN": {
+        "DT": 0.44668587896253603,
+        "CD": 0.07780979827089338,
+        "JJ": 0.08645533141210375,
+        "NNP": 0.09221902017291066,
+        "PRP$": 0.040345821325648415,
+        "``": 0.002881844380403458,
+        "NN": 0.12103746397694524,
+        "NNS": 0.0345821325648415,
+        "IN": 0.01729106628242075,
+        "VBN": 0.008645533141210375,
+        "PRP": 0.008645533141210375,
+        "VBG": 0.0345821325648415,
+        "JJS": 0.008645533141210375,
+        "CC": 0.005763688760806916,
+        "PDT": 0.002881844380403458,
+        "WDT": 0.005763688760806916,
+        "RBR": 0.002881844380403458,
+        ".": 0.002881844380403458
+      },
+      "DT": {
+        "NNP": 0.10476190476190476,
+        "NN": 0.4222222222222222,
+        "NNS": 0.08571428571428572,
+        "JJ": 0.2857142857142857,
+        "CD": 0.022222222222222223,
+        "VBG": 0.006349206349206349,
+        "RBR": 0.0031746031746031746,
+        "VBD": 0.025396825396825397,
+        "VBN": 0.0031746031746031746,
+        ".": 0.0031746031746031746,
+        "IN": 0.009523809523809525,
+        ")": 0.0031746031746031746,
+        "POS": 0.0031746... (truncated)</pre></details>
+</section>
+<section><h2>POS Change Log</h2>
+<p>Total rewritten sentences: 172</p>
+<ol>
+<li><strong>Sentence 0:</strong><br><em>Orig:</em> Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.<br><em>New:</em> Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.</li>
+<li><strong>Sentence 1:</strong><br><em>Orig:</em> Communities organized themselves around scarce water, pasture, and grazing routes.<br><em>New:</em> Villages were structured around vital resources like water sources and cattle pathways.</li>
+<li><strong>Sentence 2:</strong><br><em>Orig:</em> A Kgosi’s authority rested not only on lineage or charisma, but on the ability to call on the ancestors and bring rain, pula.<br><em>New:</em> A chief’s power depended on ancestry and personal magnetism, but also on spiritual capacity to summon rain.</li>
+<li><strong>Sentence 3:</strong><br><em>Orig:</em> Cattle functioned as currency, kinship glue, and spiritual anchor all at once — “modimo o nko e metsi,” the god with the wet nose.<br><em>New:</em> Cattle functioned as currency, kinship glue, and spiritual anchor all at once — “modimo o nko e metsi,” the god with the wet nose.</li>
+<li><strong>Sentence 4:</strong><br><em>Orig:</em> Control over herds, grazing lands, and people’s labor underpinned status and authority.<br><em>New:</em> Authority stemmed from commanding livestock, territory, and human effort.</li>
+<li>…and 167 more</li>
+</ol>
+<details><summary>View raw pos_change_log.json</summary><pre>[
+  {
+    "sent_idx": 0,
+    "orig": "Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.",
+    "new": "Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.",
+    "added": [],
+    "removed": []
+  },
+  {
+    "sent_idx": 1,
+    "orig": "Communities organized themselves around scarce water, pasture, and grazing routes.",
+    "new": "Villages were structured around vital resources like water sources and cattle pathways.",
+    "added": [
+      [
+        "CC",
+        "NNS"
+      ],
+      [
+        "IN",
+        "NN"
+      ],
+      [
+        "JJ",
+        "NNS"
+      ],
+      [
+        "NN",
+        "NNS"
+      ],
+      [
+        "NNS",
+        "CC"
+      ],
+      [
+        "NNS",
+        "IN"
+      ],
+      [
+        "NNS",
+        "NNS"
+      ],
+      [
+        "NNS",
+        "VBD"
+      ],
+      [
+        "VBD",
+        "VBN"
+      ],
+      [
+        "VBN",
+        "IN"
+      ]
+    ],
+    "removed": [
+      [
+        ",",
+        "CC"
+      ],
+      [
+        ",",
+        "NN"
+      ],
+      [
+        "CC",
+        "VBG"
+      ],
+      [
+        "JJ",
+        "NN"
+      ],
+      [
+        "NN",
+        ","
+      ],
+      [
+        "NNS",
+        "VBN"
+      ],
+      [
+        "PRP",
+        "IN"
+      ],
+      [
+        "VBG",
+        "NNS"
+      ],
+      [
+        "VBN",
+        "PRP"
+      ]
+    ]
+  },
+  {
+    "sent_idx": 2,
+    "orig": "A Kgosi\u2019s authority rested not only on lineage or charisma, but on the ability to call on the ancestors and bring rain, pula.",
+    "new": "A chief\u2019s power depended on ancestry and personal magnetism, but also on spiritual capacity to summon rain.",
+    "added": [
+      [... (truncated)</pre></details>
+</section>
+<section><h2>Visualizations</h2>
+<h3>Barplots</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams.png</div><img src='viz/added_bigrams.png' /></div>
+<div><div style='font-weight:600'>added_pos.png</div><img src='viz/added_pos.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams.png</div><img src='viz/removed_bigrams.png' /></div>
+<div><div style='font-weight:600'>removed_pos.png</div><img src='viz/removed_pos.png' /></div>
+</div>
+<h3>Heatmaps</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams_heatmap.png</div><img src='viz/added_bigrams_heatmap.png' /></div>
+<div><div style='font-weight:600'>pos_bigram_delta_heatmap.png</div><img src='viz/pos_bigram_delta_heatmap.png' /></div>
+<div><div style='font-weight:600'>pos_bigram_you_vs_gpt_heatmaps.png</div><img src='viz/pos_bigram_you_vs_gpt_heatmaps.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams_heatmap.png</div><img src='viz/removed_bigrams_heatmap.png' /></div>
+</div>
+<h3>Graphs</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>added_bigrams_graph.png</div><img src='viz/added_bigrams_graph.png' /></div>
+<div><div style='font-weight:600'>removed_bigrams_graph.png</div><img src='viz/removed_bigrams_graph.png' /></div>
+</div>
+<h3>Scatter</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>pos_entropy_scatter.png</div><img src='viz/pos_entropy_scatter.png' /></div>
+</div>
+<h3>Fingerprints</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>pos_radial_fingerprint.png</div><img src='viz/pos_radial_fingerprint.png' /></div>
+</div>
+<h3>Other</h3>
+<div class='grid'>
+<div><div style='font-weight:600'>cky_chart_gpt_0.png</div><img src='viz/cky_chart_gpt_0.png' /></div>
+<div><div style='font-weight:600'>cky_chart_gpt_1.png</div><img src='viz/cky_chart_gpt_1.png' /></div>
+<div><div style='font-weight:600'>cky_chart_personal_0.png</div><img src='viz/cky_chart_personal_0.png' /></div>
+<div><div style='font-weight:600'>cky_chart_personal_1.png</div><img src='viz/cky_chart_personal_1.png' /></div>
+<div><div style='font-weight:600'>pcfg_fragment_gpt.png</div><img src='viz/pcfg_fragment_gpt.png' /></div>
+<div><div style='font-weight:600'>pcfg_fragment_personal.png</div><img src='viz/pcfg_fragment_personal.png' /></div>
+</div>
+</section>
+</body></html>
