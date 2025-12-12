@@ -1,0 +1,265 @@
+You will most likely encounter alcohol at some point during your time in high school, and it's important to understand the facts about alcohol and how it will affect you in order to determine if and how you consume it.
+Alcohol is categorized as a CNS (central nervous system) depressant, and also a sedative hypnotic.
+A CNS depressant is any drug that lowers neurotransmission levels in the brain, which has the effect of reducing stimulation, leading to relaxation or anxiety-reducing effects.
+Sedative Hypnotics are just a subtype of CNS depressants that specifically decrease wakefulness.
+However, alcohol is slightly more complicated in this regard due to its biphasic effect.
+Alcohol typically has a stimulating effect at first, followed by a depressing effect at higher doses .
+Therefore it’s particularly important that you manage your consumption effectively, both to avoid the negative side effects of alcohol and also maximize its benefits.
+This biphasic effect is due to the multiple mechanisms of action of alcohol.
+Alcohol's primary MOA is on the GABA neurotransmitter, where it is a non-competitive, non selective GABA agonist.
+Because GABA is the primary inhibitory neurotransmitter in the brain, an agonist (alcohol) binding on it will amplify the inhibitive action of GABA, leading to a depressive effect.
+Alcohol is also a non-competitive, selective glutamate antagonist at NMDA receptors.
+Glutamate is an excitatory NT that affects learning, synaptic plasticity, sensory, motor, and cognitive function.
+Alcohol decreases Glutamate's effect at NMDA receptors, leading to sedation, disrupting memory and long term potentiation.
+This accounts for alcohol’s effect of “blacking out” or gaps in memory, as well as learning deficits seen after consuming alcohol.
+Alcohol also increases endogenous opioid synthesis and release (opioid agonist), in the form of endorphins, which contributes to some of Alcohol’s mild euphoric effects at low doses and pain relief at higher doses.This could be a factor that contributes to addictive potential and excessive consumption in individual drinkers, as studies have shown that individuals in which a single drink releases a larger amount of opioids in the brain get more pleasure out of each drink (Mitchell 2012).
+Finally, Alcohol has a secondary MOA, increasing dopamine in the Ventral Striatum through disinhibition, a characteristic shared by all drugs of abuse with addictive potential .
+This leads to mild euphoria and feelings of reward at low doses, and over time can lead to addiction.
+The acute and long-term effects of alcohol can be summarized as follows: At lower doses, you may feel less anxiety, stress, and inhibition.
+This is why alcohol is often referred to as a social lubricant.
+It can increase talkativeness, sociability, make you less judgemental, and give you a sense of mild euphoria.
+However, as you drink more, alcohol's effect on GABA and Glutamate overpower the secondary MOAs that create favorable effects at lower doses.
+You start losing motor coordination, balance, your judgment becomes impaired, your reaction times may slow down, you can become confused, and often sad with increasing doses.
+At very high doses, the effects become even more detrimental, leading to blackouts (loss of memory due to antagonism of Glutamate), nausea, vomiting, coma, and even death.
+On top of how much you consume, how you consume alcohol also matters.
+The most common route is oral, through drinking alcohol.
+This method leads to less complete absorption, as the alcohol must pass through the stomach and small intestine, where enzymes such as alcohol dehydrogenase begin breaking down the Alcohol.
+The longer Alcohol sits in the stomach, the less alcohol is absorbed into the bloodstream, and the slower and less intense its effects on your body will be.
+This is why eating food or drinking milk before consuming alcohol slows down intoxication.
+Concentration of alcohol also matters, as alcohol enters the bloodstream and is absorbed down the concentration gradient.
+The higher the concentration of alcohol ingested, the greater the concentration gradient, and the quicker alcohol moves across the membrane.
+Therefore, if you take 2 shots of vodka, you will feel its effects much more quickly than shotgunning a beer.
+Alcohol plasma levels typically peak at 30-120 minutes.
+Other routes, such as "butt chugging", involve absorbing alcohol directly through membranes, which makes absorption faster and more complete, making it significantly more dangerous.
+Consistent alcohol consumption has some very negative long term effects as well.
+MOAs listed above lead to permanent changes in the brain, such as the upregulation of Glutamate NMDA receptors, downregulation of GABAa receptors, decreased DA firing and release, and reduced synthesis of endogenous opioids in the body.
+These all can lead to increased anxiety and excitability when not drinking, difficulty sleeping, increased pain sensitivity, reduced sensitivity to other rewards, and dysphoria.
+Other long term effects on the body include permanent brain damage from cell atrophy and decreased neurogenesis, which harms neuroplasticity and the ability to learn (Skarke 2012), memory loss, liver damage, and GI disruptions.
+Furthermore, persistent adolescent alcohol consumption can stunt development and lead to changes in cognition, mood, and behavior, hindering learning and processing of emotion-related stimuli (Teague and Nestler, 2022).
+If you develop a physical dependence, quitting can lead to alcohol withdrawal, which is the most deadly form of withdrawal.
+There is also a risk of mixing alcohol with other drugs.
+Alcohol is metabolized by the enzyme CYP-2E1 in the liver, which also metabolizes acetaminophen.
+Consuming painkillers with acetaminophen and drinking alcohol simultaneously can lead to very dangerous effects, as alcohol will not be metabolized as quickly in the body as quickly and the liver can be overwhelmed.
+Consuming nicotine leads to cross tolerance with alcohol, leading to decreased effects of both drugs at the same doses and a need for increased quantities to maintain the desired effects.
+Alcohol is similar to drugs like benzodiazepines, which are also CNS depressants that act by facilitating binding of GABA NTs to GABA receptors in order to increase IPSPs and depress neurotransmission and brain function.
+Benzodiazepines are often used as anti-anxiety medications with sedative-like effects.
+One key nuance is that benzos act as agonists on GABA by hyperpolarization through opening the ion-gated channels more often, while alcohol achieves hyperpolarization and therefore IPSP through keeping the channels open for longer.
+There are also certain myths around alcohol that I want to clear up for you.
+Alcohol actually leads to decreased enjoyment from sex and decreased sexual performance, contrary to popular belief.
+Alcohol doesn’t actually keep you warm (it dilates blood vessels, leading to more blood circulation around skin and more lost heat), and you certainly are less capable of driving than you may think you are, even after only a few drinks.
+This is because alcohol affects cognition, with one study showing that it inhibits specifically your ability to detect errors in your decision making or instigate performance adjustments to compensate for errors .
+This could account for the false sense of confidence, lack of inhibition, and impulsivity that accompanies alcohol consumption, and makes driving all the more dangerous, because you are unable to tell when you are incapacitated and may feel able to drive when that isn’t the case.
+Alcohol isn’t the big bad scary drug that many adults make it out to be.
+It can augment a good time with friends and be quite fun; however, you should be really aware of when and how you consume it, because it can be incredibly dangerous when taken irresponsibly.
+Know your limits and prepare properly so that alcohol stays only a fun addition to your night out, and doesn’t become the reason your evening ends.
+And never become dependent on alcohol to have a good time: drugs don’t change who you are, they only alter things that are already happening inside of you.
+If you can’t have a good time without Alcohol, you certainly won’t be having a good time with it.
+Before the Dutch first landed at the Cape in 1652, complex interactions between indigenous populations and their societies in the region of Southern Africa were dictated by limited resources.
+Indigenous Kgosi's authority came from their ability to call on the ancestors and bring rain (Pula) .
+Cattle were sacred, often being referred to as "modimo o nko e metsi", or "God with the wet nose".
+Power and control were inextricably linked to economic prosperity.
+At the same time, European superpowers expanded and grew in wealth and power through the expansion of their extensive trade routes.
+The collision of these two societies would come to mark the first of many fundamental shifts in the structure of life in the region.
+The economic development of South Africa, and more specifically the control of labor, was a defining factor in its history.
+The first major shift South Africa faced came with the arrival of the Dutch and the emergence of coerced labor as a vital aspect of the developing Cape Colony's economy.
+The Slave Lodge in the early Cape Colony was a central hub of slavery, and also one of the first places where the different populations of South Africa came together and interacted.
+As the colony grew from a simple outpost to a more permanent settlement, Dutch settlers had to find places to produce agriculture and find labor to work this land in order to survive (lecture 3).
+This led to the import of slaves from other European colonies in India, Angola, West Africa and Southeast Asia (lecture 4).
+Thus, a wide variety of cultures was represented inside of the slave lodge, a spawning ground for creole language (Afrikaans was born here), music and culinary traditions (Cape Malay), and interracial relationships.
+Demographics began to rapidly shift with the import of slaves, who soon outnumbered whites almost 5:1.
+A steady supply of slaves became essential for the expansion of colonized South Africa's export economy (Harries).
+Trekboers also often enslaved Khoisan to work on their farms, and came to rely on them for their own prosperity as well.
+When the British took over the Cape Colony permanently in 1806, ended the slave trade, and eventually emancipated the slaves, Trekboers were frustrated.
+Although Trekboers stated many other reasons on top of emancipation as their reason for leaving the Cape Colony and striking out on their own, there is general consensus that the loss of their slaves was one of the primary reasons for the mass migration of Trekboers away from the cape colony and into the SA interior, also known as the Great Trek .
+Slave labor in the early periods of colonization in SA became a necessary part of society, and supplying this labor and managing it as a minority led to the beginnings of many of the systems that would come to define South African history and permanently change the demographics of the country.
+“Slavery was a key institution in the Cape Colony under its rule by the Dutch East India
+Company (VOC) between 1652 and 1795 and under both Dutch and British
+administrations between 1795 and final slave emancipation in 1834.
+Slaves were the
+mainstay of the labor force, especially in Cape Town and its rural hinterland, and for most of the VOC period slaves outnumbered free settlers.
+Slavery thus had a profound impact on the demographic, economic and social characteristics of the early colony.” (Worden, 2017, Pg.
+1)
+As white society expanded in SA, agriculture became more commercialized, and industry began to emerge.
+The Glenn Grey district in the Eastern Cape in the mid to late 1890's represented a shift from coerced labor and subsistence agriculture to a commercialized and industrialized economy, and the creation of a labor force to fuel this.
+The Glenn Grey district was located in the Queenstown and Wodehouse divisions of the Cape Colony.
+It contained valleys that were favorable for agriculture and grazing livestock.
+Colonists wanted this land, but it was occupied by Africans (mostly Thembu) and they were unable to take all of it.
+White farmers complained of overpopulation on African land and a lack of a labor supply for white-owned farms.
+The Cape government had been grappling with the issue of African land ownership for a while, and the Glenn Grey Act (or Native Land Act) first implemented in the Glenn Grey district was their solution.
+This act assigned individual land ownership of an assigned plot to the head of each household (about 4 morgens or 8.2 acres each), and sold off the rest of the land to white farmers.
+Africans were not allowed to sublet or squat on another's land, and a tax was levied on all landowners and men deemed able to work.
+This had the effect of providing more land to white farmers and further forcing Africans off of their land, but more importantly created a labor force that could be leveraged by the white population.
+This tax had to be paid in Rand, so either landowners sold their crops and livestock in exchange for Rand to pay this yearly tax, or they were forced to go work for European colonists in order to get the necessary currency.
+Furthermore, the tax was waived for any African male who worked outside of the district for at least 3 months.
+The act overall limited the number of African people who could live on or own land, and forced those who didn't qualify to own land to leave the district and look for employment elsewhere - typically in white-owned industry.
+Glenn Grey also helped deal with the problem of competition with the poor white, often Afrikaner, farmers, who were being outperformed by black farmers.
+The act helped funnel labor into white-owned farms, and reduce black ownership and share in the agriculture industry in South Africa.
+The Glenn Grey district was the starting point for much of the structural violence against non-whites, as their land and ability to survive independently was taken away, and they were forced to migrate to find work.
+This was the foundation of the migrant labor system that oppressed Africans with pass laws and reservations that were unable to sustain their populations.
+The discovery of Diamonds at Kimberly in 1871 marked the beginning of a period of rapid industrialization and globalization in South Africa, shifting the economy away from agriculture for good towards mining and global exports.
+“During this transition to a modern industrial state, most black South Africans were systematically denied access to alternative means of earning an independent livelihood, until the point was reached where they had only their labour to sell, and so came to form the largest part of the working class in the new society.” (Van Onselen) The diamond mine at Kimberly is described by the English writer, Andrew Trollope, in his account of his trip to South Africa in 1877.
+He paints a vivid picture of the scale of the mining operation as well as the use of African labor to effectuate the retrieval of the diamonds from the huge hole.
+Theft of the diamonds by the African workers became a significant problem and eventually led to the creation of closed compounds and strict controls over the labor force.
+Where religion and philanthropy were really slow at civilizing the African, money acted extremely quickly.
+Part of the problem came, however, in the sheer number of laborers required to make the mines profitable.
+In the 1870’s sometimes as few as four skilled white technicians and mechanics supervised up to ten thousand Africans.
+By 1911 these numbers had grown to over a quarter of a million and over half a million by 1960 .
+This was made possible by the creation of a single recruiting mechanism called the Native Recruiting Corporation for recruiting labor inside South Africa and the Witwatersrand Labour Association for recruiting in foreign countries .
+Control of these large labor groups became both a necessity and a significant problem.
+The closed compounds and strict controls required enforcement that was often executed by sheer brute force through the use of violence.
+The police and national armed forces became the mechanism for this enforcement.
+Although pass laws had existed in the mining industry since 1895, they became entrenched in the Labour Regulation Act of 1911.
+This law made it illegal for African mine workers to strike or move freely about the country.
+The complete control the mining companies had over the labor force meant that they were not held responsible for the high rate of disease, specifically silicosis, in the migrant laborers.
+This had a huge impact on the economy and family life in the long term.
+What they did not realize was the enormous burden they were creating on the economy by suppressing both education and skill development, and wages for these workers.
+Wealth was being concentrated in a small minority who maintained strict control of the labor market.
+This led eventually to the creation of Apartheid laws in 1948 in order to better control this vast majority of unskilled laborers.
+Another push factor that forced the African laborer to seek employment in the mines at low wages, was the steady deterioration of the reserves.
+Named differently at different times in history, these parcels of land became less productive as populations increased, forcing many men to migrate to the urban centers to find work.
+This was made possible by the temporary nature of the contracts the mines offered, often only twelve to eighteen months after which the men would return to their families on the reserves.
+It is noteworthy that the only reason the mining industry survived and was profitable was due to the extremely low wages they paid their unskilled African workers .
+The Coronation Brick and Tile Factory on the outskirts of Durban in 1973 was the site of some of the first labor strikes that marked an awakening of the non-white labor force in South Africa and an end to the dark economic prosperity of Apartheid South Africa.
+First, it is important to step back and understand that post second world war, the economy was forced to turn to manufacturing for sustainability.
+Prior to the war, the economy was firmly rooted in white agriculture and mining, but that was not sustainable.
+This reliance on manufacturing made the strike of 2,000 workers at a football field outside of the Coronation factory all that more important.
+Until this point, not many African workers were willing to stand up to the unfair labor practices and low wages of the white dominated economy.
+It seemed that the oppression of the Apartheid system was working.
+The strikes outside Durban were the first indications of the change coming.
+In the six years prior to the strike only 23,000 workers had struck.
+By March of 1973, 61,000 had participated in work walkouts .
+Growth rates for real GDP per capita declined for most countries between 1973 and 1994 and fell to just 2% on average.
+The South African growth rate for the same period was a dismal -0.6% per year .
+Foreign investors were scared away by the poor economic performance and private residents began to steadily withdraw their money to foreign bank accounts.
+Policy makers and revisionist theorists “clearly failed to recognize the extent to which the needs of manufacturing diverged from those of mining and farming, and ignored the difficulty of achieving high productivity in industry on the basis of a migrant labor force.” (Feinstein, 2005, pg 247) Another problem soon arose as industry continued to expand.
+There was a shortage of skilled workers.
+All the rules that limited African participation in the skilled labor market worked when there was not a skilled worker shortage but did not when there was.
+The government started turning a blind eye to situations where companies ignored the rules and hired Africans to fill skilled labor positions.
+This pressure on the economy was tied to a sharp increase in the political fight against Apartheid.
+The combination of these factors was too much for the government to manage, eventually forcing them to concede to releasing Nelson Mandela from Robben Island in 1990 and leading to the ultimate demise of Apartheid South Africa with the first democratic election in 1994 and the birth of the new South Africa.
+What started as a miraculous transformation under the leadership of the new president, punctuated by events like the rugby world cup in 1995 where Nelson Mandela appeared at the final match in a Springbok jersey with the new South African flag and sang the new combined national anthem, to the peace and reconciliation commission lead by Bishop Desmud Tutu, soon degenerated amidst corruption when Mandela stepped down and the ANC was allowed to express its radical views.
+Mandeni, KwaZulu Natal after 1990 was a particularly potent example of post Apartheid life in democratic South Africa, and how individuals, particularly black South Africans, dealt with the effects of mass unemployment and extreme inequality.
+As Mark Hunter points out in the Social Science and Medicine Journal (2007), HIV rates jumped from 1% in 1990 to 29% in 2005 driven by rising unemployment, low marital rates, and increased migration of women.
+These three reasons can all be traced back to the way the labor market was forced to react to the economic and political pressure described above.
+The negative GDP per capita growth referenced above caused unemployment rates to skyrocket.
+The first affected were black men.
+As the government reacted by increasing wage competition, certain sectors such as the clothing industry were hit hard and unemployment climbed to 40%.
+Women quickly followed and by the turn of the century things were desperate, leaving many women with no option but for money/sex exchanges further fueling the HIV crisis.
+Marriage rates have declined significantly from above 50% in the mid 1930’s to below 30% in the early 2000’s .
+Especially among the poor, wedlock is being seen as an inflexible institution.
+There also appears to be an increase in the migration of women, specifically the circular migration between rural and urban settings in search of work.
+The results were massive increases in HIV rates giving rise to increased medical care costs in an already faltering economy.
+In conclusion, the economic development of South Africa, and more specifically the control of labor, was a defining factor in its history.
+This journey through these five sites has hopefully provided some insight into the manner in which white English and Afrikaans people interacted with black Africans in the labor market from farms to mines to factories.
+From the slave trade of the early settlers, to diamond and gold mining , industrialization, strikes, and mass unemployment, this journey continues today with the world’s highest unemployment rate of 34.4% compared to 3.4% in the United States.
+With crumbling infrastructure, a broken education system, and little hope for the future, South Africa lies at a crossroads.
+Where will the story end?
+The world can be a tough place.
+Especially in an age where we hear about every bad thing happening at a moment’s notice, it’s easy to believe that people suck.
+And a lot of the time, they do.
+Every time I hear another news story about businesses screwing each other over or when I have to deal with the fallout of a nasty social situation, I think to myself, why can’t we just be good to one another?
+But simply demanding a higher standard is the wrong way to get people to change.
+It’s unrealistic to expect people to change just because they should be better.
+Instead, there should be an alignment of incentives; The best way to get people to be consistently good is for it to be in their own best interests to be good.
+That’s what I explore in this paper: is it in your own best interests to be a good person?
+Or, in other words, does being a good person lead to a better life?
+I define being a “good person”, an inherently very subjective ideal, based on the most common aspects I found while reviewing the literature: generosity, kindness, forgiveness and gratitude, ethical business practice, bullying, honesty, and aggression.
+In this paper, I will try to show that being a “good person” in terms of these topics either directly leads to improved performance, or leads to improved life-satisfaction/happiness/wellbeing or an increased likeability by other people.
+Then, based on research discussed in class, as well as research cited here, I will argue that greater social success (ie.
+greater number of / better friends) and happiness/positive affect leads to improved overall performance in life.
+Through this framework I attempt to argue that being a “good person” directly and indirectly leads to improved overall performance, and show that it is in a person’s own best interest to be good.
+The first aspect to explore in being a “good person” is generosity.
+Here I define generosity loosely as the willingness of a person to share/give more than expected or required in a prosocial way (ie.
+monetary donations, social/emotional support, etc.).
+Generosity is widely encouraged from a cultural perspective, but there is also an intrinsic motivation for giving baked into our evolution.
+From as young as 1 year old, toddlers exhibit higher happiness levels when giving compared to receiving treats (Aknin, L. B., Hamlin, J. K., & Dunn, E. W. 2012).
+Not only this, but the highest happiness levels actually came from costly giving (28% increase compared to non-costly giving), where toddlers had to forfeit their own treat in order to give (Aknin, L. B., Hamlin, J. K., & Dunn, E. W. 2012).
+The benefits of being generous start early in life, and the greater the sacrifice, the greater the benefit of generosity on mood, self-esteem, and satisfaction levels.
+This can be further demonstrated in adults, where it has been shown that prosocial spending enhances happiness (Dunn, E. W., Aknin, L. B., & Norton, M. I.
+Participants in one study reported a 20% increase in life satisfaction when spending 15% more of their income on others, and 25% higher happiness scores when spending $20 on others versus themselves (Dunn, E. W., Aknin, L. B., & Norton, M. I.
+Altruistic decisions like these activate the mesolimbic reward system, the same system activated when receiving monetary rewards (Moll, J., et al.
+Specifically, activation levels in the ventral striatum in one study showed 32% higher levels during donations compared to receiving monetary rewards, and the anterior prefrontal cortex activation increased by 20% during decisions to make costly donations, emphasizing that the mental benefits shown in early childhood are preserved through adulthood (Moll, J., et al.
+The impact of giving is so strong it has been shown to make you live longer.
+A study by (Brown, S. L., Nesse, R. M., Vinokur, A. D., & Smith, D. M. (2003)) investigated the effects of providing versus receiving social support on mortality in older married adults, and found that providing support significantly reduced mortality.
+Surprisingly, this study also found that once they controlled for giving support, receiving support had no significant impact on mortality (Brown, S. L., Nesse, R. M., Vinokur, A. D., & Smith, D. M. 2003).
+On a broader scale, there seems to be intrinsic social motivation for generosity and prosocial tendencies.
+Children with Williams Syndrome, a neurodevelopmental disorder characterized by lower cognitive abilities but high levels of sociability, overfriendliness, and empathy, have been shown to be more generous in modeled scenarios (Foti, F., Costanzo, F., et al.
+In a modeled Dictator game, WS participants gave more than half their resources in 57% of trials, while typically developing participants gave only 23% (Foti, F., Costanzo, F., et al.
+They were equally fair in rejecting disadvantageous inequity, but more generous when presented with advantageous equity, and were more prone to judge fairness with empathetic concern than logical fairness reasoning (Foti, F., Costanzo, F., et al.
+Social motivation, therefore, without advanced social cognition, supports basic fairness and sharing behavior, which in turn contributes to cooperative success.
+Furthermore, generosity in forms like indirect reciprocity support cooperation through reputation and trust, and emphasize the social utility of generosity.
+According to one study, "Indirect reciprocity accounts for 50% of cooperative decisions in large groups with reputation systems."
+(Nowak, M. A., & Sigmund, K. 2005).
+Additionally, indirect reciprocity led to a persistence in cooperation across 85% of interactions in simulation models, and “reputation scores correlated strongly with willingness to cooperate (r = 0.89)” (Nowak, M. A., & Sigmund, K. 2005).
+Furthermore, altruism is also associated with perceived trustworthiness (r = 0.82), which I will show later increases social success (Fehr, E., & Fischbacher, U.
+However, the study also discovered that "Altruistic acts directed toward high-reputation individuals occur[ed] 75% more frequently than toward low-reputation individuals."
+This raises a concern for the selfish generosity framework I have proposed, as it demonstrates that selfish generosity may not benefit those in society who need it the most, and might only contribute to the wealth inequality and unethical practices that exist in the world today.
+However, while this may emphasize the fact that giving to people who can help you the most now may be a better selfish strategy in the short term, I argue that giving to those in need goes significantly further than giving to those who already have much, and that reciprocity will be much greater from those in need when they are more fortunate than those for whom your generosity meant less.
+Other qualities I have valued in my definition of being a “good person” are kindness, which I define as being considerate, friendly, and generous, and morality, defined here as a set of principles of conduct or a system of values that distinguish between right and wrong.
+Multiple studies have shown that kindness is universally preferred and sought after in relationships, both romantic and platonic, receiving “the highest mean rating across contexts (M = 6.8)” in one study on the preferences of individuals for various traits in romantic partners versus friends
+(Sprecher, S., & Regan, P. C. 2002), and showing that acts of kindness increase peer acceptance in another (Layous, K., Nelson, S. K., Oberle, E., Schonert-Reichl, K. A., & Lyubomirsky, S. 2012).
+Other studies have shown that morality consistently outranks sociability and competence in impression formation of other individuals and groups (Brambilla, M., & Leach, C. W. 2014), (Brambilla, M., & Sacchi, S. 2021).
+A study on important traits in forming impressions by Brambilla, M., Sacchi, S., Rusconi, P., & Goodwin, G. P. (2019), resulted in morality holding “...the highest weight in forming impressions (β = .72), significantly outweighing sociability (β = .41) and competence (β = .33)”, and revealed that "Participants rated morality traits like 'trustworthy' as 85% more critical for first impressions than sociability traits like 'friendly”.
+Furthermore, perceived immorality was “...a strong predictor of threat perception (r = 0.79).
+", and "Information about morality was processed faster than sociability or competence (average RT = 650ms vs. 950ms)" (Brambilla, M., Sacchi, S., Rusconi, P., & Goodwin, G. P. 2019).
+This supports the idea that morality may hold a deep-rooted evolutionary importance to establishing relationships, and that one of the most important factors in making new friends and integrating into social groups may be to simply be a good person.
+Compassion, forgiveness, and gratitude are also important factors in being a “good person”.
+However, compassion towards others, and general life success, cannot be obtained without first being compassionate to yourself.
+Higher self-compassion correlates with 35% lower burnout and compassion fatigue in student midwives, while self judgement increased burnout by 27% and compassion fatigue by 22%, and self-kindness improved professional quality of life scores by 40% (Beaumont, E., Durkin, M., Hollins Martin, C. J., & Carson, J.
+Many studies have shown the link between life-satisfaction and gratitude (Chauhan, A. S., Mathur, G., Gulati, C., & Sharma, A.
+2024), (Toussaint, L., & Friedman, P. 2009), (Emmons, R. A., & McCullough, M. E. 2003), (Hermaen, H., & Bhutto, Z. H. 2020), emphasizing that being grateful for what you already have leads to higher levels of positive affect, life satisfaction, flourishing, and even reductions in negative physical symptoms.
+Once this compassion is exercised on oneself, it can be focused outwards on others.
+This is a foundational aspect of socialization.
+A study by Toda, R., Toda, N., Hagihara, H., & Kanakogi, Y.
+(2024) revealed that children as young as 4 years associate forgiveness with relational restoration, and by age 6 understand that forgiveness brings emotional benefits to the victim.
+It also revealed that as children got older, they forgave more, and understood by age 6 that unforgiveness was linked to negative emotions (Toda, R., Toda, N., Hagihara, H., & Kanakogi, Y.
+Other studies have shown the link between empathy and positive peer relationships (Haslip, M. J., Allen-Handy, A., & Donaldson, L. 2019), while maintaining that forgiveness does not always lead to reconciliation.
+This emphasizes the important role of forgiveness in positive social outcomes.
+From a more economic point of view, a study by Dreber, A., Rand, D. G., Fudenberg, D., & Nowak, M. A.
+(2008) discovered that costly punishment reduced group payoffs (25% lower average payoffs) despite encouraging cooperation, and that high payoff individuals used punishment less than 5% of the time.
+Cooperation was also shown to thrive in repeated interactions without need for punitive strategies (75% higher cooperation rates and 20% higher overall efficiency in games w/o punishment), revealing that forgiveness may be the more efficient and successful strategy in the long term (Punishment increased short-term cooperation by 30% but reduced long-term payoffs by 15%) (Dreber, A., Rand, D. G., Fudenberg, D., & Nowak, M. A.
+Scaling up once again to the scale of businesses, there is significant economic, and social benefit to being ethical, generous, and investing in the well-being of your employees.
+A positive corporate reputation contributes to sustained profitability, with a 2002 study finding that "Firms with above-average reputation scores achieved 24% higher profitability than peers over 15 years (1984-1998)...", with residual reputation (reputation not explained by financials) accounting for “32% of the variance in sustained profitability beyond financial performance predictors.” (Roberts, P. W., & Dowling, G. R. 2002).
+In the same study, reputation building activities generated long term trust in the corporations, and demonstrated that being perceived as a good corporate actor fosters financial and reputational success.
+Companies with the highest Corporate Social Responsibility ratings also experience significantly less volatility (up to 50% less) during crises and see higher cumulative abnormal returns (Yi, Y., Zhang, Z., & Yan, Y.
+2021), (Lins, K. V., Servaes, H., & Tamayo, A.
+2017), (Qiao, T., Han, L., & Liu, Y.
+2021), with CSR serving as a sort of insurance policy against crisis.
+The impact of these firms’ CSR was strongest in the regions with low market development, meaning this corporate kindness is most effective where it is needed the most!
+And if that wasn’t enough, CSR has also been shown to decrease corporate misconduct in firms by 17%, and reduce ethical violations in firms by 28% (He, F., Huang, X., Liu, G., & Wang, Z.
+This is incredibly important for firms’ performance as well as reputation, as witnessing unethical behavior by peers can trigger anger and reduce cooperative performance (Ma, J., Wang, X., & Deng, X.
+2024), (Zeng, K., Wang, D., Ye, Q., Li, Z., & Zheng, X.
+2021), (Maisonneuve, F., Groulx, P., Chênevert, D., & Grady, C. 2024).
+Even mass layoffs can decrease the performance of a firm’s employees, with “Psychological contract breach” explaining 55% of the decline in organizational citizenship behavior and a 30% decrease in job performance for employees of these companies that implemented layoffs (López Bohle, S., Bal, P. M., Jansen, P. G. W., Leiva, P. I., & Alonso, A. M. 2017).
+Game theory has shown that even in a selfish, uncertain environment, there is still an optimal level of generosity necessary to achieve the optimal outcome (Molander, P. 1985).
+A bias towards generosity of as little as 10% led to “43% fewer instances of breakdown in cooperation during noisy interactions."
+Additionally, "Generous strategies outperformed purely retaliatory strategies by 32% in overall payoffs” in the same game.
+In a game as noisy and uncertain as life, it pays off to be unconditionally generous.
+It’s good to be generous, but it’s also extremely bad to betray.
+A study by Leonidou, L. C., Aykol, B., Fotiadis, T. A., & Christodoulides, P. (2017) showed that relational performance dropped 28% after a betrayal, and reduced trust between firms.
+This trust is necessary for successful business relationships.
+Many of my arguments so far have posited that being a good person simply leads to one being happier, having better mental health, or feeling good about themselves.
+This does not directly reflect improved performance.
+A meta-analysis by Lyubomirsky, S., King, L., & Diener, E. (2005) reviewed evidence that suggests happiness correlated with success outcomes across domains (r = 0.30) (p < 0.01), participants made to feel happy were more creative than when they were not happy, positive affect reduced health complaints by 25% and even improved immune system markers, and sociability was enhanced in individuals who were often in positive moods.
+This suggests that happiness is a critical driver of long term success, and challenges the assumption that happiness comes from success.
+Furthermore, anything that can uplift mood will inevitably decrease the negative impacts of depression, anxiety, and stress, which have been shown to be key indicators of academic underachievement and poor academic adaptation (Andrews, B., & Wilding, J. M. 2010).
+Sadness has also been shown to decrease accuracy of social judgements, although a neutral mood outperformed both negative and positive moods on judgement scores (Ambady, N., & Gray, H. M. 2002).
+While it has been argued that depressed individuals can make more accurate judgements of contingency (Alloy, L. B., & Abramson, L. Y.
+1979), the performance benefits of a positive affect far outweigh the costs, and suggest that being a good person can indirectly improve performance through improving mood and mental health.
+Another key argument that my framework has relied on so far has been that being a good person makes you more likeable, and improves your social performance.
+This is not only important from a social success standpoint, but also for performance and success in other areas of life.
+Older adults with quality friendships are less likely to be depressed, and weekly interactions with close friends increased their life satisfaction by 25% (Baldassare, M., Rosenfield, S., & Rook, K. S. 1984).
+Furthermore, loneliness was correlated with a higher risk of reporting poor physical health (Baldassare, M., Rosenfield, S., & Rook, K. S. 1984).
+Having good friendships also leads to improved academic performance.
+Children with more friends at school are absent less, liked school more, and reported less teacher-reported disruptive behavior, while peer rejection led to declines in school performance and anxiety (Ladd, G. W. 1990).
+Positive friendships can reduce allostatic load, and high quality friendships promote HPA regulation after stress (Calhoun, C. D., Helms, S. W., Heilbron, N., Rudolph, K. D., Hastings, P. D., & Prinstein, M. J.
+The presence of friends and ability to integrate socially to form study groups leads to studying collaboration, improving academic performance, and trump socioeconomic background and individual ability in importance to academic and personal success (Stadtfeld, C., Vörös, A., Elmer, T., Boda, Z., & Raabe, I. J.
+Specific friendship ties even correlated to GPA.
+Too much social interaction, however, can easily become a distraction, which can negatively impact GPA (Alotaibi, T. A., et al.
+Care should be taken to ensure that the quality of friendships are high.
+Loneliness, often associated with a lack of friendships, predicts poorer health outcomes, on a comparable scale to the risks of smoking or obesity!
+(Ernst, J. M., & Cacioppo, J. T. 1999) A study on the psychological impacts of loneliness (Ernst, J. M., & Cacioppo, J. T. 1999) revealed that it increases the risk of depression by 48%.
+High loneliness participants were also 30% more likely to develop heart disease, and significantly less happy (Ernst, J. M., & Cacioppo, J. T. 1999).
+Throughout this paper, I have shown that being a “good person” through being generous, kind, forgiving, grateful, and moral either directly improves performance in various aspects of life, or improves affect/mental health or likeability/social success, which in turn improve performance in academic, social, physical, economic, emotional, and personal aspects of life.
+While some aspects of being a good person may have a high cost in the short term, the long term benefits of being good pay dividends through the establishment of a positive reputation, strong relationships, a solid support network, and satisfaction with life.
+It takes a large degree of self control to do the right thing every day, but whether you’re doing it for yourself or for others, it's the right thing to do.

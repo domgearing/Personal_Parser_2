@@ -1,0 +1,56 @@
+You will most likely encounter alcohol at some point during your time in high school, and it's important to understand the facts about alcohol and how it will affect you in order to determine if and how you consume it.
+Alcohol is categorized as a CNS (central nervous system) depressant, and also a sedative hypnotic.
+A CNS depressant is any drug that lowers neurotransmission levels in the brain, which has the effect of reducing stimulation, leading to relaxation or anxiety-reducing effects.
+Sedative Hypnotics are just a subtype of CNS depressants that specifically decrease wakefulness.
+However, alcohol is slightly more complicated in this regard due to its biphasic effect.
+Alcohol typically has a stimulating effect at first, followed by a depressing effect at higher doses .
+Therefore it’s particularly important that you manage your consumption effectively, both to avoid the negative side effects of alcohol and also maximize its benefits.
+This biphasic effect is due to the multiple mechanisms of action of alcohol.
+Alcohol's primary MOA is on the GABA neurotransmitter, where it is a non-competitive, non selective GABA agonist.
+Because GABA is the primary inhibitory neurotransmitter in the brain, an agonist (alcohol) binding on it will amplify the inhibitive action of GABA, leading to a depressive effect.
+Alcohol is also a non-competitive, selective glutamate antagonist at NMDA receptors.
+Glutamate is an excitatory NT that affects learning, synaptic plasticity, sensory, motor, and cognitive function.
+Alcohol decreases Glutamate's effect at NMDA receptors, leading to sedation, disrupting memory and long term potentiation.
+This accounts for alcohol’s effect of “blacking out” or gaps in memory, as well as learning deficits seen after consuming alcohol.
+Alcohol also increases endogenous opioid synthesis and release (opioid agonist), in the form of endorphins, which contributes to some of Alcohol’s mild euphoric effects at low doses and pain relief at higher doses.This could be a factor that contributes to addictive potential and excessive consumption in individual drinkers, as studies have shown that individuals in which a single drink releases a larger amount of opioids in the brain get more pleasure out of each drink (Mitchell 2012).
+Finally, Alcohol has a secondary MOA, increasing dopamine in the Ventral Striatum through disinhibition, a characteristic shared by all drugs of abuse with addictive potential .
+This leads to mild euphoria and feelings of reward at low doses, and over time can lead to addiction.
+The acute and long-term effects of alcohol can be summarized as follows: At lower doses, you may feel less anxiety, stress, and inhibition.
+This is why alcohol is often referred to as a social lubricant.
+It can increase talkativeness, sociability, make you less judgemental, and give you a sense of mild euphoria.
+However, as you drink more, alcohol's effect on GABA and Glutamate overpower the secondary MOAs that create favorable effects at lower doses.
+You start losing motor coordination, balance, your judgment becomes impaired, your reaction times may slow down, you can become confused, and often sad with increasing doses.
+At very high doses, the effects become even more detrimental, leading to blackouts (loss of memory due to antagonism of Glutamate), nausea, vomiting, coma, and even death.
+On top of how much you consume, how you consume alcohol also matters.
+The most common route is oral, through drinking alcohol.
+This method leads to less complete absorption, as the alcohol must pass through the stomach and small intestine, where enzymes such as alcohol dehydrogenase begin breaking down the Alcohol.
+The longer Alcohol sits in the stomach, the less alcohol is absorbed into the bloodstream, and the slower and less intense its effects on your body will be.
+This is why eating food or drinking milk before consuming alcohol slows down intoxication.
+Concentration of alcohol also matters, as alcohol enters the bloodstream and is absorbed down the concentration gradient.
+The higher the concentration of alcohol ingested, the greater the concentration gradient, and the quicker alcohol moves across the membrane.
+Therefore, if you take 2 shots of vodka, you will feel its effects much more quickly than shotgunning a beer.
+Alcohol plasma levels typically peak at 30-120 minutes.
+Other routes, such as "butt chugging", involve absorbing alcohol directly through membranes, which makes absorption faster and more complete, making it significantly more dangerous.
+Consistent alcohol consumption has some very negative long term effects as well.
+MOAs listed above lead to permanent changes in the brain, such as the upregulation of Glutamate NMDA receptors, downregulation of GABAa receptors, decreased DA firing and release, and reduced synthesis of endogenous opioids in the body.
+These all can lead to increased anxiety and excitability when not drinking, difficulty sleeping, increased pain sensitivity, reduced sensitivity to other rewards, and dysphoria.
+Other long term effects on the body include permanent brain damage from cell atrophy and decreased neurogenesis, which harms neuroplasticity and the ability to learn (Skarke 2012), memory loss, liver damage, and GI disruptions.
+Furthermore, persistent adolescent alcohol consumption can stunt development and lead to changes in cognition, mood, and behavior, hindering learning and processing of emotion-related stimuli (Teague and Nestler, 2022).
+If you develop a physical dependence, quitting can lead to alcohol withdrawal, which is the most deadly form of withdrawal.
+There is also a risk of mixing alcohol with other drugs.
+Alcohol is metabolized by the enzyme CYP-2E1 in the liver, which also metabolizes acetaminophen.
+Consuming painkillers with acetaminophen and drinking alcohol simultaneously can lead to very dangerous effects, as alcohol will not be metabolized as quickly in the body as quickly and the liver can be overwhelmed.
+Consuming nicotine leads to cross tolerance with alcohol, leading to decreased effects of both drugs at the same doses and a need for increased quantities to maintain the desired effects.
+Alcohol is similar to drugs like benzodiazepines, which are also CNS depressants that act by facilitating binding of GABA NTs to GABA receptors in order to increase IPSPs and depress neurotransmission and brain function.
+Benzodiazepines are often used as anti-anxiety medications with sedative-like effects.
+One key nuance is that benzos act as agonists on GABA by hyperpolarization through opening the ion-gated channels more often, while alcohol achieves hyperpolarization and therefore IPSP through keeping the channels open for longer.
+There are also certain myths around alcohol that I want to clear up for you.
+Alcohol actually leads to decreased enjoyment from sex and decreased sexual performance, contrary to popular belief.
+Alcohol doesn’t actually keep you warm (it dilates blood vessels, leading to more blood circulation around skin and more lost heat), and you certainly are less capable of driving than you may think you are, even after only a few drinks.
+This is because alcohol affects cognition, with one study showing that it inhibits specifically your ability to detect errors in your decision making or instigate performance adjustments to compensate for errors .
+This could account for the false sense of confidence, lack of inhibition, and impulsivity that accompanies alcohol consumption, and makes driving all the more dangerous, because you are unable to tell when you are incapacitated and may feel able to drive when that isn’t the case.
+Alcohol isn’t the big bad scary drug that many adults make it out to be.
+It can augment a good time with friends and be quite fun; however, you should be really aware of when and how you consume it, because it can be incredibly dangerous when taken irresponsibly.
+Know your limits and prepare properly so that alcohol stays only a fun addition to your night out, and doesn’t become the reason your evening ends.
+And never become dependent on alcohol to have a good time: drugs don’t change who you are, they only alter things that are already happening inside of you.
+If you can’t have a good time without Alcohol, you certainly won’t be having a good time with it.

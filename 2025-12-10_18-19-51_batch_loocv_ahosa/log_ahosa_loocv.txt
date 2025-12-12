@@ -1,0 +1,4333 @@
+
+
+===== Preprocess personal train (holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 305 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_clean.jsonl
+Wrote cleaned essay for personal_ahosa to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_ahosa_clean.txt
+Wrote cleaned essay for personal_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_clean.txt
+
+[STEP COMPLETED] Preprocess personal train (holdout=ahosa) in 5.79s
+
+
+===== Preprocess GPT train (holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 481 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.jsonl
+Wrote cleaned essay for gpt_ahosa to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa_clean.txt
+Wrote cleaned essay for gpt_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.txt
+
+[STEP COMPLETED] Preprocess GPT train (holdout=ahosa) in 3.09s
+
+
+===== Preprocess GPT holdout (holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 956 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa_clean.jsonl
+Wrote cleaned essay for gpt_ahosa to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa_clean.txt
+Wrote cleaned essay for gpt_ahosa_clean to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa_clean_clean.txt
+Wrote cleaned essay for gpt_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.txt
+Wrote cleaned essay for gpt_train_clean to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean_clean.txt
+
+[STEP COMPLETED] Preprocess GPT holdout (holdout=ahosa) in 3.23s
+
+
+===== Build POS trees (personal train, holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 305 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_clean.jsonl
+Successfully parsed 305 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees (personal train, holdout=ahosa) in 19.84s
+
+
+===== Build POS trees (GPT train, holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 481 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_clean.jsonl
+Successfully parsed 481 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees (GPT train, holdout=ahosa) in 26.44s
+
+
+===== Estimate POS PCFG (personal train, holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 305 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train_pos_trees.jsonl
+Processed 100 trees... total productions so far: 5996
+Processed 200 trees... total productions so far: 12709
+Processed 300 trees... total productions so far: 20383
+Collected total of 20765 productions from 305 trees
+Built POS-based PCFG with 70 LHS nonterminals
+Saved POS PCFG with 70 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_personal_pos.json
+
+[STEP COMPLETED] Estimate POS PCFG (personal train, holdout=ahosa) in 1.69s
+
+
+===== Estimate POS PCFG (GPT train, holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_gpt_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 481 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train_pos_trees.jsonl
+Processed 100 trees... total productions so far: 5085
+Processed 200 trees... total productions so far: 9860
+Processed 300 trees... total productions so far: 13651
+Processed 400 trees... total productions so far: 17672
+Collected total of 20548 productions from 481 trees
+Built POS-based PCFG with 68 LHS nonterminals
+Saved POS PCFG with 68 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_gpt_pos.json
+
+[STEP COMPLETED] Estimate POS PCFG (GPT train, holdout=ahosa) in 1.26s
+
+
+===== Compute baselines (train corpora, holdout=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compute_baselines.py --mine-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train.txt --gpt-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_train.txt --personal_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_personal_pos.json --gpt_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_gpt_pos.json --out-baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/style_baselines.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Computing baseline for YOUR grammar on YOUR corpus...
+  mu_you_on_you: -1.7174463273421865
+
+Computing baseline for GPT grammar on GPT corpus...
+  mu_gpt_on_gpt: -1.5713380913344757
+
+Saved baselines to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/style_baselines.json
+
+[STEP COMPLETED] Compute baselines (train corpora, holdout=ahosa) in 24.08s
+
+
+===== Rewrite GPT holdout (topic=ahosa) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/rewrite_POS.py --mine /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/personal_data/personal_train.txt --gpt /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/gpt_data/gpt_ahosa.txt --you-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pcfg_gpt_pos.json --baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/style_baselines.json --out-essay /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/rewritten_gpt_essay_relative_pos.txt --out-log /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pos_change_log.json --cands /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/data/gpt_candidates_ahosa.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[INFO] Loaded paraphrases for 154 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/data/gpt_candidates_ahosa.jsonl
+=== YOUR ESSAY ===
+Length (chars): 37269
+Average normalized relative style (you - GPT): 0.2981390944740465
+Average normalized logP_you per rule        : -0.0023294266217428273
+Average normalized logP_gpt per rule        : -0.30046852109578903
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 23424
+Average normalized relative style (you - GPT): 0.11587374122146095
+Average normalized logP_you per rule        : 0.16251211098930632
+Average normalized logP_gpt per rule        : 0.04663836976784539
+
+
+=== PER-SENTENCE CHANGES (STRUCTURAL / POS-LEVEL) ===
+
+Sentence 0:
+  ORIGINAL : Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.
+  REWRITTEN: Long before European ships appeared off the Cape, work, power, and survival in southern Africa were already tightly bound together.
+  style_rel(orig) = 0.123, style_rel(new) = 0.123, Δ = 0.000
+  POS pattern (orig): RB IN JJ NNS VBD RP DT NNP , NN , NN , CC NN IN JJ NNP VBD RB RB IN RB .
+  POS pattern (new) :  RB IN JJ NNS VBD RP DT NNP , NN , NN , CC NN IN JJ NNP VBD RB RB IN RB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 1:
+  ORIGINAL : Communities organized themselves around scarce water, pasture, and grazing routes.
+  REWRITTEN: Communities organized themselves around scarce water, pasture, and grazing routes.
+  style_rel(orig) = 0.106, style_rel(new) = 0.106, Δ = 0.000
+  POS pattern (orig): NNS VBN PRP IN JJ NN , NN , CC VBG NNS .
+  POS pattern (new) :  NNS VBN PRP IN JJ NN , NN , CC VBG NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 2:
+  ORIGINAL : A Kgosi’s authority rested not only on lineage or charisma, but on the ability to call on the ancestors and bring rain, pula.
+  REWRITTEN: A Kgosi’s authority rested not only on lineage or charisma, but on the ability to call on the ancestors and bring rain, pula.
+  style_rel(orig) = 0.117, style_rel(new) = 0.117, Δ = 0.000
+  POS pattern (orig): DT NNP NNP JJ NN VBD RB RB IN NN CC NN , CC IN DT NN TO VB IN DT NNS CC VB NN , NN .
+  POS pattern (new) :  DT NNP NNP JJ NN VBD RB RB IN NN CC NN , CC IN DT NN TO VB IN DT NNS CC VB NN , NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 3:
+  ORIGINAL : Cattle functioned as currency, kinship glue, and spiritual anchor all at once—“modimo o nko e metsi,” the god with the wet nose.
+  REWRITTEN: Cattle functioned as currency, kinship glue, and spiritual anchor all at once—“modimo o nko e metsi,” the god with the wet nose.
+  style_rel(orig) = 0.086, style_rel(new) = 0.086, Δ = 0.000
+  POS pattern (orig): NNP VBD IN NN , NN NN , CC JJ NN DT IN JJ NNP NN NN JJ NN NN , VBZ DT NN IN DT NN NN .
+  POS pattern (new) :  NNP VBD IN NN , NN NN , CC JJ NN DT IN JJ NNP NN NN JJ NN NN , VBZ DT NN IN DT NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 4:
+  ORIGINAL : Control over herds, grazing lands, and people’s labor underpinned status and authority.
+  REWRITTEN: Authority stemmed from commanding livestock, territory, and human effort.
+  style_rel(orig) = 0.060, style_rel(new) = 0.152, Δ = 0.093
+  POS pattern (orig): NN IN NNS , VBG NNS , CC NNS VBP JJ NN VBD NN CC NN .
+  POS pattern (new) :  NN VBD IN VBG NN , NN , CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → JJ
+      IN → VBG
+      NN → ,
+      VBD → IN
+      VBG → NN
+    Removed:
+      , → VBG
+      CC → NN
+      CC → NNS
+      IN → NNS
+      NN → CC
+      NN → IN
+      NNS → ,
+      NNS → VBP
+      VBD → NN
+      VBG → NNS
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 5:
+  ORIGINAL : In other words, the foundations of political power were economic, and the foundations of the economy were labor.
+  REWRITTEN: In other words, the foundations of political power were economic, and the foundations of the economy were labor.
+  style_rel(orig) = 0.080, style_rel(new) = 0.080, Δ = 0.000
+  POS pattern (orig): IN JJ NNS , DT NNS IN JJ NN VBD JJ , CC DT NNS IN DT NN VBD NN .
+  POS pattern (new) :  IN JJ NNS , DT NNS IN JJ NN VBD JJ , CC DT NNS IN DT NN VBD NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 6:
+  ORIGINAL : At roughly the same time, far away, European empires were knitting the world together through trade routes, extraction, and conquest.
+  REWRITTEN: Across the oceans, imperial powers expanded by trading, exploiting, and conquering new lands.
+  style_rel(orig) = 0.127, style_rel(new) = 0.137, Δ = 0.009
+  POS pattern (orig): IN RB DT JJ NN , RB RB , JJ NNS VBD VBG DT NN RB IN NN NNS , NN , CC JJS .
+  POS pattern (new) :  IN DT NNS , JJ NNS VBN IN NN , VBG , CC VBG JJ NNS .
+  POS bigram changes:
+    Added:
+      , → VBG
+      CC → VBG
+      DT → NNS
+      IN → DT
+      NNS → .
+      NNS → VBN
+      VBG → ,
+      VBG → JJ
+      VBN → IN
+    Removed:
+      , → NN
+      , → RB
+      CC → JJS
+      DT → JJ
+      DT → NN
+      IN → RB
+      JJ → NN
+      JJS → .
+      NN → NNS
+      NN → RB
+      NNS → VBD
+      RB → ,
+      RB → DT
+      RB → IN
+      RB → RB
+      VBD → VBG
+      VBG → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 7:
+  ORIGINAL : The Dutch East India Company did not sail to the Cape in 1652 because it was curious about African societies; it came because ships needed to be fed, watered, and repaired on their way to Asia.
+  REWRITTEN: In 1652, the Dutch came to the Cape to service passing ships, not to study local communities.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.341, Δ = 1000000.341
+  POS pattern (orig): DT NNP NNP NNP NNP VBD RB VB TO DT NNP IN CD IN PRP VBD JJ IN JJ NNS : PRP VBD RB NNS VBD TO VB VBN , VBN , CC VBD IN PRP$ NN TO NNP .
+  POS pattern (new) :  IN CD , DT NNPS VBD TO DT NNP TO VB VBG NNS , RB TO VB JJ NNS .
+  POS bigram changes:
+    Added:
+      , → DT
+      , → RB
+      CD → ,
+      DT → NNPS
+      NNP → TO
+      NNPS → VBD
+      NNS → ,
+      NNS → .
+      RB → TO
+      VB → JJ
+      VB → VBG
+      VBG → NNS
+    Removed:
+      , → CC
+      , → VBN
+      : → PRP
+      CC → VBD
+      CD → IN
+      IN → JJ
+      IN → PRP
+      IN → PRP$
+      JJ → IN
+      NN → TO
+      NNP → .
+      NNP → IN
+      NNP → NNP
+      NNP → VBD
+      NNS → :
+      NNS → VBD
+      PRP → VBD
+      PRP$ → NN
+      RB → NNS
+      RB → VB
+      TO → NNP
+      VB → TO
+      VB → VBN
+      VBD → IN
+      VBD → JJ
+      VBD → RB
+      VBN → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 8:
+  ORIGINAL : When that commercial outpost at Table Bay collided with indigenous societies whose wealth was measured in cattle and people’s work, it set off a chain of transformations that would make labor the central axis of South African history.
+  REWRITTEN: This clash ignited changes that placed labor at the heart of South Africa’s historical trajectory.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.152, Δ = 1000000.152
+  POS pattern (orig): WRB DT JJ NN IN NNP NNP VBD IN JJ NNS WP$ NN VBD VBN IN NNS CC NNS VBP JJ NN , PRP VBD RP DT NN IN NNS WDT MD VB NN DT JJ NN IN JJ JJ NN .
+  POS pattern (new) :  DT NN VBD NNS IN VBD NN IN DT NN IN NNP NNP NNP VBD JJ NN .
+  POS bigram changes:
+    Added:
+      IN → DT
+      IN → VBD
+      NNS → IN
+      VBD → JJ
+      VBD → NN
+      VBD → NNS
+    Removed:
+      , → PRP
+      CC → NNS
+      DT → JJ
+      IN → JJ
+      IN → NNS
+      JJ → JJ
+      JJ → NNS
+      MD → VB
+      NN → ,
+      NN → DT
+      NNS → CC
+      NNS → VBP
+      NNS → WDT
+      NNS → WP$
+      PRP → VBD
+      RP → DT
+      VB → NN
+      VBD → IN
+      VBD → RP
+      VBD → VBN
+      VBN → IN
+      VBP → JJ
+      WDT → MD
+      WP$ → NN
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 9:
+  ORIGINAL : From the slave lodge in early Cape Town to the diamond pits of Kimberley and the deep-level gold mines of the Witwatersrand, from the Glen Grey Act’s calculated “creation” of rural laborers to the Durban strikes of the 1970s and the mass unemployment and AIDS crisis in places like Mandeni at the end of apartheid, labor was never just an economic variable.
+  REWRITTEN: From the slave lodge in early Cape Town to the diamond pits of Kimberley and the deep-level gold mines of the Witwatersrand, from the Glen Grey Act’s calculated “creation” of rural laborers to the Durban strikes of the 1970s and the mass unemployment and AIDS crisis in places like Mandeni at the end of apartheid, labor was never just an economic variable.
+  style_rel(orig) = 0.204, style_rel(new) = 0.204, Δ = 0.000
+  POS pattern (orig): IN DT NN NN IN JJ NNP NNP TO DT NN NNS IN NNP CC DT JJ NN NNS IN DT NNP , IN DT NNP NNP NNP NNP NN VBD JJ NN NN IN JJ NNS TO DT NNP NNS IN DT CD CC DT NN NN CC NNP NN IN NNS IN NNP IN DT NN IN NN , NN VBD RB RB DT JJ NN .
+  POS pattern (new) :  IN DT NN NN IN JJ NNP NNP TO DT NN NNS IN NNP CC DT JJ NN NNS IN DT NNP , IN DT NNP NNP NNP NNP NN VBD JJ NN NN IN JJ NNS TO DT NNP NNS IN DT CD CC DT NN NN CC NNP NN IN NNS IN NNP IN DT NN IN NN , NN VBD RB RB DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 10:
+  ORIGINAL : It was the main lever through which land was taken, racial categories hardened, families reshaped, and resistance organized.
+  REWRITTEN: Labor was the tool used to seize land, enforce race, restructure households, and spark rebellion.
+  style_rel(orig) = -0.029, style_rel(new) = 0.092, Δ = 0.121
+  POS pattern (orig): PRP VBD DT JJ NN IN WDT NN VBD VBN , JJ NNS VBN , NNS VBD , CC NN VBN .
+  POS pattern (new) :  NN VBD DT NN VBN TO VB NN , NN NN , NN NNS , CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → JJ
+      DT → NN
+      NN → ,
+      NN → .
+      NN → NN
+      NN → NNS
+      NNS → ,
+      TO → VB
+      VB → NN
+      VBN → TO
+    Removed:
+      , → JJ
+      , → NNS
+      CC → NN
+      DT → JJ
+      IN → WDT
+      JJ → NNS
+      NN → IN
+      NNS → VBD
+      NNS → VBN
+      PRP → VBD
+      VBD → ,
+      VBD → VBN
+      VBN → ,
+      VBN → .
+      WDT → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 11:
+  ORIGINAL : To understand the making of South Africa, you have to follow the work: who did it, under what conditions, for whose benefit, and with what consequences.
+  REWRITTEN: If you trace labor—its doers, settings, beneficiaries, and costs—you trace South Africa’s creation.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.121, Δ = 1000000.121
+  POS pattern (orig): TO VB DT NN IN NNP NNP , PRP VBP TO VB DT NN : WP VBD PRP , IN WP NNS , IN WP$ NN , CC IN WP NNS .
+  POS pattern (new) :  IN PRP VBP JJ NNS , NNS , NNS , CC JJ NN NNP NNP NNP JJ NN .
+  POS bigram changes:
+    Added:
+      , → NNS
+      CC → JJ
+      IN → PRP
+      JJ → NN
+      JJ → NNS
+      NN → .
+      NN → NNP
+      NNP → JJ
+      VBP → JJ
+    Removed:
+      , → IN
+      , → PRP
+      : → WP
+      CC → IN
+      DT → NN
+      IN → NNP
+      IN → WP
+      IN → WP$
+      NN → ,
+      NN → :
+      NN → IN
+      NNP → ,
+      NNS → .
+      PRP → ,
+      TO → VB
+      VB → DT
+      VBD → PRP
+      VBP → TO
+      WP → NNS
+      WP → VBD
+      WP$ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 12:
+  ORIGINAL : This essay traces that story across several key moments and sites.
+  REWRITTEN: Here, the argument unfolds through selected eras and environments.
+  style_rel(orig) = 0.119, style_rel(new) = 0.135, Δ = 0.015
+  POS pattern (orig): DT NN VBZ IN NN IN JJ JJ NNS CC NNS .
+  POS pattern (new) :  RB , DT NN VBZ IN VBN NNS CC NNS .
+  POS bigram changes:
+    Added:
+      , → DT
+      IN → VBN
+      RB → ,
+      VBN → NNS
+    Removed:
+      IN → JJ
+      IN → NN
+      JJ → JJ
+      JJ → NNS
+      NN → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 13:
+  ORIGINAL : It begins with slavery and coerced labor in the early Cape Colony, moves through the mineral revolution and the emergence of a migrant labor system, examines rural reengineering under the Glen Grey Act, looks at the explosion of worker resistance in Durban in 1973, and ends with the social wreckage of mass unemployment and disease around Mandeni in the late twentieth century.
+  REWRITTEN: The discussion starts with Cape slavery, then covers mining’s rise and migrant labor, rural restructuring under Glen Grey, worker uprisings in Durban, and finally unemployment and AIDS in Mandeni.
+  style_rel(orig) = 0.195, style_rel(new) = 0.253, Δ = 0.058
+  POS pattern (orig): PRP VBZ IN NN CC VBD NN IN DT JJ NNP NNP , VBZ IN DT JJ NN CC DT NN IN DT JJ NN NN , VBZ JJ VBG IN DT NNP NNP NNP , VBZ IN DT NN IN NN NN IN NNP IN CD , CC VBZ IN DT JJ NN IN NN NN CC NN RB NNP IN DT JJ JJ NN .
+  POS pattern (new) :  DT NN VBZ IN NNP NN , RB VBZ VBG NNP NN NN CC JJ NN , JJ NN IN NNP NNP , NN NNS IN NNP , CC RB NN CC NNP IN NNP .
+  POS bigram changes:
+    Added:
+      , → JJ
+      , → NN
+      , → RB
+      CC → JJ
+      CC → NNP
+      CC → RB
+      NN → NNS
+      NN → VBZ
+      NNP → .
+      NNP → NN
+      NNS → IN
+      RB → NN
+      RB → VBZ
+      VBG → NNP
+      VBZ → VBG
+    Removed:
+      , → VBZ
+      CC → DT
+      CC → NN
+      CC → VBD
+      CC → VBZ
+      CD → ,
+      DT → JJ
+      DT → NNP
+      IN → CD
+      IN → DT
+      IN → NN
+      JJ → JJ
+      JJ → NNP
+      JJ → VBG
+      NN → .
+      NN → RB
+      PRP → VBZ
+      RB → NNP
+      VBD → NN
+      VBG → IN
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 14:
+  ORIGINAL : Across this arc, the argument is simple but far-reaching: South Africa’s political and social order was built, maintained, and ultimately destabilized through struggles over labor.
+  REWRITTEN: In short, conflicts around work created, sustained, and later unraveled the nation’s hierarchy.
+  style_rel(orig) = 0.109, style_rel(new) = 0.165, Δ = 0.056
+  POS pattern (orig): IN DT NN , DT NN VBZ JJ CC JJ : NNP NNP NNP VB JJ CC JJ NN VBD VBN , VBN , CC RB VBN IN NNS IN NN .
+  POS pattern (new) :  IN JJ , NNS IN NN VBN , VBN , CC RB VBD DT NN NNP NN NN .
+  POS bigram changes:
+    Added:
+      , → NNS
+      IN → JJ
+      JJ → ,
+      NN → NN
+      NN → NNP
+      NN → VBN
+      NNP → NN
+      RB → VBD
+      VBD → DT
+    Removed:
+      , → DT
+      : → NNP
+      CC → JJ
+      IN → DT
+      IN → NNS
+      JJ → :
+      JJ → CC
+      JJ → NN
+      NN → ,
+      NN → VBD
+      NN → VBZ
+      NNP → NNP
+      NNP → VB
+      RB → VBN
+      VB → JJ
+      VBD → VBN
+      VBN → IN
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 15:
+  ORIGINAL : Early Cape Colony: Slavery, coerced work, and the making of a colonial labor force
+
+When the Dutch East India Company established its refreshment station at the Cape, it had a straightforward problem: how to get food, fuel, and services at minimal cost from a place where European labor was scarce and expensive.
+  REWRITTEN: Early Cape Colony: Slavery, coerced work, and the making of a colonial labor force
+
+When the Dutch East India Company established its refreshment station at the Cape, it had a straightforward problem: how to get food, fuel, and services at minimal cost from a place where European labor was scarce and expensive.
+  style_rel(orig) = 0.044, style_rel(new) = 0.044, Δ = 0.000
+  POS pattern (orig): JJ NNP NN : NN , VBD NN , CC DT NN IN DT JJ NN NN WRB DT NNP NNP NNP NNP VBD PRP$ NN NN IN DT NNP , PRP VBD DT NN NN : WRB TO VB NN , NN , CC NNS IN JJ NN IN DT NN WRB JJ NN VBD JJ CC JJ .
+  POS pattern (new) :  JJ NNP NN : NN , VBD NN , CC DT NN IN DT JJ NN NN WRB DT NNP NNP NNP NNP VBD PRP$ NN NN IN DT NNP , PRP VBD DT NN NN : WRB TO VB NN , NN , CC NNS IN JJ NN IN DT NN WRB JJ NN VBD JJ CC JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 16:
+  ORIGINAL : The solution—predictable in the seventeenth-century Atlantic world—was slavery.
+  REWRITTEN: The solution—predictable in the seventeenth-century Atlantic world—was slavery.
+  style_rel(orig) = 0.250, style_rel(new) = 0.250, Δ = 0.000
+  POS pattern (orig): DT JJ IN DT NN NNP NN NN .
+  POS pattern (new) :  DT JJ IN DT NN NNP NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 17:
+  ORIGINAL : The Slave Lodge in Cape Town became the beating heart of this system.
+  REWRITTEN: At the center of this system stood the Slave Lodge in Cape Town.
+  style_rel(orig) = 0.160, style_rel(new) = 0.210, Δ = 0.051
+  POS pattern (orig): DT NNP NNP IN NNP NNP VBD DT VBG NN IN DT NN .
+  POS pattern (new) :  IN DT NN IN DT NN VBD DT NNP NNP IN NNP NNP .
+  POS bigram changes:
+    Added:
+      NN → VBD
+      NNP → .
+    Removed:
+      DT → VBG
+      NN → .
+      NNP → VBD
+      VBG → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 18:
+  ORIGINAL : It was more than just a building; it was an experiment in compressing human diversity into a controllable labor force.
+  REWRITTEN: More than infrastructure, it was a social machine for controlling many different captives.
+  style_rel(orig) = 0.066, style_rel(new) = 0.229, Δ = 0.162
+  POS pattern (orig): PRP VBD RBR IN RB DT NN : PRP VBD DT NN IN VBG JJ NN IN DT JJ NN NN .
+  POS pattern (new) :  JJR IN NN , PRP VBD DT JJ NN IN VBG JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      , → PRP
+      IN → NN
+      JJ → JJ
+      JJ → NNS
+      JJR → IN
+      NN → ,
+      NNS → .
+    Removed:
+      : → PRP
+      DT → NN
+      IN → DT
+      IN → RB
+      NN → .
+      NN → :
+      NN → NN
+      RB → DT
+      RBR → IN
+      VBD → RBR
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 19:
+  ORIGINAL : Enslaved people were imported from East Africa, Madagascar, India, Southeast Asia, and other VOC possessions.
+  REWRITTEN: Captives arrived from across the Indian Ocean world and VOC territories.
+  style_rel(orig) = 0.202, style_rel(new) = 0.329, Δ = 0.127
+  POS pattern (orig): VBN NNS VBD VBN IN NNP NNP , NNP , NNP , NNP NNP , CC JJ NNP NNS .
+  POS pattern (new) :  NNS VBD IN IN DT JJ NNP NN CC NNP NNS .
+  POS bigram changes:
+    Added:
+      CC → NNP
+      DT → JJ
+      IN → DT
+      IN → IN
+      NN → CC
+      NNP → NN
+      VBD → IN
+    Removed:
+      , → CC
+      , → NNP
+      CC → JJ
+      IN → NNP
+      NNP → ,
+      NNP → NNP
+      VBD → VBN
+      VBN → IN
+      VBN → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 20:
+  ORIGINAL : Inside the lodge, these captives cooked, cleaned, built, tended gardens, and serviced the needs of officials.
+  REWRITTEN: They performed household duties, maintenance, and food production for VOC personnel.
+  style_rel(orig) = 0.013, style_rel(new) = 0.194, Δ = 0.181
+  POS pattern (orig): IN DT NN , DT NNS VBD , VBD , VBN , VBD NNS , CC VBD DT NNS IN NNS .
+  POS pattern (new) :  PRP VBD NN NNS , NN , CC NN NN IN NNP NNS .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → NN
+      IN → NNP
+      NN → IN
+      NN → NN
+      NN → NNS
+      NNP → NNS
+      PRP → VBD
+      VBD → NN
+    Removed:
+      , → DT
+      , → VBD
+      , → VBN
+      CC → VBD
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → NNS
+      NNS → IN
+      NNS → VBD
+      VBD → ,
+      VBD → DT
+      VBD → NNS
+      VBN → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 21:
+  ORIGINAL : Outside, enslaved labor spread onto settler farms, workshops, and urban households.
+  REWRITTEN: Outside, enslaved labor spread onto settler farms, workshops, and urban households.
+  style_rel(orig) = 0.229, style_rel(new) = 0.229, Δ = 0.000
+  POS pattern (orig): NNP , VBD NN NN IN NN NNS , NNS , CC JJ NNS .
+  POS pattern (new) :  NNP , VBD NN NN IN NN NNS , NNS , CC JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 22:
+  ORIGINAL : Labor’s importance here appears in at least three ways.
+  REWRITTEN: There were at least three major aspects highlighting labor’s central role.
+  style_rel(orig) = 0.190, style_rel(new) = 0.308, Δ = 0.117
+  POS pattern (orig): NNP NNP VBD NN RB VBZ IN IN JJS CD NNS .
+  POS pattern (new) :  EX VBD IN JJS CD JJ NNS VBG NN NNP JJ JJ NN .
+  POS bigram changes:
+    Added:
+      CD → JJ
+      EX → VBD
+      JJ → JJ
+      JJ → NN
+      JJ → NNS
+      NN → .
+      NN → NNP
+      NNP → JJ
+      NNS → VBG
+      VBD → IN
+      VBG → NN
+    Removed:
+      CD → NNS
+      IN → IN
+      NN → RB
+      NNP → NNP
+      NNP → VBD
+      NNS → .
+      RB → VBZ
+      VBD → NN
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 23:
+  ORIGINAL : First, slavery solved an economic bottleneck.
+  REWRITTEN: Enslavement addressed the colony’s urgent labor shortage.
+  style_rel(orig) = 0.096, style_rel(new) = 0.168, Δ = 0.072
+  POS pattern (orig): RB , NN VBD DT JJ NN .
+  POS pattern (new) :  NN VBD DT NN NNP NN JJ NN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      NN → JJ
+      NN → NN
+      NN → NNP
+      NNP → NN
+    Removed:
+      , → NN
+      DT → JJ
+      RB → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 24:
+  ORIGINAL : The colony’s viability depended on a cheap and dependable workforce to produce grain, meat, wine, and other provisioning goods.
+  REWRITTEN: The colony’s viability depended on a cheap and dependable workforce to produce grain, meat, wine, and other provisioning goods.
+  style_rel(orig) = 0.180, style_rel(new) = 0.180, Δ = 0.000
+  POS pattern (orig): DT NN NNP NN NN VBN IN DT JJ CC JJ NN TO VB NN , NN , NN , CC JJ VBG NNS .
+  POS pattern (new) :  DT NN NNP NN NN VBN IN DT JJ CC JJ NN TO VB NN , NN , NN , CC JJ VBG NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 25:
+  ORIGINAL : Enslaved people’s bodies were turned into infrastructure: they terraced hillsides for vineyards, dug canals, built roads, and maintained the very outpost that anchored Dutch trade routes.
+  REWRITTEN: Slaves literally built the colony’s foundations—vineyard terraces, canals, roads, and facilities.
+  style_rel(orig) = 0.070, style_rel(new) = 0.143, Δ = 0.073
+  POS pattern (orig): JJ NNS VBP JJ NNS VBD VBN IN NN : PRP VBD NNS IN NNS , NN NNS , VBN NNS , CC VBD DT RB NN IN VBD NNP NN NNS .
+  POS pattern (new) :  NNS RB VBP DT NN NNP VBZ JJ NNS , NNS , NNS , CC NNS .
+  POS bigram changes:
+    Added:
+      , → NNS
+      CC → NNS
+      DT → NN
+      NN → NNP
+      NNP → VBZ
+      NNS → RB
+      RB → VBP
+      VBP → DT
+      VBZ → JJ
+    Removed:
+      , → NN
+      , → VBN
+      : → PRP
+      CC → VBD
+      DT → RB
+      IN → NN
+      IN → NNS
+      IN → VBD
+      NN → :
+      NN → IN
+      NN → NNS
+      NNP → NN
+      NNS → IN
+      NNS → VBD
+      NNS → VBP
+      PRP → VBD
+      RB → NN
+      VBD → DT
+      VBD → NNP
+      VBD → NNS
+      VBD → VBN
+      VBN → IN
+      VBN → NNS
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 26:
+  ORIGINAL : Second, the slave system reordered society and identity.
+  REWRITTEN: The system transformed both social hierarchy and cultural identity.
+  style_rel(orig) = 0.026, style_rel(new) = 0.107, Δ = 0.081
+  POS pattern (orig): JJ , DT NN NN VBD NN CC NN .
+  POS pattern (new) :  DT NN VBD DT JJ NN CC JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      DT → JJ
+      JJ → NN
+      VBD → DT
+    Removed:
+      , → DT
+      CC → NN
+      JJ → ,
+      NN → NN
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 27:
+  ORIGINAL : With time, the enslaved population outnumbered free Europeans in the colony.
+  REWRITTEN: With time, the enslaved population outnumbered free Europeans in the colony.
+  style_rel(orig) = 0.101, style_rel(new) = 0.101, Δ = 0.000
+  POS pattern (orig): IN NN , DT JJ NN VBD JJ NNPS IN DT NN .
+  POS pattern (new) :  IN NN , DT JJ NN VBD JJ NNPS IN DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 28:
+  ORIGINAL : Relationships—violent, coerced, but also intimate and everyday—between enslaved people, Khoisan, and European settlers produced new languages (Afrikaans emerging partly as a contact language), cuisines, and communities.
+  REWRITTEN: Relationships—violent, coerced, but also intimate and everyday—between enslaved people, Khoisan, and European settlers produced new languages (Afrikaans emerging partly as a contact language), cuisines, and communities.
+  style_rel(orig) = 0.264, style_rel(new) = 0.264, Δ = 0.000
+  POS pattern (orig): NN , VBN , CC RB JJ CC JJ VBN NNS , NNP , CC JJ NNS VBD JJ NNS ( NNPS VBG RB IN DT NN NN ) , NNS , CC NNS .
+  POS pattern (new) :  NN , VBN , CC RB JJ CC JJ VBN NNS , NNP , CC JJ NNS VBD JJ NNS ( NNPS VBG RB IN DT NN NN ) , NNS , CC NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 29:
+  ORIGINAL : Racial categories hardened in law in order to fix who could own labor and who could be owned.
+  REWRITTEN: Legal codes solidified race to determine labor owners versus the owned.
+  style_rel(orig) = -0.035, style_rel(new) = 0.198, Δ = 0.233
+  POS pattern (orig): JJ NNS VBN IN NN IN NN TO VB WP MD VB NN CC WP MD VB VBN .
+  POS pattern (new) :  NNP NNS VBD NN TO VB NN NNS VBP DT VBN .
+  POS bigram changes:
+    Added:
+      DT → VBN
+      NN → NNS
+      NNP → NNS
+      NNS → VBD
+      NNS → VBP
+      VBD → NN
+      VBP → DT
+    Removed:
+      CC → WP
+      IN → NN
+      JJ → NNS
+      MD → VB
+      NN → CC
+      NN → IN
+      NNS → VBN
+      VB → VBN
+      VB → WP
+      VBN → IN
+      WP → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 30:
+  ORIGINAL : Slavery racialized labor, and labor solidified race.
+  REWRITTEN: The connection between race and labor was mutually reinforcing.
+  style_rel(orig) = 0.105, style_rel(new) = 0.267, Δ = 0.162
+  POS pattern (orig): NNP VBD NN , CC NN VBD NN .
+  POS pattern (new) :  DT NN IN NN CC NN VBD RB VBG .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → NN
+      NN → CC
+      NN → IN
+      RB → VBG
+      VBD → RB
+      VBG → .
+    Removed:
+      , → CC
+      NN → ,
+      NN → .
+      NNP → VBD
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 31:
+  ORIGINAL : Third, the practice of coercing labor at the Cape did not stop at the boundaries of formal slavery.
+  REWRITTEN: Third, the practice of coercing labor at the Cape did not stop at the boundaries of formal slavery.
+  style_rel(orig) = 0.247, style_rel(new) = 0.247, Δ = 0.000
+  POS pattern (orig): NNP , DT NN IN VBG NN IN DT NNP VBD RB VB IN DT NNS IN JJ NN .
+  POS pattern (new) :  NNP , DT NN IN VBG NN IN DT NNP VBD RB VB IN DT NNS IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 32:
+  ORIGINAL : As settler agriculture expanded inland, trekboers increasingly captured, indebted, and coerced Khoisan people into servitude.
+  REWRITTEN: Frontier farmers turned Khoisan into laborers through coercion and financial dependency.
+  style_rel(orig) = 0.129, style_rel(new) = 0.230, Δ = 0.101
+  POS pattern (orig): IN JJ NN VBD NN , NNS RB VBD , VBN , CC VBD NNP NNS IN NN .
+  POS pattern (new) :  NNP NNS VBD NNP IN NNS IN NN CC JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → NNS
+      NN → CC
+      NNP → IN
+      NNS → VBD
+    Removed:
+      , → CC
+      , → NNS
+      , → VBN
+      CC → VBD
+      IN → JJ
+      NN → ,
+      NN → VBD
+      NNS → RB
+      RB → VBD
+      VBD → ,
+      VBD → NN
+      VBN → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 33:
+  ORIGINAL : Even when not legally enslaved, many Khoisan workers were trapped by systems of debt, pass requirements, and violence that functioned in practice like unfree labor.
+  REWRITTEN: Legal freedom did not stop coercive systems from binding Khoisan to unfree labor.
+  style_rel(orig) = 0.126, style_rel(new) = 0.219, Δ = 0.092
+  POS pattern (orig): RB WRB RB RB VBN , JJ NNP NNS VBD VBN IN NNS IN NN , NN NNS , CC NN WDT VBD IN NN IN JJ NN .
+  POS pattern (new) :  NNP NN VBD RB VB JJ NNS IN VBG NNP TO VB NN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      JJ → NNS
+      NN → VBD
+      NNP → NN
+      NNP → TO
+      RB → VB
+      TO → VB
+      VB → JJ
+      VB → NN
+      VBD → RB
+      VBG → NNP
+    Removed:
+      , → CC
+      , → JJ
+      , → NN
+      CC → NN
+      IN → JJ
+      IN → NN
+      IN → NNS
+      JJ → NN
+      JJ → NNP
+      NN → ,
+      NN → IN
+      NN → NNS
+      NN → WDT
+      NNP → NNS
+      NNS → ,
+      NNS → VBD
+      RB → RB
+      RB → VBN
+      RB → WRB
+      VBD → IN
+      VBD → VBN
+      VBN → ,
+      VBN → IN
+      WDT → VBD
+      WRB → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 34:
+  ORIGINAL : Labor control was the underlying problem the colonial state and settler society repeatedly tried to “solve,” and each solution left deeper marks on South African society.
+  REWRITTEN: Colonial authorities constantly redesigned labor control, reshaping the society each time.
+  style_rel(orig) = 0.168, style_rel(new) = 0.229, Δ = 0.061
+  POS pattern (orig): NNP NN VBD DT JJ NN DT NN NN CC NN NN RB VBD TO VB NN , NNP CC DT NN VBD JJR NNS IN JJ JJ NN .
+  POS pattern (new) :  NNP NNS RB VBN NN NN , VBG DT NN DT NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      NNP → NNS
+      NNS → RB
+      RB → VBN
+      VBG → DT
+      VBN → NN
+    Removed:
+      , → NNP
+      CC → DT
+      CC → NN
+      DT → JJ
+      IN → JJ
+      JJ → JJ
+      JJ → NN
+      JJR → NNS
+      NN → CC
+      NN → RB
+      NN → VBD
+      NNP → CC
+      NNP → NN
+      NNS → IN
+      RB → VBD
+      TO → VB
+      VB → NN
+      VBD → DT
+      VBD → JJR
+      VBD → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 35:
+  ORIGINAL : When Britain took permanent control of the Cape in the early nineteenth century, it eventually abolished the slave trade and then slavery itself.
+  REWRITTEN: After assuming rule, Britain ended both the slave trade and later slavery in the Cape.
+  style_rel(orig) = 0.114, style_rel(new) = 0.308, Δ = 0.195
+  POS pattern (orig): WRB NNP VBD JJ NN IN DT NNP IN DT JJ JJ NN , PRP RB VBD DT JJ NN CC RB VB PRP .
+  POS pattern (new) :  IN VBG NN , NNP VBD DT DT NN NN CC RB NN IN DT NNP .
+  POS bigram changes:
+    Added:
+      , → NNP
+      DT → DT
+      DT → NN
+      IN → VBG
+      NN → NN
+      NNP → .
+      RB → NN
+      VBG → NN
+    Removed:
+      , → PRP
+      DT → JJ
+      JJ → JJ
+      JJ → NN
+      NNP → IN
+      PRP → .
+      PRP → RB
+      RB → VB
+      RB → VBD
+      VB → PRP
+      VBD → JJ
+      WRB → NNP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 36:
+  ORIGINAL : Financial compensation went to slave owners, not the enslaved.
+  REWRITTEN: Money was given to those who lost slaves, not to those who had been enslaved.
+  style_rel(orig) = 0.078, style_rel(new) = 0.244, Δ = 0.166
+  POS pattern (orig): JJ NN VBD TO VB NNS , RB DT VBN .
+  POS pattern (new) :  NN VBD VBN TO DT WP VBD NNS , RB TO DT WP VBD VBN VBN .
+  POS bigram changes:
+    Added:
+      DT → WP
+      RB → TO
+      TO → DT
+      VBD → NNS
+      VBD → VBN
+      VBN → TO
+      VBN → VBN
+      WP → VBD
+    Removed:
+      DT → VBN
+      JJ → NN
+      RB → DT
+      TO → VB
+      VB → NNS
+      VBD → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 37:
+  ORIGINAL : Trekboers, facing the loss of what they saw as “their” labor, seethed with resentment.
+  REWRITTEN: Boer farmers were furious about losing access to the workers they believed they owned.
+  style_rel(orig) = 0.059, style_rel(new) = 0.141, Δ = 0.082
+  POS pattern (orig): NNS , VBG DT NN IN WP PRP VBD IN NNP PRP$ JJ NN , VBD IN NN .
+  POS pattern (new) :  NNP NNS VBD JJ IN VBG NN TO DT NNS PRP VBD PRP VBD .
+  POS bigram changes:
+    Added:
+      DT → NNS
+      IN → VBG
+      JJ → IN
+      NN → TO
+      NNP → NNS
+      NNS → PRP
+      NNS → VBD
+      TO → DT
+      VBD → .
+      VBD → JJ
+      VBD → PRP
+      VBG → NN
+    Removed:
+      , → VBD
+      , → VBG
+      DT → NN
+      IN → NN
+      IN → NNP
+      IN → WP
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → IN
+      NNP → PRP$
+      NNS → ,
+      PRP$ → JJ
+      VBD → IN
+      VBG → DT
+      WP → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 38:
+  ORIGINAL : The Great Trek, in which thousands of Boers left the colony to establish their own republics in the interior, cannot be understood without this labor crisis.
+  REWRITTEN: The Great Trek, in which thousands of Boers left the colony to establish their own republics in the interior, cannot be understood without this labor crisis.
+  style_rel(orig) = 0.124, style_rel(new) = 0.124, Δ = 0.000
+  POS pattern (orig): DT NNP NNP , IN WDT NNS IN NNP VBD DT NN TO VB PRP$ JJ NNS IN DT NN , MD RB VB VBN IN DT NN NN .
+  POS pattern (new) :  DT NNP NNP , IN WDT NNS IN NNP VBD DT NN TO VB PRP$ JJ NNS IN DT NN , MD RB VB VBN IN DT NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 39:
+  ORIGINAL : Their departure was, among other things, a search for new land and new, more controllable sources of African labor.
+  REWRITTEN: Their departure was, among other things, a search for new land and new, more controllable sources of African labor.
+  style_rel(orig) = 0.117, style_rel(new) = 0.117, Δ = 0.000
+  POS pattern (orig): PRP$ NN VBD , IN JJ NNS , DT NN IN JJ NN CC JJ , RBR JJ NNS IN JJ NN .
+  POS pattern (new) :  PRP$ NN VBD , IN JJ NNS , DT NN IN JJ NN CC JJ , RBR JJ NNS IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 40:
+  ORIGINAL : Thus, from the very beginning, labor sat at the center of colonial conflict: between European powers and indigenous polities, between settlers and imperial authorities, and between enslaved or coerced workers and those who claimed to own them.
+  REWRITTEN: Workforce control was the heart of disputes among Europeans, Africans, and the enslaved.
+  style_rel(orig) = 0.050, style_rel(new) = 0.307, Δ = 0.257
+  POS pattern (orig): RB , IN DT RB NN , NN VBD IN DT NN IN JJ NN : IN JJ NNS CC JJ NNS , IN NNS CC JJ NNS , CC IN VBN CC VBN NNS CC DT WP VBD TO VB PRP .
+  POS pattern (new) :  NNP NN VBD DT NN IN NNS IN NNPS , NNPS , CC DT VBN .
+  POS bigram changes:
+    Added:
+      , → NNPS
+      DT → VBN
+      IN → NNPS
+      NNP → NN
+      NNPS → ,
+      NNS → IN
+      VBD → DT
+      VBN → .
+    Removed:
+      , → IN
+      , → NN
+      : → IN
+      CC → IN
+      CC → JJ
+      CC → VBN
+      DT → RB
+      DT → WP
+      IN → DT
+      IN → JJ
+      IN → VBN
+      JJ → NN
+      JJ → NNS
+      NN → ,
+      NN → :
+      NNS → ,
+      NNS → CC
+      PRP → .
+      RB → ,
+      RB → NN
+      TO → VB
+      VB → PRP
+      VBD → IN
+      VBD → TO
+      VBN → CC
+      VBN → NNS
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 41:
+  ORIGINAL : The economic importance of labor shaped political decisions, territorial expansion, and cultural change.
+  REWRITTEN: Labor economics directed politics, geography, and societal evolution.
+  style_rel(orig) = 0.112, style_rel(new) = 0.194, Δ = 0.082
+  POS pattern (orig): DT JJ NN IN NN VBN JJ NNS , JJ NN , CC JJ NN .
+  POS pattern (new) :  NNP NNS VBD NNS , NN , CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      NNP → NNS
+      NNS → VBD
+      VBD → NNS
+    Removed:
+      , → JJ
+      DT → JJ
+      IN → NN
+      JJ → NNS
+      NN → IN
+      NN → VBN
+      VBN → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 42:
+  ORIGINAL : The Mineral Revolution: Diamonds, gold, and the industrial discipline of African labor
+
+If slavery and frontier coercion created a colonial economy, the discovery of diamonds at Kimberley in 1867 and gold on the Witwatersrand in 1886 created something else entirely: a deep, industrial, export-oriented mining economy that transformed South Africa into a crucial node in global capitalism.
+  REWRITTEN: The Mineral Revolution: Diamonds, gold, and the industrial discipline of African labor
+
+If slavery and frontier coercion created a colonial economy, the discovery of diamonds at Kimberley in 1867 and gold on the Witwatersrand in 1886 created something else entirely: a deep, industrial, export-oriented mining economy that transformed South Africa into a crucial node in global capitalism.
+  style_rel(orig) = 0.148, style_rel(new) = 0.148, Δ = 0.000
+  POS pattern (orig): DT NNP NNP : NNS , NN , CC DT JJ NN IN NNP NN IN NN CC JJR NN VBD DT JJ NN , DT NN IN NNS IN NNP IN CD CC NN IN DT NNP IN CD VBD NN RB RB : DT JJ , JJ , JJ NN NN WDT VBD NNP NNP IN DT JJ NN IN JJ NN .
+  POS pattern (new) :  DT NNP NNP : NNS , NN , CC DT JJ NN IN NNP NN IN NN CC JJR NN VBD DT JJ NN , DT NN IN NNS IN NNP IN CD CC NN IN DT NNP IN CD VBD NN RB RB : DT JJ , JJ , JJ NN NN WDT VBD NNP NNP IN DT JJ NN IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 43:
+  ORIGINAL : These minerals were buried deep underground and required enormous amounts of capital, engineering knowledge, and—most of all—labor.
+  REWRITTEN: These minerals were buried deep underground and required enormous amounts of capital, engineering knowledge, and—most of all—labor.
+  style_rel(orig) = 0.097, style_rel(new) = 0.097, Δ = 0.000
+  POS pattern (orig): DT NNS VBD VBN JJ NN CC VBN JJ NNS IN NN , NN NN , NN IN NN .
+  POS pattern (new) :  DT NNS VBD VBN JJ NN CC VBN JJ NNS IN NN , NN NN , NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 44:
+  ORIGINAL : You could not casually dig gold out of reefs thousands of meters below the surface with a few farmhands.
+  REWRITTEN: Small-scale labor couldn’t reach gold buried far underground.
+  style_rel(orig) = 0.100, style_rel(new) = 0.224, Δ = 0.124
+  POS pattern (orig): PRP MD RB RB VB NN IN IN JJ NNS IN NNS IN DT NN IN DT JJ NNS .
+  POS pattern (new) :  JJ NN NN NNP NN NN NN VBD RB JJ .
+  POS bigram changes:
+    Added:
+      JJ → .
+      JJ → NN
+      NN → NN
+      NN → NNP
+      NN → VBD
+      NNP → NN
+      RB → JJ
+      VBD → RB
+    Removed:
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → IN
+      IN → JJ
+      IN → NNS
+      JJ → NNS
+      MD → RB
+      NN → IN
+      NNS → .
+      NNS → IN
+      PRP → MD
+      RB → RB
+      RB → VB
+      VB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 45:
+  ORIGINAL : Mining houses needed thousands upon thousands of workers, willing to endure dangerous conditions for low pay, and ideally unable to easily leave.
+  REWRITTEN: The companies required massive, captive workforces under harsh conditions for meager wages.
+  style_rel(orig) = 0.112, style_rel(new) = 0.172, Δ = 0.061
+  POS pattern (orig): VBG NNS VBN NNS IN NNS IN NNS , JJ TO VB JJ NNS IN JJ NN , CC RB JJ TO RB VB .
+  POS pattern (new) :  DT NNS VBN JJ , JJ NNS IN JJ NNS IN NN NNS .
+  POS bigram changes:
+    Added:
+      DT → NNS
+      IN → NN
+      JJ → ,
+      NN → NNS
+      NNS → .
+      VBN → JJ
+    Removed:
+      , → CC
+      CC → RB
+      IN → NNS
+      JJ → NN
+      JJ → TO
+      NN → ,
+      NNS → ,
+      RB → JJ
+      RB → VB
+      TO → RB
+      TO → VB
+      VB → .
+      VB → JJ
+      VBG → NNS
+      VBN → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 46:
+  ORIGINAL : On the surface, this looked like an opportunity for African men.
+  REWRITTEN: Superficially, the mines offered African men a chance for paid work.
+  style_rel(orig) = 0.104, style_rel(new) = 0.122, Δ = 0.018
+  POS pattern (orig): IN DT NN , DT VBD IN DT NN IN JJ NNS .
+  POS pattern (new) :  RB , DT NNS VBD JJ NNS DT NN IN VBN NN .
+  POS bigram changes:
+    Added:
+      DT → NNS
+      IN → VBN
+      NN → .
+      NNS → DT
+      NNS → VBD
+      RB → ,
+      VBD → JJ
+      VBN → NN
+    Removed:
+      DT → VBD
+      IN → DT
+      IN → JJ
+      NN → ,
+      NNS → .
+      VBD → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 47:
+  ORIGINAL : The mines offered cash wages that could be used to pay colonial taxes, purchase goods, and gain status at home.
+  REWRITTEN: Wage labor enabled men to meet tax demands and gain respect locally.
+  style_rel(orig) = 0.084, style_rel(new) = 0.121, Δ = 0.037
+  POS pattern (orig): DT NNS VBD NN NNS WDT MD VB VBN TO VB JJ NNS , NN NNS , CC NN NN IN NN .
+  POS pattern (new) :  NNP NN VBD NNS TO VB NN NNS CC NN NN RB .
+  POS bigram changes:
+    Added:
+      NN → RB
+      NN → VBD
+      NNP → NN
+      NNS → CC
+      NNS → TO
+      RB → .
+      VB → NN
+      VBD → NNS
+    Removed:
+      , → CC
+      , → NN
+      DT → NNS
+      IN → NN
+      JJ → NNS
+      MD → VB
+      NN → .
+      NN → IN
+      NNS → ,
+      NNS → VBD
+      NNS → WDT
+      VB → JJ
+      VB → VBN
+      VBD → NN
+      VBN → TO
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 48:
+  ORIGINAL : But the system that emerged was designed to ensure that this new wage labor would benefit the mines and the colonial/imperial state far more than the workers.
+  REWRITTEN: Ultimately, workers gained little compared to the wealth extracted by the mines and ruling powers.
+  style_rel(orig) = 0.100, style_rel(new) = 0.258, Δ = 0.158
+  POS pattern (orig): CC DT NN WDT VBD VBD VBN TO VB IN DT JJ NN NN MD VB DT NNS CC DT JJ NN RB RBR IN DT NNS .
+  POS pattern (new) :  RB , NNS VBD RB VBN TO DT NN VBN IN DT NNS CC VBG NNS .
+  POS bigram changes:
+    Added:
+      , → NNS
+      CC → VBG
+      NN → VBN
+      NNS → VBD
+      RB → ,
+      RB → VBN
+      TO → DT
+      VBD → RB
+      VBG → NNS
+      VBN → IN
+    Removed:
+      CC → DT
+      DT → JJ
+      JJ → NN
+      MD → VB
+      NN → MD
+      NN → NN
+      NN → RB
+      NN → WDT
+      RB → RBR
+      RBR → IN
+      TO → VB
+      VB → DT
+      VB → IN
+      VBD → VBD
+      VBD → VBN
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 49:
+  ORIGINAL : Several features of the mining labor system show just how central labor was to South Africa’s path.
+  REWRITTEN: Key aspects of mine work reveal labor’s pivotal historical role.
+  style_rel(orig) = 0.203, style_rel(new) = 0.300, Δ = 0.097
+  POS pattern (orig): JJ NNS IN DT NN NN NN VB RB WRB JJ NN VBD TO NNP NNP NNP JJ NN .
+  POS pattern (new) :  NNP NNS IN JJ NN NN NN NNP VBD JJ JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → JJ
+      NN → NNP
+      NNP → NNS
+      NNP → VBD
+      VBD → JJ
+    Removed:
+      DT → NN
+      IN → DT
+      JJ → NNS
+      NN → VB
+      NN → VBD
+      NNP → JJ
+      NNP → NNP
+      RB → WRB
+      TO → NNP
+      VB → RB
+      VBD → TO
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 50:
+  ORIGINAL : First, the migrant labor system.
+  REWRITTEN: First, the migrant labor system.
+  style_rel(orig) = 0.184, style_rel(new) = 0.184, Δ = 0.000
+  POS pattern (orig): RB , DT JJ NN NN .
+  POS pattern (new) :  RB , DT JJ NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 51:
+  ORIGINAL : Instead of creating a permanent urban African working class with families in the cities, mining capitalists and the state opted for a system in which African men were recruited from rural areas and neighboring territories for fixed contracts, then sent back “home” after their work stint.
+  REWRITTEN: Authorities chose rotating rural recruits over a settled urban African workforce.
+  style_rel(orig) = 0.159, style_rel(new) = 0.169, Δ = 0.010
+  POS pattern (orig): RB IN VBG DT JJ JJ JJ VBG NN IN NNS IN DT NNS , NN NNS CC DT NN VBD IN DT NN IN WDT JJ NNS VBD VBN IN JJ NNS CC VBG NNS IN JJ NNS , RB VBD RP NNP NN NN IN PRP$ NN NN .
+  POS pattern (new) :  NNS VBD VBG JJ NNS IN DT JJ JJ NNP NN .
+  POS bigram changes:
+    Added:
+      JJ → NNP
+      VBD → VBG
+      VBG → JJ
+    Removed:
+      , → NN
+      , → RB
+      CC → DT
+      CC → VBG
+      DT → NN
+      DT → NNS
+      IN → JJ
+      IN → NNS
+      IN → PRP$
+      IN → VBG
+      IN → WDT
+      JJ → VBG
+      NN → IN
+      NN → NN
+      NN → NNS
+      NN → VBD
+      NNS → ,
+      NNS → CC
+      PRP$ → NN
+      RB → IN
+      RB → VBD
+      RP → NNP
+      VBD → IN
+      VBD → RP
+      VBD → VBN
+      VBG → DT
+      VBG → NN
+      VBG → NNS
+      VBN → IN
+      WDT → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 52:
+  ORIGINAL : This arrangement had multiple advantages for capital and the state.
+  REWRITTEN: The setup worked extremely well for those in power.
+  style_rel(orig) = 0.049, style_rel(new) = 0.101, Δ = 0.053
+  POS pattern (orig): DT NN VBD JJ NNS IN NN CC DT NN .
+  POS pattern (new) :  DT NN VBD RB RB IN DT IN NN .
+  POS bigram changes:
+    Added:
+      DT → IN
+      IN → DT
+      RB → IN
+      RB → RB
+      VBD → RB
+    Removed:
+      CC → DT
+      JJ → NNS
+      NN → CC
+      NNS → IN
+      VBD → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 53:
+  ORIGINAL : It externalized the cost of reproducing the labor force onto rural families and reserves.
+  REWRITTEN: It externalized the cost of reproducing the labor force onto rural families and reserves.
+  style_rel(orig) = 0.118, style_rel(new) = 0.118, Δ = 0.000
+  POS pattern (orig): PRP VBD DT NN IN VBG DT NN NN IN JJ NNS CC NNS .
+  POS pattern (new) :  PRP VBD DT NN IN VBG DT NN NN IN JJ NNS CC NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 54:
+  ORIGINAL : It reduced the risk of permanent African urban settlement and political organization.
+  REWRITTEN: It limited the formation of a rooted, politically active urban working class.
+  style_rel(orig) = 0.087, style_rel(new) = 0.148, Δ = 0.061
+  POS pattern (orig): PRP VBD DT NN IN JJ JJ JJ NN CC JJ NN .
+  POS pattern (new) :  PRP VBD DT NN IN DT JJ , RB JJ JJ VBG NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      DT → JJ
+      IN → DT
+      JJ → ,
+      JJ → VBG
+      RB → JJ
+      VBG → NN
+    Removed:
+      CC → JJ
+      IN → JJ
+      JJ → NN
+      NN → CC
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 55:
+  ORIGINAL : And it allowed wages to be kept extremely low, because workers’ survival was supplemented by subsistence production at home.
+  REWRITTEN: Employers could pay very little since food production at home offset living costs.
+  style_rel(orig) = 0.032, style_rel(new) = 0.134, Δ = 0.101
+  POS pattern (orig): CC PRP VBD NNS TO VB VBN RB JJ , IN NNS JJ NN VBD VBN IN NN NN IN NN .
+  POS pattern (new) :  NNS MD VB RB JJ IN NN NN IN NN NN NN NNS .
+  POS bigram changes:
+    Added:
+      JJ → IN
+      MD → VB
+      NN → NNS
+      NNS → .
+      NNS → MD
+      VB → RB
+    Removed:
+      , → IN
+      CC → PRP
+      IN → NNS
+      JJ → ,
+      JJ → NN
+      NN → .
+      NN → VBD
+      NNS → JJ
+      NNS → TO
+      PRP → VBD
+      TO → VB
+      VB → VBN
+      VBD → NNS
+      VBD → VBN
+      VBN → IN
+      VBN → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 56:
+  ORIGINAL : Second, tight control of workers’ daily lives.
+  REWRITTEN: A second pillar was the intense oversight of laborers’ routines.
+  style_rel(orig) = 0.112, style_rel(new) = 0.205, Δ = 0.093
+  POS pattern (orig): JJ , JJ NN IN NNS JJ JJ NNS .
+  POS pattern (new) :  DT JJ NN VBD DT JJ NN IN NNS NNP NNS .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      NN → VBD
+      NNP → NNS
+      NNS → NNP
+      VBD → DT
+    Removed:
+      , → JJ
+      JJ → ,
+      JJ → JJ
+      JJ → NNS
+      NNS → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 57:
+  ORIGINAL : On the mines, African laborers were housed in compounds—enclosed barracks whose stated purpose included preventing diamond theft but which also served to monitor, discipline, and segregate workers.
+  REWRITTEN: On the mines, African laborers were housed in compounds—enclosed barracks whose stated purpose included preventing diamond theft but which also served to monitor, discipline, and segregate workers.
+  style_rel(orig) = -1000000.000, style_rel(new) = -1000000.000, Δ = 0.000
+  POS pattern (orig): IN DT NNS , JJ NNS VBD VBN IN JJ NNS WP$ VBN NN VBD VBG NN NN CC WDT RB VBD TO VB , NN , CC JJ NNS .
+  POS pattern (new) :  IN DT NNS , JJ NNS VBD VBN IN JJ NNS WP$ VBN NN VBD VBG NN NN CC WDT RB VBD TO VB , NN , CC JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 58:
+  ORIGINAL : Pass laws restricted movement; contract systems limited bargaining power.
+  REWRITTEN: Pass controls and binding agreements curtailed mobility and negotiation.
+  style_rel(orig) = 0.110, style_rel(new) = 0.295, Δ = 0.185
+  POS pattern (orig): NNP NNS VBD NN : NN NNS VBD VBG NN .
+  POS pattern (new) :  NNP NNS CC VBG NNS VBN NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      CC → VBG
+      NN → CC
+      NNS → CC
+      NNS → VBN
+      VBG → NNS
+      VBN → NN
+    Removed:
+      : → NN
+      NN → :
+      NN → NNS
+      NNS → VBD
+      VBD → NN
+      VBD → VBG
+      VBG → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 59:
+  ORIGINAL : Occupational hierarchies were drawn along racial lines: whites did skilled, supervisory work at much higher wages; blacks did most of the hard, dangerous physical labor deep underground.
+  REWRITTEN: White workers dominated top positions while black workers faced the risky, grueling tasks.
+  style_rel(orig) = 0.034, style_rel(new) = 0.172, Δ = 0.138
+  POS pattern (orig): JJ NNS VBD VBN IN JJ NNS : NNS VBD VBN , JJ NN IN JJ JJR NNS : NNS VBD JJS IN DT JJ , JJ JJ NN JJ NN .
+  POS pattern (new) :  NNP NNS VBD JJ NNS IN JJ NNS VBD DT JJ , VBG NNS .
+  POS bigram changes:
+    Added:
+      , → VBG
+      NNP → NNS
+      NNS → .
+      NNS → IN
+      VBD → DT
+      VBD → JJ
+      VBG → NNS
+    Removed:
+      , → JJ
+      : → NNS
+      IN → DT
+      JJ → JJ
+      JJ → JJR
+      JJ → NN
+      JJR → NNS
+      JJS → IN
+      NN → .
+      NN → IN
+      NN → JJ
+      NNS → :
+      VBD → JJS
+      VBD → VBN
+      VBN → ,
+      VBN → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 60:
+  ORIGINAL : Third, state support for labor control.
+  REWRITTEN: Third, state support for labor control.
+  style_rel(orig) = 0.348, style_rel(new) = 0.348, Δ = 0.000
+  POS pattern (orig): NNP , NN NN IN NN NN .
+  POS pattern (new) :  NNP , NN NN IN NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 61:
+  ORIGINAL : As the mining industry grew, the colonial state reoriented itself around the needs of capital.
+  REWRITTEN: The state reshaped its institutions to meet mining industry demands.
+  style_rel(orig) = 0.060, style_rel(new) = 0.096, Δ = 0.037
+  POS pattern (orig): IN DT NN NN VBD , DT NN NN VBD PRP IN DT NNS IN NN .
+  POS pattern (new) :  DT NN VBD PRP$ NNS TO VB NN NN NNS .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNS → .
+      NNS → TO
+      PRP$ → NNS
+      TO → VB
+      VB → NN
+      VBD → PRP$
+    Removed:
+      , → DT
+      DT → NNS
+      IN → DT
+      IN → NN
+      NN → .
+      NNS → IN
+      PRP → IN
+      VBD → ,
+      VBD → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 62:
+  ORIGINAL : Laws regulated black workers’ movement, criminalized breaches of contract, and helped guarantee the steady flow of labor from rural “reserves” and neighboring colonies.
+  REWRITTEN: Legal codes ensured constant labor supplies by policing mobility and punishing contract violations.
+  style_rel(orig) = 0.110, style_rel(new) = 0.234, Δ = 0.124
+  POS pattern (orig): NNP VBD JJ NNS JJ NN , JJ NNS IN NN , CC VBD VB DT JJ NN IN NN IN JJ NN NNS VBP CC JJ NNS .
+  POS pattern (new) :  NNP NNS VBD JJ NN NNS IN VBG NN CC VBG NN NNS .
+  POS bigram changes:
+    Added:
+      CC → VBG
+      IN → VBG
+      NN → CC
+      NNP → NNS
+      NNS → VBD
+      VBG → NN
+    Removed:
+      , → CC
+      , → JJ
+      CC → JJ
+      CC → VBD
+      DT → JJ
+      IN → JJ
+      IN → NN
+      JJ → NNS
+      NN → ,
+      NN → IN
+      NNP → VBD
+      NNS → JJ
+      NNS → VBP
+      VB → DT
+      VBD → VB
+      VBP → CC
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 63:
+  ORIGINAL : Police and military power backed up this legal framework.
+  REWRITTEN: Police and military power backed up this legal framework.
+  style_rel(orig) = 0.197, style_rel(new) = 0.197, Δ = 0.000
+  POS pattern (orig): NNP CC JJ NN VBD RP DT JJ NN .
+  POS pattern (new) :  NNP CC JJ NN VBD RP DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 64:
+  ORIGINAL : The mineral revolution turned labor into a national question.
+  REWRITTEN: Labor concerns expanded into a countrywide political issue.
+  style_rel(orig) = 0.106, style_rel(new) = 0.258, Δ = 0.152
+  POS pattern (orig): DT JJ NN VBD NN IN DT JJ NN .
+  POS pattern (new) :  NNP NNS VBD IN DT JJ JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → JJ
+      NNP → NNS
+      NNS → VBD
+      VBD → IN
+    Removed:
+      NN → IN
+      NN → VBD
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 65:
+  ORIGINAL : African people were increasingly drawn into the wage economy, not because they freely chose to abandon subsistence livelihoods, but because their ability to survive independently was systematically undermined.
+  REWRITTEN: People entered wage work unwillingly as independent living was made impossible.
+  style_rel(orig) = 0.091, style_rel(new) = 0.153, Δ = 0.062
+  POS pattern (orig): JJ NNS VBD RB VBN IN DT NN NN , RB IN PRP RB VBD TO VB NN NNS , CC IN PRP$ NN TO VB RB VBD RB VBN .
+  POS pattern (new) :  NNS VBD NN NN RB IN JJ NN VBD VBN JJ .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → .
+      JJ → NN
+      NN → RB
+      NN → VBD
+      VBD → NN
+      VBD → VBN
+      VBN → JJ
+    Removed:
+      , → CC
+      , → RB
+      CC → IN
+      DT → NN
+      IN → DT
+      IN → PRP
+      IN → PRP$
+      JJ → NNS
+      NN → ,
+      NN → NNS
+      NN → TO
+      NNS → ,
+      PRP → RB
+      PRP$ → NN
+      RB → VBD
+      RB → VBN
+      TO → VB
+      VB → NN
+      VB → RB
+      VBD → RB
+      VBD → TO
+      VBN → .
+      VBN → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 66:
+  ORIGINAL : Land dispossession, livestock disease, taxation, and the erosion of rural economies pushed men into migrant labor.
+  REWRITTEN: A combination of lost land, livestock collapse, taxes, and failing rural livelihoods forced migration.
+  style_rel(orig) = 0.147, style_rel(new) = 0.181, Δ = 0.034
+  POS pattern (orig): NNP NN , NN NN , NN , CC DT NN IN JJ NNS VBN NNS IN JJ NN .
+  POS pattern (new) :  DT NN IN VBN NN , NN NN , NNS , CC VBG JJ NNS VBN NN .
+  POS bigram changes:
+    Added:
+      , → NNS
+      CC → VBG
+      IN → VBN
+      NNS → ,
+      VBG → JJ
+      VBN → NN
+    Removed:
+      CC → DT
+      IN → JJ
+      JJ → NN
+      NNP → NN
+      NNS → IN
+      VBN → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 67:
+  ORIGINAL : Their work, in turn, generated enormous profits that flowed to a small minority of shareholders and bolstered the political power of both English-speaking capital and Afrikaner farmers.
+  REWRITTEN: A tiny class gained wealth and influence from the labor of many.
+  style_rel(orig) = 0.119, style_rel(new) = 0.165, Δ = 0.046
+  POS pattern (orig): PRP$ NN , IN NN , VBD JJ NNS WDT VBD TO DT JJ NN IN NNS CC VBD DT JJ NN IN DT NNP NN CC NNP NNS .
+  POS pattern (new) :  DT JJ NN VBN NN CC NN IN DT NN IN JJ .
+  POS bigram changes:
+    Added:
+      CC → NN
+      DT → NN
+      IN → JJ
+      JJ → .
+      NN → VBN
+      VBN → NN
+    Removed:
+      , → IN
+      , → VBD
+      CC → NNP
+      CC → VBD
+      DT → NNP
+      IN → NN
+      IN → NNS
+      JJ → NNS
+      NN → ,
+      NNP → NN
+      NNP → NNS
+      NNS → .
+      NNS → CC
+      NNS → WDT
+      PRP$ → NN
+      TO → DT
+      VBD → DT
+      VBD → JJ
+      VBD → TO
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 68:
+  ORIGINAL : Labor here did triple duty.
+  REWRITTEN: Work in mining fulfilled multiple roles at once.
+  style_rel(orig) = -0.022, style_rel(new) = 0.222, Δ = 0.245
+  POS pattern (orig): NN RB VBD JJ NN .
+  POS pattern (new) :  NN IN VBG JJ JJ NNS IN RB .
+  POS bigram changes:
+    Added:
+      IN → RB
+      IN → VBG
+      JJ → JJ
+      JJ → NNS
+      NN → IN
+      NNS → IN
+      RB → .
+      VBG → JJ
+    Removed:
+      JJ → NN
+      NN → .
+      NN → RB
+      RB → VBD
+      VBD → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 69:
+  ORIGINAL : Economically, it generated the surplus that made South Africa strategically important to global capitalism.
+  REWRITTEN: Global capitalist relevance came from the surplus extracted from workers.
+  style_rel(orig) = 0.015, style_rel(new) = 0.068, Δ = 0.053
+  POS pattern (orig): RB , PRP VBD DT NN WDT VBD NNP NNP RB JJ TO JJ NN .
+  POS pattern (new) :  JJ NN NN VBD IN DT NN VBD IN NNS .
+  POS bigram changes:
+    Added:
+      IN → DT
+      IN → NNS
+      NN → NN
+      NN → VBD
+      NNS → .
+      VBD → IN
+    Removed:
+      , → PRP
+      JJ → TO
+      NN → .
+      NN → WDT
+      NNP → NNP
+      NNP → RB
+      PRP → VBD
+      RB → ,
+      RB → JJ
+      TO → JJ
+      VBD → DT
+      VBD → NNP
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 70:
+  ORIGINAL : Politically, the discipline of African labor and the alliance between mining capital and Afrikaner agrarian interests laid the foundation for a state designed to manage a large, disenfranchised workforce.
+  REWRITTEN: Politically, the discipline of African labor and the alliance between mining capital and Afrikaner agrarian interests laid the foundation for a state designed to manage a large, disenfranchised workforce.
+  style_rel(orig) = 0.160, style_rel(new) = 0.160, Δ = 0.000
+  POS pattern (orig): RB , DT NN IN JJ NN CC DT NN IN VBG NN CC NNP JJ NNS VBD DT NN IN DT NN VBN TO VB DT JJ , JJ NN .
+  POS pattern (new) :  RB , DT NN IN JJ NN CC DT NN IN VBG NN CC NNP JJ NNS VBD DT NN IN DT NN VBN TO VB DT JJ , JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 71:
+  ORIGINAL : Socially, migrant labor fractured families, reconfigured gender roles (with women left in the countryside bearing the weight of survival), and created a new class of urban, yet not fully urban, African workers whose lives were split between compound and rural home.
+  REWRITTEN: The migrant system split households, shifted gender burdens to rural women, and produced a workforce living between two worlds.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.075, Δ = 1000000.075
+  POS pattern (orig): RB , JJ NN VBD NNS , VBD NN NNS ( IN NNS VBN IN DT NN VBG DT NN IN NN ) , CC VBD DT JJ NN IN JJ , RB RB RB JJ , JJ NNS WP$ NNS VBD VBN IN NN CC JJ NN .
+  POS pattern (new) :  DT NN NN NN NNS , VBD NN NNS TO JJ NNS , CC VBD DT NN VBG IN CD NNS .
+  POS bigram changes:
+    Added:
+      CD → NNS
+      IN → CD
+      NN → NN
+      NNS → .
+      NNS → TO
+      TO → JJ
+      VBG → IN
+    Removed:
+      ( → IN
+      ) → ,
+      , → JJ
+      , → RB
+      CC → JJ
+      DT → JJ
+      IN → DT
+      IN → JJ
+      IN → NN
+      IN → NNS
+      JJ → ,
+      JJ → NN
+      NN → )
+      NN → .
+      NN → CC
+      NN → IN
+      NN → VBD
+      NNS → (
+      NNS → VBD
+      NNS → VBN
+      NNS → WP$
+      RB → ,
+      RB → JJ
+      RB → RB
+      VBD → NNS
+      VBD → VBN
+      VBG → DT
+      VBN → IN
+      WP$ → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 72:
+  ORIGINAL : This system was not a side effect of mining; it was the core technology that made the mining economy possible.
+  REWRITTEN: Labor control wasn’t incidental — it powered the entire mining operation.
+  style_rel(orig) = 0.019, style_rel(new) = 0.218, Δ = 0.199
+  POS pattern (orig): DT NN VBD RB DT NN NN IN NN : PRP VBD DT NN NN WDT VBD DT NN NN JJ .
+  POS pattern (new) :  NNP NN NN NNP NN NN VBD PRP VBD DT JJ NN NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NN
+      NN → .
+      NN → NNP
+      NNP → NN
+      VBD → PRP
+    Removed:
+      : → PRP
+      DT → NN
+      IN → NN
+      JJ → .
+      NN → :
+      NN → IN
+      NN → JJ
+      NN → WDT
+      RB → DT
+      VBD → RB
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 73:
+  ORIGINAL : Glen Grey and the rural engineering of a labor supply
+
+The mines’ hunger for workers created pressure to reshape rural societies.
+  REWRITTEN: Glen Grey and the rural engineering of a labor supply
+
+The mines’ hunger for workers created pressure to reshape rural societies.
+  style_rel(orig) = 0.161, style_rel(new) = 0.161, Δ = 0.000
+  POS pattern (orig): NNP NNP CC DT JJ NN IN DT NN NN DT NNS NNP NN IN NNS VBN NN TO VB JJ NNS .
+  POS pattern (new) :  NNP NNP CC DT JJ NN IN DT NN NN DT NNS NNP NN IN NNS VBN NN TO VB JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 74:
+  ORIGINAL : The Glen Grey district in the Eastern Cape provides a window into how colonial authorities and white politicians tried to “design” a labor force by manipulating land, taxation, and legal status.
+  REWRITTEN: The Glen Grey district in the Eastern Cape provides a window into how colonial authorities and white politicians tried to “design” a labor force by manipulating land, taxation, and legal status.
+  style_rel(orig) = 0.139, style_rel(new) = 0.139, Δ = 0.000
+  POS pattern (orig): DT NNP NNP NN IN DT JJ NNP VBZ DT NN IN WRB JJ NNS CC JJ NNS VBN TO VB NN FW DT NN NN IN VBG NN , NN , CC JJ NN .
+  POS pattern (new) :  DT NNP NNP NN IN DT JJ NNP VBZ DT NN IN WRB JJ NNS CC JJ NNS VBN TO VB NN FW DT NN NN IN VBG NN , NN , CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 75:
+  ORIGINAL : By the late nineteenth century, parts of the Eastern Cape contained relatively dense African communities farming on land that had not yet been fully alienated to white settlers.
+  REWRITTEN: Some Eastern Cape regions still held thriving African farming communities on unexpropriated land.
+  style_rel(orig) = 0.183, style_rel(new) = 0.204, Δ = 0.021
+  POS pattern (orig): IN DT JJ JJ NN , NNS IN DT NNP NNP VBD RB JJ JJ NNS VBG IN NN WDT VBD RB RB VBN RB VBN TO JJ NNS .
+  POS pattern (new) :  DT JJ NNP NNS RB VBD JJ JJ VBG NNS IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NNP
+      JJ → VBG
+      NN → .
+      NNP → NNS
+      NNS → RB
+      RB → VBD
+      VBD → JJ
+      VBG → NNS
+    Removed:
+      , → NNS
+      DT → NNP
+      IN → DT
+      IN → NN
+      JJ → NNS
+      NN → ,
+      NN → WDT
+      NNP → NNP
+      NNP → VBD
+      NNS → .
+      NNS → VBG
+      RB → JJ
+      RB → RB
+      RB → VBN
+      TO → JJ
+      VBD → RB
+      VBG → IN
+      VBN → RB
+      VBN → TO
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 76:
+  ORIGINAL : Some African farmers, including many Thembu, had become quite successful, producing crops for markets, accumulating livestock, and maintaining a degree of autonomy.
+  REWRITTEN: Some African farmers, including many Thembu, had become quite successful, producing crops for markets, accumulating livestock, and maintaining a degree of autonomy.
+  style_rel(orig) = 0.191, style_rel(new) = 0.191, Δ = 0.000
+  POS pattern (orig): DT JJ NNS , VBG JJ NNP , VBD VBN RB JJ , VBG NNS IN NNS , VBG NN , CC VBG DT NN IN NN .
+  POS pattern (new) :  DT JJ NNS , VBG JJ NNP , VBD VBN RB JJ , VBG NNS IN NNS , VBG NN , CC VBG DT NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 77:
+  ORIGINAL : For white politicians and farmers who saw these communities as both a land problem and a labor problem, this was unacceptable.
+  REWRITTEN: White authorities viewed independent African farmers as obstacles to land access and labor supply.
+  style_rel(orig) = 0.088, style_rel(new) = 0.178, Δ = 0.090
+  POS pattern (orig): IN JJ NNS CC NNS WP VBD DT NNS IN DT DT NN NN CC DT NN NN , DT VBD JJ .
+  POS pattern (new) :  NNP NNS VBD JJ JJ NNS IN NNS TO VB NN CC NN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → NNS
+      JJ → JJ
+      NN → .
+      NNP → NNS
+      NNS → TO
+      NNS → VBD
+      TO → VB
+      VB → NN
+    Removed:
+      , → DT
+      CC → DT
+      CC → NNS
+      DT → DT
+      DT → NN
+      DT → NNS
+      DT → VBD
+      IN → DT
+      IN → JJ
+      JJ → .
+      NN → ,
+      NNS → CC
+      NNS → WP
+      VBD → DT
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 78:
+  ORIGINAL : The Glen Grey Act of 1894, often associated with Cecil Rhodes, targeted this situation.
+  REWRITTEN: The Glen Grey Act of 1894, often associated with Cecil Rhodes, targeted this situation.
+  style_rel(orig) = 0.240, style_rel(new) = 0.240, Δ = 0.000
+  POS pattern (orig): DT NNP NNP NNP IN CD , RB VBN IN NNP NNP , VBD DT NN .
+  POS pattern (new) :  DT NNP NNP NNP IN CD , RB VBN IN NNP NNP , VBD DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 79:
+  ORIGINAL : Nominally, it introduced individual title over small plots of land to African male household heads in the district.
+  REWRITTEN: Officially, it created individual ownership of small land parcels.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.068, Δ = 1000000.068
+  POS pattern (orig): RB , PRP VBD JJ NN IN JJ NNS IN NN TO NNP NN NN NNS IN DT NN .
+  POS pattern (new) :  RB , PRP VBD JJ NN IN JJ NN NNS .
+  POS bigram changes:
+    Added:
+      NNS → .
+    Removed:
+      DT → NN
+      IN → DT
+      IN → NN
+      JJ → NNS
+      NN → .
+      NN → NN
+      NN → TO
+      NNP → NN
+      NNS → IN
+      TO → NNP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 80:
+  ORIGINAL : In practice, it did several things that were all about labor.
+  REWRITTEN: Its true effects related to securing a workforce rather than land rights.
+  style_rel(orig) = -0.083, style_rel(new) = 0.140, Δ = 0.223
+  POS pattern (orig): IN NN , PRP VBD JJ NNS WDT VBD DT IN NN .
+  POS pattern (new) :  PRP$ JJ NNS VBN TO VBG DT NN RB IN NN NNS .
+  POS bigram changes:
+    Added:
+      DT → NN
+      NN → NNS
+      NN → RB
+      NNS → .
+      NNS → VBN
+      PRP$ → JJ
+      RB → IN
+      TO → VBG
+      VBG → DT
+      VBN → TO
+    Removed:
+      , → PRP
+      DT → IN
+      NN → ,
+      NN → .
+      NNS → WDT
+      PRP → VBD
+      VBD → DT
+      VBD → JJ
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 81:
+  ORIGINAL : It restricted land holdings to small, fixed plots, making it impossible for extended families to expand their holdings as they grew.
+  REWRITTEN: Plot limits prevented families from scaling up as their needs increased.
+  style_rel(orig) = 0.083, style_rel(new) = 0.254, Δ = 0.171
+  POS pattern (orig): PRP VBD NN NNS TO JJ , JJ NNS , VBG PRP JJ IN JJ NNS TO VB PRP$ NNS IN PRP VBD .
+  POS pattern (new) :  NNP NNS VBD NNS IN VBG RP IN PRP$ NNS VBN .
+  POS bigram changes:
+    Added:
+      IN → PRP$
+      IN → VBG
+      NNP → NNS
+      NNS → VBD
+      NNS → VBN
+      RP → IN
+      VBD → NNS
+      VBG → RP
+      VBN → .
+    Removed:
+      , → JJ
+      , → VBG
+      IN → JJ
+      IN → PRP
+      JJ → ,
+      JJ → IN
+      JJ → NNS
+      NN → NNS
+      NNS → ,
+      NNS → TO
+      PRP → JJ
+      PRP → VBD
+      TO → JJ
+      TO → VB
+      VB → PRP$
+      VBD → .
+      VBD → NN
+      VBG → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 82:
+  ORIGINAL : It prohibited subletting and squatting, limiting the ability of land-poor families to remain in the area.
+  REWRITTEN: It prohibited subletting and squatting, limiting the ability of land-poor families to remain in the area.
+  style_rel(orig) = 0.162, style_rel(new) = 0.162, Δ = 0.000
+  POS pattern (orig): PRP VBD VBG CC VBG , VBG DT NN IN JJ NNS TO VB IN DT NN .
+  POS pattern (new) :  PRP VBD VBG CC VBG , VBG DT NN IN JJ NNS TO VB IN DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 83:
+  ORIGINAL : And it paired land rights with new taxes—on land holdings, on men deemed “able-bodied,” and in some cases on employers—payable in cash.
+  REWRITTEN: And it paired land rights with new taxes—on land holdings, on men deemed “able-bodied,” and in some cases on employers—payable in cash.
+  style_rel(orig) = 0.064, style_rel(new) = 0.064, Δ = 0.000
+  POS pattern (orig): CC PRP VBD NN NNS IN JJ NNS NN NNS , IN NNS VBN JJ JJ , JJ CC IN DT NNS IN JJ IN NN .
+  POS pattern (new) :  CC PRP VBD NN NNS IN JJ NNS NN NNS , IN NNS VBN JJ JJ , JJ CC IN DT NNS IN JJ IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 84:
+  ORIGINAL : The logic was clear: squeeze people off the land and into the labor market.
+  REWRITTEN: The intention was obvious: push Africans toward wage work by limiting land survival.
+  style_rel(orig) = 0.059, style_rel(new) = 0.191, Δ = 0.132
+  POS pattern (orig): DT NN VBD JJ : NN NNS IN DT NN CC IN DT NN NN .
+  POS pattern (new) :  DT NN VBD JJ : NN NNPS IN NN NN IN VBG NN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → VBG
+      NN → IN
+      NN → NNPS
+      NNPS → IN
+      VBG → NN
+    Removed:
+      CC → IN
+      IN → DT
+      NN → CC
+      NN → NNS
+      NNS → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 85:
+  ORIGINAL : If families could no longer sustain themselves on their plots, and if they owed taxes that could only be paid in money, then men would be compelled to seek wages on white farms, in towns, or in the mines.
+  REWRITTEN: Cash taxes plus insufficient land drove men into white-controlled labor markets.
+  style_rel(orig) = 0.091, style_rel(new) = 0.180, Δ = 0.090
+  POS pattern (orig): IN NNS MD RB RB VB PRP IN PRP$ NNS , CC IN PRP VBD NNS WDT MD RB VB VBN IN NN , RB NNS MD VB VBN TO VB NNS IN JJ NNS , IN NNS , CC IN DT NNS .
+  POS pattern (new) :  NNP NNS CC JJ NN VB NNS IN JJ NN NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      JJ → NN
+      NN → NNS
+      NN → VB
+      NNP → NNS
+      NNS → CC
+    Removed:
+      , → CC
+      , → IN
+      , → RB
+      CC → IN
+      DT → NNS
+      IN → DT
+      IN → NN
+      IN → NNS
+      IN → PRP
+      IN → PRP$
+      JJ → NNS
+      MD → RB
+      MD → VB
+      NN → ,
+      NNS → ,
+      NNS → MD
+      NNS → WDT
+      PRP → IN
+      PRP → VBD
+      PRP$ → NNS
+      RB → NNS
+      RB → RB
+      RB → VB
+      TO → VB
+      VB → PRP
+      VB → VBN
+      VBD → NNS
+      VBN → IN
+      VBN → TO
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 86:
+  ORIGINAL : Those who left to work outside the district for portions of the year could receive partial relief from some of the taxes, making migration an attractive, or at least necessary, option.
+  REWRITTEN: Those who left to work outside the district for portions of the year could receive partial relief from some of the taxes, making migration an attractive, or at least necessary, option.
+  style_rel(orig) = 0.141, style_rel(new) = 0.141, Δ = 0.000
+  POS pattern (orig): DT WP VBD TO VB IN DT NN IN NNS IN DT NN MD VB JJ NN IN DT IN DT NNS , VBG NN DT JJ , CC IN JJS JJ , NN .
+  POS pattern (new) :  DT WP VBD TO VB IN DT NN IN NNS IN DT NN MD VB JJ NN IN DT IN DT NNS , VBG NN DT JJ , CC IN JJS JJ , NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 87:
+  ORIGINAL : In this sense, the Glen Grey Act was less about granting land and more about weaponizing it.
+  REWRITTEN: In this sense, the Glen Grey Act was less about granting land and more about weaponizing it.
+  style_rel(orig) = 0.210, style_rel(new) = 0.210, Δ = 0.000
+  POS pattern (orig): IN DT NN , DT NNP NNP NNP VBD RBR IN VBG NN CC JJR IN VBG PRP .
+  POS pattern (new) :  IN DT NN , DT NNP NNP NNP VBD RBR IN VBG NN CC JJR IN VBG PRP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 88:
+  ORIGINAL : Land became a tool to sort the population: a limited number of smallholders and a much larger pool of landless or land-poor people who had little choice but to sell their labor under unfavorable conditions.
+  REWRITTEN: Land became a tool to sort the population: a limited number of smallholders and a much larger pool of landless or land-poor people who had little choice but to sell their labor under unfavorable conditions.
+  style_rel(orig) = 0.117, style_rel(new) = 0.117, Δ = 0.000
+  POS pattern (orig): NNP VBD DT NN TO VB DT NN : DT JJ NN IN NNS CC DT RB JJR NN IN NN CC JJ NNS WP VBD JJ NN CC TO VB PRP$ NN IN JJ NNS .
+  POS pattern (new) :  NNP VBD DT NN TO VB DT NN : DT JJ NN IN NNS CC DT RB JJR NN IN NN CC JJ NNS WP VBD JJ NN CC TO VB PRP$ NN IN JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 89:
+  ORIGINAL : This pattern, extended and hardened in later land acts and the creation of “native reserves” and “homelands,” meant that South Africa’s racial order was literally built into the landscape.
+  REWRITTEN: This pattern, extended and hardened in later land acts and the creation of “native reserves” and “homelands,” meant that South Africa’s racial order was literally built into the landscape.
+  style_rel(orig) = 0.202, style_rel(new) = 0.202, Δ = 0.000
+  POS pattern (orig): DT NN , VBN CC VBN IN JJ NN NNS CC DT NN IN NNP JJ NNS VBP CC NNP NNS , NNP VBD IN NNP NNP NNP VBD JJ NN VBD RB VBN IN DT NN .
+  POS pattern (new) :  DT NN , VBN CC VBN IN JJ NN NNS CC DT NN IN NNP JJ NNS VBP CC NNP NNS , NNP VBD IN NNP NNP NNP VBD JJ NN VBD RB VBN IN DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 90:
+  ORIGINAL : Here, again, the importance of labor is obvious.
+  REWRITTEN: Labor’s central role is undeniable in this context.
+  style_rel(orig) = 0.101, style_rel(new) = 0.164, Δ = 0.063
+  POS pattern (orig): RB , RB , DT NN IN NN VBZ JJ .
+  POS pattern (new) :  NNP NNP JJ JJ NN VBZ JJ IN DT NN .
+  POS bigram changes:
+    Added:
+      IN → DT
+      JJ → IN
+      JJ → JJ
+      JJ → NN
+      NN → .
+      NNP → JJ
+      NNP → NNP
+    Removed:
+      , → DT
+      , → RB
+      IN → NN
+      JJ → .
+      NN → IN
+      RB → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 91:
+  ORIGINAL : Political elites were not primarily trying to eliminate African farming; they were trying to subordinate it so that it would feed the wage labor system.
+  REWRITTEN: The aim wasn’t to end African agriculture but to place it beneath wage labor’s needs.
+  style_rel(orig) = 0.013, style_rel(new) = 0.230, Δ = 0.217
+  POS pattern (orig): JJ NNS VBD RB RB VBG TO VB JJ NN : PRP VBD VBG TO VB PRP RB IN PRP MD VB DT NN NN NN .
+  POS pattern (new) :  DT NN NN NNP NN TO VB JJ NN CC TO VB PRP NN NN NN NNP NN NNS .
+  POS bigram changes:
+    Added:
+      CC → TO
+      NN → CC
+      NN → NNP
+      NN → NNS
+      NN → TO
+      NNP → NN
+      NNS → .
+      PRP → NN
+    Removed:
+      : → PRP
+      IN → PRP
+      JJ → NNS
+      MD → VB
+      NN → .
+      NN → :
+      NNS → VBD
+      PRP → MD
+      PRP → RB
+      PRP → VBD
+      RB → IN
+      RB → RB
+      RB → VBG
+      VB → DT
+      VBD → RB
+      VBD → VBG
+      VBG → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 92:
+  ORIGINAL : The rural economy was reshaped to complement mines and white farms, not to stand alongside them as an equal.
+  REWRITTEN: The rural economy was reshaped to complement mines and white farms, not to stand alongside them as an equal.
+  style_rel(orig) = 0.111, style_rel(new) = 0.111, Δ = 0.000
+  POS pattern (orig): DT JJ NN VBD VBN TO VB NNS CC JJ NNS , RB TO VB RB PRP IN DT JJ .
+  POS pattern (new) :  DT JJ NN VBD VBN TO VB NNS CC JJ NNS , RB TO VB RB PRP IN DT JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 93:
+  ORIGINAL : Labor was the missing piece they were engineering toward: enough dependence on wages to guarantee a supply of workers, but enough rural subsistence left to subsidize the low wages employers wanted to pay.
+  REWRITTEN: Dependence on wages and family-subsidized survival formed the labor pipeline’s design logic.
+  style_rel(orig) = 0.076, style_rel(new) = 0.140, Δ = 0.063
+  POS pattern (orig): NN VBD DT VBG NN PRP VBD NN IN : JJ NN IN NNS TO VB DT NN IN NNS , CC JJ JJ NN VBD TO VB DT JJ NNS NNS VBD TO VB .
+  POS pattern (new) :  NN IN NNS CC JJ NN VBD DT NN NN NNP CC NN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      NN → .
+      NN → NN
+      NN → NNP
+      NNP → CC
+      NNS → CC
+    Removed:
+      , → CC
+      : → JJ
+      DT → JJ
+      DT → VBG
+      IN → :
+      JJ → JJ
+      JJ → NNS
+      NN → PRP
+      NNS → ,
+      NNS → NNS
+      NNS → TO
+      NNS → VBD
+      PRP → VBD
+      TO → VB
+      VB → .
+      VB → DT
+      VBD → NN
+      VBD → TO
+      VBG → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 94:
+  ORIGINAL : This rural engineering reveals how deeply questions of labor penetrated statecraft.
+  REWRITTEN: Labor considerations deeply informed governmental planning and policy.
+  style_rel(orig) = 0.035, style_rel(new) = 0.258, Δ = 0.223
+  POS pattern (orig): DT JJ NN VBZ WRB JJ NNS IN NN VBN NN .
+  POS pattern (new) :  NNP NNS RB JJ JJ NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → JJ
+      NN → CC
+      NNP → NNS
+      NNS → RB
+      RB → JJ
+    Removed:
+      DT → JJ
+      IN → NN
+      JJ → NNS
+      NN → VBN
+      NN → VBZ
+      NNS → IN
+      VBN → NN
+      VBZ → WRB
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 95:
+  ORIGINAL : The colonial and, later, Union government treated African people not as citizens with rights, but as potential workers whose availability needed to be managed through land, law, and tax policy.
+  REWRITTEN: Authorities viewed Africans mainly as labor sources to be controlled by policy tools.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.109, Δ = 1000000.109
+  POS pattern (orig): DT NN CC , RB , NNP NN VBD JJ NNS RB IN NNS IN NNS , CC IN JJ NNS WP$ NN VBN TO VB VBN IN NN , NN , CC NN NN .
+  POS pattern (new) :  NNS VBD NNPS RB IN NN NNS TO VB VBN IN NN NNS .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNPS → RB
+      NNS → .
+      NNS → TO
+      NNS → VBD
+      VBD → NNPS
+    Removed:
+      , → CC
+      , → NN
+      , → NNP
+      , → RB
+      CC → ,
+      CC → IN
+      CC → NN
+      DT → NN
+      IN → JJ
+      IN → NNS
+      JJ → NNS
+      NN → ,
+      NN → .
+      NN → CC
+      NN → NN
+      NN → VBD
+      NN → VBN
+      NNP → NN
+      NNS → ,
+      NNS → IN
+      NNS → RB
+      NNS → WP$
+      RB → ,
+      VBD → JJ
+      VBN → TO
+      WP$ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 96:
+  ORIGINAL : Apartheid, manufacturing, and the Durban strikes of 1973
+
+By the mid-twentieth century, South Africa had moved beyond being just a mining and agricultural economy.
+  REWRITTEN: Apartheid, manufacturing, and the Durban strikes of 1973
+
+By the mid-twentieth century, South Africa had moved beyond being just a mining and agricultural economy.
+  style_rel(orig) = 0.241, style_rel(new) = 0.241, Δ = 0.000
+  POS pattern (orig): NNP , NN , CC DT NNP NNS IN CD IN DT JJ NN , NNP NNP VBD VBN IN VBG RB DT NN CC JJ NN .
+  POS pattern (new) :  NNP , NN , CC DT NNP NNS IN CD IN DT JJ NN , NNP NNP VBD VBN IN VBG RB DT NN CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 97:
+  ORIGINAL : Manufacturing expanded, especially in and around cities like Johannesburg, Durban, and Cape Town.
+  REWRITTEN: Manufacturing expanded, especially in and around cities like Johannesburg, Durban, and Cape Town.
+  style_rel(orig) = 0.310, style_rel(new) = 0.310, Δ = 0.000
+  POS pattern (orig): VBG VBD , RB IN CC IN NNS IN NNP , NNP , CC NNP NNP .
+  POS pattern (new) :  VBG VBD , RB IN CC IN NNS IN NNP , NNP , CC NNP NNP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 98:
+  ORIGINAL : The apartheid state, which came to power in 1948, tried to square a circle: it wanted the benefits of industrialization and cheap black labor without giving up racial control.
+  REWRITTEN: Apartheid sought industry and low-cost labor while maintaining strict racial dominance.
+  style_rel(orig) = -0.065, style_rel(new) = 0.178, Δ = 0.242
+  POS pattern (orig): DT NN NN , WDT VBD TO NN IN CD , VBD TO VB DT NN : PRP VBD DT NNS IN NN CC JJ JJ NN IN VBG RP JJ NN .
+  POS pattern (new) :  NNP VBD NN CC JJ NN IN VBG JJ JJ NN .
+  POS bigram changes:
+    Added:
+      NNP → VBD
+      VBD → NN
+      VBG → JJ
+    Removed:
+      , → VBD
+      , → WDT
+      : → PRP
+      CD → ,
+      DT → NN
+      DT → NNS
+      IN → CD
+      IN → NN
+      NN → ,
+      NN → :
+      NN → NN
+      NNS → IN
+      PRP → VBD
+      RP → JJ
+      TO → NN
+      TO → VB
+      VB → DT
+      VBD → DT
+      VBD → TO
+      VBG → RP
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 99:
+  ORIGINAL : Apartheid laws tightened pass systems, locked Africans into ethnically defined “homelands,” and restricted where they could live and work in the so-called “white” areas.
+  REWRITTEN: Apartheid laws tightened pass systems, locked Africans into ethnically defined “homelands,” and restricted where they could live and work in the so-called “white” areas.
+  style_rel(orig) = 0.297, style_rel(new) = 0.297, Δ = 0.000
+  POS pattern (orig): NNP NNS VBD NN NNS , JJ NNPS IN RB VBN NNP NNS , NN CC VBN WRB PRP MD VB CC VB IN DT JJ NNP JJ NNP NNS .
+  POS pattern (new) :  NNP NNS VBD NN NNS , JJ NNPS IN RB VBN NNP NNS , NN CC VBN WRB PRP MD VB CC VB IN DT JJ NNP JJ NNP NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 100:
+  ORIGINAL : The state imagined black workers as temporary sojourners, not urban citizens.
+  REWRITTEN: Authorities viewed Black laborers as guests, never residents of the city.
+  style_rel(orig) = 0.061, style_rel(new) = 0.161, Δ = 0.100
+  POS pattern (orig): DT NN VBD JJ NNS IN JJ NNS , RB JJ NNS .
+  POS pattern (new) :  NNS VBD NNP NNS IN NNS , RB NNS IN DT NN .
+  POS bigram changes:
+    Added:
+      IN → DT
+      IN → NNS
+      NN → .
+      NNP → NNS
+      NNS → VBD
+      RB → NNS
+      VBD → NNP
+    Removed:
+      IN → JJ
+      JJ → NNS
+      NN → VBD
+      NNS → .
+      RB → JJ
+      VBD → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 101:
+  ORIGINAL : But factories, docks, and construction sites depended on their labor day in and day out.
+  REWRITTEN: Urban production could not function without Black labor.
+  style_rel(orig) = 0.086, style_rel(new) = 0.152, Δ = 0.066
+  POS pattern (orig): CC NNS , NNS , CC NN NNS VBD IN PRP$ NN NN IN CC NN RP .
+  POS pattern (new) :  JJ NN MD RB VB IN NNP NN .
+  POS bigram changes:
+    Added:
+      IN → NNP
+      JJ → NN
+      MD → RB
+      NN → .
+      NN → MD
+      NNP → NN
+      RB → VB
+      VB → IN
+    Removed:
+      , → CC
+      , → NNS
+      CC → NN
+      CC → NNS
+      IN → CC
+      IN → PRP$
+      NN → IN
+      NN → NN
+      NN → NNS
+      NN → RP
+      NNS → ,
+      NNS → VBD
+      PRP$ → NN
+      RP → .
+      VBD → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 102:
+  ORIGINAL : This contradiction made workplaces a key site of struggle.
+  REWRITTEN: These conflicting demands fueled labor activism in industrial settings.
+  style_rel(orig) = 0.060, style_rel(new) = 0.068, Δ = 0.008
+  POS pattern (orig): DT NN VBD NNS DT JJ NN IN NN .
+  POS pattern (new) :  DT VBG NNS VBD NN NN IN JJ NNS .
+  POS bigram changes:
+    Added:
+      DT → VBG
+      IN → JJ
+      JJ → NNS
+      NN → NN
+      NNS → .
+      NNS → VBD
+      VBD → NN
+      VBG → NNS
+    Removed:
+      DT → JJ
+      DT → NN
+      IN → NN
+      JJ → NN
+      NN → .
+      NN → VBD
+      NNS → DT
+      VBD → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 103:
+  ORIGINAL : Durban in the early 1970s was one of the places where that tension snapped.
+  REWRITTEN: Durban in the early 1970s was one of the places where that tension snapped.
+  style_rel(orig) = 0.215, style_rel(new) = 0.215, Δ = 0.000
+  POS pattern (orig): NN IN DT JJ CD VBD CD IN DT NNS WRB DT NN VBD .
+  POS pattern (new) :  NN IN DT JJ CD VBD CD IN DT NNS WRB DT NN VBD .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 104:
+  ORIGINAL : African workers in industries like textiles, metalworking, and brickmaking were paid extremely low wages and faced harsh conditions.
+  REWRITTEN: Black industrial workers endured minimal pay and punishing workplaces.
+  style_rel(orig) = 0.108, style_rel(new) = 0.112, Δ = 0.004
+  POS pattern (orig): JJ NNS IN NNS IN NNS , NN , CC VBG VBD VBN RB JJ NNS CC VBD JJ NNS .
+  POS pattern (new) :  NNP JJ NNS VBD JJ NN CC NN NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → NN
+      NN → CC
+      NN → NNS
+      NNP → JJ
+      NNS → VBD
+    Removed:
+      , → CC
+      , → NN
+      CC → VBD
+      CC → VBG
+      IN → NNS
+      NN → ,
+      NNS → ,
+      NNS → CC
+      NNS → IN
+      RB → JJ
+      VBD → VBN
+      VBG → VBD
+      VBN → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 105:
+  ORIGINAL : Formal unions for black workers were largely banned.
+  REWRITTEN: Labor laws effectively outlawed Black union representation.
+  style_rel(orig) = 0.018, style_rel(new) = 0.402, Δ = 0.384
+  POS pattern (orig): JJ NNS IN JJ NNS VBD RB VBN .
+  POS pattern (new) :  NNP NNS RB VBN NNP NN NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NN
+      NNP → NN
+      NNP → NNS
+      NNS → RB
+      VBN → NNP
+    Removed:
+      IN → JJ
+      JJ → NNS
+      NNS → IN
+      NNS → VBD
+      VBD → RB
+      VBN → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 106:
+  ORIGINAL : Management and apartheid officials assumed that repression, fragmentation, and the daily grind would keep workers quiet.
+  REWRITTEN: Management and apartheid officials assumed that repression, fragmentation, and the daily grind would keep workers quiet.
+  style_rel(orig) = 0.101, style_rel(new) = 0.101, Δ = 0.000
+  POS pattern (orig): NN CC NN NNS VBD IN NN , NN , CC DT JJ NN MD VB NNS JJ .
+  POS pattern (new) :  NN CC NN NNS VBD IN NN , NN , CC DT JJ NN MD VB NNS JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 107:
+  ORIGINAL : In early 1973, that assumption collapsed.
+  REWRITTEN: The year 1973 exposed the fragility of the regime’s labor control.
+  style_rel(orig) = -0.159, style_rel(new) = 0.268, Δ = 0.427
+  POS pattern (orig): IN JJ CD , DT NN VBD .
+  POS pattern (new) :  DT NN CD VBD DT NN IN DT NN NNP VBZ NN NN .
+  POS bigram changes:
+    Added:
+      CD → VBD
+      IN → DT
+      NN → .
+      NN → CD
+      NN → IN
+      NN → NN
+      NN → NNP
+      NNP → VBZ
+      VBD → DT
+      VBZ → NN
+    Removed:
+      , → DT
+      CD → ,
+      IN → JJ
+      JJ → CD
+      NN → VBD
+      VBD → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 108:
+  ORIGINAL : Thousands of African workers went on strike, starting in key factories and spreading rapidly.
+  REWRITTEN: Mass industrial action began in key workplaces and quickly expanded.
+  style_rel(orig) = 0.090, style_rel(new) = 0.161, Δ = 0.070
+  POS pattern (orig): NNS IN JJ NNS VBD IN NN , VBG IN JJ NNS CC VBG RB .
+  POS pattern (new) :  NNP JJ NN VBD IN JJ NNS CC RB VBD .
+  POS bigram changes:
+    Added:
+      CC → RB
+      JJ → NN
+      NN → VBD
+      NNP → JJ
+      RB → VBD
+      VBD → .
+    Removed:
+      , → VBG
+      CC → VBG
+      IN → NN
+      NN → ,
+      NNS → IN
+      NNS → VBD
+      RB → .
+      VBG → IN
+      VBG → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 109:
+  ORIGINAL : They downed tools, marched, and demanded higher wages and recognition of their grievances.
+  REWRITTEN: They downed tools, marched, and demanded higher wages and recognition of their grievances.
+  style_rel(orig) = 0.112, style_rel(new) = 0.112, Δ = 0.000
+  POS pattern (orig): PRP VBD NNS , VBN , CC VBD JJR NNS CC NN IN PRP$ NNS .
+  POS pattern (new) :  PRP VBD NNS , VBN , CC VBD JJR NNS CC NN IN PRP$ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 110:
+  ORIGINAL : Without formal union structures, much of this organizing happened through informal networks, community ties, and workplace leadership.
+  REWRITTEN: Without formal union structures, much of this organizing happened through informal networks, community ties, and workplace leadership.
+  style_rel(orig) = 0.101, style_rel(new) = 0.101, Δ = 0.000
+  POS pattern (orig): IN JJ NN NNS , RB IN DT NN VBD IN JJ NNS , NN NNS , CC JJ NN .
+  POS pattern (new) :  IN JJ NN NNS , RB IN DT NN VBD IN JJ NNS , NN NNS , CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 111:
+  ORIGINAL : The strikes were risky: participants faced arrest, dismissal, and police brutality.
+  REWRITTEN: Joining the strikes exposed workers to punishment and harm.
+  style_rel(orig) = 0.003, style_rel(new) = 0.142, Δ = 0.139
+  POS pattern (orig): DT NNS VBD JJ : NNS VBD NN , NN , CC NNS NN .
+  POS pattern (new) :  VBG DT NNS VBD NNS TO VB CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      NNS → TO
+      TO → VB
+      VB → CC
+      VBD → NNS
+      VBG → DT
+    Removed:
+      , → CC
+      , → NN
+      : → NNS
+      CC → NNS
+      JJ → :
+      NN → ,
+      NNS → NN
+      VBD → JJ
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 112:
+  ORIGINAL : Yet they spread, indicating a deep undercurrent of anger and a growing sense of collective power.
+  REWRITTEN: Yet they spread, indicating a deep undercurrent of anger and a growing sense of collective power.
+  style_rel(orig) = 0.258, style_rel(new) = 0.258, Δ = 0.000
+  POS pattern (orig): RB PRP VBP , VBG DT JJ NN IN NN CC DT VBG NN IN JJ NN .
+  POS pattern (new) :  RB PRP VBP , VBG DT JJ NN IN NN CC DT VBG NN IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 113:
+  ORIGINAL : Why were these strikes so significant in the longer history of labor?
+  REWRITTEN: Why were these strikes so significant in the longer history of labor?
+  style_rel(orig) = 0.258, style_rel(new) = 0.258, Δ = 0.000
+  POS pattern (orig): WRB VBD DT NNS RB JJ IN DT JJR NN IN NN .
+  POS pattern (new) :  WRB VBD DT NNS RB JJ IN DT JJR NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 114:
+  ORIGINAL : First, they marked a clear shift from rural and episodic resistance to sustained, urban, workplace-based struggle.
+  REWRITTEN: This was a transition from sporadic countryside resistance to continuous urban labor fights.
+  style_rel(orig) = 0.107, style_rel(new) = 0.134, Δ = 0.026
+  POS pattern (orig): RB , PRP VBD DT JJ NN IN JJ CC JJ NN TO VBN , JJ , JJ NN .
+  POS pattern (new) :  DT VBD DT NN IN JJ NN NN TO JJ JJ NN NNS .
+  POS bigram changes:
+    Added:
+      DT → NN
+      DT → VBD
+      JJ → JJ
+      NN → NN
+      NN → NNS
+      NNS → .
+      TO → JJ
+    Removed:
+      , → JJ
+      , → PRP
+      CC → JJ
+      DT → JJ
+      JJ → ,
+      JJ → CC
+      NN → .
+      PRP → VBD
+      RB → ,
+      TO → VBN
+      VBN → ,
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 115:
+  ORIGINAL : Migrant and rural laborers had resisted for generations—through slowdowns, desertion, arson, and direct confrontation—but the Durban strikes put industrial workers at the center of anti-apartheid activism in a new way.
+  REWRITTEN: Migrant and rural laborers had resisted for generations—through slowdowns, desertion, arson, and direct confrontation—but the Durban strikes put industrial workers at the center of anti-apartheid activism in a new way.
+  style_rel(orig) = 0.134, style_rel(new) = 0.134, Δ = 0.000
+  POS pattern (orig): NNP CC JJ NNS VBD VBN IN NN NNS , NN , NN , CC JJ NN DT NNP NNS VBD JJ NNS IN DT NN IN JJ NN IN DT JJ NN .
+  POS pattern (new) :  NNP CC JJ NNS VBD VBN IN NN NNS , NN , NN , CC JJ NN DT NNP NNS VBD JJ NNS IN DT NN IN JJ NN IN DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 116:
+  ORIGINAL : Second, they helped revive and reshape the trade union movement under apartheid.
+  REWRITTEN: Second, they helped revive and reshape the trade union movement under apartheid.
+  style_rel(orig) = 0.204, style_rel(new) = 0.204, Δ = 0.000
+  POS pattern (orig): LS , PRP VBD VB CC VB DT NN NN NN IN NN .
+  POS pattern (new) :  LS , PRP VBD VB CC VB DT NN NN NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 117:
+  ORIGINAL : Out of these struggles grew new unions and eventually federations that would play a central role in opposing the regime in the 1980s.
+  REWRITTEN: New labor organizations emerged that later became pillars of anti-apartheid power.
+  style_rel(orig) = 0.144, style_rel(new) = 0.194, Δ = 0.050
+  POS pattern (orig): IN IN DT NNS VBD JJ NNS CC RB NNS WDT MD VB DT JJ NN IN VBG DT NN IN DT CD .
+  POS pattern (new) :  NNP NN NNS VBD IN RB VBD NNS IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      IN → RB
+      NN → .
+      NN → NNS
+      NNP → NN
+      NNS → IN
+      RB → VBD
+      VBD → IN
+      VBD → NNS
+    Removed:
+      CC → RB
+      CD → .
+      DT → CD
+      DT → JJ
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → IN
+      IN → VBG
+      JJ → NNS
+      MD → VB
+      NN → IN
+      NNS → CC
+      NNS → WDT
+      RB → NNS
+      VB → DT
+      VBD → JJ
+      VBG → DT
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 118:
+  ORIGINAL : The popular image of anti-apartheid struggle as being primarily about students and political organizations only tells part of the story; organized labor was crucial in making the country ungovernable.
+  REWRITTEN: The popular image of anti-apartheid struggle as being primarily about students and political organizations only tells part of the story; organized labor was crucial in making the country ungovernable.
+  style_rel(orig) = 0.138, style_rel(new) = 0.138, Δ = 0.000
+  POS pattern (orig): DT JJ NN IN JJ NN IN VBG RB IN NNS CC JJ NNS RB VBZ NN IN DT NN : VBN NN VBD JJ IN VBG DT NN JJ .
+  POS pattern (new) :  DT JJ NN IN JJ NN IN VBG RB IN NNS CC JJ NNS RB VBZ NN IN DT NN : VBN NN VBD JJ IN VBG DT NN JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 119:
+  ORIGINAL : Third, the strikes exposed the economic vulnerability of the apartheid state.
+  REWRITTEN: Third, the strikes exposed the economic vulnerability of the apartheid state.
+  style_rel(orig) = 0.258, style_rel(new) = 0.258, Δ = 0.000
+  POS pattern (orig): NNP , DT NNS VBD DT JJ NN IN DT NN NN .
+  POS pattern (new) :  NNP , DT NNS VBD DT JJ NN IN DT NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 120:
+  ORIGINAL : Apartheid ideology tried to portray black people as a “burden” or a “threat” to white prosperity.
+  REWRITTEN: Propaganda claimed Black people endangered or drained white wealth.
+  style_rel(orig) = 0.081, style_rel(new) = 0.279, Δ = 0.198
+  POS pattern (orig): NNP NN VBD TO VB JJ NNS IN DT NNP NN NN CC DT JJ NN NN TO JJ NN .
+  POS pattern (new) :  NNP VBD NNP NNS VBD CC VBD JJ NN .
+  POS bigram changes:
+    Added:
+      CC → VBD
+      NNP → NNS
+      NNP → VBD
+      NNS → VBD
+      VBD → CC
+      VBD → JJ
+      VBD → NNP
+    Removed:
+      CC → DT
+      DT → JJ
+      DT → NNP
+      IN → DT
+      JJ → NNS
+      NN → CC
+      NN → NN
+      NN → TO
+      NN → VBD
+      NNP → NN
+      NNS → IN
+      TO → JJ
+      TO → VB
+      VB → JJ
+      VBD → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 121:
+  ORIGINAL : In reality, the economy depended on their labor.
+  REWRITTEN: White South Africa was built on the exploitation of African work.
+  style_rel(orig) = 0.073, style_rel(new) = 0.231, Δ = 0.157
+  POS pattern (orig): IN NN , DT NN VBD IN PRP$ NN .
+  POS pattern (new) :  NNP NNP NNP VBD VBN IN DT NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → DT
+      IN → JJ
+      JJ → NN
+      NN → IN
+      NNP → NNP
+      NNP → VBD
+      VBD → VBN
+      VBN → IN
+    Removed:
+      , → DT
+      IN → NN
+      IN → PRP$
+      NN → ,
+      NN → VBD
+      PRP$ → NN
+      VBD → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 122:
+  ORIGINAL : When workers withheld that labor, production stalled, exports were threatened, and profits dropped.
+  REWRITTEN: Refusing to work disrupted both local output and global markets.
+  style_rel(orig) = 0.032, style_rel(new) = 0.118, Δ = 0.086
+  POS pattern (orig): WRB NNS VBP IN NN , NN VBD , NNS VBD VBN , CC NNS VBD .
+  POS pattern (new) :  VBG TO VB VBN DT JJ NN CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      DT → JJ
+      JJ → NN
+      JJ → NNS
+      NN → CC
+      NNS → .
+      TO → VB
+      VB → VBN
+      VBG → TO
+      VBN → DT
+    Removed:
+      , → CC
+      , → NN
+      , → NNS
+      CC → NNS
+      IN → NN
+      NN → ,
+      NN → VBD
+      NNS → VBD
+      NNS → VBP
+      VBD → ,
+      VBD → .
+      VBD → VBN
+      VBN → ,
+      VBP → IN
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 123:
+  ORIGINAL : This made it clear that political domination rested on an exploitative economic foundation that was not invincible.
+  REWRITTEN: The strikes showed that apartheid’s economic core could crack under pressure.
+  style_rel(orig) = 0.087, style_rel(new) = 0.179, Δ = 0.091
+  POS pattern (orig): DT VBD PRP JJ IN JJ NN VBN IN DT JJ JJ NN WDT VBD RB JJ .
+  POS pattern (new) :  DT NNS VBD IN NN NNP JJ JJ NN MD VB IN NN .
+  POS bigram changes:
+    Added:
+      DT → NNS
+      IN → NN
+      MD → VB
+      NN → .
+      NN → MD
+      NN → NNP
+      NNP → JJ
+      NNS → VBD
+      VB → IN
+      VBD → IN
+    Removed:
+      DT → JJ
+      DT → VBD
+      IN → DT
+      IN → JJ
+      JJ → .
+      JJ → IN
+      NN → VBN
+      NN → WDT
+      PRP → JJ
+      RB → JJ
+      VBD → PRP
+      VBD → RB
+      VBN → IN
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 124:
+  ORIGINAL : Finally, the Durban strikes showed how labor issues and broader demands for dignity, equality, and political voice were intertwined.
+  REWRITTEN: Finally, the Durban strikes showed how labor issues and broader demands for dignity, equality, and political voice were intertwined.
+  style_rel(orig) = 0.114, style_rel(new) = 0.114, Δ = 0.000
+  POS pattern (orig): RB , DT NNP NNS VBD WRB NN NNS CC JJR NNS IN NN , NN , CC JJ NN VBD VBN .
+  POS pattern (new) :  RB , DT NNP NNS VBD WRB NN NNS CC JJR NNS IN NN , NN , CC JJ NN VBD VBN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 125:
+  ORIGINAL : Workers did not just want a few extra rand; they wanted recognition as human beings, not as “boys” or disposable cogs in the machine.
+  REWRITTEN: Workers demanded personhood, not just money.
+  style_rel(orig) = 0.042, style_rel(new) = 0.110, Δ = 0.067
+  POS pattern (orig): NNS VBD RB RB VB DT JJ JJ NN : PRP VBD NN IN JJ NNS , RB IN JJ NNS VBP CC JJ NNS IN DT NN .
+  POS pattern (new) :  NNS VBD NN , RB RB NN .
+  POS bigram changes:
+    Added:
+      NN → ,
+      RB → NN
+    Removed:
+      : → PRP
+      CC → JJ
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → JJ
+      JJ → JJ
+      JJ → NN
+      JJ → NNS
+      NN → :
+      NN → IN
+      NNS → ,
+      NNS → IN
+      NNS → VBP
+      PRP → VBD
+      RB → IN
+      RB → VB
+      VB → DT
+      VBD → RB
+      VBP → CC
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 126:
+  ORIGINAL : Workplaces became spaces where people learned to organize, debate, and imagine alternatives.
+  REWRITTEN: Job sites became centers of political consciousness and organization.
+  style_rel(orig) = -0.008, style_rel(new) = 0.191, Δ = 0.198
+  POS pattern (orig): NNS VBD NNS WRB NNS VBD TO VB , NN , CC JJ NNS .
+  POS pattern (new) :  NNP NNS VBD NNS IN JJ NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → JJ
+      JJ → NN
+      NN → .
+      NN → CC
+      NNP → NNS
+      NNS → IN
+    Removed:
+      , → CC
+      , → NN
+      CC → JJ
+      JJ → NNS
+      NN → ,
+      NNS → .
+      NNS → WRB
+      TO → VB
+      VB → ,
+      VBD → TO
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 127:
+  ORIGINAL : In this period, labor was not only an economic resource to be controlled; it became a weapon that workers themselves wielded against the apartheid state.
+  REWRITTEN: Labor shifted from something exploited to something powerful and strategic.
+  style_rel(orig) = 0.011, style_rel(new) = 0.134, Δ = 0.123
+  POS pattern (orig): IN DT NN , NN VBD RB RB DT JJ NN TO VB VBN : PRP VBD DT NN IN NNS PRP VBD IN DT NN NN .
+  POS pattern (new) :  NN VBD IN NN VBN TO NN JJ CC JJ .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → NN
+      JJ → .
+      JJ → CC
+      NN → JJ
+      NN → VBN
+      TO → NN
+      VBN → TO
+    Removed:
+      , → NN
+      : → PRP
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → NNS
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → IN
+      NN → NN
+      NN → TO
+      NNS → PRP
+      PRP → VBD
+      RB → DT
+      RB → RB
+      TO → VB
+      VB → VBN
+      VBD → DT
+      VBD → RB
+      VBN → :
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 128:
+  ORIGINAL : Mandeni, unemployment, and the social crisis of the late twentieth century
+
+If the early colonial and industrial periods were marked by a voracious demand for African labor, the late twentieth century brought a bitter irony: mass unemployment.
+  REWRITTEN: Mandeni, unemployment, and the social crisis of the late twentieth century
+
+If the early colonial and industrial periods were marked by a voracious demand for African labor, the late twentieth century brought a bitter irony: mass unemployment.
+  style_rel(orig) = 0.136, style_rel(new) = 0.136, Δ = 0.000
+  POS pattern (orig): NNP , NN , CC DT JJ NN IN DT JJ JJ NN IN DT JJ NN CC JJ NNS VBD VBN IN DT JJ NN IN JJ NN , DT JJ JJ NN VBD DT JJ NN : NN NN .
+  POS pattern (new) :  NNP , NN , CC DT JJ NN IN DT JJ JJ NN IN DT JJ NN CC JJ NNS VBD VBN IN DT JJ NN IN JJ NN , DT JJ JJ NN VBD DT JJ NN : NN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 129:
+  ORIGINAL : As South Africa moved through the crisis of late apartheid and into the democratic era, many areas, especially in KwaZulu-Natal and the old homelands, became home to large populations of people who were no longer needed as workers but were still living with the after-effects of a system built around their exploitation.
+  REWRITTEN: Communities in KwaZulu-Natal and former homelands were left with the legacy of labor exploitation but no jobs.
+  style_rel(orig) = 0.131, style_rel(new) = 0.142, Δ = 0.011
+  POS pattern (orig): IN NNP NNP VBD IN DT NN IN JJ NN CC IN DT JJ NN , JJ NNS , RB IN NNP CC DT JJ NNS , VBD NN TO JJ NNS IN NNS WP VBD RB RB VBN IN NNS CC VBD RB VBG IN DT NNS IN DT NN VBN IN PRP$ NN .
+  POS pattern (new) :  NNS IN NNP CC JJ NNS VBD VBN IN DT NN IN NN NN CC DT NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → NN
+      NN → NN
+      NNS → .
+      NNS → VBD
+      VBD → VBN
+    Removed:
+      , → JJ
+      , → RB
+      , → VBD
+      CC → IN
+      CC → VBD
+      DT → JJ
+      IN → JJ
+      IN → NNS
+      IN → PRP$
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → TO
+      NN → VBN
+      NNP → NNP
+      NNP → VBD
+      NNS → ,
+      NNS → CC
+      NNS → WP
+      PRP$ → NN
+      RB → IN
+      RB → RB
+      RB → VBG
+      RB → VBN
+      TO → JJ
+      VBD → IN
+      VBD → NN
+      VBD → RB
+      VBG → IN
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 130:
+  ORIGINAL : Mandeni, an industrial-residential area on the North Coast of KwaZulu-Natal, illustrates this shift.
+  REWRITTEN: Mandeni, an industrial-residential area on the North Coast of KwaZulu-Natal, illustrates this shift.
+  style_rel(orig) = 0.363, style_rel(new) = 0.363, Δ = 0.000
+  POS pattern (orig): NNP , DT JJ NN IN DT NNP NNP IN NNP , VBZ DT NN .
+  POS pattern (new) :  NNP , DT JJ NN IN DT NNP NNP IN NNP , VBZ DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 131:
+  ORIGINAL : The region had grown around factories, plantations, and migrant labor flows.
+  REWRITTEN: Its history was tied to industrial growth, farm work, and migrant labor.
+  style_rel(orig) = 0.101, style_rel(new) = 0.282, Δ = 0.181
+  POS pattern (orig): DT NN VBD VBN IN NNS , NNS , CC JJ NN NNS .
+  POS pattern (new) :  PRP$ NN VBD VBN TO JJ NN , NN NN , CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      NN → ,
+      NN → .
+      NN → NN
+      PRP$ → NN
+      TO → JJ
+      VBN → TO
+    Removed:
+      , → NNS
+      DT → NN
+      IN → NNS
+      NN → NNS
+      NNS → ,
+      NNS → .
+      VBN → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 132:
+  ORIGINAL : By the 1990s and early 2000s, however, deindustrialization, mechanization, and broader economic restructuring meant that many people either could not find work or were trapped in precarious, low-paid jobs.
+  REWRITTEN: By the 1990s and early 2000s, but deindustrialization, mechanization, and broader economic restructuring meant that many people either could not find work or were trapped in precarious, low-paid jobs.
+  style_rel(orig) = 0.201, style_rel(new) = 0.212, Δ = 0.011
+  POS pattern (orig): IN DT CD CC RB CD , RB , NN , NN , CC JJR JJ NN VBD IN JJ NNS DT MD RB VB NN CC VBD VBN IN JJ , JJ NNS .
+  POS pattern (new) :  IN DT CD CC RB CD , CC NN , NN , CC JJR JJ NN VBD IN JJ NNS DT MD RB VB NN CC VBD VBN IN JJ , JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+    Removed:
+      , → RB
+      RB → ,
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 133:
+  ORIGINAL : Unemployment was not just a matter of having no paycheck; it was the collapse of a whole way of organizing life.
+  REWRITTEN: Joblessness undermined social structures, not only income.
+  style_rel(orig) = 0.113, style_rel(new) = 0.216, Δ = 0.104
+  POS pattern (orig): NN VBD RB RB DT NN IN VBG DT NN : PRP VBD DT NN IN DT JJ NN IN VBG NN .
+  POS pattern (new) :  NNP VBD JJ NNS , RB RB NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      JJ → NNS
+      NNP → VBD
+      NNS → ,
+      RB → NN
+      VBD → JJ
+    Removed:
+      : → PRP
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → VBG
+      JJ → NN
+      NN → :
+      NN → IN
+      NN → VBD
+      PRP → VBD
+      RB → DT
+      VBD → DT
+      VBD → RB
+      VBG → DT
+      VBG → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 134:
+  ORIGINAL : In a context where men had long been expected to migrate for wages to support rural homes, the disappearance of those jobs undercut gender roles, household structures, and local economies.
+  REWRITTEN: Work loss destabilized masculinity, family livelihoods, and community systems.
+  style_rel(orig) = 0.075, style_rel(new) = 0.192, Δ = 0.117
+  POS pattern (orig): IN DT NN WRB NNS VBD RB VBN VBN TO VB IN NNS TO VB JJ NNS , DT NN IN DT NNS JJ NN NNS , NN NNS , CC JJ NNS .
+  POS pattern (new) :  NNP NN VBN NN , NN NNS , CC NN NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      NN → ,
+      NN → VBN
+      NNP → NN
+      VBN → NN
+    Removed:
+      , → DT
+      CC → JJ
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → NNS
+      JJ → NN
+      JJ → NNS
+      NN → IN
+      NN → WRB
+      NNS → JJ
+      NNS → TO
+      NNS → VBD
+      RB → VBN
+      TO → VB
+      VB → IN
+      VB → JJ
+      VBD → RB
+      VBN → TO
+      VBN → VBN
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 135:
+  ORIGINAL : Young people came of age in communities where the old promise—work hard, go to the mines or factories, send money home—no longer held.
+  REWRITTEN: Young people came of age in communities where the old promise—work hard, go to the mines or factories, send money home—no longer held.
+  style_rel(orig) = 0.114, style_rel(new) = 0.114, Δ = 0.000
+  POS pattern (orig): NN NNS VBD IN NN IN NNS WRB DT JJ NN NN , VB TO DT NNS CC NNS , VB NN NN RB VBD .
+  POS pattern (new) :  NN NNS VBD IN NN IN NNS WRB DT JJ NN NN , VB TO DT NNS CC NNS , VB NN NN RB VBD .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 136:
+  ORIGINAL : At the same time, the HIV/AIDS epidemic hit areas like Mandeni with devastating force.
+  REWRITTEN: The epidemic ravaged already struggling populations like those in Mandeni.
+  style_rel(orig) = 0.204, style_rel(new) = 0.221, Δ = 0.016
+  POS pattern (orig): IN DT JJ NN , DT NNP MD VB NNS IN NNP IN VBG NN .
+  POS pattern (new) :  DT JJ VBD RB VBG NNS IN DT IN NNP .
+  POS bigram changes:
+    Added:
+      DT → IN
+      JJ → VBD
+      NNP → .
+      RB → VBG
+      VBD → RB
+      VBG → NNS
+    Removed:
+      , → DT
+      DT → NNP
+      IN → VBG
+      JJ → NN
+      MD → VB
+      NN → ,
+      NN → .
+      NNP → IN
+      NNP → MD
+      VB → NNS
+      VBG → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 137:
+  ORIGINAL : Wage labor and migrant patterns had long disrupted family life, contributed to multiple partnering, and created networks in which infections could spread rapidly.
+  REWRITTEN: Social patterns shaped by wage work enabled HIV to move quickly through communities.
+  style_rel(orig) = 0.099, style_rel(new) = 0.235, Δ = 0.136
+  POS pattern (orig): NNP NN CC NN NNS VBD RB VBN NN NN , VBD TO VB NN , CC VBD NNS IN WDT NNS MD VB RB .
+  POS pattern (new) :  NNP NNS VBN IN NN NN VBD NNP TO VB RB IN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → NNS
+      NN → VBD
+      NNP → NNS
+      NNP → TO
+      NNS → .
+      NNS → VBN
+      RB → IN
+      VBD → NNP
+      VBN → IN
+    Removed:
+      , → CC
+      , → VBD
+      CC → NN
+      CC → VBD
+      IN → WDT
+      MD → VB
+      NN → ,
+      NN → CC
+      NN → NNS
+      NNP → NN
+      NNS → IN
+      NNS → MD
+      NNS → VBD
+      RB → .
+      RB → VBN
+      VB → NN
+      VBD → NNS
+      VBD → RB
+      VBD → TO
+      VBN → NN
+      WDT → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 138:
+  ORIGINAL : When people lost work or remained stuck in informal, insecure employment, they also lost access to whatever limited workplace-based health care or social support had existed.
+  REWRITTEN: Job loss stripped people of health benefits and social safety nets.
+  style_rel(orig) = 0.133, style_rel(new) = 0.150, Δ = 0.017
+  POS pattern (orig): WRB NNS VBD NN CC VBD VBN IN JJ , JJ NN , PRP RB VBD NN TO WDT JJ JJ NN NN CC JJ NN VBD VBN .
+  POS pattern (new) :  NNP NN VBD NNS IN NN NNS CC JJ NN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → NNS
+      NNP → NN
+      NNS → .
+      NNS → CC
+      NNS → IN
+      VBD → NNS
+    Removed:
+      , → JJ
+      , → PRP
+      CC → VBD
+      IN → JJ
+      JJ → ,
+      JJ → JJ
+      NN → ,
+      NN → CC
+      NN → NN
+      NN → TO
+      NNS → VBD
+      PRP → RB
+      RB → VBD
+      TO → WDT
+      VBD → NN
+      VBD → VBN
+      VBN → .
+      VBN → IN
+      WDT → JJ
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 139:
+  ORIGINAL : The burden of care fell on women, grandmothers, and already stretched households.
+  REWRITTEN: Care duties shifted disproportionately onto women and older relatives.
+  style_rel(orig) = 0.110, style_rel(new) = 0.276, Δ = 0.166
+  POS pattern (orig): DT NN IN NN VBD IN NNS , NNS , CC RB VBN NNS .
+  POS pattern (new) :  NNP NNS VBD RB JJ NNS CC JJR NNS .
+  POS bigram changes:
+    Added:
+      CC → JJR
+      JJ → NNS
+      JJR → NNS
+      NNP → NNS
+      NNS → CC
+      NNS → VBD
+      RB → JJ
+      VBD → RB
+    Removed:
+      , → CC
+      , → NNS
+      CC → RB
+      DT → NN
+      IN → NN
+      IN → NNS
+      NN → IN
+      NN → VBD
+      NNS → ,
+      RB → VBN
+      VBD → IN
+      VBN → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 140:
+  ORIGINAL : In this stage of South Africa’s story, the importance of labor is revealed in its absence.
+  REWRITTEN: In this stage of South Africa’s story, the importance of labor is revealed in its absence.
+  style_rel(orig) = 0.182, style_rel(new) = 0.182, Δ = 0.000
+  POS pattern (orig): IN DT NN IN NNP NNP NNP VBD NN , DT NN IN NN VBZ VBN IN PRP$ NN .
+  POS pattern (new) :  IN DT NN IN NNP NNP NNP VBD NN , DT NN IN NN VBZ VBN IN PRP$ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 141:
+  ORIGINAL : For generations, African lives had been organized around the demands of capital and the state for their work.
+  REWRITTEN: Work requirements had shaped African existence for decades.
+  style_rel(orig) = 0.109, style_rel(new) = 0.291, Δ = 0.182
+  POS pattern (orig): IN NNS , JJ NNS VBD VBN VBN IN DT NNS IN NN CC DT NN IN PRP$ NN .
+  POS pattern (new) :  NN NNS VBD VBN NNP NN IN NNS .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNP → NN
+      NNS → .
+      VBN → NNP
+    Removed:
+      , → JJ
+      CC → DT
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → NN
+      IN → PRP$
+      JJ → NNS
+      NN → .
+      NN → CC
+      NNS → ,
+      NNS → IN
+      PRP$ → NN
+      VBN → IN
+      VBN → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 142:
+  ORIGINAL : When that demand shrank, it did not automatically produce freedom.
+  REWRITTEN: Less work didn’t translate into newfound autonomy.
+  style_rel(orig) = 0.014, style_rel(new) = 0.283, Δ = 0.269
+  POS pattern (orig): WRB DT NN NN , PRP VBD RB RB VBP NN .
+  POS pattern (new) :  NNP NN NN NNP NN NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NN
+      NN → IN
+      NN → NNP
+      NNP → NN
+    Removed:
+      , → PRP
+      DT → NN
+      NN → ,
+      PRP → VBD
+      RB → RB
+      RB → VBP
+      VBD → RB
+      VBP → NN
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 143:
+  ORIGINAL : It produced a kind of abandonment: people were still fenced in by the legacies of land dispossession, poor education, and spatial segregation, but they were no longer even “needed” as workers.
+  REWRITTEN: People were stuck with the burdens of inequality yet stripped of labor’s necessity.
+  style_rel(orig) = 0.053, style_rel(new) = 0.149, Δ = 0.096
+  POS pattern (orig): PRP VBD DT NN IN NN : NNS VBD RB VBN IN IN DT NNS IN NN NN , JJ NN , CC JJ NN , CC PRP VBD RB RB RB RBR JJ NN IN NNS .
+  POS pattern (new) :  NNS VBD VBN IN DT NNS IN NN RB VBN IN NN NNP JJ NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NNP
+      NN → RB
+      NNP → JJ
+      VBD → VBN
+    Removed:
+      , → CC
+      , → JJ
+      : → NNS
+      CC → JJ
+      CC → PRP
+      DT → NN
+      IN → IN
+      IN → NNS
+      NN → ,
+      NN → :
+      NN → IN
+      NN → NN
+      NNS → .
+      PRP → VBD
+      RB → RB
+      RB → RBR
+      RBR → JJ
+      VBD → DT
+      VBD → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 144:
+  ORIGINAL : The social and health crises around Mandeni show that exploitation and exclusion are two sides of the same coin.
+  REWRITTEN: The social and health crises around Mandeni show that exploitation and exclusion are two sides of the same coin.
+  style_rel(orig) = 0.192, style_rel(new) = 0.192, Δ = 0.000
+  POS pattern (orig): DT JJ CC NN NNS IN NNP VBP IN NN CC NN VBP CD NNS IN DT JJ NN .
+  POS pattern (new) :  DT JJ CC NN NNS IN NNP VBP IN NN CC NN VBP CD NNS IN DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 145:
+  ORIGINAL : The mining compounds and rural reserves of an earlier era had always offloaded costs onto black households; in the post-apartheid era, when the labor system shed people, those same households were left to absorb the shock with minimal state support.
+  REWRITTEN: Families once forced to subsidize labor systems were later left alone to endure unemployment’s fallout.
+  style_rel(orig) = 0.061, style_rel(new) = 0.160, Δ = 0.099
+  POS pattern (orig): DT NN NNS CC JJ NNS IN DT JJR NN VBD RB VBN NNS IN JJ NNS : IN DT JJ NN , WRB DT NN NN VBD NNS , DT JJ NNS VBD VBN TO VB DT NN IN JJ NN NN .
+  POS pattern (new) :  NNS RB VBN TO VB NN NNS VBD RB VBN RB TO VB NN NNP NN NN .
+  POS bigram changes:
+    Added:
+      NN → NNP
+      NNP → NN
+      NNS → RB
+      RB → TO
+      VB → NN
+      VBN → RB
+    Removed:
+      , → DT
+      , → WRB
+      : → IN
+      CC → JJ
+      DT → JJ
+      DT → JJR
+      DT → NN
+      IN → DT
+      IN → JJ
+      JJ → NN
+      JJ → NNS
+      JJR → NN
+      NN → ,
+      NN → IN
+      NN → VBD
+      NNS → ,
+      NNS → :
+      NNS → CC
+      NNS → IN
+      VB → DT
+      VBD → NNS
+      VBD → VBN
+      VBN → NNS
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 146:
+  ORIGINAL : Labor, again, was central—not as a simple story of work or no work, but as the organizing principle of a society that had been built to extract value and then struggled to imagine how to sustain people once that extraction slowed or shifted.
+  REWRITTEN: Labor, again, was central—not as a simple story of work or no work, but as the organizing principle of a society that had been built to extract value and then struggled to imagine how to sustain people once that extraction slowed or shifted.
+  style_rel(orig) = 0.102, style_rel(new) = 0.102, Δ = 0.000
+  POS pattern (orig): NN , RB , VBD VBN IN DT JJ NN IN NN CC DT NN , CC IN DT VBG NN IN DT NN WDT VBD VBN VBN TO VB NN CC RB VBD TO VB WRB TO VB NNS RB IN NN VBD CC VBD .
+  POS pattern (new) :  NN , RB , VBD VBN IN DT JJ NN IN NN CC DT NN , CC IN DT VBG NN IN DT NN WDT VBD VBN VBN TO VB NN CC RB VBD TO VB WRB TO VB NNS RB IN NN VBD CC VBD .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 147:
+  ORIGINAL : Labor as the through-line of South African history
+
+Looking across these moments—the slave lodge in Cape Town, the diamond and gold mines, the Glen Grey land regime, the Durban strikes, and the crisis of unemployment and disease—what emerges is not a series of disconnected episodes, but a coherent pattern.
+  REWRITTEN: Labor as the through-line of South African history
+
+Looking across these moments—the slave lodge in Cape Town, the diamond and gold mines, the Glen Grey land regime, the Durban strikes, and the crisis of unemployment and disease—what emerges is not a series of disconnected episodes, but a coherent pattern.
+  style_rel(orig) = 0.126, style_rel(new) = 0.126, Δ = 0.000
+  POS pattern (orig): NN IN DT NN IN JJ JJ NN VBG IN DT NNS VBP NN IN NNP NNP , DT NN CC NN NNS , DT NNP NNP NN NN , DT NNP NNS , CC DT NN IN NN CC NN NNS VBZ RB DT NN IN JJ NNS , CC DT JJ NN .
+  POS pattern (new) :  NN IN DT NN IN JJ JJ NN VBG IN DT NNS VBP NN IN NNP NNP , DT NN CC NN NNS , DT NNP NNP NN NN , DT NNP NNS , CC DT NN IN NN CC NN NNS VBZ RB DT NN IN JJ NNS , CC DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 148:
+  ORIGINAL : First, labor was the primary way in which colonial and later apartheid authorities interacted with African people.
+  REWRITTEN: Work was the main point of contact — and conflict — between authorities and Africans.
+  style_rel(orig) = 0.068, style_rel(new) = 0.264, Δ = 0.197
+  POS pattern (orig): RB , NN VBD DT JJ NN IN WDT NN CC RB JJ NNS VBN IN JJ NNS .
+  POS pattern (new) :  NN VBD DT JJ NN IN NN NNP CC NN NN IN NNS CC NNPS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      CC → NNPS
+      IN → NN
+      IN → NNS
+      NN → NN
+      NN → NNP
+      NNP → CC
+      NNPS → .
+      NNS → CC
+    Removed:
+      , → NN
+      CC → RB
+      IN → JJ
+      IN → WDT
+      JJ → NNS
+      NN → CC
+      NNS → .
+      NNS → VBN
+      RB → ,
+      RB → JJ
+      VBN → IN
+      WDT → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 149:
+  ORIGINAL : Whether through slavery, coerced Khoisan servitude, hut and labor taxes, pass laws, or contract systems, the state’s central concern was how to get people to work, where, for whom, and at what price.
+  REWRITTEN: No matter the system, rulers focused on directing African labor and keeping it cheap.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.147, Δ = 1000000.147
+  POS pattern (orig): NNP IN NN , VBD NNP NN , NN CC NN NNS , NN NNS , CC NN NNS , DT NN NNP VBD JJ NN VBD WRB TO VB NNS TO VB , WRB , IN WP , CC IN WP NN .
+  POS pattern (new) :  DT NN DT NN , NNS VBD IN VBG JJ NN CC VBG PRP JJ .
+  POS bigram changes:
+    Added:
+      , → NNS
+      CC → VBG
+      IN → VBG
+      JJ → .
+      NN → DT
+      NNS → VBD
+      PRP → JJ
+      VBD → IN
+      VBG → JJ
+      VBG → PRP
+    Removed:
+      , → CC
+      , → DT
+      , → IN
+      , → NN
+      , → VBD
+      , → WRB
+      CC → IN
+      CC → NN
+      IN → NN
+      IN → WP
+      NN → .
+      NN → NNP
+      NN → NNS
+      NN → VBD
+      NNP → IN
+      NNP → NN
+      NNP → VBD
+      NNS → ,
+      NNS → TO
+      TO → VB
+      VB → ,
+      VB → NNS
+      VBD → JJ
+      VBD → NNP
+      VBD → WRB
+      WP → ,
+      WP → NN
+      WRB → ,
+      WRB → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 150:
+  ORIGINAL : Citizenship, rights, and political participation were secondary or actively suppressed.
+  REWRITTEN: Citizenship, rights, and political participation were secondary or actively suppressed.
+  style_rel(orig) = 0.205, style_rel(new) = 0.205, Δ = 0.000
+  POS pattern (orig): NNP , NNS , CC JJ NN VBD JJ CC RB VBN .
+  POS pattern (new) :  NNP , NNS , CC JJ NN VBD JJ CC RB VBN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 151:
+  ORIGINAL : Second, control over labor and control over land went hand in hand.
+  REWRITTEN: Labor domination relied on land domination.
+  style_rel(orig) = 0.059, style_rel(new) = 0.187, Δ = 0.128
+  POS pattern (orig): JJ , NN IN NN CC NN IN NN VBD NN IN NN .
+  POS pattern (new) :  NNP NN VBD IN NN NN .
+  POS bigram changes:
+    Added:
+      NN → NN
+      NNP → NN
+      VBD → IN
+    Removed:
+      , → NN
+      CC → NN
+      JJ → ,
+      NN → CC
+      NN → IN
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 152:
+  ORIGINAL : Dispossession, the creation of reserves and homelands, and laws like the Glen Grey Act were not only about territory.
+  REWRITTEN: Land laws aimed at shaping labor markets as much as geography.
+  style_rel(orig) = 0.135, style_rel(new) = 0.313, Δ = 0.178
+  POS pattern (orig): NN , DT NN IN NNS CC NNS , CC NNS IN DT NNP NNP NNP VBD RB RB IN NN .
+  POS pattern (new) :  NNP NNS VBN IN VBG NN NNS RB RB IN NN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      NN → NNS
+      NNP → NNS
+      NNS → RB
+      NNS → VBN
+      VBG → NN
+      VBN → IN
+    Removed:
+      , → CC
+      , → DT
+      CC → NNS
+      DT → NN
+      DT → NNP
+      IN → DT
+      IN → NNS
+      NN → ,
+      NN → IN
+      NNP → NNP
+      NNP → VBD
+      NNS → ,
+      NNS → CC
+      NNS → IN
+      VBD → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 153:
+  ORIGINAL : They were about making independent survival difficult enough that wage labor became necessary, while still keeping rural economies alive enough to subsidize low wages.
+  REWRITTEN: They were about making independent survival difficult enough that wage labor became necessary, while still keeping rural economies alive enough to subsidize low wages.
+  style_rel(orig) = 0.170, style_rel(new) = 0.170, Δ = 0.000
+  POS pattern (orig): PRP VBD IN VBG JJ JJ JJ RB IN NN NN VBD JJ , IN RB VBG JJ NNS VBP RB TO VB JJ NNS .
+  POS pattern (new) :  PRP VBD IN VBG JJ JJ JJ RB IN NN NN VBD JJ , IN RB VBG JJ NNS VBP RB TO VB JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 154:
+  ORIGINAL : The geography of South Africa—crowded rural former reserves, sprawling townships, industrial cores—is a map of labor control as much as anything else.
+  REWRITTEN: The geography of South Africa—crowded rural former reserves, sprawling townships, industrial cores—is a map of labor control as much as anything else.
+  style_rel(orig) = 0.167, style_rel(new) = 0.167, Δ = 0.000
+  POS pattern (orig): DT NN IN NNP NNP JJ JJ NNS , VBG NNS , JJ NN DT NN IN NN NN RB RB IN NN RB .
+  POS pattern (new) :  DT NN IN NNP NNP JJ JJ NNS , VBG NNS , JJ NN DT NN IN NN NN RB RB IN NN RB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 155:
+  ORIGINAL : Third, the racial order was anchored in the division of labor.
+  REWRITTEN: Third, the racial order was anchored in the division of labor.
+  style_rel(orig) = 0.274, style_rel(new) = 0.274, Δ = 0.000
+  POS pattern (orig): NNP , DT JJ NN VBD VBN IN DT NN IN NN .
+  POS pattern (new) :  NNP , DT JJ NN VBD VBN IN DT NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 156:
+  ORIGINAL : Whiteness carried with it the expectation of certain kinds of work (skilled, supervisory, or managerial) and certain kinds of leisure; blackness was associated with manual, dangerous, and underpaid work—or with unemployment and informality.
+  REWRITTEN: Whiteness carried with it the expectation of certain kinds of work (skilled, supervisory, or managerial) and certain kinds of leisure; blackness was associated with manual, dangerous, and underpaid work—or with unemployment and informality.
+  style_rel(orig) = 0.186, style_rel(new) = 0.186, Δ = 0.000
+  POS pattern (orig): NNP VBD IN PRP DT NN IN JJ NNS IN NN ( VBN , JJ , CC NN ) CC JJ NNS IN NN : NN VBD VBN IN JJ , JJ , CC JJ NN IN NN CC NN .
+  POS pattern (new) :  NNP VBD IN PRP DT NN IN JJ NNS IN NN ( VBN , JJ , CC NN ) CC JJ NNS IN NN : NN VBD VBN IN JJ , JJ , CC JJ NN IN NN CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 157:
+  ORIGINAL : This was not just social prejudice; it was codified in job reservation, wage scales, and education policies designed to produce “hewers of wood and drawers of water.” The South African variant of capitalism was racial to its core.
+  REWRITTEN: The economy’s rules ensured whites benefited while Blacks remained at the bottom.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.176, Δ = 1000000.176
+  POS pattern (orig): DT VBD RB RB JJ NN : PRP VBD VBN IN NN NN , NN NNS , CC NN NNS VBN TO VB JJ NNS IN NN CC NNS IN NN VBP DT JJ JJ NN IN NN VBD JJ TO PRP$ NN .
+  POS pattern (new) :  DT NN NNP NN NNS VBN NNS VBD IN NNS VBD IN DT NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      IN → NNS
+      NN → NNP
+      NNP → NN
+      NNS → VBD
+      VBD → IN
+      VBN → NNS
+    Removed:
+      , → CC
+      , → NN
+      : → PRP
+      CC → NN
+      CC → NNS
+      DT → JJ
+      DT → VBD
+      IN → NN
+      JJ → JJ
+      JJ → NN
+      JJ → NNS
+      JJ → TO
+      NN → ,
+      NN → :
+      NN → CC
+      NN → IN
+      NN → NN
+      NN → VBD
+      NN → VBP
+      NNS → ,
+      NNS → IN
+      PRP → VBD
+      PRP$ → NN
+      RB → JJ
+      RB → RB
+      TO → PRP$
+      TO → VB
+      VB → JJ
+      VBD → JJ
+      VBD → RB
+      VBD → VBN
+      VBN → IN
+      VBN → TO
+      VBP → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 158:
+  ORIGINAL : Fourth, labor was not only something imposed on people; it was also the ground on which they resisted.
+  REWRITTEN: Workplaces became platforms for defiance, not only control.
+  style_rel(orig) = 0.072, style_rel(new) = 0.098, Δ = 0.026
+  POS pattern (orig): NNP , NN VBD RB RB NN VBN IN NNS : PRP VBD RB DT NN IN WDT PRP VBD .
+  POS pattern (new) :  NNS VBD NNS IN NN , RB RB NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      IN → NN
+      NN → ,
+      NN → .
+      NNS → IN
+      NNS → VBD
+      VBD → NNS
+    Removed:
+      , → NN
+      : → PRP
+      DT → NN
+      IN → NNS
+      IN → WDT
+      NN → IN
+      NN → VBD
+      NN → VBN
+      NNP → ,
+      NNS → :
+      PRP → VBD
+      RB → DT
+      VBD → .
+      VBD → RB
+      VBN → IN
+      WDT → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 159:
+  ORIGINAL : Enslaved people sabotaged, fled, or negotiated.
+  REWRITTEN: Those enslaved resisted through escape, sabotage, and bargaining.
+  style_rel(orig) = -0.047, style_rel(new) = 0.130, Δ = 0.177
+  POS pattern (orig): JJ NNS VBD , VBD , CC VBN .
+  POS pattern (new) :  DT VBN VBD IN NN , NN , CC NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → NN
+      DT → VBN
+      IN → NN
+      NN → ,
+      NN → .
+      VBD → IN
+      VBN → VBD
+    Removed:
+      , → VBD
+      CC → VBN
+      JJ → NNS
+      NNS → VBD
+      VBD → ,
+      VBN → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 160:
+  ORIGINAL : Khoisan and other African communities fought frontier wars and engaged in everyday defiance.
+  REWRITTEN: Khoisan and other African communities fought frontier wars and engaged in everyday defiance.
+  style_rel(orig) = 0.227, style_rel(new) = 0.227, Δ = 0.000
+  POS pattern (orig): NNP CC JJ JJ NNS VBN JJR NNS CC VBN IN JJ NN .
+  POS pattern (new) :  NNP CC JJ JJ NNS VBN JJR NNS CC VBN IN JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 161:
+  ORIGINAL : Mineworkers struck, formed clandestine unions, and used the compound system’s enforced proximity to build solidarity.
+  REWRITTEN: The mines’ tight controls inadvertently fostered unity and rebellion.
+  style_rel(orig) = 0.076, style_rel(new) = 0.180, Δ = 0.104
+  POS pattern (orig): NNS VBD , VBD JJ NNS , CC VBD DT NN NN NNP NN VBD NN TO VB NN .
+  POS pattern (new) :  DT NNS NNP VBD NNS RB VBN NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      DT → NNS
+      NN → CC
+      NNP → VBD
+      NNS → NNP
+      NNS → RB
+      RB → VBN
+      VBD → NNS
+      VBN → NN
+    Removed:
+      , → CC
+      , → VBD
+      CC → VBD
+      DT → NN
+      JJ → NNS
+      NN → NN
+      NN → NNP
+      NN → TO
+      NN → VBD
+      NNP → NN
+      NNS → ,
+      NNS → VBD
+      TO → VB
+      VB → NN
+      VBD → ,
+      VBD → DT
+      VBD → JJ
+      VBD → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 162:
+  ORIGINAL : Industrial workers in Durban and elsewhere transformed grievances over wages into broader challenges to apartheid.
+  REWRITTEN: Labor disputes became part of a wider anti-apartheid fight.
+  style_rel(orig) = 0.257, style_rel(new) = 0.269, Δ = 0.012
+  POS pattern (orig): NNP NNS IN NNP CC RB JJ NNS IN NNS IN JJR NNS TO VB .
+  POS pattern (new) :  NNP NNS VBD NN IN DT JJR JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJR
+      IN → DT
+      JJ → NN
+      JJR → JJ
+      NN → .
+      NN → IN
+      NNS → VBD
+      VBD → NN
+    Removed:
+      CC → RB
+      IN → JJR
+      IN → NNP
+      IN → NNS
+      JJ → NNS
+      JJR → NNS
+      NNP → CC
+      NNS → IN
+      NNS → TO
+      RB → JJ
+      TO → VB
+      VB → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 163:
+  ORIGINAL : Even in an era of mass unemployment, people in places like Mandeni organized around access to water, health care, and grants, insisting that their lives mattered even when the labor market said otherwise.
+  REWRITTEN: Communities fought for basic needs despite being deemed economically unnecessary.
+  style_rel(orig) = -0.002, style_rel(new) = 0.153, Δ = 0.155
+  POS pattern (orig): RB IN DT NN IN NN NN , NNS IN NNS IN NNP VBD RB NN TO NN , NN NN , CC NNS , VBG IN PRP$ NNS VBD RB WRB DT NN NN VBD RB .
+  POS pattern (new) :  NNS VBN IN JJ NNS IN VBG VBN RB JJ .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      IN → VBG
+      JJ → .
+      JJ → NNS
+      NNS → VBN
+      RB → JJ
+      VBG → VBN
+      VBN → IN
+      VBN → RB
+    Removed:
+      , → CC
+      , → NN
+      , → NNS
+      , → VBG
+      CC → NNS
+      DT → NN
+      IN → DT
+      IN → NN
+      IN → NNP
+      IN → NNS
+      IN → PRP$
+      NN → ,
+      NN → IN
+      NN → NN
+      NN → TO
+      NN → VBD
+      NNP → VBD
+      NNS → ,
+      NNS → VBD
+      PRP$ → NNS
+      RB → .
+      RB → IN
+      RB → NN
+      RB → WRB
+      TO → NN
+      VBD → RB
+      VBG → IN
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 164:
+  ORIGINAL : Finally, the legacies of these labor regimes are not past tense.
+  REWRITTEN: Labor exploitation’s impacts continue into the current era.
+  style_rel(orig) = 0.094, style_rel(new) = 0.272, Δ = 0.178
+  POS pattern (orig): RB , DT NNS IN DT NN NNS VBP RB JJ NN .
+  POS pattern (new) :  NNP NN NNP NN NNS VBP IN DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      NN → NNP
+      NNP → NN
+      VBP → IN
+    Removed:
+      , → DT
+      DT → NN
+      DT → NNS
+      NNS → IN
+      RB → ,
+      RB → JJ
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 165:
+  ORIGINAL : Contemporary South Africa’s extreme inequality, high unemployment, and persistent racialized poverty all trace back to how work was organized and valued under colonialism and apartheid.
+  REWRITTEN: Racialized poverty and joblessness originate in the nation’s labor history.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.195, Δ = 1000000.195
+  POS pattern (orig): NNP NNP NNP NNP VBD JJ NN , JJ NN , CC JJ VBN NN DT VBP RB TO WRB NN VBD VBN CC VBN IN NN CC NN .
+  POS pattern (new) :  VBN NN CC NN NN IN DT NN NNP VBZ NN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      NN → IN
+      NN → NN
+      NN → NNP
+      NNP → VBZ
+      VBZ → NN
+    Removed:
+      , → CC
+      , → JJ
+      CC → JJ
+      CC → VBN
+      DT → VBP
+      IN → NN
+      JJ → NN
+      JJ → VBN
+      NN → ,
+      NN → DT
+      NN → VBD
+      NNP → NNP
+      NNP → VBD
+      RB → TO
+      TO → WRB
+      VBD → JJ
+      VBD → VBN
+      VBN → CC
+      VBN → IN
+      VBP → RB
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 166:
+  ORIGINAL : The fact that millions still live far from economic centers, in former “homelands” with weak infrastructure, is not an accident; it is the residue of a system that treated their ancestors primarily as a labor reserve.
+  REWRITTEN: Settlement patterns today reflect past use of Africans as distant labor pools.
+  style_rel(orig) = 0.052, style_rel(new) = 0.127, Δ = 0.076
+  POS pattern (orig): DT NN IN NNS RB VBP RB IN JJ NNS , IN JJ NNP VBZ JJ IN JJ NN , VBZ RB DT NN : PRP VBZ DT NN IN DT NN WDT VBD PRP$ NNS RB IN DT NN NN .
+  POS pattern (new) :  NN NNS NN VBP JJ NN IN NNPS IN JJ NN NNS .
+  POS bigram changes:
+    Added:
+      IN → NNPS
+      NN → NNS
+      NN → VBP
+      NNPS → IN
+      NNS → .
+      NNS → NN
+      VBP → JJ
+    Removed:
+      , → IN
+      , → VBZ
+      : → PRP
+      DT → NN
+      IN → DT
+      IN → NNS
+      JJ → IN
+      JJ → NNP
+      JJ → NNS
+      NN → ,
+      NN → .
+      NN → :
+      NN → NN
+      NN → WDT
+      NNP → VBZ
+      NNS → ,
+      NNS → RB
+      PRP → VBZ
+      PRP$ → NNS
+      RB → DT
+      RB → IN
+      RB → VBP
+      VBD → PRP$
+      VBP → RB
+      VBZ → DT
+      VBZ → JJ
+      VBZ → RB
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 167:
+  ORIGINAL : To talk about the importance of labor in the South African colonies is therefore to talk about almost everything: land, race, gender, family, health, urbanization, and political struggle.
+  REWRITTEN: Labor history touches nearly all major aspects of South African life.
+  style_rel(orig) = 0.082, style_rel(new) = 0.214, Δ = 0.133
+  POS pattern (orig): TO VB IN DT NN IN NN IN DT JJ JJ NNS VBZ RB TO VB IN RB NN : NN , NN , NN , NN , NN , NN , CC JJ NN .
+  POS pattern (new) :  NNP NN NNS RB DT JJ NNS IN JJ JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      NN → NNS
+      NNP → NN
+      NNS → IN
+      NNS → RB
+      RB → DT
+    Removed:
+      , → CC
+      , → NN
+      : → NN
+      CC → JJ
+      DT → NN
+      IN → DT
+      IN → NN
+      IN → RB
+      NN → ,
+      NN → :
+      NN → IN
+      NNS → VBZ
+      RB → NN
+      RB → TO
+      TO → VB
+      VB → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 168:
+  ORIGINAL : Labor was the hinge on which the colonial project turned, the engine that powered both economic growth and social devastation, and the tool that both rulers and the ruled tried to wield.
+  REWRITTEN: Labor was the pivot point of control, progress, and conflict.
+  style_rel(orig) = 0.049, style_rel(new) = 0.098, Δ = 0.049
+  POS pattern (orig): NN VBD DT NN IN WDT DT NN NN VBD , DT NN WDT VBD DT JJ NN CC JJ NN , CC DT NN IN DT NNS CC DT VBN VBD TO VB .
+  POS pattern (new) :  NN VBD DT JJ NN IN NN , NN , CC NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → NN
+      IN → NN
+      NN → .
+    Removed:
+      , → DT
+      CC → DT
+      CC → JJ
+      DT → NN
+      DT → NNS
+      DT → VBN
+      IN → DT
+      IN → WDT
+      NN → CC
+      NN → NN
+      NN → WDT
+      NNS → CC
+      TO → VB
+      VB → .
+      VBD → ,
+      VBD → TO
+      VBN → VBD
+      WDT → DT
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 169:
+  ORIGINAL : If there is a thread of hope in this story, it lies in the fact that the same work that was used to exploit also created the conditions for solidarity.
+  REWRITTEN: Shared labor struggles sowed the seeds of solidarity.
+  style_rel(orig) = 0.078, style_rel(new) = 0.109, Δ = 0.031
+  POS pattern (orig): IN EX VBZ DT NN IN NN IN DT NN , PRP VBZ IN DT NN IN DT JJ NN WDT VBD VBN TO VB RB VBN DT NNS IN NN .
+  POS pattern (new) :  VBN NN NNS VBD DT NNS IN NN .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNS → VBD
+      VBD → DT
+      VBN → NN
+    Removed:
+      , → PRP
+      DT → JJ
+      DT → NN
+      EX → VBZ
+      IN → DT
+      IN → EX
+      JJ → NN
+      NN → ,
+      NN → IN
+      NN → WDT
+      PRP → VBZ
+      RB → VBN
+      TO → VB
+      VB → RB
+      VBD → VBN
+      VBN → DT
+      VBN → TO
+      VBZ → DT
+      VBZ → IN
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 170:
+  ORIGINAL : People who were forced together in slave lodges, compounds, hostels, and factories forged languages, cultures, and movements that eventually helped bring down apartheid.
+  REWRITTEN: People who were forced together in slave lodges, compounds, hostels, and factories forged languages, cultures, and movements that eventually helped bring down apartheid.
+  style_rel(orig) = 0.144, style_rel(new) = 0.144, Δ = 0.000
+  POS pattern (orig): NNS WP VBD VBN RB IN NN NNS , NNS , NNS , CC NNS VBD NNS , NNS , CC NNS WDT RB VBD VB RP NN .
+  POS pattern (new) :  NNS WP VBD VBN RB IN NN NNS , NNS , NNS , CC NNS VBD NNS , NNS , CC NNS WDT RB VBD VB RP NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 171:
+  ORIGINAL : The challenge for the present—and the future—is whether South Africa can build an economy and society in which labor is not a marker of racial domination or a privilege hoarded by the few, but a basis for shared dignity and a more equal life for all.
+  REWRITTEN: The challenge for the present—and the future—is whether South Africa can build an economy and society in which labor is not a marker of racial domination or a privilege hoarded by the few, but a basis for shared dignity and a more equal life for all.
+  style_rel(orig) = 0.144, style_rel(new) = 0.144, Δ = 0.000
+  POS pattern (orig): DT NN IN DT NN DT NN IN NNP NNP MD VB DT NN CC NN IN WDT NN VBZ RB DT NN IN JJ NN CC DT NN VBN IN DT JJ , CC DT NN IN VBN NN CC DT RBR JJ NN IN DT .
+  POS pattern (new) :  DT NN IN DT NN DT NN IN NNP NNP MD VB DT NN CC NN IN WDT NN VBZ RB DT NN IN JJ NN CC DT NN VBN IN DT JJ , CC DT NN IN VBN NN CC DT RBR JJ NN IN DT .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+[INFO] Rewrote 109 out of 172 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 17730
+Average normalized relative style (you - GPT): 0.18402040722471621
+Average normalized logP_you per rule        : 0.1843223076483139
+Average normalized logP_gpt per rule        : 0.000301900423597722
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.11587374122146095
+After  (you - GPT): 0.18402040722471621
+Δ (after - before): 0.0681
+-> Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/rewritten_gpt_essay_relative_pos.txt
+[INFO] Saved POS structural change log to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-19-51_batch_loocv_ahosa/models/pos_change_log.json
+
+[STEP COMPLETED] Rewrite GPT holdout (topic=ahosa) in 83.69s

@@ -1,0 +1,3026 @@
+
+
+===== Preprocess personal train (holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 305 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_clean.jsonl
+Wrote cleaned essay for personal_dbb to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_dbb_clean.txt
+Wrote cleaned essay for personal_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_clean.txt
+
+[STEP COMPLETED] Preprocess personal train (holdout=dbb) in 3.43s
+
+
+===== Preprocess GPT train (holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 481 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.jsonl
+Wrote cleaned essay for gpt_dbb to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb_clean.txt
+Wrote cleaned essay for gpt_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.txt
+
+[STEP COMPLETED] Preprocess GPT train (holdout=dbb) in 3.44s
+
+
+===== Preprocess GPT holdout (holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 956 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb_clean.jsonl
+Wrote cleaned essay for gpt_dbb to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb_clean.txt
+Wrote cleaned essay for gpt_dbb_clean to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb_clean_clean.txt
+Wrote cleaned essay for gpt_train to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.txt
+Wrote cleaned essay for gpt_train_clean to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean_clean.txt
+
+[STEP COMPLETED] Preprocess GPT holdout (holdout=dbb) in 3.11s
+
+
+===== Build POS trees (personal train, holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 305 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_clean.jsonl
+Successfully parsed 305 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees (personal train, holdout=dbb) in 19.47s
+
+
+===== Build POS trees (GPT train, holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 481 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_clean.jsonl
+Successfully parsed 481 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees (GPT train, holdout=dbb) in 22.44s
+
+
+===== Estimate POS PCFG (personal train, holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 305 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train_pos_trees.jsonl
+Processed 100 trees... total productions so far: 6143
+Processed 200 trees... total productions so far: 12709
+Processed 300 trees... total productions so far: 20383
+Collected total of 20765 productions from 305 trees
+Built POS-based PCFG with 70 LHS nonterminals
+Saved POS PCFG with 70 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_personal_pos.json
+
+[STEP COMPLETED] Estimate POS PCFG (personal train, holdout=dbb) in 1.50s
+
+
+===== Estimate POS PCFG (GPT train, holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_gpt_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 481 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train_pos_trees.jsonl
+Processed 100 trees... total productions so far: 3699
+Processed 200 trees... total productions so far: 7128
+Processed 300 trees... total productions so far: 11302
+Processed 400 trees... total productions so far: 16397
+Collected total of 20548 productions from 481 trees
+Built POS-based PCFG with 68 LHS nonterminals
+Saved POS PCFG with 68 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_gpt_pos.json
+
+[STEP COMPLETED] Estimate POS PCFG (GPT train, holdout=dbb) in 1.26s
+
+
+===== Compute baselines (train corpora, holdout=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compute_baselines.py --mine-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train.txt --gpt-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_train.txt --personal_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_personal_pos.json --gpt_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_gpt_pos.json --out-baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/style_baselines.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Computing baseline for YOUR grammar on YOUR corpus...
+  mu_you_on_you: -1.660938362029242
+
+Computing baseline for GPT grammar on GPT corpus...
+  mu_gpt_on_gpt: -1.5501486730525826
+
+Saved baselines to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/style_baselines.json
+
+[STEP COMPLETED] Compute baselines (train corpora, holdout=dbb) in 40.96s
+
+
+===== Rewrite GPT holdout (topic=dbb) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/rewrite_POS.py --mine /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/personal_data/personal_train.txt --gpt /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/gpt_data/gpt_dbb.txt --you-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pcfg_gpt_pos.json --baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/style_baselines.json --out-essay /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/rewritten_gpt_essay_relative_pos.txt --out-log /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pos_change_log.json --cands /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/data/gpt_candidates_dbb.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[INFO] Loaded paraphrases for 106 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/data/gpt_candidates_dbb.jsonl
+=== YOUR ESSAY ===
+Length (chars): 44702
+Average normalized relative style (you - GPT): 0.2605270825753654
+Average normalized logP_you per rule        : 0.00010716030629940183
+Average normalized logP_gpt per rule        : -0.26041992226906596
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 9757
+Average normalized relative style (you - GPT): 0.039803533959840244
+Average normalized logP_you per rule        : 0.017031366312425095
+Average normalized logP_gpt per rule        : -0.022772167647415156
+
+
+=== PER-SENTENCE CHANGES (STRUCTURAL / POS-LEVEL) ===
+
+Sentence 0:
+  ORIGINAL : Alcohol is woven into social culture so tightly that it can be hard to imagine a party, a celebration, or even a casual dinner without it.
+  REWRITTEN: Alcohol is woven into social culture so tightly that it can be hard to imagine a party, a celebration, or even a casual dinner without it.
+  style_rel(orig) = 0.135, style_rel(new) = 0.135, Δ = 0.000
+  POS pattern (orig): NNP VBZ VBN IN JJ NN RB RB IN PRP MD VB JJ TO VB DT NN , DT NN , CC RB DT JJ NN IN PRP .
+  POS pattern (new) :  NNP VBZ VBN IN JJ NN RB RB IN PRP MD VB JJ TO VB DT NN , DT NN , CC RB DT JJ NN IN PRP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 1:
+  ORIGINAL : From movies to music to social media, the message is constant: drinking is fun.
+  REWRITTEN: Popular culture repeatedly tells us that drinking is exciting and enjoyable.
+  style_rel(orig) = -0.100, style_rel(new) = 0.061, Δ = 0.161
+  POS pattern (orig): IN NNS TO NN TO JJ NNS , DT NN VBZ JJ : NN VBZ NN .
+  POS pattern (new) :  JJ NN RB VBZ PRP IN NN VBZ VBG CC JJ .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → NN
+      JJ → .
+      JJ → NN
+      NN → RB
+      PRP → IN
+      RB → VBZ
+      VBG → CC
+      VBZ → PRP
+      VBZ → VBG
+    Removed:
+      , → DT
+      : → NN
+      DT → NN
+      IN → NNS
+      JJ → :
+      JJ → NNS
+      NN → .
+      NN → TO
+      NNS → ,
+      NNS → TO
+      TO → JJ
+      TO → NN
+      VBZ → JJ
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 2:
+  ORIGINAL : Drinking is freedom.
+  REWRITTEN: Drinking is freedom.
+  style_rel(orig) = -0.093, style_rel(new) = -0.093, Δ = 0.000
+  POS pattern (orig): NN VBZ RB .
+  POS pattern (new) :  NN VBZ RB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 3:
+  ORIGINAL : Drinking is a normal part of growing up.
+  REWRITTEN: Many believe experimenting with alcohol is just part of becoming an adult.
+  style_rel(orig) = 0.096, style_rel(new) = 0.123, Δ = 0.027
+  POS pattern (orig): NN VBZ DT JJ NN IN VBG RP .
+  POS pattern (new) :  JJ VBP VBG IN NN VBZ RB NN IN VBG DT NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → NN
+      JJ → VBP
+      NN → .
+      RB → NN
+      VBG → DT
+      VBG → IN
+      VBP → VBG
+      VBZ → RB
+    Removed:
+      DT → JJ
+      JJ → NN
+      RP → .
+      VBG → RP
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 4:
+  ORIGINAL : But when you move away from the marketing, the cultural pressure, and the jokes, a very different picture appears.
+  REWRITTEN: Behind the marketing and social expectations is a much more serious reality.
+  style_rel(orig) = 0.045, style_rel(new) = 0.118, Δ = 0.073
+  POS pattern (orig): CC WRB PRP VBP RB IN DT NN , DT JJ NN , CC DT NNS , DT RB JJ NN VBZ .
+  POS pattern (new) :  IN DT NN CC JJ NNS VBZ DT RB RBR JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      JJ → NNS
+      NN → .
+      NN → CC
+      NNS → VBZ
+      RB → RBR
+      RBR → JJ
+      VBZ → DT
+    Removed:
+      , → CC
+      , → DT
+      CC → DT
+      CC → WRB
+      DT → JJ
+      DT → NNS
+      NN → ,
+      NN → VBZ
+      NNS → ,
+      PRP → VBP
+      RB → IN
+      RB → JJ
+      VBP → RB
+      VBZ → .
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 5:
+  ORIGINAL : Alcohol is a psychoactive drug that alters the brain in powerful and far-reaching ways.
+  REWRITTEN: Drinking influences the brain deeply, causing wide-ranging neural changes.
+  style_rel(orig) = 0.082, style_rel(new) = 0.108, Δ = 0.026
+  POS pattern (orig): NNP VBZ DT JJ NN WDT VBZ DT NN IN JJ CC JJ NNS .
+  POS pattern (new) :  VBG NNS DT NN RB , VBG JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → JJ
+      NN → RB
+      NNS → DT
+      RB → ,
+      VBG → JJ
+      VBG → NNS
+    Removed:
+      CC → JJ
+      DT → JJ
+      IN → JJ
+      JJ → CC
+      JJ → NN
+      NN → IN
+      NN → WDT
+      NNP → VBZ
+      VBZ → DT
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 6:
+  ORIGINAL : Those changes are especially serious for young people whose neural circuits are still developing.
+  REWRITTEN: Since teenagers’ neural pathways are still maturing, alcohol’s impact can be more harmful.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.134, Δ = 1000000.134
+  POS pattern (orig): DT NNS VBP RB JJ IN JJ NNS WP$ JJ NNS VBP RB VBG .
+  POS pattern (new) :  IN NNS VBP JJ NNS VBP RB VBG , NN NNP VBZ NN MD VB RBR JJ .
+  POS bigram changes:
+    Added:
+      , → NN
+      IN → NNS
+      JJ → .
+      MD → VB
+      NN → MD
+      NN → NNP
+      NNP → VBZ
+      RBR → JJ
+      VB → RBR
+      VBG → ,
+      VBP → JJ
+      VBZ → NN
+    Removed:
+      DT → NNS
+      IN → JJ
+      JJ → IN
+      NNS → WP$
+      RB → JJ
+      VBG → .
+      WP$ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 7:
+  ORIGINAL : So if the question is whether kids and teenagers should drink alcohol, we need more than moral claims or vague warnings.
+  REWRITTEN: Therefore, deciding if youth should drink requires more than moralizing or general caution.
+  style_rel(orig) = 0.037, style_rel(new) = 0.136, Δ = 0.098
+  POS pattern (orig): RB IN DT NN VBZ IN NNS CC NNS MD VB NN , PRP VBP JJR IN JJ NNS CC JJ NNS .
+  POS pattern (new) :  RB , VBG IN NN MD VB VBZ JJR IN NN CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      IN → NN
+      JJ → NN
+      NN → .
+      NN → CC
+      NN → MD
+      RB → ,
+      VB → VBZ
+      VBG → IN
+      VBZ → JJR
+    Removed:
+      , → PRP
+      CC → NNS
+      DT → NN
+      IN → DT
+      IN → JJ
+      IN → NNS
+      JJ → NNS
+      NN → ,
+      NN → VBZ
+      NNS → .
+      NNS → CC
+      NNS → MD
+      PRP → VBP
+      RB → IN
+      VB → NN
+      VBP → JJR
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 8:
+  ORIGINAL : We need to understand what alcohol actually does to the brain, how it shapes behavior and health, and what it means for the kind of life a developing person is trying to build.
+  REWRITTEN: Understanding alcohol’s neurological, behavioral, and developmental consequences is crucial for informed choices.
+  style_rel(orig) = -0.032, style_rel(new) = 0.211, Δ = 0.243
+  POS pattern (orig): PRP VBP TO VB WP NN RB VBZ TO DT NN , WRB PRP VBZ JJ CC NN , CC WP PRP VBZ IN DT NN IN NN DT VBG NN VBZ VBG TO VB .
+  POS pattern (new) :  VBG NN NNP NN JJ , JJ , CC JJ NNS VBZ JJ IN JJ NNS .
+  POS bigram changes:
+    Added:
+      , → JJ
+      CC → JJ
+      IN → JJ
+      JJ → ,
+      JJ → IN
+      JJ → NNS
+      NN → JJ
+      NN → NNP
+      NNP → NN
+      NNS → .
+      NNS → VBZ
+    Removed:
+      , → WRB
+      CC → NN
+      CC → WP
+      DT → NN
+      DT → VBG
+      IN → DT
+      IN → NN
+      JJ → CC
+      NN → ,
+      NN → DT
+      NN → IN
+      NN → RB
+      NN → VBZ
+      PRP → VBP
+      PRP → VBZ
+      RB → VBZ
+      TO → DT
+      TO → VB
+      VB → .
+      VB → WP
+      VBG → TO
+      VBP → TO
+      VBZ → IN
+      VBZ → TO
+      VBZ → VBG
+      WP → NN
+      WP → PRP
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 9:
+  ORIGINAL : To begin with, the brain of a teenager is not a finished product.
+  REWRITTEN: A teenager’s brain is not fully formed yet.
+  style_rel(orig) = -0.021, style_rel(new) = 0.228, Δ = 0.249
+  POS pattern (orig): TO VB IN , DT NN IN DT NN VBZ RB DT JJ NN .
+  POS pattern (new) :  DT NN NNP NN NN VBZ RB RB VBN RB .
+  POS bigram changes:
+    Added:
+      NN → NN
+      NN → NNP
+      NNP → NN
+      RB → .
+      RB → RB
+      RB → VBN
+      VBN → RB
+    Removed:
+      , → DT
+      DT → JJ
+      IN → ,
+      IN → DT
+      JJ → NN
+      NN → .
+      NN → IN
+      RB → DT
+      TO → VB
+      VB → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 10:
+  ORIGINAL : The rational thinking systems that govern decisions, risk evaluation, and impulse control are still under construction into the early to mid-20s.
+  REWRITTEN: Reasoning and self-control systems continue maturing well into early adulthood.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.118, Δ = 1000000.118
+  POS pattern (orig): DT JJ NN NNS WDT VBP NNS , NN NN , CC JJ NN VBP RB IN NN IN DT JJ TO NN .
+  POS pattern (new) :  VBG CC JJ NNS VBP VBG RB IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NNS
+      NNS → VBP
+      VBG → CC
+      VBG → RB
+      VBP → VBG
+    Removed:
+      , → CC
+      , → NN
+      DT → JJ
+      IN → DT
+      IN → NN
+      JJ → TO
+      NN → ,
+      NN → IN
+      NN → NN
+      NN → NNS
+      NN → VBP
+      NNS → ,
+      NNS → WDT
+      TO → NN
+      VBP → NNS
+      VBP → RB
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 11:
+  ORIGINAL : Meanwhile, the emotional and reward systems become highly active during adolescence.
+  REWRITTEN: The teenage brain experiences heightened activity in areas tied to emotion and reward.
+  style_rel(orig) = 0.074, style_rel(new) = 0.201, Δ = 0.127
+  POS pattern (orig): RB , DT JJ CC JJ NNS VBP RB JJ IN NN .
+  POS pattern (new) :  DT NN NN NNS VBD NN IN NNS VBN TO NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      DT → NN
+      IN → NNS
+      NN → CC
+      NN → IN
+      NN → NN
+      NN → NNS
+      NNS → VBD
+      NNS → VBN
+      TO → NN
+      VBD → NN
+      VBN → TO
+    Removed:
+      , → DT
+      CC → JJ
+      DT → JJ
+      IN → NN
+      JJ → CC
+      JJ → IN
+      JJ → NNS
+      NNS → VBP
+      RB → ,
+      RB → JJ
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 12:
+  ORIGINAL : This imbalance creates a neurological setup where temptation and excitement feel intense and immediate, while caution and long-term planning struggle to keep pace.
+  REWRITTEN: Because of this imbalance, thrills feel urgent and powerful, but careful thinking lags behind.
+  style_rel(orig) = 0.033, style_rel(new) = 0.068, Δ = 0.034
+  POS pattern (orig): DT NN VBZ DT JJ NN WRB NN CC NN NN JJ CC JJ , IN NN CC JJ NN NN TO VB NN .
+  POS pattern (new) :  IN IN DT NN , NNS VBP JJ CC JJ , CC JJ NN NNS IN .
+  POS bigram changes:
+    Added:
+      , → CC
+      , → NNS
+      IN → .
+      IN → DT
+      IN → IN
+      NN → ,
+      NN → NNS
+      NNS → IN
+      NNS → VBP
+      VBP → JJ
+    Removed:
+      , → IN
+      CC → NN
+      DT → JJ
+      IN → NN
+      NN → .
+      NN → CC
+      NN → JJ
+      NN → NN
+      NN → TO
+      NN → VBZ
+      NN → WRB
+      TO → VB
+      VB → NN
+      VBZ → DT
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 13:
+  ORIGINAL : Alcohol interacts directly with the chemical signals that control this system, giving short-term rewards in exchange for long-term harm.
+  REWRITTEN: Alcohol affects the neurotransmitters that run this system, offering quick pleasure but later consequences.
+  style_rel(orig) = 0.071, style_rel(new) = 0.126, Δ = 0.054
+  POS pattern (orig): NNP VBZ RB IN DT NN NNS WDT VBP DT NN , VBG JJ NNS IN NN IN JJ NN .
+  POS pattern (new) :  NNP VBZ DT NNS WDT VBP DT NN , VBG JJ NN CC RB NNS .
+  POS bigram changes:
+    Added:
+      CC → RB
+      DT → NNS
+      NN → CC
+      NNS → .
+      RB → NNS
+      VBZ → DT
+    Removed:
+      IN → DT
+      IN → JJ
+      IN → NN
+      JJ → NNS
+      NN → .
+      NN → IN
+      NN → NNS
+      NNS → IN
+      RB → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 14:
+  ORIGINAL : Kids do not simply have “less experience” with alcohol.
+  REWRITTEN: Lack of drinking experience isn’t the core issue for youth.
+  style_rel(orig) = 0.094, style_rel(new) = 0.116, Δ = 0.023
+  POS pattern (orig): NNS VBP RB RB VB NNP JJR NN NN IN NN .
+  POS pattern (new) :  NN IN NN NN NN NNP VBZ DT NN NN IN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      NN → NNP
+      NNP → VBZ
+      VBZ → DT
+    Removed:
+      JJR → NN
+      NNP → JJR
+      NNS → VBP
+      RB → RB
+      RB → VB
+      VB → NNP
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 15:
+  ORIGINAL : They have a brain that is more vulnerable to it.
+  REWRITTEN: Their developing brain is more susceptible to alcohol’s effects.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.145, Δ = 1000000.145
+  POS pattern (orig): PRP VBP DT NN WDT VBZ RBR JJ TO PRP .
+  POS pattern (new) :  PRP$ NN NN VBZ RBR JJ TO VB NNP JJ NNS .
+  POS bigram changes:
+    Added:
+      JJ → NNS
+      NN → NN
+      NN → VBZ
+      NNP → JJ
+      NNS → .
+      PRP$ → NN
+      TO → VB
+      VB → NNP
+    Removed:
+      DT → NN
+      NN → WDT
+      PRP → .
+      PRP → VBP
+      TO → PRP
+      VBP → DT
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 16:
+  ORIGINAL : Alcohol is a depressant, but that does not mean it only slows things down.
+  REWRITTEN: Being a depressant doesn’t mean alcohol simply dulls everything.
+  style_rel(orig) = 0.002, style_rel(new) = 0.212, Δ = 0.210
+  POS pattern (orig): NNP VBZ DT NN , CC IN VBZ RB VB PRP RB VBZ NNS RP .
+  POS pattern (new) :  VBG DT NN NN NNP NN NN NN RB VBZ NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NN
+      NN → NNP
+      NN → RB
+      NNP → NN
+      VBG → DT
+      VBZ → NN
+    Removed:
+      , → CC
+      CC → IN
+      IN → VBZ
+      NN → ,
+      NNP → VBZ
+      NNS → RP
+      PRP → RB
+      RB → VB
+      RP → .
+      VB → PRP
+      VBZ → DT
+      VBZ → NNS
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 17:
+  ORIGINAL : It temporarily turns up reward, pleasure, and social confidence by manipulating the brain’s neurotransmitters.
+  REWRITTEN: It temporarily turns up reward, pleasure, and social confidence by manipulating the brain’s neurotransmitters.
+  style_rel(orig) = 0.176, style_rel(new) = 0.176, Δ = 0.000
+  POS pattern (orig): PRP RB VBZ RP NN , NN , CC JJ NN IN VBG DT NN NNP NN NNS .
+  POS pattern (new) :  PRP RB VBZ RP NN , NN , CC JJ NN IN VBG DT NN NNP NN NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 18:
+  ORIGINAL : It enhances the effect of GABA, which is the primary inhibitory signal in the brain, making thought and movement slow and clumsy.
+  REWRITTEN: It strengthens the action of GABA, the brain’s main inhibitor, causing sluggish thinking and awkward movement.
+  style_rel(orig) = 0.128, style_rel(new) = 0.196, Δ = 0.068
+  POS pattern (orig): PRP VBZ DT NN IN NNP , WDT VBZ DT JJ JJ NN IN DT NN , VBG VBN CC NN NN CC NN .
+  POS pattern (new) :  PRP VBZ DT NN IN NNP , DT NN NNP NN JJ NN , VBG JJ NN CC JJ NN .
+  POS bigram changes:
+    Added:
+      , → DT
+      CC → JJ
+      NN → JJ
+      NN → NNP
+      NNP → NN
+      VBG → JJ
+    Removed:
+      , → WDT
+      CC → NN
+      DT → JJ
+      IN → DT
+      JJ → JJ
+      NN → NN
+      VBG → VBN
+      VBN → CC
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 19:
+  ORIGINAL : It suppresses glutamate, a critical neurotransmitter for memory, attention, and learning.
+  REWRITTEN: Alcohol inhibits glutamate, disrupting key cognitive functions.
+  style_rel(orig) = 0.044, style_rel(new) = 0.292, Δ = 0.249
+  POS pattern (orig): PRP VBZ NN , DT JJ NN IN NN , NN , CC NN .
+  POS pattern (new) :  NNP NNS NN , VBG JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → JJ
+      JJ → NNS
+      NNP → NNS
+      NNS → .
+      NNS → NN
+      VBG → JJ
+    Removed:
+      , → CC
+      , → DT
+      , → NN
+      CC → NN
+      DT → JJ
+      IN → NN
+      JJ → NN
+      NN → .
+      NN → IN
+      PRP → VBZ
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 20:
+  ORIGINAL : That is why memories become blurry or completely disappear after too much drinking.
+  REWRITTEN: Excessive alcohol often leads to poor or missing memories.
+  style_rel(orig) = 0.035, style_rel(new) = 0.075, Δ = 0.040
+  POS pattern (orig): DT VBZ WRB NNS VBP NN CC RB JJ IN RB JJ NN .
+  POS pattern (new) :  JJ NN RB VBZ TO JJ CC VBG NNS .
+  POS bigram changes:
+    Added:
+      CC → VBG
+      JJ → CC
+      NN → RB
+      NNS → .
+      RB → VBZ
+      TO → JJ
+      VBG → NNS
+      VBZ → TO
+    Removed:
+      CC → RB
+      DT → VBZ
+      IN → RB
+      JJ → IN
+      NN → .
+      NN → CC
+      NNS → VBP
+      RB → JJ
+      VBP → NN
+      VBZ → WRB
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 21:
+  ORIGINAL : Alcohol also increases dopamine in the brain’s reward circuit, and the adolescent reward circuit is exceptionally sensitive.
+  REWRITTEN: Alcohol also increases dopamine in the brain’s reward circuit, and the adolescent reward circuit is exceptionally sensitive.
+  style_rel(orig) = 0.134, style_rel(new) = 0.134, Δ = 0.000
+  POS pattern (orig): NNP RB VBZ NN IN DT NN NNP VBZ NN NN , CC DT JJ NN NN VBZ RB JJ .
+  POS pattern (new) :  NNP RB VBZ NN IN DT NN NNP VBZ NN NN , CC DT JJ NN NN VBZ RB JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 22:
+  ORIGINAL : For a teen, just one night of drinking can condition the brain to expect alcohol as a shortcut to confidence and relief.
+  REWRITTEN: One night of alcohol can train a teenager’s brain to rely on it for feeling better socially.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.316, Δ = 1000000.316
+  POS pattern (orig): IN DT JJ , RB CD NN IN NN MD VB DT NN TO VB NN IN DT NN TO NN CC NN .
+  POS pattern (new) :  CD NN IN NN MD VB DT NN NNP NN NN TO VB IN PRP IN VBG RBR RB .
+  POS bigram changes:
+    Added:
+      IN → PRP
+      IN → VBG
+      NN → NN
+      NN → NNP
+      NNP → NN
+      PRP → IN
+      RB → .
+      RBR → RB
+      VB → IN
+      VBG → RBR
+    Removed:
+      , → RB
+      CC → NN
+      DT → JJ
+      IN → DT
+      JJ → ,
+      NN → .
+      NN → CC
+      RB → CD
+      TO → NN
+      VB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 23:
+  ORIGINAL : That shortcut becomes dangerous quickly.
+  REWRITTEN: That shortcut becomes dangerous quickly.
+  style_rel(orig) = 0.131, style_rel(new) = 0.131, Δ = 0.000
+  POS pattern (orig): DT VBD RB JJ RB .
+  POS pattern (new) :  DT VBD RB JJ RB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 24:
+  ORIGINAL : Repeated exposure during adolescence can reshape neural pathways that govern motivation.
+  REWRITTEN: Frequent drinking while young can alter the brain circuits involved in motivation.
+  style_rel(orig) = 0.012, style_rel(new) = 0.081, Δ = 0.069
+  POS pattern (orig): VBN NN IN NN MD VB JJ NNS WDT VBP NN .
+  POS pattern (new) :  JJ NN IN JJ MD VB DT NN NNS VBN IN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → JJ
+      JJ → MD
+      JJ → NN
+      NN → NNS
+      NNS → VBN
+      VB → DT
+      VBN → IN
+    Removed:
+      JJ → NNS
+      NN → MD
+      NNS → WDT
+      VB → JJ
+      VBN → NN
+      VBP → NN
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 25:
+  ORIGINAL : When the brain learns that pleasure and social ease come from a chemical bottle instead of personal skill and coping abilities, those abilities may never fully develop.
+  REWRITTEN: Depending on alcohol for comfort can stunt emotional and social skill growth.
+  style_rel(orig) = 0.042, style_rel(new) = 0.100, Δ = 0.059
+  POS pattern (orig): WRB DT NN VBZ IN NN CC JJ NN VBN IN DT JJ NN RB IN JJ NN CC VBG NNS , DT NNS MD RB RB VB .
+  POS pattern (new) :  VBG IN NN IN NN MD VB JJ CC JJ NN NN .
+  POS bigram changes:
+    Added:
+      JJ → CC
+      MD → VB
+      NN → .
+      NN → IN
+      NN → MD
+      NN → NN
+      VB → JJ
+      VBG → IN
+    Removed:
+      , → DT
+      CC → VBG
+      DT → JJ
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → JJ
+      MD → RB
+      NN → CC
+      NN → RB
+      NN → VBN
+      NN → VBZ
+      NNS → ,
+      NNS → MD
+      RB → IN
+      RB → RB
+      RB → VB
+      VB → .
+      VBG → NNS
+      VBN → IN
+      VBZ → IN
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 26:
+  ORIGINAL : The reward system becomes biased toward alcohol, and situations without it can feel empty or stressful.
+  REWRITTEN: The brain starts favoring alcohol for reward, making sober moments feel dull or uncomfortable.
+  style_rel(orig) = 0.106, style_rel(new) = 0.123, Δ = 0.017
+  POS pattern (orig): DT NN NN VBZ VBN IN NN , CC NNS IN PRP MD VB JJ CC JJ .
+  POS pattern (new) :  DT NN VBZ VBG NN IN NN , VBG JJ NNS VB RB CC JJ .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → NNS
+      NN → IN
+      NNS → VB
+      RB → CC
+      VB → RB
+      VBG → JJ
+      VBG → NN
+      VBZ → VBG
+    Removed:
+      , → CC
+      CC → NNS
+      IN → PRP
+      JJ → CC
+      MD → VB
+      NN → NN
+      NNS → IN
+      PRP → MD
+      VB → JJ
+      VBN → IN
+      VBZ → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 27:
+  ORIGINAL : This is a store-bought version of social comfort, and the price is the brain’s natural capacity to generate confidence and resilience on its own.
+  REWRITTEN: It’s a purchased shortcut to feeling comfortable, costing you genuine self-assurance and strength.
+  style_rel(orig) = 0.083, style_rel(new) = 0.135, Δ = 0.052
+  POS pattern (orig): DT VBZ DT JJ NN IN JJ NN , CC DT NN VBZ DT NN NNP VBZ JJ NN TO VB NN CC NN IN PRP$ JJ .
+  POS pattern (new) :  PRP VBZ VBZ DT JJ NN TO VBG JJ , VBG PRP JJ NN CC NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → ,
+      NN → .
+      PRP → JJ
+      PRP → VBZ
+      TO → VBG
+      VBG → JJ
+      VBG → PRP
+      VBZ → VBZ
+    Removed:
+      , → CC
+      CC → DT
+      DT → NN
+      DT → VBZ
+      IN → JJ
+      IN → PRP$
+      JJ → .
+      NN → ,
+      NN → IN
+      NN → NNP
+      NN → VBZ
+      NNP → VBZ
+      PRP$ → JJ
+      TO → VB
+      VB → NN
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 28:
+  ORIGINAL : Then there is the matter of risk.
+  REWRITTEN: There’s also the issue of danger.
+  style_rel(orig) = 0.064, style_rel(new) = 0.245, Δ = 0.181
+  POS pattern (orig): RB EX VBZ DT NN IN NN .
+  POS pattern (new) :  EX NNP NN RB DT NN IN NN .
+  POS bigram changes:
+    Added:
+      EX → NNP
+      NN → RB
+      NNP → NN
+      RB → DT
+    Removed:
+      EX → VBZ
+      RB → EX
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 29:
+  ORIGINAL : Alcohol changes how teenagers interpret social situations.
+  REWRITTEN: Alcohol distorts a teenager’s understanding of what’s happening socially.
+  style_rel(orig) = -0.012, style_rel(new) = 0.148, Δ = 0.160
+  POS pattern (orig): NNP VBZ WRB NNS VBP JJ NNS .
+  POS pattern (new) :  NNP VBZ DT NN NNP VBD NN IN WP NNP VBD VBG RB .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → WP
+      NN → IN
+      NN → NNP
+      NNP → VBD
+      RB → .
+      VBD → NN
+      VBD → VBG
+      VBG → RB
+      VBZ → DT
+      WP → NNP
+    Removed:
+      JJ → NNS
+      NNS → .
+      NNS → VBP
+      VBP → JJ
+      VBZ → WRB
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 30:
+  ORIGINAL : Because emotion-driven systems are in charge, alcohol removes inhibitions first, not emotions or impulses.
+  REWRITTEN: With emotional systems leading, alcohol lowers restraint before calming strong feelings or urges.
+  style_rel(orig) = 0.035, style_rel(new) = 0.160, Δ = 0.125
+  POS pattern (orig): IN JJ NNS VBP IN NN , NN NNS NNS RB , RB NNS CC NNS .
+  POS pattern (new) :  IN JJ NNS VBG , NN NNS VBP IN VBG JJ NNS CC NNS .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      NNS → VBG
+      VBG → ,
+      VBG → JJ
+    Removed:
+      , → RB
+      IN → NN
+      NN → ,
+      NNS → NNS
+      NNS → RB
+      RB → ,
+      RB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 31:
+  ORIGINAL : This leads to behaviors the sober brain would never approve: unsafe driving, aggressive actions, unprotected sex, dangerous dares, and vulnerability to exploitation or assault.
+  REWRITTEN: This results in actions a sober mind would reject, like reckless driving, violence, risky sexual behavior, dangerous stunts, and exposure to harm or assault.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.070, Δ = 1000000.070
+  POS pattern (orig): DT VBZ TO VB DT NN NN MD RB VB : JJ NN , JJ NNS , JJ NN , JJ NNS , CC NN TO NN CC NN .
+  POS pattern (new) :  DT NNS IN NNS DT NN NN MD VB , IN JJ NN , NN , JJ JJ NN , JJ NNS , CC NN TO VB CC VB .
+  POS bigram changes:
+    Added:
+      , → IN
+      , → NN
+      CC → VB
+      DT → NNS
+      IN → JJ
+      IN → NNS
+      JJ → JJ
+      MD → VB
+      NNS → DT
+      NNS → IN
+      VB → ,
+      VB → .
+      VB → CC
+    Removed:
+      : → JJ
+      DT → VBZ
+      MD → RB
+      NN → .
+      NN → CC
+      RB → VB
+      TO → NN
+      VB → :
+      VB → DT
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 32:
+  ORIGINAL : The problem is not that teens are foolish.
+  REWRITTEN: The issue isn’t that teenagers lack intelligence.
+  style_rel(orig) = -0.053, style_rel(new) = 0.150, Δ = 0.203
+  POS pattern (orig): DT NN VBZ RB IN NNS VBP JJ .
+  POS pattern (new) :  DT NN NN NNP NN IN VBZ JJ NN .
+  POS bigram changes:
+    Added:
+      IN → VBZ
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → NN
+      NN → NNP
+      NNP → NN
+      VBZ → JJ
+    Removed:
+      IN → NNS
+      JJ → .
+      NN → VBZ
+      NNS → VBP
+      RB → IN
+      VBP → JJ
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 33:
+  ORIGINAL : It is that their brain does not yet have the internal brakes that adults rely on during intoxication.
+  REWRITTEN: It is that their brain does not yet have the internal brakes that adults rely on during intoxication.
+  style_rel(orig) = 0.042, style_rel(new) = 0.042, Δ = 0.000
+  POS pattern (orig): PRP VBZ IN PRP$ NN VBZ RB RB VBP DT JJ NNS WDT VBP RB IN IN NN .
+  POS pattern (new) :  PRP VBZ IN PRP$ NN VBZ RB RB VBP DT JJ NNS WDT VBP RB IN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 34:
+  ORIGINAL : Alcohol disables what little braking system is there.
+  REWRITTEN: Alcohol shuts down the limited self-control teens already have.
+  style_rel(orig) = -0.324, style_rel(new) = 0.216, Δ = 0.540
+  POS pattern (orig): NNP VBZ WP JJ VBG NN VBZ RB .
+  POS pattern (new) :  NNP VBZ RP DT JJ NN NNS RB VBP .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NN
+      NN → NNS
+      NNS → RB
+      RB → VBP
+      RP → DT
+      VBP → .
+      VBZ → RP
+    Removed:
+      JJ → VBG
+      NN → VBZ
+      RB → .
+      VBG → NN
+      VBZ → RB
+      VBZ → WP
+      WP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 35:
+  ORIGINAL : Long-term consequences are not limited to behavior.
+  REWRITTEN: Behavior isn’t the only thing that suffers over time.
+  style_rel(orig) = -0.068, style_rel(new) = 0.231, Δ = 0.300
+  POS pattern (orig): JJ NNS VBP RB VBN TO VB .
+  POS pattern (new) :  NNP NN NNP VBZ DT JJ NN IN VBZ IN NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → NN
+      IN → VBZ
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → NNP
+      NNP → NN
+      NNP → VBZ
+      VBZ → DT
+      VBZ → IN
+    Removed:
+      JJ → NNS
+      NNS → VBP
+      RB → VBN
+      TO → VB
+      VB → .
+      VBN → TO
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 36:
+  ORIGINAL : Early drinking increases the likelihood of addiction later in life.
+  REWRITTEN: Adolescent alcohol use is strongly linked to future dependency.
+  style_rel(orig) = 0.146, style_rel(new) = 0.368, Δ = 0.222
+  POS pattern (orig): RB NN VBZ DT NN IN NN RBR IN NN .
+  POS pattern (new) :  NNP NN NN VBZ RB VBN TO JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      NN → NN
+      NNP → NN
+      RB → VBN
+      TO → JJ
+      VBN → TO
+      VBZ → RB
+    Removed:
+      DT → NN
+      IN → NN
+      NN → IN
+      NN → RBR
+      RB → NN
+      RBR → IN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 37:
+  ORIGINAL : The younger a person is when they start consuming alcohol, the higher the risk that their brain will adapt to expect it.
+  REWRITTEN: Drinking earlier in life makes the brain more prone to relying on alcohol.
+  style_rel(orig) = 0.040, style_rel(new) = 0.077, Δ = 0.037
+  POS pattern (orig): DT JJR DT NN VBZ WRB PRP VBP VBG NN , DT JJR DT NN IN PRP$ NN MD VB TO VB PRP .
+  POS pattern (new) :  VBG RBR IN NN VBZ DT NN JJR NN TO VBG IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      JJR → NN
+      NN → .
+      NN → JJR
+      NN → TO
+      RBR → IN
+      TO → VBG
+      VBG → IN
+      VBG → RBR
+      VBZ → DT
+    Removed:
+      , → DT
+      DT → JJR
+      IN → PRP$
+      JJR → DT
+      MD → VB
+      NN → ,
+      NN → IN
+      NN → MD
+      PRP → .
+      PRP → VBP
+      PRP$ → NN
+      TO → VB
+      VB → PRP
+      VB → TO
+      VBG → NN
+      VBP → VBG
+      VBZ → WRB
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 38:
+  ORIGINAL : Studies show that those who begin drinking in early adolescence are significantly more likely to develop alcohol use disorder in adulthood.
+  REWRITTEN: Evidence shows that drinking during early teen years greatly raises the risk of adult alcohol problems.
+  style_rel(orig) = 0.028, style_rel(new) = 0.120, Δ = 0.092
+  POS pattern (orig): NNS VBP IN DT WP VBP VBG IN JJ NN VBP RB RBR JJ TO VB NN NN NN IN NN .
+  POS pattern (new) :  NN NNS IN VBG IN JJ JJ NNS RB VBZ DT NN IN NN NN NNS .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → VBG
+      JJ → JJ
+      JJ → NNS
+      NN → NNS
+      NNS → .
+      NNS → IN
+      NNS → RB
+      RB → VBZ
+      VBZ → DT
+    Removed:
+      DT → WP
+      IN → DT
+      JJ → NN
+      JJ → TO
+      NN → .
+      NN → VBP
+      NNS → VBP
+      RB → RBR
+      RBR → JJ
+      TO → VB
+      VB → NN
+      VBP → IN
+      VBP → RB
+      VBP → VBG
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 39:
+  ORIGINAL : Alcohol can also damage the developing hippocampus, the part of the brain responsible for memory formation and spatial learning.
+  REWRITTEN: Alcohol can negatively affect the hippocampus while it’s still maturing, impairing memory and learning.
+  style_rel(orig) = 0.063, style_rel(new) = 0.066, Δ = 0.003
+  POS pattern (orig): NN MD RB VB DT NN NN , DT NN IN DT NN JJ IN NN NN CC JJ NN .
+  POS pattern (new) :  NN MD RB VB DT NN IN PRP VBZ NN RB VBG , VBG NN CC NN .
+  POS bigram changes:
+    Added:
+      , → VBG
+      CC → NN
+      IN → PRP
+      NN → RB
+      PRP → VBZ
+      RB → VBG
+      VBG → ,
+      VBG → NN
+      VBZ → NN
+    Removed:
+      , → DT
+      CC → JJ
+      IN → DT
+      IN → NN
+      JJ → IN
+      JJ → NN
+      NN → ,
+      NN → JJ
+      NN → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 40:
+  ORIGINAL : Chronic teen drinking has been linked to reduced gray matter volume, slower information processing, poorer academic performance, and difficulty regulating emotion.
+  REWRITTEN: Chronic teen drinking has been linked to reduced gray matter volume, slower information processing, poorer academic performance, and difficulty regulating emotion.
+  style_rel(orig) = 0.194, style_rel(new) = 0.194, Δ = 0.000
+  POS pattern (orig): NNP NN NN VBZ VBN VBN TO VB JJ NN NN , JJR NN NN , JJR JJ NN , CC NN VBG NN .
+  POS pattern (new) :  NNP NN NN VBZ VBN VBN TO VB JJ NN NN , JJR NN NN , JJR JJ NN , CC NN VBG NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 41:
+  ORIGINAL : Effects like these can last years beyond the final drink.
+  REWRITTEN: Such impacts may endure long past the last alcoholic beverage.
+  style_rel(orig) = -0.082, style_rel(new) = 0.107, Δ = 0.189
+  POS pattern (orig): NNS IN DT MD JJ NNS IN DT JJ NN .
+  POS pattern (new) :  JJ NNS MD VB JJ IN DT JJ JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → IN
+      JJ → JJ
+      MD → VB
+      NNS → MD
+      VB → JJ
+    Removed:
+      DT → MD
+      MD → JJ
+      NNS → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 42:
+  ORIGINAL : Some may never fully reverse.
+  REWRITTEN: Certain effects might be permanent.
+  style_rel(orig) = 0.031, style_rel(new) = 0.320, Δ = 0.289
+  POS pattern (orig): DT MD RB RB VB .
+  POS pattern (new) :  NNP NNS MD VB JJ .
+  POS bigram changes:
+    Added:
+      JJ → .
+      MD → VB
+      NNP → NNS
+      NNS → MD
+      VB → JJ
+    Removed:
+      DT → MD
+      MD → RB
+      RB → RB
+      RB → VB
+      VB → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 43:
+  ORIGINAL : There is also the issue of emotional coping.
+  REWRITTEN: Emotional regulation is another area alcohol interferes with.
+  style_rel(orig) = 0.060, style_rel(new) = 0.138, Δ = 0.078
+  POS pattern (orig): EX VBZ RB DT NN IN JJ NN .
+  POS pattern (new) :  JJ NN VBZ DT NN NN VBZ IN .
+  POS bigram changes:
+    Added:
+      IN → .
+      NN → NN
+      NN → VBZ
+      VBZ → DT
+      VBZ → IN
+    Removed:
+      EX → VBZ
+      IN → JJ
+      NN → .
+      NN → IN
+      RB → DT
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 44:
+  ORIGINAL : Adolescence is a period of identity formation, social stress, and heightened vulnerability to anxiety and depression.
+  REWRITTEN: The teen years involve figuring out who you are while dealing with stress and increased risk for anxiety and depression.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.071, Δ = 1000000.071
+  POS pattern (orig): NN VBZ DT NN IN NN NN , JJ NN , CC VBD NN TO NN CC NN .
+  POS pattern (new) :  DT JJ NNS VBP VBG RP WP PRP VBP IN VBG IN NN CC VBD NN IN NN CC NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → VBG
+      JJ → NNS
+      NNS → VBP
+      PRP → VBP
+      RP → WP
+      VBG → IN
+      VBG → RP
+      VBP → IN
+      VBP → VBG
+      WP → PRP
+    Removed:
+      , → CC
+      , → JJ
+      DT → NN
+      JJ → NN
+      NN → ,
+      NN → NN
+      NN → TO
+      NN → VBZ
+      TO → NN
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 45:
+  ORIGINAL : Alcohol numbs discomfort quickly, and that relief can feel like a solution.
+  REWRITTEN: Alcohol numbs discomfort quickly, and that relief can feel like a solution.
+  style_rel(orig) = 0.128, style_rel(new) = 0.128, Δ = 0.000
+  POS pattern (orig): NNP CC NN RB , CC IN NN MD VB IN DT NN .
+  POS pattern (new) :  NNP CC NN RB , CC IN NN MD VB IN DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 46:
+  ORIGINAL : But avoidance is not the same as coping.
+  REWRITTEN: Dodging discomfort doesn’t build coping skills.
+  style_rel(orig) = -0.039, style_rel(new) = 0.281, Δ = 0.320
+  POS pattern (orig): CC NN VBZ RB DT JJ IN NN .
+  POS pattern (new) :  VBG NN NN NNP NN NN VBG NNS .
+  POS bigram changes:
+    Added:
+      NN → NN
+      NN → NNP
+      NN → VBG
+      NNP → NN
+      NNS → .
+      VBG → NN
+      VBG → NNS
+    Removed:
+      CC → NN
+      DT → JJ
+      IN → NN
+      JJ → IN
+      NN → .
+      NN → VBZ
+      RB → DT
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 47:
+  ORIGINAL : By dulling negative emotions instead of learning how to manage them, teens miss essential development.
+  REWRITTEN: Avoiding emotional challenges prevents adolescents from learning key regulation abilities.
+  style_rel(orig) = 0.090, style_rel(new) = 0.173, Δ = 0.083
+  POS pattern (orig): IN VBG JJ NNS RB IN VBG WRB TO VB PRP , VBZ JJ JJ NN .
+  POS pattern (new) :  VBG JJ NNS NNS NNS IN VBG JJ NN NNS .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNS → .
+      NNS → IN
+      NNS → NNS
+    Removed:
+      , → VBZ
+      JJ → JJ
+      NN → .
+      NNS → RB
+      PRP → ,
+      RB → IN
+      TO → VB
+      VB → PRP
+      VBG → WRB
+      VBZ → JJ
+      WRB → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 48:
+  ORIGINAL : When relief comes from a bottle, the brain does not learn how to solve the problems that caused distress in the first place.
+  REWRITTEN: If alcohol provides the comfort, the brain never practices resolving the underlying issues.
+  style_rel(orig) = 0.007, style_rel(new) = 0.128, Δ = 0.121
+  POS pattern (orig): WRB NN VBZ IN DT NN , DT NN VBZ RB VB WRB TO VB DT NNS WDT VBD NN IN DT JJ NN .
+  POS pattern (new) :  IN VBN VBZ DT NN , DT NN RB NNS VBG DT JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → VBN
+      JJ → NNS
+      NN → RB
+      NNS → .
+      NNS → VBG
+      RB → NNS
+      VBG → DT
+      VBN → VBZ
+      VBZ → DT
+    Removed:
+      DT → NNS
+      IN → DT
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → VBZ
+      NNS → WDT
+      RB → VB
+      TO → VB
+      VB → DT
+      VB → WRB
+      VBD → NN
+      VBZ → IN
+      VBZ → RB
+      WDT → VBD
+      WRB → NN
+      WRB → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 49:
+  ORIGINAL : This is how alcohol transforms from a weekend experiment into a psychological crutch.
+  REWRITTEN: That’s how occasional use can evolve into reliance.
+  style_rel(orig) = 0.047, style_rel(new) = 0.085, Δ = 0.038
+  POS pattern (orig): DT VBZ WRB JJ NNS IN DT NN NN IN DT JJ NN .
+  POS pattern (new) :  DT VBZ VB WRB JJ NN MD VB IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      MD → VB
+      NN → MD
+      VB → IN
+      VB → WRB
+      VBZ → VB
+    Removed:
+      DT → JJ
+      DT → NN
+      IN → DT
+      JJ → NNS
+      NN → IN
+      NN → NN
+      NNS → IN
+      VBZ → WRB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 50:
+  ORIGINAL : Despite all this, many young people see drinking as a path toward belonging.
+  REWRITTEN: Despite all this, many young people see drinking as a path toward belonging.
+  style_rel(orig) = 0.051, style_rel(new) = 0.051, Δ = 0.000
+  POS pattern (orig): IN PDT DT , JJ JJ NNS VBP VBG IN DT NN IN VBG .
+  POS pattern (new) :  IN PDT DT , JJ JJ NNS VBP VBG IN DT NN IN VBG .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 51:
+  ORIGINAL : Alcohol appears to make social interaction easier.
+  REWRITTEN: Alcohol often gives the impression that socializing becomes simpler.
+  style_rel(orig) = 0.235, style_rel(new) = 0.238, Δ = 0.004
+  POS pattern (orig): NNP VBZ TO VB JJ NN RBR .
+  POS pattern (new) :  NNP RB VBZ DT NN IN VBG RB NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → VBG
+      NN → .
+      NN → IN
+      NNP → RB
+      RB → NN
+      RB → VBZ
+      VBG → RB
+      VBZ → DT
+    Removed:
+      JJ → NN
+      NN → RBR
+      NNP → VBZ
+      RBR → .
+      TO → VB
+      VB → JJ
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 52:
+  ORIGINAL : It lowers anxiety and increases talkativeness in the short term.
+  REWRITTEN: Alcohol can make someone feel calmer and more outgoing for a little while.
+  style_rel(orig) = -0.038, style_rel(new) = 0.116, Δ = 0.154
+  POS pattern (orig): PRP VBZ NN CC VBZ NN IN DT JJ NN .
+  POS pattern (new) :  NN MD VB NN VB JJR CC RBR VBG IN DT JJ NN .
+  POS bigram changes:
+    Added:
+      CC → RBR
+      JJR → CC
+      MD → VB
+      NN → MD
+      NN → VB
+      RBR → VBG
+      VB → JJR
+      VB → NN
+      VBG → IN
+    Removed:
+      CC → VBZ
+      NN → CC
+      NN → IN
+      PRP → VBZ
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 53:
+  ORIGINAL : But what most people do not realize is that alcohol also impairs the ability to read social cues accurately.
+  REWRITTEN: People rarely realize alcohol makes reading the room more difficult.
+  style_rel(orig) = 0.017, style_rel(new) = 0.061, Δ = 0.044
+  POS pattern (orig): CC WP JJS NNS VBP RB VB VBZ IN NN RB VBZ DT NN TO VB JJ NNS RB .
+  POS pattern (new) :  NNS RB VBP NN VBZ VBG DT NN RBR JJ .
+  POS bigram changes:
+    Added:
+      JJ → .
+      NN → RBR
+      NN → VBZ
+      RB → VBP
+      RBR → JJ
+      VBG → DT
+      VBP → NN
+      VBZ → VBG
+    Removed:
+      CC → WP
+      IN → NN
+      JJ → NNS
+      JJS → NNS
+      NN → RB
+      NN → TO
+      NNS → VBP
+      RB → .
+      RB → VB
+      RB → VBZ
+      TO → VB
+      VB → JJ
+      VB → VBZ
+      VBP → RB
+      VBZ → DT
+      VBZ → IN
+      WP → JJS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 54:
+  ORIGINAL : It makes misunderstandings more likely, not less.
+  REWRITTEN: It makes misunderstandings more likely, not less.
+  style_rel(orig) = 0.098, style_rel(new) = 0.098, Δ = 0.000
+  POS pattern (orig): PRP VBZ NNS RBR RB , RB RBR .
+  POS pattern (new) :  PRP VBZ NNS RBR RB , RB RBR .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 55:
+  ORIGINAL : It can turn insecurity into hostility, or confusion into conflict.
+  REWRITTEN: Alcohol can twist self-doubt into anger and uncertainty into arguments.
+  style_rel(orig) = 0.049, style_rel(new) = 0.155, Δ = 0.105
+  POS pattern (orig): PRP MD VB NN IN NN , CC NN IN NN .
+  POS pattern (new) :  NNP MD VB JJ IN NN CC NN IN NNS .
+  POS bigram changes:
+    Added:
+      IN → NNS
+      JJ → IN
+      NN → CC
+      NNP → MD
+      NNS → .
+      VB → JJ
+    Removed:
+      , → CC
+      NN → ,
+      NN → .
+      PRP → MD
+      VB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 56:
+  ORIGINAL : The social benefits of alcohol are real for a short moment, but the social costs often arrive right after: regret, embarrassment, broken trust.
+  REWRITTEN: Brief positive effects can be replaced with regret, humiliation, and loss of trust.
+  style_rel(orig) = 0.064, style_rel(new) = 0.089, Δ = 0.025
+  POS pattern (orig): DT JJ NNS IN NN VBP JJ IN DT JJ NN , CC DT JJ NNS RB JJ NN IN : NN , NN , JJ NN .
+  POS pattern (new) :  JJ JJ NNS MD VB VBN IN NN , NN , CC NN IN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      JJ → JJ
+      MD → VB
+      NNS → MD
+      VB → VBN
+      VBN → IN
+    Removed:
+      , → JJ
+      : → NN
+      CC → DT
+      DT → JJ
+      IN → :
+      IN → DT
+      JJ → IN
+      JJ → NN
+      NN → VBP
+      NNS → IN
+      NNS → RB
+      RB → JJ
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 57:
+  ORIGINAL : One of the most misunderstood aspects of alcohol is its relationship to mental health.
+  REWRITTEN: People often misunderstand alcohol’s impact on emotional health.
+  style_rel(orig) = -0.018, style_rel(new) = 0.095, Δ = 0.112
+  POS pattern (orig): CD IN DT RBS JJ NNS IN NN VBZ PRP$ NN TO JJ NN .
+  POS pattern (new) :  NNS RB VBP NNS NNP VBP NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      NN → IN
+      NNP → VBP
+      NNS → NNP
+      NNS → RB
+      RB → VBP
+      VBP → NN
+      VBP → NNS
+    Removed:
+      CD → IN
+      DT → RBS
+      IN → DT
+      IN → NN
+      JJ → NNS
+      NN → TO
+      NN → VBZ
+      NNS → IN
+      PRP$ → NN
+      RBS → JJ
+      TO → JJ
+      VBZ → PRP$
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 58:
+  ORIGINAL : People often drink to celebrate, but they also drink to feel less sad, less nervous, less alone.
+  REWRITTEN: Alcohol is used both for joy and for numbing painful feelings.
+  style_rel(orig) = 0.116, style_rel(new) = 0.229, Δ = 0.113
+  POS pattern (orig): NNS RB VBP TO VB , CC PRP RB VBP TO VB JJR JJ , RBR JJ , JJR RB .
+  POS pattern (new) :  NNP VBZ VBN DT IN NN CC IN VBG JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → IN
+      DT → IN
+      IN → NN
+      IN → VBG
+      JJ → NNS
+      NN → CC
+      NNP → VBZ
+      NNS → .
+      VBG → JJ
+      VBN → DT
+      VBZ → VBN
+    Removed:
+      , → CC
+      , → JJR
+      , → RBR
+      CC → PRP
+      JJ → ,
+      JJR → JJ
+      JJR → RB
+      NNS → RB
+      PRP → RB
+      RB → .
+      RB → VBP
+      RBR → JJ
+      TO → VB
+      VB → ,
+      VB → JJR
+      VBP → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 59:
+  ORIGINAL : The cycle is cruel.
+  REWRITTEN: This cycle is damaging and unforgiving.
+  style_rel(orig) = -0.055, style_rel(new) = 0.196, Δ = 0.251
+  POS pattern (orig): DT NN VBZ JJ .
+  POS pattern (new) :  DT NN VBZ VBG CC JJ .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      VBG → CC
+      VBZ → VBG
+    Removed:
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 60:
+  ORIGINAL : Alcohol numbs discomfort temporarily, but it worsens anxiety and depression once the effects fade.
+  REWRITTEN: Alcohol briefly relieves distress but deepens anxiety and depression afterward.
+  style_rel(orig) = 0.071, style_rel(new) = 0.083, Δ = 0.012
+  POS pattern (orig): NNP CC NN RB , CC PRP VBZ NN CC NN RB DT NNS VBP .
+  POS pattern (new) :  NNP NN VBZ RB CC VBZ NN CC NN RB .
+  POS bigram changes:
+    Added:
+      CC → VBZ
+      NN → VBZ
+      NNP → NN
+      RB → .
+      RB → CC
+      VBZ → RB
+    Removed:
+      , → CC
+      CC → PRP
+      DT → NNS
+      NNP → CC
+      NNS → VBP
+      PRP → VBZ
+      RB → ,
+      RB → DT
+      VBP → .
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 61:
+  ORIGINAL : This is because alcohol disrupts serotonin and stress hormone regulation.
+  REWRITTEN: What this is suggests is that because alcohol disrupts serotonin and stress hormone regulation.
+  style_rel(orig) = 0.095, style_rel(new) = 0.100, Δ = 0.005
+  POS pattern (orig): DT VBZ IN NN NNS NN CC NN NN NN .
+  POS pattern (new) :  WP DT VBZ VBZ VBZ IN IN NN NNS NN CC NN NN NN .
+  POS bigram changes:
+    Added:
+      IN → IN
+      VBZ → VBZ
+      WP → DT
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 62:
+  ORIGINAL : Over time, heavy teen drinkers show more emotional instability, not less.
+  REWRITTEN: The more teens drink, the more their emotional balance deteriorates as they grow.
+  style_rel(orig) = 0.077, style_rel(new) = 0.187, Δ = 0.110
+  POS pattern (orig): IN NN , JJ NN NNS VBP RBR JJ NN , RB RBR .
+  POS pattern (new) :  DT JJR NNS VBP , DT JJR PRP$ JJ NN NNS IN PRP VBP .
+  POS bigram changes:
+    Added:
+      , → DT
+      DT → JJR
+      IN → PRP
+      JJR → NNS
+      JJR → PRP$
+      NNS → IN
+      PRP → VBP
+      PRP$ → JJ
+      VBP → ,
+      VBP → .
+    Removed:
+      , → JJ
+      , → RB
+      IN → NN
+      NN → ,
+      RB → RBR
+      RBR → .
+      RBR → JJ
+      VBP → RBR
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 63:
+  ORIGINAL : Instead of being a solution, alcohol quietly deepens the very pain it pretends to fix.
+  REWRITTEN: Rather than solving problems, alcohol secretly makes them worse.
+  style_rel(orig) = 0.130, style_rel(new) = 0.141, Δ = 0.012
+  POS pattern (orig): RB IN VBG DT NN , NN RB VBZ DT RB VBP PRP VBZ TO VB .
+  POS pattern (new) :  RB IN VBG NNS , RB RB VBZ PRP JJR .
+  POS bigram changes:
+    Added:
+      , → RB
+      JJR → .
+      NNS → ,
+      PRP → JJR
+      RB → RB
+      VBG → NNS
+      VBZ → PRP
+    Removed:
+      , → NN
+      DT → NN
+      DT → RB
+      NN → ,
+      NN → RB
+      PRP → VBZ
+      RB → VBP
+      TO → VB
+      VB → .
+      VBG → DT
+      VBP → PRP
+      VBZ → DT
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 64:
+  ORIGINAL : All of this leads back to the main question: Should kids drink?
+  REWRITTEN: Ultimately, it raises the central question: Should adolescents consume alcohol?
+  style_rel(orig) = -0.005, style_rel(new) = 0.001, Δ = 0.006
+  POS pattern (orig): DT IN DT VBZ RB TO DT JJ NN : MD VB VB .
+  POS pattern (new) :  RB , PRP VBZ DT JJ NN : MD VB VB NN .
+  POS bigram changes:
+    Added:
+      , → PRP
+      NN → .
+      PRP → VBZ
+      RB → ,
+      VB → NN
+      VBZ → DT
+    Removed:
+      DT → IN
+      DT → VBZ
+      IN → DT
+      RB → TO
+      TO → DT
+      VB → .
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 65:
+  ORIGINAL : From a neuroscientific and psychological standpoint, the answer is clear.
+  REWRITTEN: According to what we know about the brain and mental health, the answer is unmistakable.
+  style_rel(orig) = 0.010, style_rel(new) = 0.270, Δ = 0.260
+  POS pattern (orig): IN DT JJ CC JJ NN , DT NN VBZ JJ .
+  POS pattern (new) :  VBG TO WP PRP VBP IN DT NN CC JJ NN , DT NN VBZ JJ .
+  POS bigram changes:
+    Added:
+      NN → CC
+      PRP → VBP
+      TO → WP
+      VBG → TO
+      VBP → IN
+      WP → PRP
+    Removed:
+      DT → JJ
+      JJ → CC
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 66:
+  ORIGINAL : The risks are not hypothetical or rare.
+  REWRITTEN: The risks are not hypothetical or rare.
+  style_rel(orig) = 0.062, style_rel(new) = 0.062, Δ = 0.000
+  POS pattern (orig): DT NNS VBP RB JJ CC JJ .
+  POS pattern (new) :  DT NNS VBP RB JJ CC JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 67:
+  ORIGINAL : They are predictable outcomes of how alcohol interacts with the developing brain.
+  REWRITTEN: They result directly from alcohol’s effects on a growing brain.
+  style_rel(orig) = 0.022, style_rel(new) = 0.116, Δ = 0.094
+  POS pattern (orig): PRP VBP JJ NNS IN WRB JJ NNS IN DT VBG NN .
+  POS pattern (new) :  PRP VBP RB IN NN NNP NN NNS IN DT VBG NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → NNP
+      NN → NNS
+      NNP → NN
+      RB → IN
+      VBP → RB
+    Removed:
+      IN → WRB
+      JJ → NNS
+      VBP → JJ
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 68:
+  ORIGINAL : Drinking rewires learning, motivation, memory, and emotion regulation before those systems have finished forming.
+  REWRITTEN: Drinking disrupts the brain functions that shape learning and emotional control long before they fully develop.
+  style_rel(orig) = 0.071, style_rel(new) = 0.077, Δ = 0.006
+  POS pattern (orig): VBG NNS VBG , NN , NN , CC NN NN IN DT NNS VBP VBN NN .
+  POS pattern (new) :  VBG NNS DT NN NNS IN NN NN CC JJ NN RB IN PRP RB VBP .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      DT → NN
+      IN → NN
+      IN → PRP
+      JJ → NN
+      NN → CC
+      NN → NNS
+      NN → RB
+      NNS → DT
+      NNS → IN
+      PRP → RB
+      RB → IN
+      RB → VBP
+      VBP → .
+    Removed:
+      , → CC
+      , → NN
+      CC → NN
+      DT → NNS
+      IN → DT
+      NN → ,
+      NN → .
+      NN → IN
+      NNS → VBG
+      NNS → VBP
+      VBG → ,
+      VBN → NN
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 69:
+  ORIGINAL : It raises the likelihood of addiction, increases dangerous behavior, and weakens mental health over time.
+  REWRITTEN: Drinking increases the risk for addiction and dangerous behavior while gradually damaging mental health.
+  style_rel(orig) = -0.019, style_rel(new) = 0.105, Δ = 0.125
+  POS pattern (orig): PRP VBZ DT NN IN NN , VBZ JJ NN , CC VBZ JJ NN IN NN .
+  POS pattern (new) :  NN VBZ DT NN IN NN CC JJ NN IN RB VBG JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → RB
+      NN → CC
+      NN → VBZ
+      RB → VBG
+      VBG → JJ
+    Removed:
+      , → CC
+      , → VBZ
+      CC → VBZ
+      NN → ,
+      PRP → VBZ
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 70:
+  ORIGINAL : Even moderate drinking carries elevated risk during the teenage years.
+  REWRITTEN: Even small amounts of alcohol are riskier for teens than adults.
+  style_rel(orig) = 0.120, style_rel(new) = 0.157, Δ = 0.037
+  POS pattern (orig): RB JJ NN VBZ VBN NN IN DT JJ NNS .
+  POS pattern (new) :  RB JJ NNS IN NN VBP JJR IN NNS IN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → NNS
+      JJR → IN
+      NN → VBP
+      NNS → IN
+      VBP → JJR
+    Removed:
+      DT → JJ
+      IN → DT
+      JJ → NN
+      NN → IN
+      NN → VBZ
+      VBN → NN
+      VBZ → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 71:
+  ORIGINAL : But there is another layer to this issue.
+  REWRITTEN: There’s also a deeper social dimension to consider.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.278, Δ = 1000000.278
+  POS pattern (orig): CC EX VBZ DT NN TO DT NN .
+  POS pattern (new) :  EX NNP NN RB DT JJR JJ NN TO VB .
+  POS bigram changes:
+    Added:
+      DT → JJR
+      EX → NNP
+      JJ → NN
+      JJR → JJ
+      NN → RB
+      NNP → NN
+      RB → DT
+      TO → VB
+      VB → .
+    Removed:
+      CC → EX
+      DT → NN
+      EX → VBZ
+      NN → .
+      TO → DT
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 72:
+  ORIGINAL : To tell young people to abstain without explaining the why is unrealistic.
+  REWRITTEN: Just saying “don’t drink” doesn’t work unless the reasoning is clear.
+  style_rel(orig) = -0.092, style_rel(new) = 0.270, Δ = 0.362
+  POS pattern (orig): TO VB JJ NNS TO VB IN VBG DT WRB VBZ JJ .
+  POS pattern (new) :  RB VBG JJ NN NNP NN NN NNP NN NNP NN NN IN DT NN VBZ JJ .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      JJ → NN
+      NN → IN
+      NN → NN
+      NN → NNP
+      NN → VBZ
+      NNP → NN
+      RB → VBG
+      VBG → JJ
+    Removed:
+      DT → WRB
+      IN → VBG
+      JJ → NNS
+      NNS → TO
+      TO → VB
+      VB → IN
+      VB → JJ
+      VBG → DT
+      WRB → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 73:
+  ORIGINAL : Pressure to drink often comes from a desire for social acceptance, independence, and maturity.
+  REWRITTEN: Pressure to drink often comes from a desire for social acceptance, independence, and maturity.
+  style_rel(orig) = 0.099, style_rel(new) = 0.099, Δ = 0.000
+  POS pattern (orig): NN TO VB RB VBZ IN DT NN IN JJ NN , NN , CC NN .
+  POS pattern (new) :  NN TO VB RB VBZ IN DT NN IN JJ NN , NN , CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 74:
+  ORIGINAL : The truth is that alcohol is not what makes someone mature.
+  REWRITTEN: Being mature has nothing to do with consuming alcohol.
+  style_rel(orig) = -0.056, style_rel(new) = 0.152, Δ = 0.208
+  POS pattern (orig): DT NN VBZ IN NN VBZ RB WP VBZ NN NN .
+  POS pattern (new) :  VBG NN VBZ NN TO VB IN VBG NN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      NN → TO
+      TO → VB
+      VB → IN
+      VBG → NN
+    Removed:
+      DT → NN
+      IN → NN
+      NN → NN
+      RB → WP
+      VBZ → IN
+      VBZ → RB
+      WP → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 75:
+  ORIGINAL : What demonstrates maturity is patience, self-respect, self-control, and the willingness to protect your future self even when others are not.
+  REWRITTEN: Self-control, self-worth, and long-term thinking are the real hallmarks of maturity.
+  style_rel(orig) = 0.043, style_rel(new) = 0.207, Δ = 0.164
+  POS pattern (orig): WP VBZ NN VBZ NN , JJ , JJ , CC DT NN TO VB PRP$ NN VBD RB WRB NNS VBP RB .
+  POS pattern (new) :  NNP , NN , CC JJ NN VBP DT JJ NNS IN NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → JJ
+      DT → JJ
+      IN → NN
+      JJ → NN
+      JJ → NNS
+      NN → .
+      NN → VBP
+      NNP → ,
+      NNS → IN
+      VBP → DT
+    Removed:
+      , → JJ
+      CC → DT
+      DT → NN
+      JJ → ,
+      NN → TO
+      NN → VBD
+      NN → VBZ
+      NNS → VBP
+      PRP$ → NN
+      RB → .
+      RB → WRB
+      TO → VB
+      VB → PRP$
+      VBD → RB
+      VBP → RB
+      VBZ → NN
+      WP → VBZ
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 76:
+  ORIGINAL : Being the person who knows when to step back is a strength, not a weakness.
+  REWRITTEN: Choosing restraint is a sign of power, not vulnerability.
+  style_rel(orig) = 0.027, style_rel(new) = 0.066, Δ = 0.039
+  POS pattern (orig): VBG DT NN WP VBZ WRB TO VB RB VBZ DT NN , RB DT NN .
+  POS pattern (new) :  VBG NN VBZ DT NN IN NN , RB NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → IN
+      NN → VBZ
+      RB → NN
+      VBG → NN
+    Removed:
+      NN → WP
+      RB → DT
+      RB → VBZ
+      TO → VB
+      VB → RB
+      VBG → DT
+      VBZ → WRB
+      WP → VBZ
+      WRB → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 77:
+  ORIGINAL : Youth is the only time in life when the brain can optimize its full potential for learning, emotion regulation, and creativity.
+  REWRITTEN: The teenage years are a unique window for maximizing cognitive and emotional growth.
+  style_rel(orig) = 0.061, style_rel(new) = 0.106, Δ = 0.045
+  POS pattern (orig): NN VBZ DT JJ NN IN NN WRB DT NN MD VB PRP$ JJ NN IN NN , NN NN , CC NN .
+  POS pattern (new) :  DT NN NNS VBP DT JJ NN IN VBG JJ CC JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → VBG
+      JJ → CC
+      NN → NNS
+      NNS → VBP
+      VBG → JJ
+      VBP → DT
+    Removed:
+      , → CC
+      , → NN
+      CC → NN
+      IN → NN
+      MD → VB
+      NN → ,
+      NN → MD
+      NN → NN
+      NN → VBZ
+      NN → WRB
+      PRP$ → JJ
+      VB → PRP$
+      VBZ → DT
+      WRB → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 78:
+  ORIGINAL : Alcohol slows that process.
+  REWRITTEN: Alcohol slows that process.
+  style_rel(orig) = 0.176, style_rel(new) = 0.176, Δ = 0.000
+  POS pattern (orig): NNP VBZ IN NN .
+  POS pattern (new) :  NNP VBZ IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 79:
+  ORIGINAL : The most powerful reason to avoid drinking as a young person is not fear, but ambition.
+  REWRITTEN: Youth should refrain from drinking to protect their ambitions rather than out of anxiety.
+  style_rel(orig) = 0.090, style_rel(new) = 0.206, Δ = 0.116
+  POS pattern (orig): DT RBS JJ NN TO VB NN IN DT JJ NN VBZ RB JJ , CC NN .
+  POS pattern (new) :  NN MD VB IN NN TO VB PRP$ NNS RB IN IN IN NN .
+  POS bigram changes:
+    Added:
+      IN → IN
+      IN → NN
+      MD → VB
+      NN → MD
+      NNS → RB
+      PRP$ → NNS
+      RB → IN
+      VB → IN
+      VB → PRP$
+    Removed:
+      , → CC
+      CC → NN
+      DT → JJ
+      DT → RBS
+      IN → DT
+      JJ → ,
+      JJ → NN
+      NN → IN
+      NN → VBZ
+      RB → JJ
+      RBS → JJ
+      VB → NN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 80:
+  ORIGINAL : If you want to build real confidence, if you want relationships based on who you are rather than how intoxicated you can be, if you want your brain to support your goals instead of sabotaging them, then alcohol takes more than it gives.
+  REWRITTEN: For those seeking strong self-esteem, healthy relationships, and a brain aligned with their goals, drinking subtracts more than it adds.
+  style_rel(orig) = 0.046, style_rel(new) = 0.098, Δ = 0.052
+  POS pattern (orig): IN PRP VBP TO VB JJ NN , IN PRP VBP NNS VBN IN WP PRP VBP RB IN WRB JJ PRP MD VB , IN PRP VBP PRP$ NN TO VB PRP$ NNS RB IN VBG PRP , RB VBZ VBZ JJR IN PRP VBZ .
+  POS pattern (new) :  IN DT VBG JJ JJ , JJ NNS , CC DT NN VBN IN PRP$ NNS , VBG NNS JJR IN PRP VBZ .
+  POS bigram changes:
+    Added:
+      , → CC
+      , → JJ
+      , → VBG
+      CC → DT
+      DT → NN
+      DT → VBG
+      IN → DT
+      IN → PRP$
+      JJ → ,
+      JJ → JJ
+      JJ → NNS
+      NN → VBN
+      NNS → ,
+      NNS → JJR
+      VBG → JJ
+      VBG → NNS
+    Removed:
+      , → IN
+      , → RB
+      IN → VBG
+      IN → WP
+      IN → WRB
+      JJ → NN
+      JJ → PRP
+      MD → VB
+      NN → ,
+      NN → TO
+      NNS → RB
+      NNS → VBN
+      PRP → ,
+      PRP → MD
+      PRP → VBP
+      PRP$ → NN
+      RB → IN
+      RB → VBZ
+      TO → VB
+      VB → ,
+      VB → JJ
+      VB → PRP$
+      VBG → PRP
+      VBP → NNS
+      VBP → PRP$
+      VBP → RB
+      VBP → TO
+      VBZ → JJR
+      VBZ → VBZ
+      WP → PRP
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 81:
+  ORIGINAL : Resisting the cultural pressure to drink is not about obedience.
+  REWRITTEN: Avoiding alcohol isn’t just rule-following or conformity.
+  style_rel(orig) = 0.089, style_rel(new) = 0.283, Δ = 0.194
+  POS pattern (orig): VBG DT JJ NN TO VB VBZ RB IN NN .
+  POS pattern (new) :  VBG NN NN NNP NN RB NN CC NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      NN → CC
+      NN → NN
+      NN → NNP
+      NN → RB
+      NNP → NN
+      RB → NN
+      VBG → NN
+    Removed:
+      DT → JJ
+      IN → NN
+      JJ → NN
+      NN → TO
+      RB → IN
+      TO → VB
+      VB → VBZ
+      VBG → DT
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 82:
+  ORIGINAL : It is about taking care of the most valuable and complex organ you will ever own.
+  REWRITTEN: It involves caring for the brain—your greatest asset.
+  style_rel(orig) = 0.090, style_rel(new) = 0.097, Δ = 0.007
+  POS pattern (orig): PRP VBZ IN VBG NN IN DT RBS JJ CC JJ NN PRP MD RB VB .
+  POS pattern (new) :  PRP VBZ VBG IN DT NN JJS NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      JJS → NN
+      NN → .
+      NN → JJS
+      VBG → IN
+      VBZ → VBG
+    Removed:
+      CC → JJ
+      DT → RBS
+      IN → VBG
+      JJ → CC
+      JJ → NN
+      MD → RB
+      NN → IN
+      NN → PRP
+      PRP → MD
+      RB → VB
+      RBS → JJ
+      VB → .
+      VBG → NN
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 83:
+  ORIGINAL : It is also important to acknowledge that every person’s vulnerability is different.
+  REWRITTEN: People vary in how alcohol affects them.
+  style_rel(orig) = 0.127, style_rel(new) = 0.184, Δ = 0.057
+  POS pattern (orig): PRP VBZ RB JJ TO VB DT DT NN NNP NN NN VBZ JJ .
+  POS pattern (new) :  NNS VBP IN WRB JJ VBZ PRP .
+  POS bigram changes:
+    Added:
+      IN → WRB
+      JJ → VBZ
+      NNS → VBP
+      PRP → .
+      VBP → IN
+      VBZ → PRP
+      WRB → JJ
+    Removed:
+      DT → DT
+      DT → NN
+      JJ → .
+      JJ → TO
+      NN → NN
+      NN → NNP
+      NN → VBZ
+      NNP → NN
+      PRP → VBZ
+      RB → JJ
+      TO → VB
+      VB → DT
+      VBZ → JJ
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 84:
+  ORIGINAL : Genetics, family history, stress levels, personality, and mental health all influence how alcohol affects someone.
+  REWRITTEN: Factors like heredity, stress, and mental health shape alcohol’s impact.
+  style_rel(orig) = 0.039, style_rel(new) = 0.121, Δ = 0.082
+  POS pattern (orig): NNS , NN NN , NN NNS , NN , CC JJ NN DT NN WRB NN VBZ NN .
+  POS pattern (new) :  NNS IN NN , NN , CC JJ NN NN NN NNP JJ NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → NNP
+      NNP → JJ
+      NNS → IN
+    Removed:
+      DT → NN
+      NN → DT
+      NN → NNS
+      NN → VBZ
+      NN → WRB
+      NNS → ,
+      VBZ → NN
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 85:
+  ORIGINAL : Some teens may appear to handle alcohol “fine” — until the day they don’t.
+  REWRITTEN: Handling alcohol well can be temporary, and problems can arise unexpectedly.
+  style_rel(orig) = 0.160, style_rel(new) = 0.203, Δ = 0.043
+  POS pattern (orig): DT NNS MD VB TO VB NN NNP NN NNP NNP IN DT NN PRP VBP JJ NN .
+  POS pattern (new) :  VBG RB RB MD VB JJ , CC NNS MD VB RB .
+  POS bigram changes:
+    Added:
+      , → CC
+      CC → NNS
+      JJ → ,
+      RB → .
+      RB → MD
+      RB → RB
+      VB → JJ
+      VB → RB
+      VBG → RB
+    Removed:
+      DT → NN
+      DT → NNS
+      IN → DT
+      JJ → NN
+      NN → .
+      NN → NNP
+      NN → PRP
+      NNP → IN
+      NNP → NN
+      NNP → NNP
+      PRP → VBP
+      TO → VB
+      VB → NN
+      VB → TO
+      VBP → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 86:
+  ORIGINAL : No one chooses addiction.
+  REWRITTEN: Addiction isn’t a choice anyone makes.
+  style_rel(orig) = -0.094, style_rel(new) = 0.205, Δ = 0.299
+  POS pattern (orig): DT NN VBZ NN .
+  POS pattern (new) :  NNP NN NNP VBZ DT NN NN VBZ .
+  POS bigram changes:
+    Added:
+      NN → NN
+      NN → NNP
+      NNP → NN
+      NNP → VBZ
+      VBZ → .
+      VBZ → DT
+    Removed:
+      NN → .
+      VBZ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 87:
+  ORIGINAL : No one plans for alcohol to control them.
+  REWRITTEN: Nobody intends for alcohol to take over their life.
+  style_rel(orig) = 0.032, style_rel(new) = 0.348, Δ = 0.316
+  POS pattern (orig): DT NN VBZ IN NN TO VB PRP .
+  POS pattern (new) :  NN VBZ IN NN TO VB RP PRP$ NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      PRP$ → NN
+      RP → PRP$
+      VB → RP
+    Removed:
+      DT → NN
+      PRP → .
+      VB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 88:
+  ORIGINAL : Those outcomes begin quietly, usually in adolescence, with no moment labeled “danger.” The safest protection against a future you do not want is making choices that limit the risks today.
+  REWRITTEN: Those outcomes begin quietly, usually in adolescence, with no moment labeled “danger.” The safest protection against a future you do not want is making choices that limit the risks today.
+  style_rel(orig) = -0.009, style_rel(new) = -0.009, Δ = 0.000
+  POS pattern (orig): DT NNS VBP RB , RB IN NN , IN DT NN VBD JJ NN VBD DT JJS NN IN DT NN PRP VBP RB VB VBZ VBG NNS WDT VBP DT NNS NN .
+  POS pattern (new) :  DT NNS VBP RB , RB IN NN , IN DT NN VBD JJ NN VBD DT JJS NN IN DT NN PRP VBP RB VB VBZ VBG NNS WDT VBP DT NNS NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 89:
+  ORIGINAL : People often ask whether abstaining from alcohol means being boring or missing out.
+  REWRITTEN: Many wonder if not drinking makes someone dull or excluded from fun.
+  style_rel(orig) = 0.119, style_rel(new) = 0.221, Δ = 0.103
+  POS pattern (orig): NNS RB VBP IN VBG IN NN NNS VBG VBG CC VBG RP .
+  POS pattern (new) :  JJ VBP IN RB VBG VBZ NN NN CC VBN IN NN .
+  POS bigram changes:
+    Added:
+      CC → VBN
+      IN → RB
+      JJ → VBP
+      NN → .
+      NN → CC
+      NN → NN
+      RB → VBG
+      VBG → VBZ
+      VBN → IN
+      VBZ → NN
+    Removed:
+      CC → VBG
+      IN → VBG
+      NN → NNS
+      NNS → RB
+      NNS → VBG
+      RB → VBP
+      RP → .
+      VBG → CC
+      VBG → IN
+      VBG → RP
+      VBG → VBG
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 90:
+  ORIGINAL : But the best moments in life are not the ones we can’t remember.
+  REWRITTEN: Memorable moments aren’t the ones lost to intoxication.
+  style_rel(orig) = -0.041, style_rel(new) = 0.204, Δ = 0.244
+  POS pattern (orig): CC DT JJS NNS IN NN VBP RB DT NNS PRP MD VB JJ NN .
+  POS pattern (new) :  JJ NNS VBP JJ IN DT NNS VBN TO NN .
+  POS bigram changes:
+    Added:
+      IN → DT
+      JJ → IN
+      JJ → NNS
+      NNS → VBN
+      NNS → VBP
+      TO → NN
+      VBN → TO
+      VBP → JJ
+    Removed:
+      CC → DT
+      DT → JJS
+      IN → NN
+      JJ → NN
+      JJS → NNS
+      MD → VB
+      NN → VBP
+      NNS → IN
+      NNS → PRP
+      PRP → MD
+      RB → DT
+      VB → JJ
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 91:
+  ORIGINAL : The best friendships are not formed through blurred speech and forced courage.
+  REWRITTEN: The best friendships are not formed through blurred speech and forced courage.
+  style_rel(orig) = 0.024, style_rel(new) = 0.024, Δ = 0.000
+  POS pattern (orig): DT JJS NNS VBP RB VBN IN VBN NN CC JJ NN .
+  POS pattern (new) :  DT JJS NNS VBP RB VBN IN VBN NN CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 92:
+  ORIGINAL : The strongest identity is not built on substances.
+  REWRITTEN: A solid sense of self doesn’t depend on chemicals.
+  style_rel(orig) = -0.008, style_rel(new) = 0.164, Δ = 0.172
+  POS pattern (orig): DT JJS NN VBZ RB VBN IN NNS .
+  POS pattern (new) :  DT JJ NN IN NN NN NNP VBZ VBP IN NNS .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → NN
+      JJ → NN
+      NN → IN
+      NN → NN
+      NN → NNP
+      NNP → VBZ
+      VBP → IN
+      VBZ → VBP
+    Removed:
+      DT → JJS
+      JJS → NN
+      NN → VBZ
+      RB → VBN
+      VBN → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 93:
+  ORIGINAL : If anything, alcohol steals the spotlight from personal growth that should belong to you.
+  REWRITTEN: Alcohol distracts from the progress you could be making.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.214, Δ = 1000000.214
+  POS pattern (orig): IN NN , NN NNS DT NN IN JJ NN WDT MD VB TO PRP .
+  POS pattern (new) :  NNP NNS IN DT NN PRP MD VB VBG .
+  POS bigram changes:
+    Added:
+      IN → DT
+      NN → PRP
+      NNP → NNS
+      NNS → IN
+      PRP → MD
+      VB → VBG
+      VBG → .
+    Removed:
+      , → NN
+      IN → JJ
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → IN
+      NN → NNS
+      NN → WDT
+      NNS → DT
+      PRP → .
+      TO → PRP
+      VB → TO
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 94:
+  ORIGINAL : It offers the illusion of freedom while locking the brain into patterns that reduce freedom later.
+  REWRITTEN: It feels like independence now but leads to future limitations.
+  style_rel(orig) = -0.006, style_rel(new) = 0.034, Δ = 0.040
+  POS pattern (orig): PRP VBZ DT NN IN NN IN VBG DT NN IN NNS WDT VB NN RB .
+  POS pattern (new) :  PRP VBZ IN NN RB CC VBZ TO JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → VBZ
+      JJ → NNS
+      NNS → .
+      RB → CC
+      TO → JJ
+      VBZ → IN
+      VBZ → TO
+    Removed:
+      DT → NN
+      IN → NNS
+      IN → VBG
+      NN → IN
+      NNS → WDT
+      RB → .
+      VB → NN
+      VBG → DT
+      VBZ → DT
+      WDT → VB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 95:
+  ORIGINAL : Young people deserve the truth: alcohol is a drug that exploits a brain still under construction.
+  REWRITTEN: The reality is that alcohol preys on a brain that isn’t fully formed yet.
+  style_rel(orig) = -0.153, style_rel(new) = 0.096, Δ = 0.249
+  POS pattern (orig): NN NNS VBP DT NN : NN VBZ DT NN WDT VBZ DT NN RB IN NN .
+  POS pattern (new) :  DT NN VBZ IN NN NNS IN DT NN WDT VBZ NNP NN RB VBN RB .
+  POS bigram changes:
+    Added:
+      IN → DT
+      NNP → NN
+      NNS → IN
+      RB → .
+      RB → VBN
+      VBN → RB
+      VBZ → IN
+      VBZ → NNP
+    Removed:
+      : → NN
+      NN → .
+      NN → :
+      NNS → VBP
+      RB → IN
+      VBP → DT
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 96:
+  ORIGINAL : It can feel exciting, but it is ultimately a shortcut that cuts off potential.
+  REWRITTEN: It can feel exciting, but it is ultimately a shortcut that cuts off potential.
+  style_rel(orig) = 0.152, style_rel(new) = 0.152, Δ = 0.000
+  POS pattern (orig): PRP MD VB JJ , CC PRP VBZ RB DT NN WDT VBZ IN JJ .
+  POS pattern (new) :  PRP MD VB JJ , CC PRP VBZ RB DT NN WDT VBZ IN JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 97:
+  ORIGINAL : Instead of asking “Why shouldn’t kids drink?” we can flip the question: Why rush into something that carries so much risk when the benefits are temporary and the costs could be lifelong?
+  REWRITTEN: Rather than questioning why youth should avoid alcohol, ask why engage early in something so risky for such short-term gains?
+  style_rel(orig) = -0.006, style_rel(new) = 0.074, Δ = 0.080
+  POS pattern (orig): RB IN VBG NNP WRB NN NN NN NNS VB . IN PRP MD VB DT NN : WRB VBP IN NN WDT VBZ RB JJ NN WRB DT NNS VBP JJ CC DT NNS MD VB RB .
+  POS pattern (new) :  RB IN VBG WRB NN MD VB NN , VB WRB VB JJ IN NN RB JJ IN JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      , → VB
+      IN → JJ
+      JJ → IN
+      JJ → JJ
+      JJ → NNS
+      NN → ,
+      NN → MD
+      NN → RB
+      NNS → .
+      VB → JJ
+      VB → NN
+      VB → WRB
+      VBG → WRB
+      WRB → VB
+    Removed:
+      . → IN
+      : → WRB
+      CC → DT
+      DT → NN
+      DT → NNS
+      IN → PRP
+      JJ → CC
+      JJ → NN
+      NN → :
+      NN → NN
+      NN → NNS
+      NN → WDT
+      NN → WRB
+      NNP → WRB
+      NNS → MD
+      NNS → VB
+      NNS → VBP
+      PRP → MD
+      RB → .
+      VB → .
+      VB → DT
+      VB → RB
+      VBG → NNP
+      VBP → IN
+      VBP → JJ
+      VBZ → RB
+      WDT → VBZ
+      WRB → DT
+      WRB → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 98:
+  ORIGINAL : There is plenty of time ahead for choices that come with adult consequences.
+  REWRITTEN: Adult choices—and their risks—can wait for adulthood.
+  style_rel(orig) = -0.001, style_rel(new) = 0.147, Δ = 0.148
+  POS pattern (orig): EX VBZ NN IN NN RB IN NNS WDT VBP IN NN NNS .
+  POS pattern (new) :  NNP VBP PRP$ JJ NN IN NN .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      NN → .
+      NNP → VBP
+      PRP$ → JJ
+      VBP → PRP$
+    Removed:
+      EX → VBZ
+      IN → NNS
+      NN → NNS
+      NN → RB
+      NNS → .
+      NNS → WDT
+      RB → IN
+      VBP → IN
+      VBZ → NN
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 99:
+  ORIGINAL : Childhood and adolescence are the only chances to build a foundation that keeps you strong when adulthood arrives.
+  REWRITTEN: The teenage years are the key time to build stability for adult life.
+  style_rel(orig) = -0.038, style_rel(new) = 0.059, Δ = 0.097
+  POS pattern (orig): NN CC NN VBP DT JJ NNS TO VB DT NN WDT VBZ PRP JJ WRB NN NNS .
+  POS pattern (new) :  DT NN NNS VBP DT JJ NN TO VB NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → TO
+      NNS → VBP
+      VB → NN
+    Removed:
+      CC → NN
+      JJ → NNS
+      JJ → WRB
+      NN → CC
+      NN → VBP
+      NN → WDT
+      NNS → .
+      NNS → TO
+      PRP → JJ
+      VB → DT
+      VBZ → PRP
+      WDT → VBZ
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 100:
+  ORIGINAL : The smartest thing a young person can do for the future is protect the brain that will have to live it.
+  REWRITTEN: Caring for the brain now ensures it will support you later.
+  style_rel(orig) = 0.064, style_rel(new) = 0.097, Δ = 0.033
+  POS pattern (orig): DT JJS NN DT JJ NN MD VB IN DT NN VBZ VBP DT NN WDT MD VB TO VB PRP .
+  POS pattern (new) :  VBG IN DT NN RB VBZ PRP MD VB PRP RB .
+  POS bigram changes:
+    Added:
+      NN → RB
+      PRP → MD
+      PRP → RB
+      RB → .
+      RB → VBZ
+      VBG → IN
+      VBZ → PRP
+    Removed:
+      DT → JJ
+      DT → JJS
+      JJ → NN
+      JJS → NN
+      NN → DT
+      NN → MD
+      NN → VBZ
+      NN → WDT
+      PRP → .
+      TO → VB
+      VB → IN
+      VB → TO
+      VBP → DT
+      VBZ → VBP
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 101:
+  ORIGINAL : Avoiding alcohol is not simply following rules.
+  REWRITTEN: Staying sober isn’t just obeying instructions.
+  style_rel(orig) = 0.188, style_rel(new) = 0.323, Δ = 0.135
+  POS pattern (orig): VBG NN VBZ RB RB VBG NNS .
+  POS pattern (new) :  VBG NN NN NNP NN RB VBG NNS .
+  POS bigram changes:
+    Added:
+      NN → NN
+      NN → NNP
+      NN → RB
+      NNP → NN
+    Removed:
+      NN → VBZ
+      RB → RB
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 102:
+  ORIGINAL : It is investing in a life built on genuine confidence, mental health, and real connection.
+  REWRITTEN: You’re building a healthier, more authentic life by choosing not to drink.
+  style_rel(orig) = 0.045, style_rel(new) = 0.120, Δ = 0.075
+  POS pattern (orig): PRP VBZ VBG IN DT NN VBN IN JJ NN , JJ NN , CC JJ NN .
+  POS pattern (new) :  PRP VBP VB VBG DT NN , RBR JJ NN IN VBG RB TO VB .
+  POS bigram changes:
+    Added:
+      , → RBR
+      IN → VBG
+      NN → IN
+      PRP → VBP
+      RB → TO
+      RBR → JJ
+      TO → VB
+      VB → .
+      VB → VBG
+      VBG → DT
+      VBG → RB
+      VBP → VB
+    Removed:
+      , → CC
+      , → JJ
+      CC → JJ
+      IN → DT
+      IN → JJ
+      NN → .
+      NN → VBN
+      PRP → VBZ
+      VBG → IN
+      VBN → IN
+      VBZ → VBG
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 103:
+  ORIGINAL : The reward is a better version of yourself — one that does not need a drug to feel alive or accepted.
+  REWRITTEN: Your future self will be confident and fulfilled without needing alcohol.
+  style_rel(orig) = 0.009, style_rel(new) = 0.154, Δ = 0.145
+  POS pattern (orig): DT NN VBZ DT JJR NN IN PRP VBP CD WDT VBZ RB VB DT NN TO VB JJ CC VBN .
+  POS pattern (new) :  PRP$ NN NN MD VB JJ CC VBD IN VBG NN .
+  POS bigram changes:
+    Added:
+      CC → VBD
+      IN → VBG
+      MD → VB
+      NN → .
+      NN → MD
+      NN → NN
+      PRP$ → NN
+      VBD → IN
+      VBG → NN
+    Removed:
+      CC → VBN
+      CD → WDT
+      DT → JJR
+      DT → NN
+      IN → PRP
+      JJR → NN
+      NN → IN
+      NN → TO
+      NN → VBZ
+      PRP → VBP
+      RB → VB
+      TO → VB
+      VB → DT
+      VBN → .
+      VBP → CD
+      VBZ → DT
+      VBZ → RB
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 104:
+  ORIGINAL : That is the message every young person has a right to hear: You do not need alcohol to belong.
+  REWRITTEN: Young people deserve to know that belonging doesn’t require drinking.
+  style_rel(orig) = -0.054, style_rel(new) = 0.106, Δ = 0.159
+  POS pattern (orig): DT VBZ DT NN DT JJ NN VBZ DT NN TO VB : PRP VBP RB VB NN TO VB .
+  POS pattern (new) :  NN NNS VBP TO VB IN VBG JJ JJ NN NN NN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      JJ → JJ
+      NN → .
+      NN → NN
+      NN → NNS
+      NNS → VBP
+      VB → IN
+      VBG → JJ
+      VBP → TO
+    Removed:
+      : → PRP
+      DT → JJ
+      DT → NN
+      DT → VBZ
+      NN → DT
+      NN → TO
+      NN → VBZ
+      PRP → VBP
+      RB → VB
+      VB → .
+      VB → :
+      VB → NN
+      VBP → RB
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 105:
+  ORIGINAL : You do not need alcohol to grow.
+  REWRITTEN: Alcohol isn’t required for personal development.
+  style_rel(orig) = -0.079, style_rel(new) = 0.268, Δ = 0.346
+  POS pattern (orig): PRP VBP RB VB NN TO VB .
+  POS pattern (new) :  NNP NN NNP NN VBN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NN
+      NN → .
+      NN → NNP
+      NN → VBN
+      NNP → NN
+      VBN → IN
+    Removed:
+      NN → TO
+      PRP → VBP
+      RB → VB
+      TO → VB
+      VB → .
+      VB → NN
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 106:
+  ORIGINAL : You do not need alcohol to become a stronger version of who you are.
+  REWRITTEN: Becoming stronger doesn’t require alcohol.
+  style_rel(orig) = -0.045, style_rel(new) = 0.274, Δ = 0.318
+  POS pattern (orig): PRP VBP RB VB NN TO VB DT JJR NN IN WP PRP VBP .
+  POS pattern (new) :  NNP JJR NN NNP NN NN NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → NN
+      NN → NNP
+      NNP → JJR
+      NNP → NN
+    Removed:
+      DT → JJR
+      IN → WP
+      NN → IN
+      NN → TO
+      PRP → VBP
+      RB → VB
+      TO → VB
+      VB → DT
+      VB → NN
+      VBP → .
+      VBP → RB
+      WP → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 107:
+  ORIGINAL : Protect your brain now, and it will pay you back for the rest of your life.
+  REWRITTEN: Protect your brain now, and it will pay you back for the rest of your life.
+  style_rel(orig) = 0.120, style_rel(new) = 0.120, Δ = 0.000
+  POS pattern (orig): VB PRP$ NN RB , CC PRP MD VB PRP RB IN DT NN IN PRP$ NN .
+  POS pattern (new) :  VB PRP$ NN RB , CC PRP MD VB PRP RB IN DT NN IN PRP$ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+[INFO] Rewrote 91 out of 108 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 8261
+Average normalized relative style (you - GPT): 0.14804845155728827
+Average normalized logP_you per rule        : 0.02436481298347008
+Average normalized logP_gpt per rule        : -0.12368363857381814
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): 0.039803533959840244
+After  (you - GPT): 0.14804845155728827
+Δ (after - before): 0.1082
+-> Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/rewritten_gpt_essay_relative_pos.txt
+[INFO] Saved POS structural change log to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_18-24-52_batch_loocv_dbb/models/pos_change_log.json
+
+[STEP COMPLETED] Rewrite GPT holdout (topic=dbb) in 66.49s

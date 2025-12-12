@@ -1,0 +1,210 @@
+You will most likely encounter alcohol at some point during your time in high school, and it's important to understand the facts about alcohol and how it will affect you in order to determine if and how you consume it.
+Alcohol is categorized as a CNS (central nervous system) depressant, and also a sedative hypnotic.
+A CNS depressant is any drug that lowers neurotransmission levels in the brain, which has the effect of reducing stimulation, leading to relaxation or anxiety-reducing effects.
+Sedative Hypnotics are just a subtype of CNS depressants that specifically decrease wakefulness.
+However, alcohol is slightly more complicated in this regard due to its biphasic effect.
+Alcohol typically has a stimulating effect at first, followed by a depressing effect at higher doses .
+Therefore it’s particularly important that you manage your consumption effectively, both to avoid the negative side effects of alcohol and also maximize its benefits.
+This biphasic effect is due to the multiple mechanisms of action of alcohol.
+Alcohol's primary MOA is on the GABA neurotransmitter, where it is a non-competitive, non selective GABA agonist.
+Because GABA is the primary inhibitory neurotransmitter in the brain, an agonist (alcohol) binding on it will amplify the inhibitive action of GABA, leading to a depressive effect.
+Alcohol is also a non-competitive, selective glutamate antagonist at NMDA receptors.
+Glutamate is an excitatory NT that affects learning, synaptic plasticity, sensory, motor, and cognitive function.
+Alcohol decreases Glutamate's effect at NMDA receptors, leading to sedation, disrupting memory and long term potentiation.
+This accounts for alcohol’s effect of “blacking out” or gaps in memory, as well as learning deficits seen after consuming alcohol.
+Alcohol also increases endogenous opioid synthesis and release (opioid agonist), in the form of endorphins, which contributes to some of Alcohol’s mild euphoric effects at low doses and pain relief at higher doses.This could be a factor that contributes to addictive potential and excessive consumption in individual drinkers, as studies have shown that individuals in which a single drink releases a larger amount of opioids in the brain get more pleasure out of each drink (Mitchell 2012).
+Finally, Alcohol has a secondary MOA, increasing dopamine in the Ventral Striatum through disinhibition, a characteristic shared by all drugs of abuse with addictive potential .
+This leads to mild euphoria and feelings of reward at low doses, and over time can lead to addiction.
+The acute and long-term effects of alcohol can be summarized as follows: At lower doses, you may feel less anxiety, stress, and inhibition.
+This is why alcohol is often referred to as a social lubricant.
+It can increase talkativeness, sociability, make you less judgemental, and give you a sense of mild euphoria.
+However, as you drink more, alcohol's effect on GABA and Glutamate overpower the secondary MOAs that create favorable effects at lower doses.
+You start losing motor coordination, balance, your judgment becomes impaired, your reaction times may slow down, you can become confused, and often sad with increasing doses.
+At very high doses, the effects become even more detrimental, leading to blackouts (loss of memory due to antagonism of Glutamate), nausea, vomiting, coma, and even death.
+On top of how much you consume, how you consume alcohol also matters.
+The most common route is oral, through drinking alcohol.
+This method leads to less complete absorption, as the alcohol must pass through the stomach and small intestine, where enzymes such as alcohol dehydrogenase begin breaking down the Alcohol.
+The longer Alcohol sits in the stomach, the less alcohol is absorbed into the bloodstream, and the slower and less intense its effects on your body will be.
+This is why eating food or drinking milk before consuming alcohol slows down intoxication.
+Concentration of alcohol also matters, as alcohol enters the bloodstream and is absorbed down the concentration gradient.
+The higher the concentration of alcohol ingested, the greater the concentration gradient, and the quicker alcohol moves across the membrane.
+Therefore, if you take 2 shots of vodka, you will feel its effects much more quickly than shotgunning a beer.
+Alcohol plasma levels typically peak at 30-120 minutes.
+Other routes, such as "butt chugging", involve absorbing alcohol directly through membranes, which makes absorption faster and more complete, making it significantly more dangerous.
+Consistent alcohol consumption has some very negative long term effects as well.
+MOAs listed above lead to permanent changes in the brain, such as the upregulation of Glutamate NMDA receptors, downregulation of GABAa receptors, decreased DA firing and release, and reduced synthesis of endogenous opioids in the body.
+These all can lead to increased anxiety and excitability when not drinking, difficulty sleeping, increased pain sensitivity, reduced sensitivity to other rewards, and dysphoria.
+Other long term effects on the body include permanent brain damage from cell atrophy and decreased neurogenesis, which harms neuroplasticity and the ability to learn (Skarke 2012), memory loss, liver damage, and GI disruptions.
+Furthermore, persistent adolescent alcohol consumption can stunt development and lead to changes in cognition, mood, and behavior, hindering learning and processing of emotion-related stimuli (Teague and Nestler, 2022).
+If you develop a physical dependence, quitting can lead to alcohol withdrawal, which is the most deadly form of withdrawal.
+There is also a risk of mixing alcohol with other drugs.
+Alcohol is metabolized by the enzyme CYP-2E1 in the liver, which also metabolizes acetaminophen.
+Consuming painkillers with acetaminophen and drinking alcohol simultaneously can lead to very dangerous effects, as alcohol will not be metabolized as quickly in the body as quickly and the liver can be overwhelmed.
+Consuming nicotine leads to cross tolerance with alcohol, leading to decreased effects of both drugs at the same doses and a need for increased quantities to maintain the desired effects.
+Alcohol is similar to drugs like benzodiazepines, which are also CNS depressants that act by facilitating binding of GABA NTs to GABA receptors in order to increase IPSPs and depress neurotransmission and brain function.
+Benzodiazepines are often used as anti-anxiety medications with sedative-like effects.
+One key nuance is that benzos act as agonists on GABA by hyperpolarization through opening the ion-gated channels more often, while alcohol achieves hyperpolarization and therefore IPSP through keeping the channels open for longer.
+There are also certain myths around alcohol that I want to clear up for you.
+Alcohol actually leads to decreased enjoyment from sex and decreased sexual performance, contrary to popular belief.
+Alcohol doesn’t actually keep you warm (it dilates blood vessels, leading to more blood circulation around skin and more lost heat), and you certainly are less capable of driving than you may think you are, even after only a few drinks.
+This is because alcohol affects cognition, with one study showing that it inhibits specifically your ability to detect errors in your decision making or instigate performance adjustments to compensate for errors .
+This could account for the false sense of confidence, lack of inhibition, and impulsivity that accompanies alcohol consumption, and makes driving all the more dangerous, because you are unable to tell when you are incapacitated and may feel able to drive when that isn’t the case.
+Alcohol isn’t the big bad scary drug that many adults make it out to be.
+It can augment a good time with friends and be quite fun; however, you should be really aware of when and how you consume it, because it can be incredibly dangerous when taken irresponsibly.
+Know your limits and prepare properly so that alcohol stays only a fun addition to your night out, and doesn’t become the reason your evening ends.
+And never become dependent on alcohol to have a good time: drugs don’t change who you are, they only alter things that are already happening inside of you.
+If you can’t have a good time without Alcohol, you certainly won’t be having a good time with it.
+The world can be a tough place.
+Especially in an age where we hear about every bad thing happening at a moment’s notice, it’s easy to believe that people suck.
+And a lot of the time, they do.
+Every time I hear another news story about businesses screwing each other over or when I have to deal with the fallout of a nasty social situation, I think to myself, why can’t we just be good to one another?
+But simply demanding a higher standard is the wrong way to get people to change.
+It’s unrealistic to expect people to change just because they should be better.
+Instead, there should be an alignment of incentives; The best way to get people to be consistently good is for it to be in their own best interests to be good.
+That’s what I explore in this paper: is it in your own best interests to be a good person?
+Or, in other words, does being a good person lead to a better life?
+I define being a “good person”, an inherently very subjective ideal, based on the most common aspects I found while reviewing the literature: generosity, kindness, forgiveness and gratitude, ethical business practice, bullying, honesty, and aggression.
+In this paper, I will try to show that being a “good person” in terms of these topics either directly leads to improved performance, or leads to improved life-satisfaction/happiness/wellbeing or an increased likeability by other people.
+Then, based on research discussed in class, as well as research cited here, I will argue that greater social success (ie.
+greater number of / better friends) and happiness/positive affect leads to improved overall performance in life.
+Through this framework I attempt to argue that being a “good person” directly and indirectly leads to improved overall performance, and show that it is in a person’s own best interest to be good.
+The first aspect to explore in being a “good person” is generosity.
+Here I define generosity loosely as the willingness of a person to share/give more than expected or required in a prosocial way (ie.
+monetary donations, social/emotional support, etc.).
+Generosity is widely encouraged from a cultural perspective, but there is also an intrinsic motivation for giving baked into our evolution.
+From as young as 1 year old, toddlers exhibit higher happiness levels when giving compared to receiving treats (Aknin, L. B., Hamlin, J. K., & Dunn, E. W. 2012).
+Not only this, but the highest happiness levels actually came from costly giving (28% increase compared to non-costly giving), where toddlers had to forfeit their own treat in order to give (Aknin, L. B., Hamlin, J. K., & Dunn, E. W. 2012).
+The benefits of being generous start early in life, and the greater the sacrifice, the greater the benefit of generosity on mood, self-esteem, and satisfaction levels.
+This can be further demonstrated in adults, where it has been shown that prosocial spending enhances happiness (Dunn, E. W., Aknin, L. B., & Norton, M. I.
+Participants in one study reported a 20% increase in life satisfaction when spending 15% more of their income on others, and 25% higher happiness scores when spending $20 on others versus themselves (Dunn, E. W., Aknin, L. B., & Norton, M. I.
+Altruistic decisions like these activate the mesolimbic reward system, the same system activated when receiving monetary rewards (Moll, J., et al.
+Specifically, activation levels in the ventral striatum in one study showed 32% higher levels during donations compared to receiving monetary rewards, and the anterior prefrontal cortex activation increased by 20% during decisions to make costly donations, emphasizing that the mental benefits shown in early childhood are preserved through adulthood (Moll, J., et al.
+The impact of giving is so strong it has been shown to make you live longer.
+A study by (Brown, S. L., Nesse, R. M., Vinokur, A. D., & Smith, D. M. (2003)) investigated the effects of providing versus receiving social support on mortality in older married adults, and found that providing support significantly reduced mortality.
+Surprisingly, this study also found that once they controlled for giving support, receiving support had no significant impact on mortality (Brown, S. L., Nesse, R. M., Vinokur, A. D., & Smith, D. M. 2003).
+On a broader scale, there seems to be intrinsic social motivation for generosity and prosocial tendencies.
+Children with Williams Syndrome, a neurodevelopmental disorder characterized by lower cognitive abilities but high levels of sociability, overfriendliness, and empathy, have been shown to be more generous in modeled scenarios (Foti, F., Costanzo, F., et al.
+In a modeled Dictator game, WS participants gave more than half their resources in 57% of trials, while typically developing participants gave only 23% (Foti, F., Costanzo, F., et al.
+They were equally fair in rejecting disadvantageous inequity, but more generous when presented with advantageous equity, and were more prone to judge fairness with empathetic concern than logical fairness reasoning (Foti, F., Costanzo, F., et al.
+Social motivation, therefore, without advanced social cognition, supports basic fairness and sharing behavior, which in turn contributes to cooperative success.
+Furthermore, generosity in forms like indirect reciprocity support cooperation through reputation and trust, and emphasize the social utility of generosity.
+According to one study, "Indirect reciprocity accounts for 50% of cooperative decisions in large groups with reputation systems."
+(Nowak, M. A., & Sigmund, K. 2005).
+Additionally, indirect reciprocity led to a persistence in cooperation across 85% of interactions in simulation models, and “reputation scores correlated strongly with willingness to cooperate (r = 0.89)” (Nowak, M. A., & Sigmund, K. 2005).
+Furthermore, altruism is also associated with perceived trustworthiness (r = 0.82), which I will show later increases social success (Fehr, E., & Fischbacher, U.
+However, the study also discovered that "Altruistic acts directed toward high-reputation individuals occur[ed] 75% more frequently than toward low-reputation individuals."
+This raises a concern for the selfish generosity framework I have proposed, as it demonstrates that selfish generosity may not benefit those in society who need it the most, and might only contribute to the wealth inequality and unethical practices that exist in the world today.
+However, while this may emphasize the fact that giving to people who can help you the most now may be a better selfish strategy in the short term, I argue that giving to those in need goes significantly further than giving to those who already have much, and that reciprocity will be much greater from those in need when they are more fortunate than those for whom your generosity meant less.
+Other qualities I have valued in my definition of being a “good person” are kindness, which I define as being considerate, friendly, and generous, and morality, defined here as a set of principles of conduct or a system of values that distinguish between right and wrong.
+Multiple studies have shown that kindness is universally preferred and sought after in relationships, both romantic and platonic, receiving “the highest mean rating across contexts (M = 6.8)” in one study on the preferences of individuals for various traits in romantic partners versus friends
+(Sprecher, S., & Regan, P. C. 2002), and showing that acts of kindness increase peer acceptance in another (Layous, K., Nelson, S. K., Oberle, E., Schonert-Reichl, K. A., & Lyubomirsky, S. 2012).
+Other studies have shown that morality consistently outranks sociability and competence in impression formation of other individuals and groups (Brambilla, M., & Leach, C. W. 2014), (Brambilla, M., & Sacchi, S. 2021).
+A study on important traits in forming impressions by Brambilla, M., Sacchi, S., Rusconi, P., & Goodwin, G. P. (2019), resulted in morality holding “...the highest weight in forming impressions (β = .72), significantly outweighing sociability (β = .41) and competence (β = .33)”, and revealed that "Participants rated morality traits like 'trustworthy' as 85% more critical for first impressions than sociability traits like 'friendly”.
+Furthermore, perceived immorality was “...a strong predictor of threat perception (r = 0.79).
+", and "Information about morality was processed faster than sociability or competence (average RT = 650ms vs. 950ms)" (Brambilla, M., Sacchi, S., Rusconi, P., & Goodwin, G. P. 2019).
+This supports the idea that morality may hold a deep-rooted evolutionary importance to establishing relationships, and that one of the most important factors in making new friends and integrating into social groups may be to simply be a good person.
+Compassion, forgiveness, and gratitude are also important factors in being a “good person”.
+However, compassion towards others, and general life success, cannot be obtained without first being compassionate to yourself.
+Higher self-compassion correlates with 35% lower burnout and compassion fatigue in student midwives, while self judgement increased burnout by 27% and compassion fatigue by 22%, and self-kindness improved professional quality of life scores by 40% (Beaumont, E., Durkin, M., Hollins Martin, C. J., & Carson, J.
+Many studies have shown the link between life-satisfaction and gratitude (Chauhan, A. S., Mathur, G., Gulati, C., & Sharma, A.
+2024), (Toussaint, L., & Friedman, P. 2009), (Emmons, R. A., & McCullough, M. E. 2003), (Hermaen, H., & Bhutto, Z. H. 2020), emphasizing that being grateful for what you already have leads to higher levels of positive affect, life satisfaction, flourishing, and even reductions in negative physical symptoms.
+Once this compassion is exercised on oneself, it can be focused outwards on others.
+This is a foundational aspect of socialization.
+A study by Toda, R., Toda, N., Hagihara, H., & Kanakogi, Y.
+(2024) revealed that children as young as 4 years associate forgiveness with relational restoration, and by age 6 understand that forgiveness brings emotional benefits to the victim.
+It also revealed that as children got older, they forgave more, and understood by age 6 that unforgiveness was linked to negative emotions (Toda, R., Toda, N., Hagihara, H., & Kanakogi, Y.
+Other studies have shown the link between empathy and positive peer relationships (Haslip, M. J., Allen-Handy, A., & Donaldson, L. 2019), while maintaining that forgiveness does not always lead to reconciliation.
+This emphasizes the important role of forgiveness in positive social outcomes.
+From a more economic point of view, a study by Dreber, A., Rand, D. G., Fudenberg, D., & Nowak, M. A.
+(2008) discovered that costly punishment reduced group payoffs (25% lower average payoffs) despite encouraging cooperation, and that high payoff individuals used punishment less than 5% of the time.
+Cooperation was also shown to thrive in repeated interactions without need for punitive strategies (75% higher cooperation rates and 20% higher overall efficiency in games w/o punishment), revealing that forgiveness may be the more efficient and successful strategy in the long term (Punishment increased short-term cooperation by 30% but reduced long-term payoffs by 15%) (Dreber, A., Rand, D. G., Fudenberg, D., & Nowak, M. A.
+Scaling up once again to the scale of businesses, there is significant economic, and social benefit to being ethical, generous, and investing in the well-being of your employees.
+A positive corporate reputation contributes to sustained profitability, with a 2002 study finding that "Firms with above-average reputation scores achieved 24% higher profitability than peers over 15 years (1984-1998)...", with residual reputation (reputation not explained by financials) accounting for “32% of the variance in sustained profitability beyond financial performance predictors.” (Roberts, P. W., & Dowling, G. R. 2002).
+In the same study, reputation building activities generated long term trust in the corporations, and demonstrated that being perceived as a good corporate actor fosters financial and reputational success.
+Companies with the highest Corporate Social Responsibility ratings also experience significantly less volatility (up to 50% less) during crises and see higher cumulative abnormal returns (Yi, Y., Zhang, Z., & Yan, Y.
+2021), (Lins, K. V., Servaes, H., & Tamayo, A.
+2017), (Qiao, T., Han, L., & Liu, Y.
+2021), with CSR serving as a sort of insurance policy against crisis.
+The impact of these firms’ CSR was strongest in the regions with low market development, meaning this corporate kindness is most effective where it is needed the most!
+And if that wasn’t enough, CSR has also been shown to decrease corporate misconduct in firms by 17%, and reduce ethical violations in firms by 28% (He, F., Huang, X., Liu, G., & Wang, Z.
+This is incredibly important for firms’ performance as well as reputation, as witnessing unethical behavior by peers can trigger anger and reduce cooperative performance (Ma, J., Wang, X., & Deng, X.
+2024), (Zeng, K., Wang, D., Ye, Q., Li, Z., & Zheng, X.
+2021), (Maisonneuve, F., Groulx, P., Chênevert, D., & Grady, C. 2024).
+Even mass layoffs can decrease the performance of a firm’s employees, with “Psychological contract breach” explaining 55% of the decline in organizational citizenship behavior and a 30% decrease in job performance for employees of these companies that implemented layoffs (López Bohle, S., Bal, P. M., Jansen, P. G. W., Leiva, P. I., & Alonso, A. M. 2017).
+Game theory has shown that even in a selfish, uncertain environment, there is still an optimal level of generosity necessary to achieve the optimal outcome (Molander, P. 1985).
+A bias towards generosity of as little as 10% led to “43% fewer instances of breakdown in cooperation during noisy interactions."
+Additionally, "Generous strategies outperformed purely retaliatory strategies by 32% in overall payoffs” in the same game.
+In a game as noisy and uncertain as life, it pays off to be unconditionally generous.
+It’s good to be generous, but it’s also extremely bad to betray.
+A study by Leonidou, L. C., Aykol, B., Fotiadis, T. A., & Christodoulides, P. (2017) showed that relational performance dropped 28% after a betrayal, and reduced trust between firms.
+This trust is necessary for successful business relationships.
+Many of my arguments so far have posited that being a good person simply leads to one being happier, having better mental health, or feeling good about themselves.
+This does not directly reflect improved performance.
+A meta-analysis by Lyubomirsky, S., King, L., & Diener, E. (2005) reviewed evidence that suggests happiness correlated with success outcomes across domains (r = 0.30) (p < 0.01), participants made to feel happy were more creative than when they were not happy, positive affect reduced health complaints by 25% and even improved immune system markers, and sociability was enhanced in individuals who were often in positive moods.
+This suggests that happiness is a critical driver of long term success, and challenges the assumption that happiness comes from success.
+Furthermore, anything that can uplift mood will inevitably decrease the negative impacts of depression, anxiety, and stress, which have been shown to be key indicators of academic underachievement and poor academic adaptation (Andrews, B., & Wilding, J. M. 2010).
+Sadness has also been shown to decrease accuracy of social judgements, although a neutral mood outperformed both negative and positive moods on judgement scores (Ambady, N., & Gray, H. M. 2002).
+While it has been argued that depressed individuals can make more accurate judgements of contingency (Alloy, L. B., & Abramson, L. Y.
+1979), the performance benefits of a positive affect far outweigh the costs, and suggest that being a good person can indirectly improve performance through improving mood and mental health.
+Another key argument that my framework has relied on so far has been that being a good person makes you more likeable, and improves your social performance.
+This is not only important from a social success standpoint, but also for performance and success in other areas of life.
+Older adults with quality friendships are less likely to be depressed, and weekly interactions with close friends increased their life satisfaction by 25% (Baldassare, M., Rosenfield, S., & Rook, K. S. 1984).
+Furthermore, loneliness was correlated with a higher risk of reporting poor physical health (Baldassare, M., Rosenfield, S., & Rook, K. S. 1984).
+Having good friendships also leads to improved academic performance.
+Children with more friends at school are absent less, liked school more, and reported less teacher-reported disruptive behavior, while peer rejection led to declines in school performance and anxiety (Ladd, G. W. 1990).
+Positive friendships can reduce allostatic load, and high quality friendships promote HPA regulation after stress (Calhoun, C. D., Helms, S. W., Heilbron, N., Rudolph, K. D., Hastings, P. D., & Prinstein, M. J.
+The presence of friends and ability to integrate socially to form study groups leads to studying collaboration, improving academic performance, and trump socioeconomic background and individual ability in importance to academic and personal success (Stadtfeld, C., Vörös, A., Elmer, T., Boda, Z., & Raabe, I. J.
+Specific friendship ties even correlated to GPA.
+Too much social interaction, however, can easily become a distraction, which can negatively impact GPA (Alotaibi, T. A., et al.
+Care should be taken to ensure that the quality of friendships are high.
+Loneliness, often associated with a lack of friendships, predicts poorer health outcomes, on a comparable scale to the risks of smoking or obesity!
+(Ernst, J. M., & Cacioppo, J. T. 1999) A study on the psychological impacts of loneliness (Ernst, J. M., & Cacioppo, J. T. 1999) revealed that it increases the risk of depression by 48%.
+High loneliness participants were also 30% more likely to develop heart disease, and significantly less happy (Ernst, J. M., & Cacioppo, J. T. 1999).
+Throughout this paper, I have shown that being a “good person” through being generous, kind, forgiving, grateful, and moral either directly improves performance in various aspects of life, or improves affect/mental health or likeability/social success, which in turn improve performance in academic, social, physical, economic, emotional, and personal aspects of life.
+While some aspects of being a good person may have a high cost in the short term, the long term benefits of being good pay dividends through the establishment of a positive reputation, strong relationships, a solid support network, and satisfaction with life.
+It takes a large degree of self control to do the right thing every day, but whether you’re doing it for yourself or for others, it's the right thing to do.
+The idea of racial capitalism is that the advancement of a capitalist society and the accumulation of capital are innately racially biased, and in practice widen the inequality gap between privileged and underprivileged members of the population.
+This can be seen manifested throughout history, as everything from drug laws to traffic fines utilized racial bias and corrupt justifications to commodify a disenfranchised portion of their populations to maximize profit at the dominated group's expense.
+The system of capitalism itself only serves to further embed these inequities and disparities by giving immense power to the capitalist and feeding a vicious cycle that makes it nearly impossible to escape or achieve autonomy as a member of a disenfranchised group.
+The role of psychology throughout history has largely been to justify many of these inequities and human right violations by providing often corrupt reasoning and science to propagate racist ideologies and systems.
+Thus psychology has largely served the interests of those in power, and tried (with good or bad intentions) to force those without power to fit into these systems.
+"History from Below" and Liberation Psychology aim to reverse this narrative, focusing instead on the needs of the oppressed and powerless in society, through the revision of historical accounts from the perspective of the common person rather than the elite, and the realignment of psychology towards the collective good.
+Furthermore, psychology has taken on a focus in understanding this inequality, which may allow for action in the future to mitigate it and use psychology for good.
+Racial Capitalism is fundamentally intertwined into almost every aspect of everyday life.
+The capitalization of the prison system, for example, has taken advantage of an oppressed population for profit and has had a disproportionately negative effect on the African American population.
+A loophole to the thirteenth amendment allows for involuntary and unpaid labor as punishment for crimes, which prisons and businesses have been using for decades to gain access to cheap labor at the expense of prisoners (lecture 11/13TH).
+This stemmed from the abolition of slavery and the sudden loss of a major labor supply in the southern economy, leading the south to scramble to find a new way to fulfill their massive demand.
+African Americans, many of whom were just freed, were arrested en masse and imprisoned, where they once again were caught in slavery, this time simply under a different name.
+This was followed by the Nixon era of "Law and Order" in the United States, and Reagan's "war on drugs'', all of which disproportionately affected African Americans.
+The lack of logic and science behind the much harsher sentencing for crack cocaine (which was used by more African Americans) compared to powder cocaine (mostly used by the wealthy) is just one example of how the state upheld and even instigated a racialized capitalism and encoded it into law (13TH/lecture 11).
+Another example of this is the capitalization of the police force and law, a prime example being the municipality system in St. Louis, MO.
+This system issued massive fines in poor communities for incredibly minor offenses (such as jaywalking), and allowed for you to get fines from multiple different municipalities for the same offense, maximizing profit and effectively crippling the poor population, many of whom cannot afford to pay such inordinate fines and are then further penalized in a vicious cycle (lecture 12/Ferguson: A Report from Occupied Territory).
+This is another example of how the state reinforces unfair and unequal practices and systems that widen inequality and make it even more difficult for the oppressed to escape the system.
+Further examples include the inequality of healthcare and insurance, with differing access and costs, who's believed when they say they're in pain, and who's taken seriously by doctors, and housing inequality (restrictive covenants and racist zoning laws) (lecture 17).
+These examples all reveal the sinister and often subtle manifestation of racial capitalism in the lived realities of individuals, and how the state often reinforces these systems and upholds inequality through their policies and actions.
+While psychology and History have often favored the side of the oppressors and those in power, new movements have focused on reversing this narrative and empowering the common people and the oppressed.
+"History from Below" is a movement that focuses on looking at historical events and narratives from the perspective of the oppressed populations and taking emphasis off of the false idea that just a few powerful figures in history accounted for the majority of happenings (Rediker).
+It is almost never one singular brilliant person that comes up with a new philosophy or achieves some great act; instead, they were simply the culmination of many other people and ideas before them that are then represented by these singular figures of power in traditional historical narratives.
+History from Below attempts to emphasize the individual experience of common people, of the wage laborers, the common soldiers, and the anarchists, and show how they were oppressed and subdued by those in power.
+It takes away the biased and often false narrative set by those who benefitted from history and focuses instead on the truth of the general masses, those who had little power but bear the most weight of history and its aftermath (Rediker).
+This allows for the true extent of inequality to be seen and understood, and only when this happens can it be addressed.
+Liberation psychology attempts to do a similar thing, but instead of focusing on history it focuses on reversing psychology's historical role in upholding and justifying the systems of the oppressors, into a role of helping those in need and advancing the social conditions of the disenfranchised (martin baro).
+Liberation psychology attempts to understand the perspectives of the communities it serves and help individuals achieve freedom and autonomy.
+Instead of trying to pathologize and cure "problems'' within the individual in order to help them fit better into an unyielding system, it tries to figure out how the system can be manipulated in order to better serve the people within it (Martin Baro).
+This is an incredibly important shift in perspective that takes power and importance away from those in positions of privilege and validates the oppressed, which in the long run has the effect of exposing and minimizing social inequality in communities.
+With this shift in the focus of psychology comes many new methods that help us understand inequality.
+Jetten and Peters focus on subjective experience and more subtle forms of inequality, especially in education, to show how deeply entrenched social inequalities can have an adverse effect on students in universities and the education system, despite there being no obvious inequality in their education.
+This is because many of the aspects of our education system were created for a specific group, and even when other groups (here she focuses on lower income and minority students) get the same opportunities and education, it often doesn't serve them nearly as well as the education's intended recipient.
+Croizet and others emphasize the role of the education system in perpetuating social inequality, and how it shapes the way individuals think, act, and perceive the world such that there doesn't even need to be a conscious effort to subjugate others or submit to them; it just happens subconsciously (symbolic violence).
+Many of these institutions categorize their members and funnel them into specific jobs or career paths that then restrict the paths their lives can take.
+This categorization is a way of controlling individuals and providing the necessary skill and labor to perpetuate systems of inequality, as well as categorizing individuals so they become trapped in these specific roles (Croizet).
+Furthermore, they argue that the educational system and the idea of an egalitarian 'meritocracy', is not actually egalitarian or merit-based at all.
+Even if equal opportunity is provided to each student, it doesn't account for generational inequalities and disparities that place them at a disadvantage from the start.
+On top of this, equal opportunity isn't really even possible, because by setting up any form of standardized measure of merit, one has to create an ideal or norm that will inevitably suit one population best (croizet).
+Every other group trying to achieve this standard is working at a disadvantage because their language or culture or ideas are not valued the same.
+Finally, Augoustinos and Callaghan discuss the implications of language and the social inequality it perpetuates in everyday life.
+They discuss the role of language in justifying and legitimizing inequality and unequal practices through contradictory arguments and double-standards (Augoustinos and Callaghan).
+These new psychological approaches help to understand the role of inequality in society and how the systems and norms in everyday life perpetuate it.
+These studies serve to unveil some of the more subtle and sinister ways in which inequality is present in everyday life and is perpetuated by our systems, government, and education.
+Inequality often hides behind the guise of egalitarianism or meritocracy, and unveiling the contradictory function of many of these systems helps reveal what we can change in order to achieve a more egalitarian system and help those who have been oppressed get back on equal footing with those inequality has benefitted.
+By reversing the narrative and giving those without power a voice to reveal their condition and oppression, we can begin to undo the wrongs of the past and implement changes that will benefit everyone and society as a whole.
