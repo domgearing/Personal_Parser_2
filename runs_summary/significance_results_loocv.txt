@@ -1,0 +1,9 @@
+# POS pipeline significance report
+
+Metrics tested: deltas.pos_bigrams.mean_delta, deltas.lexical.mean_delta, prop_sentences_changed, rewrite.delta_rel_style
+
+Rows:
+  - deltas.pos_bigrams.mean_delta: n=4, mean=1.6900 [-0.2163, 4.3191], d=0.645 [-0.263, 18.810], p≈0.0760
+  - deltas.lexical.mean_delta: n=4, mean=-0.3832 [-2.4735, 3.0780], d=-0.109 [-6.204, 0.893], p≈0.5624
+  - prop_sentences_changed: n=8, mean=0.7958 [0.7435, 0.8326], d=11.251 [7.519, 49.459], p≈0.0000
+  - rewrite.delta_rel_style: n=4, mean=0.0880 [0.0711, 0.1048], d=4.441 [3.897, 30.324], p≈0.0000
