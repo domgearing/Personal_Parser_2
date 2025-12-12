@@ -1,0 +1,9 @@
+Topic,% Sentences Rewritten,95% CI,# Sentences,LOOCV?
+alcohol,0.8081,"[0.749, 0.867]",172,No
+alcohol,0.8125,"[0.734, 0.891]",96,No
+alcohol,0.8598,"[0.794, 0.926]",107,No
+alcohol,0.81,"[0.733, 0.887]",100,No
+loocv_ahosa,0.6337,"[0.562, 0.706]",172,Yes
+loocv_cognitive_neuroscience,0.77,"[0.688, 0.852]",100,Yes
+loocv_dbb,0.8426,"[0.774, 0.911]",108,Yes
+loocv_racial_capitalism,0.83,"[0.756, 0.904]",100,Yes

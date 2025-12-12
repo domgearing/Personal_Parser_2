@@ -1,0 +1,9 @@
+Grammar,# Nonterminals,# Rules,Avg Branching,Entropy(H)
+loocv_ahosa_personal,70,705,1.8723,0.9108
+loocv_ahosa_gpt,68,644,1.8494,0.822
+loocv_cognitive_neuroscience_personal,70,705,1.8723,0.9108
+loocv_cognitive_neuroscience_gpt,68,644,1.8494,0.822
+loocv_dbb_personal,70,705,1.8723,0.9108
+loocv_dbb_gpt,68,644,1.8494,0.822
+loocv_racial_capitalism_personal,70,705,1.8723,0.9108
+loocv_racial_capitalism_gpt,68,644,1.8494,0.822

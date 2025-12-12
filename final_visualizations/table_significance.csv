@@ -1,0 +1,7 @@
+Metric,n,Mean,95% CI,Cohen's d,d CI,p-value,Notes
+rewrite.delta_rel_style,8,0.1082,"[0.0869, 0.1346]",2.9395,"[2.283, 7.327]",0.0,Full
+rewrite.delta_rel_style,4,0.088,"[0.0711, 0.1048]",4.4406,"[3.897, 30.324]",0.0,LOOCV
+prop_sentences_changed,8,0.7958,"[0.7435, 0.8326]",11.251,"[7.519, 49.459]",0.0,Full
+prop_sentences_changed,8,0.7958,"[0.7435, 0.8326]",11.251,"[7.519, 49.459]",0.0,LOOCV
+deltas.pos_bigrams.mean_delta,4,1.69,"[-0.2163, 4.3191]",0.6452,"[-0.263, 18.810]",0.076,Full
+deltas.lexical.mean_delta,4,-0.3832,"[-2.4735, 3.0780]",-0.1094,"[-6.204, 0.893]",0.5624,Full

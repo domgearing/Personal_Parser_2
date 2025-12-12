@@ -1,0 +1,5 @@
+Fold,Topic Held Out,Original Score,Rewritten Score,Δ,# Sentences Rewritten
+2025-12-10_18-19-51_batch_loocv_ahosa,loocv_ahosa,0.11587374122146095,0.18402040722471621,0.0681,109
+2025-12-10_18-22-40_batch_loocv_cognitive_neuroscience,loocv_cognitive_neuroscience,-0.032917707526056696,0.06849074575900393,0.1014,77
+2025-12-10_18-24-52_batch_loocv_dbb,loocv_dbb,0.039803533959840244,0.14804845155728827,0.1082,91
+2025-12-10_18-27-34_batch_loocv_racial_capitalism,loocv_racial_capitalism,0.06110604352707826,0.13522366786525675,0.0741,83

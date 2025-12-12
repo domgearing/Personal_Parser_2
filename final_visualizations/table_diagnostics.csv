@@ -1,0 +1,9 @@
+Run,Topic,Original Score,Rewritten Score,Δ,# Sentences Rewritten,LOOCV?
+2025-12-10_16-10-25_batch_ahosa,ahosa,-0.1324,-0.0427,0.0898,139,No
+2025-12-10_16-11-45_batch_cogneuro,cogneuro,-0.1162,0.0146,0.1308,78,No
+2025-12-10_16-12-45_batch_dbb,dbb,-0.0464,0.1382,0.1845,92,No
+2025-12-10_16-13-37_batch_racial_capitalism,racial_capitalism,-0.1109,-0.002,0.1089,81,No
+2025-12-10_18-19-51_batch_loocv_ahosa,loocv_ahosa,0.1159,0.184,0.0681,109.0,Yes
+2025-12-10_18-22-40_batch_loocv_cognitive_neuroscience,loocv_cognitive_neuroscience,-0.0329,0.0685,0.1014,77.0,Yes
+2025-12-10_18-24-52_batch_loocv_dbb,loocv_dbb,0.0398,0.148,0.1082,91.0,Yes
+2025-12-10_18-27-34_batch_loocv_racial_capitalism,loocv_racial_capitalism,0.0611,0.1352,0.0741,83.0,Yes
