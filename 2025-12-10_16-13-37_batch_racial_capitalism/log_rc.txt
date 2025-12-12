@@ -1,0 +1,3686 @@
+
+
+===== Preprocess personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 45 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.jsonl
+Wrote cleaned essay for personal_racial_capitalism to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.txt
+
+[STEP COMPLETED] Preprocess personal text in 3.50s
+
+
+===== Preprocess GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/process_sample_text.py --in-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Wrote 100 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.jsonl
+Wrote cleaned essay for gpt_racial_capitalism to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt
+
+[STEP COMPLETED] Preprocess GPT text in 3.09s
+
+
+===== Build POS trees for personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 45 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.jsonl
+Successfully parsed 45 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees for personal text in 8.16s
+
+
+===== Build POS trees for GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/make_POS_trees.py --in-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.jsonl --out-path /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package benepar_en3 to
+[nltk_data]     /Users/domgearing/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/anaconda3/envs/lcproj/lib/python3.11/site-packages/torch/distributions/distribution.py:62: UserWarning: <class 'torch_struct.distributions.TreeCRF'> does not define `arg_constraints`. Please set `arg_constraints = {}` or initialize the distribution with `validate_args=False` to turn off validation.
+  warnings.warn(
+Read 100 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.jsonl
+Successfully parsed 100 sentences to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl
+
+[STEP COMPLETED] Build POS trees for GPT text in 10.11s
+
+
+===== Visualize POS trees (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_trees_graphviz.py --jsonl /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl --out-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_personal --num-examples 3
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 45 tree records from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl
+================================================================================
+Sentence:
+The idea of racial capitalism is that the advancement of a capitalist society and the accumulation of capital are innately racially biased, and in practice widen the inequality gap between privileged and underprivileged members of the population.
+
+Tree (pretty_print):
+                                                                                                        TOP                                                                                               
+                                                                                                         |                                                                                                 
+                                                                                                         S                                                                                                
+              ___________________________________________________________________________________________|______________________________________________________________________________________________   
+             |                                                       VP                                                                                                                                 | 
+             |                _______________________________________|________________________________________________                                                                                  |  
+             |               |                                                                                       SBAR                                                                               | 
+             |               |    ____________________________________________________________________________________|____                                                                             |  
+             |               |   |                                                                                         S                                                                            | 
+             |               |   |                                _________________________________________________________|_______________________                                                     |  
+             |               |   |                               |                                                                                 VP                                                   | 
+             |               |   |                               |                                            _____________________________________|___________                                         |  
+             |               |   |                               |                                           |             |   |                               VP                                       | 
+             |               |   |                               |                                           |             |   |        _______________________|_______                                 |  
+             |               |   |                               |                                           |             |   |       |       |                       NP                               | 
+             |               |   |                               |                                           |             |   |       |       |        _______________|________                        |  
+             |               |   |                               NP                                          |             |   |       |       |       |                        PP                      | 
+             |               |   |                _______________|___________________                        |             |   |       |       |       |        ________________|___                    |  
+             NP              |   |               NP                  |               NP                      |             |   |       |       |       |       |                    NP                  | 
+      _______|___            |   |        _______|_______            |        _______|_______                |             |   |       |       |       |       |             _______|_______            |  
+     |           PP          |   |       |               PP          |       |               PP              VP            |   |       PP      |       |       |            NP              PP          | 
+     |        ___|___        |   |       |        _______|___        |       |            ___|___     _______|___          |   |    ___|___    |       |       |        ____|_______     ___|___        |  
+     NP      |       NP      |   |       NP      |           NP      |       NP          |       NP  |          ADJP       |   |   |       NP  |       NP      |      ADJP          |   |       NP      | 
+  ___|___    |    ___|___    |   |    ___|___    |    _______|___    |    ___|___        |       |   |    _______|____     |   |   |       |   |    ___|___    |    ___|________    |   |    ___|___    |  
+ DT      NN  IN  JJ      NN VBZ  IN  DT      NN  IN  DT      JJ  NN  CC  DT      NN      IN      NN VBP  RB      RB   JJ   ,   CC  IN      NN VBP  DT  NN  NN  IN  JJ  CC       JJ NNS  IN  DT      NN  . 
+ |       |   |   |       |   |   |   |       |   |   |       |   |   |   |       |       |       |   |   |       |    |    |   |   |       |   |   |   |   |   |   |   |        |   |   |   |       |   |  
+ DT      NN  IN  JJ      NN VBZ  IN  DT      NN  IN  DT      JJ  NN  CC  DT      NN      IN      NN VBP  RB      RB   JJ   ,   CC  IN      NN VBP  DT  NN  NN  IN  JJ  CC       JJ NNS  IN  DT      NN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_personal/tree_0.pdf
+================================================================================
+Sentence:
+This can be seen manifested throughout history, as everything from drug laws to traffic fines utilized racial bias and corrupt justifications to commodify a disenfranchised portion of their populations to maximize profit at the dominated group's expense.
+
+Tree (pretty_print):
+                                                                                             TOP                                                                                         
+                                                                                              |                                                                                           
+                                                                                              S                                                                                          
+  ____________________________________________________________________________________________|________________________________________________________________________________________   
+ |       VP                                                                                                                                                                            | 
+ |    ___|___                                                                                                                                                                          |  
+ |   |       VP                                                                                                                                                                        | 
+ |   |    ___|___                                                                                                                                                                      |  
+ |   |   |       VP                                                                                                                                                                    | 
+ |   |   |    ___|___________                                                                                                                                                          |  
+ |   |   |   |               S                                                                                                                                                         | 
+ |   |   |   |               |                                                                                                                                                         |  
+ |   |   |   |               VP                                                                                                                                                        | 
+ |   |   |   |    ___________|___________________                                                                                                                                      |  
+ |   |   |   |   |       |       |              SBAR                                                                                                                                   | 
+ |   |   |   |   |       |       |    ___________|________________________                                                                                                             |  
+ |   |   |   |   |       |       |   |                                    S                                                                                                            | 
+ |   |   |   |   |       |       |   |        ____________________________|_______________________                                                                                     |  
+ |   |   |   |   |       |       |   |       |                                                    VP                                                                                   | 
+ |   |   |   |   |       |       |   |       |                                 ___________________|___________________________                                                         |  
+ |   |   |   |   |       |       |   |       |                                |               |                               S                                                        | 
+ |   |   |   |   |       |       |   |       |                                |               |                               |                                                        |  
+ |   |   |   |   |       |       |   |       |                                |               |                               VP                                                       | 
+ |   |   |   |   |       |       |   |       |                                |               |                _______________|____________________                                    |  
+ |   |   |   |   |       |       |   |       |                                |               |               |                                    VP                                  | 
+ |   |   |   |   |       |       |   |       |                                |               |               |    ________________________________|_______                            |  
+ |   |   |   |   |       |       |   |       |                                |               |               |   |           |                            S                           | 
+ |   |   |   |   |       |       |   |       |                                |               |               |   |           |                            |                           |  
+ |   |   |   |   |       |       |   |       |                                |               |               |   |           |                            VP                          | 
+ |   |   |   |   |       |       |   |       |                                |               |               |   |           |                     _______|_______                    |  
+ |   |   |   |   |       |       |   |       NP                               |               |               |   |           |                    |               VP                  | 
+ |   |   |   |   |       |       |   |    ___|____________                    |               |               |   |           |                    |    ___________|___                |  
+ |   |   |   |   |       |       |   |   |                PP                  |               |               |   |           NP                   |   |   |           PP              | 
+ |   |   |   |   |       |       |   |   |        ________|_______            |               |               |   |        ___|_______             |   |   |    _______|___            |  
+ |   |   |   |   |       PP      |   |   |       PP               PP          |               NP              |   |       |           PP           |   |   |   |           NP          | 
+ |   |   |   |   |    ___|___    |   |   |    ___|____         ___|___        |        _______|_______        |   |       |        ___|____        |   |   |   |        ___|_______    |  
+ NP  |   |   |   |   |       NP  |   |   NP  |        NP      |       NP      |       NP      |       NP      |   |       NP      |        NP      |   |   NP  |       NP          |   | 
+ |   |   |   |   |   |       |   |   |   |   |    ____|___    |    ___|___    |    ___|___    |    ___|___    |   |    ___|___    |    ____|___    |   |   |   |    ___|_______    |   |  
+ DT  MD  VB VBN VBN  IN      NN  ,   IN  NN  IN  NN      NNS  IN  NN     NNS VBD  JJ      NN  CC  JJ     NNS  TO  VB  DT VBN  NN  IN PRP$     NNS  TO  VB  NN  IN  DT VBN  NN POS  NN  . 
+ |   |   |   |   |   |       |   |   |   |   |   |        |   |   |       |   |   |       |   |   |       |   |   |   |   |   |   |   |        |   |   |   |   |   |   |   |   |   |   |  
+ DT  MD  VB VBN VBN  IN      NN  ,   IN  NN  IN  NN      NNS  IN  NN     NNS VBD  JJ      NN  CC  JJ     NNS  TO  VB  DT VBN  NN  IN PRP$     NNS  TO  VB  NN  IN  DT VBN  NN POS  NN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_personal/tree_1.pdf
+================================================================================
+Sentence:
+The system of capitalism itself only serves to further embed these inequities and disparities by giving immense power to the capitalist and feeding a vicious cycle that makes it nearly impossible to escape or achieve autonomy as a member of a disenfranchised group.
+
+Tree (pretty_print):
+                                                                                                      TOP                                                                                                       
+                                                                                                       |                                                                                                         
+                                                                                                       S                                                                                                        
+              _________________________________________________________________________________________|______________________________________________________________________________________________________   
+             |               |        VP                                                                                                                                                                      | 
+             |               |     ___|________                                                                                                                                                               |  
+             |               |    |            S                                                                                                                                                              | 
+             |               |    |            |                                                                                                                                                              |  
+             |               |    |            VP                                                                                                                                                             | 
+             |               |    |    ________|___________                                                                                                                                                   |  
+             |               |    |   |   |                VP                                                                                                                                                 | 
+             |               |    |   |   |     ___________|_______________________                                                                                                                           |  
+             |               |    |   |   |    |       |                           PP                                                                                                                         | 
+             |               |    |   |   |    |       |            _______________|_______________                                                                                                           |  
+             |               |    |   |   |    |       |           |                               S                                                                                                          | 
+             |               |    |   |   |    |       |           |                               |                                                                                                          |  
+             |               |    |   |   |    |       |           |                               VP                                                                                                         | 
+             |               |    |   |   |    |       |           |                _______________|___________                                                                                               |  
+             |               |    |   |   |    |       |           |               |                   |       VP                                                                                             | 
+             |               |    |   |   |    |       |           |               |                   |    ___|_______                                                                                       |  
+             |               |    |   |   |    |       |           |               |                   |   |           NP                                                                                     | 
+             |               |    |   |   |    |       |           |               |                   |   |        ___|________                                                                              |  
+             |               |    |   |   |    |       |           |               |                   |   |       |           SBAR                                                                           | 
+             |               |    |   |   |    |       |           |               |                   |   |       |        ____|____                                                                         |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |         S                                                                        | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |         |                                                                        |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |         VP                                                                       | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |     ____|___                                                                     |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |        S                                                                    | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |     ___|________________                                                    |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |            S                                                   | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |            |                                                   |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |            VP                                                  | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |         ___|_______                                            |  
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |        |           VP                                          | 
+             |               |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |        |    _______|___________                                |  
+             NP              |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |        |   |   |   |   |       PP                              | 
+      _______|_______        |    |   |   |    |       |           |               |                   |   |       |       |    |    |       |        |   |   |   |   |    ___|___________                    |  
+     |               PP      |    |   |   |    |       |           |               VP                  |   |       |       |    |    |       |        |   |   |   |   |   |               NP                  | 
+     |            ___|___    |    |   |   |    |       |           |    ___________|_______            |   |       |       |    |    |       |        |   |   |   |   |   |        _______|_______            |  
+     |           PP      |   |    |   |   |    |       |           |   |       |           PP          |   |       |       |    |    NP      |        |   |   |   |   |   |       |               PP          | 
+     |        ___|___    |   |    |   |   |    |       |           |   |       |        ___|___        |   |       |       |    |    |       |        |   |   |   |   |   |       |        _______|___        |  
+     NP      |       NP  NP ADVP  |   |  ADVP  |       NP          |   |       NP      |       NP      |   |       NP     WHNP  |    NP     ADJP      |   VP  |   |   NP  |       NP      |           NP      | 
+  ___|___    |       |   |   |    |   |   |    |    ___|_______    |   |    ___|___    |    ___|___    |   |    ___|___    |    |    |    ___|____    |   |   |   |   |   |    ___|___    |    _______|___    |  
+ DT      NN  IN      NN PRP  RB  VBZ  TO RBR   VB  DT NNS  CC NNS  IN VBG  JJ      NN  IN  DT      NN  CC VBG  DT  JJ  NN WDT  VBZ  PRP  RB       JJ  TO  VB  CC  VB  NN  IN  DT      NN  IN  DT      JJ  NN  . 
+ |       |   |       |   |   |    |   |   |    |   |   |   |   |   |   |   |       |   |   |       |   |   |   |   |   |   |    |    |   |        |   |   |   |   |   |   |   |       |   |   |       |   |   |  
+ DT      NN  IN      NN PRP  RB  VBZ  TO RBR   VB  DT NNS  CC NNS  IN VBG  JJ      NN  IN  DT      NN  CC VBG  DT  JJ  NN WDT  VBZ  PRP  RB       JJ  TO  VB  CC  VB  NN  IN  DT      NN  IN  DT      JJ  NN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_personal/tree_2.pdf
+
+[STEP COMPLETED] Visualize POS trees (personal) in 1.37s
+
+
+===== Visualize POS trees (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_trees_graphviz.py --jsonl /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl --out-dir /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_gpt --num-examples 3
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 100 tree records from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl
+================================================================================
+Sentence:
+Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines.
+
+Tree (pretty_print):
+                                                     TOP                                                                 
+                                                      |                                                                   
+                                                      S                                                                  
+      ________________________________________________|________________________________________________________________   
+     |                   VP                                                                                            | 
+     |        ___________|____________                                                                                 |  
+     |       |                        PP                                                                               | 
+     |       |    ____________________|___________________                                                             |  
+     |       |   |                                        NP                                                           | 
+     |       |   |            ____________________________|_______________                                             |  
+     |       |   |           |            |                               S                                            | 
+     |       |   |           |            |    ___________________________|_______                                     |  
+     |       |   |           |            |   |                                   VP                                   | 
+     |       |   |           |            |   |    _______________________________|___                                 |  
+     |       |   |           |            |   |   |   |                               NP                               | 
+     |       |   |           |            |   |   |   |                _______________|_______________                 |  
+     |       |   |           |            |   |   |   |               NP              |   |           NP               | 
+     |       |   |           |            |   |   |   |        _______|___            |   |    _______|___             |  
+     |       |   |           NP           |   |   |   |       |           PP          |   |   |           PP           | 
+     |       |   |    _______|________    |   |   |   |       |        ___|___        |   |   |    _______|____        |  
+     NP      |   |   |      ADJP      |   |   NP  |   |       NP      |       NP      |   |   NP  |            NP      | 
+  ___|___    |   |   |    ___|____    |   |   |   |   |    ___|___    |    ___|___    |   |   |   |        ____|___    |  
+ JJ      NN VBZ  IN  DT  JJ  CC   JJ  NN  :   NN VBZ  RB  DT      NN  IN  JJ     NNS  ,   CC  CD  IN     PRP$     NNS  . 
+ |       |   |   |   |   |   |    |   |   |   |   |   |   |       |   |   |       |   |   |   |   |       |        |   |  
+ JJ      NN VBZ  IN  DT  JJ  CC   JJ  NN  :   NN VBZ  RB  DT      NN  IN  JJ     NNS  ,   CC  CD  IN     PRP$     NNS  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_gpt/tree_0.pdf
+================================================================================
+Sentence:
+The creation of wealth for some requires the exploitation of others, and throughout history those “others” have been defined along racial lines.
+
+Tree (pretty_print):
+                                                                        TOP                                                                
+                                                                         |                                                                  
+                                                                         S                                                                 
+                                  _______________________________________|_______________________________________________________________   
+                                 |                                   |   |                           S                                   | 
+                                 |                                   |   |        ___________________|___________                        |  
+                                 S                                   |   |       |           |                   VP                      | 
+              ___________________|_______________                    |   |       |           |            _______|___                    |  
+             |                                   VP                  |   |       |           |           |           VP                  | 
+             |                        ___________|___                |   |       |           |           |    _______|___                |  
+             NP                      |               NP              |   |       |           |           |   |           VP              | 
+      _______|_______________        |        _______|_______        |   |       |           |           |   |    _______|___            |  
+     |           PP          PP      |       |               PP      |   |       PP          |           |   |   |           PP          | 
+     |        ___|___     ___|___    |       |            ___|___    |   |    ___|___        |           |   |   |    _______|___        |  
+     NP      |       NP  |       NP  |       NP          |       NP  |   |   |       NP      NP          |   |   |   |           NP      | 
+  ___|___    |       |   |       |   |    ___|___        |       |   |   |   |       |    ___|_______    |   |   |   |        ___|___    |  
+ DT      NN  IN      NN  IN      DT VBZ  DT      NN      IN     NNS  ,   CC  IN      NN  DT  `` NNS  '' VBP VBN VBN  IN      JJ     NNS  . 
+ |       |   |       |   |       |   |   |       |       |       |   |   |   |       |   |   |   |   |   |   |   |   |       |       |   |  
+ DT      NN  IN      NN  IN      DT VBZ  DT      NN      IN     NNS  ,   CC  IN      NN  DT  `` NNS  '' VBP VBN VBN  IN      JJ     NNS  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_gpt/tree_1.pdf
+================================================================================
+Sentence:
+Race became a tool for sorting human beings into categories of economic value — who would profit, who would labor, who would be controlled, who would be discarded.
+
+Tree (pretty_print):
+                                                                             TOP                                                                                               
+                                                                              |                                                                                                 
+                                                                              S                                                                                                
+  ____________________________________________________________________________|______________________________________________________________________________________________   
+ |       VP                                                                                                                                                                  | 
+ |    ___|___________                                                                                                                                                        |  
+ |   |               NP                                                                                                                                                      | 
+ |   |        _______|_______                                                                                                                                                |  
+ |   |       |               PP                                                                                                                                              | 
+ |   |       |        _______|___________                                                                                                                                    |  
+ |   |       |       |                   S                                                                                                                                   | 
+ |   |       |       |                   |                                                                                                                                   |  
+ |   |       |       |                   VP                                                                                                                                  | 
+ |   |       |       |    _______________|___________________________                                                                                                        |  
+ |   |       |       |   |       |                                   PP                                                                                                      | 
+ |   |       |       |   |       |        ___________________________|______________________________                                                                         |  
+ |   |       |       |   |       |       |                                                          NP                                                                       | 
+ |   |       |       |   |       |       |            ______________________________________________|________________                                                        |  
+ |   |       |       |   |       |       |           |               |                                              SBAR                                                     | 
+ |   |       |       |   |       |       |           |               |         ______________________________________|______________________________________                 |  
+ |   |       |       |   |       |       |           |               |        |            |        |            |           SBAR              |           SBAR              | 
+ |   |       |       |   |       |       |           |               |        |            |        |            |    ________|____            |    ________|____            |  
+ |   |       |       |   |       |       |           |               |       SBAR          |       SBAR          |   |             S           |   |             S           | 
+ |   |       |       |   |       |       |           |               |    ____|____        |    ____|____        |   |             |           |   |             |           |  
+ |   |       |       |   |       |       |           NP              |   |         S       |   |         S       |   |             VP          |   |             VP          | 
+ |   |       |       |   |       |       |    _______|___            |   |         |       |   |         |       |   |     ________|___        |   |     ________|___        |  
+ |   |       |       |   |       |       |   |           PP          |   |         VP      |   |         VP      |   |    |            VP      |   |    |            VP      | 
+ |   |       |       |   |       |       |   |    _______|___        |   |     ____|___    |   |     ____|___    |   |    |         ___|___    |   |    |         ___|___    |  
+ NP  |       NP      |   |       NP      |   NP  |           NP      |  WHNP  |        VP  |  WHNP  |        VP  |  WHNP  |        |       VP  |  WHNP  |        |       VP  | 
+ |   |    ___|___    |   |    ___|___    |   |   |        ___|___    |   |    |        |   |   |    |        |   |   |    |        |       |   |   |    |        |       |   |  
+ NN VBD  DT      NN  IN VBG  JJ     NNS  IN NNS  IN      JJ      NN  :   WP   MD       VB  ,   WP   MD       VB  ,   WP   MD       VB     VBN  ,   WP   MD       VB     VBN  . 
+ |   |   |       |   |   |   |       |   |   |   |       |       |   |   |    |        |   |   |    |        |   |   |    |        |       |   |   |    |        |       |   |  
+ NN VBD  DT      NN  IN VBG  JJ     NNS  IN NNS  IN      JJ      NN  :   WP   MD       VB  ,   WP   MD       VB  ,   WP   MD       VB     VBN  ,   WP   MD       VB     VBN  . 
+
+================================================================================
+Saved tree visualization to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/trees_gpt/tree_2.pdf
+
+[STEP COMPLETED] Visualize POS trees (GPT) in 1.31s
+
+
+===== Estimate POS-based PCFG for personal text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 45 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_pos_trees.jsonl
+Collected total of 3709 productions from 45 trees
+Built POS-based PCFG with 56 LHS nonterminals
+Saved POS PCFG with 56 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json
+
+[STEP COMPLETED] Estimate POS-based PCFG for personal text in 1.17s
+
+
+===== Estimate POS-based PCFG for GPT text =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/pcfg_POS.py --trees /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 100 POS trees from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_pos_trees.jsonl
+Processed 100 trees... total productions so far: 4190
+Collected total of 4190 productions from 100 trees
+Built POS-based PCFG with 58 LHS nonterminals
+Saved POS PCFG with 58 LHS symbols to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json
+
+[STEP COMPLETED] Estimate POS-based PCFG for GPT text in 1.14s
+
+
+===== Describe PCFG (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/describe_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --csv-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_personal.csv --md-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_personal.md
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+PCFG summary
+  Nonterminals (LHS): 56
+  Total rules:        328
+
+SYM      TYPE    #RULES  DESCRIPTION
+--------------------------------------------------------------------------------
+         pos?    2       Likely POS tag (not in table)
+''       pos     1       Closing quote
+,        pos     1       Comma
+.        pos     1       Sentence-final punctuation (. ! ?)
+:        pos     1       Colon, semi-colon, dash
+ADJP     phrase  12      Adjective phrase
+ADVP     phrase  11      Adverb phrase
+CC       pos     1       Coordinating conjunction (and, or, but)
+CD       pos     1       Cardinal number
+CONJP    phrase  3       Conjunction phrase
+DT       pos     1       Determiner (the, a, this)
+EX       pos     1       Existential 'there'
+FW       pos     1       Foreign word
+IN       pos     1       Preposition/subordinating conjunction (in, on, because)
+JJ       pos     1       Adjective
+JJR      pos     1       Adjective, comparative (bigger)
+JJS      pos     1       Adjective, superlative (biggest)
+MD       pos     1       Modal (can, will, should)
+NML      phrase? 6       Likely phrase/category (not in table)
+NN       pos     1       Noun, singular or mass
+NNP      pos     1       Proper noun, singular
+NNPS     pos     1       Proper noun, plural
+NNS      pos     1       Noun, plural
+NP       phrase  70      Noun phrase
+NP+NP    phrase? 1       Likely phrase/category (not in table)
+POS      pos     1       Possessive ending ('s)
+PP       phrase  19      Prepositional phrase
+PRN      phrase? 2       Likely phrase/category (not in table)
+PRP      pos     1       Personal pronoun (I, you, we)
+PRP$     pos     1       Possessive pronoun (my, your, our)
+PRT      phrase  1       Particle
+QP       phrase  2       Quantifier phrase
+RB       pos     1       Adverb (quickly, not)
+RBR      pos     1       Adverb, comparative (faster)
+RP       pos     1       Particle (up, off)
+S        phrase  29      Clause / sentence
+S+VP     phrase? 35      Likely phrase/category (not in table)
+SBAR     phrase  15      Subordinate clause (introduced by 'that', 'because', etc.)
+SBAR+S   phrase? 1       Likely phrase/category (not in table)
+SBAR+S+VP phrase? 1       Likely phrase/category (not in table)
+SINV     phrase  3       Inverted declarative sentence
+TO       pos     1       Infinitive 'to'
+TOP      phrase? 2       Likely phrase/category (not in table)
+VB       pos     1       Verb, base form
+VBD      pos     1       Verb, past tense
+VBG      pos     1       Verb, gerund/present participle
+VBN      pos     1       Verb, past participle
+VBP      pos     1       Verb, non-3sg present
+VBZ      pos     1       Verb, 3sg present
+VP       phrase  69      Verb phrase
+WDT      pos     1       Wh-determiner (which, that)
+WHADVP   phrase  3       Wh-adverb phrase (why, how...)
+WHNP     phrase  6       Wh-noun phrase (who, what, which...)
+WHPP     phrase  1       Wh-prepositional phrase (in which, to whom...)
+WP       pos     1       Wh-pronoun (who, what)
+WRB      pos     1       Wh-adverb (where, when, how)
+Wrote symbol table to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_personal.csv and /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_personal.md
+
+[STEP COMPLETED] Describe PCFG (personal) in 0.03s
+
+
+===== Describe PCFG (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/describe_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --csv-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_gpt.csv --md-out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_gpt.md
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+PCFG summary
+  Nonterminals (LHS): 58
+  Total rules:        323
+
+SYM      TYPE    #RULES  DESCRIPTION
+--------------------------------------------------------------------------------
+''       pos     1       Closing quote
+,        pos     1       Comma
+.        pos     1       Sentence-final punctuation (. ! ?)
+:        pos     1       Colon, semi-colon, dash
+ADJP     phrase  16      Adjective phrase
+ADVP     phrase  8       Adverb phrase
+CC       pos     1       Coordinating conjunction (and, or, but)
+CD       pos     1       Cardinal number
+CONJP    phrase  1       Conjunction phrase
+DT       pos     1       Determiner (the, a, this)
+EX       pos     1       Existential 'there'
+FW       pos     1       Foreign word
+IN       pos     1       Preposition/subordinating conjunction (in, on, because)
+JJ       pos     1       Adjective
+JJR      pos     1       Adjective, comparative (bigger)
+JJS      pos     1       Adjective, superlative (biggest)
+MD       pos     1       Modal (can, will, should)
+NML      phrase? 6       Likely phrase/category (not in table)
+NN       pos     1       Noun, singular or mass
+NNP      pos     1       Proper noun, singular
+NNPS     pos     1       Proper noun, plural
+NNS      pos     1       Noun, plural
+NP       phrase  75      Noun phrase
+POS      pos     1       Possessive ending ('s)
+PP       phrase  15      Prepositional phrase
+PRP      pos     1       Personal pronoun (I, you, we)
+PRP$     pos     1       Possessive pronoun (my, your, our)
+PRT      phrase  1       Particle
+RB       pos     1       Adverb (quickly, not)
+RBR      pos     1       Adverb, comparative (faster)
+RBS      pos     1       Adverb, superlative (fastest)
+RP       pos     1       Particle (up, off)
+S        phrase  23      Clause / sentence
+S+NP     phrase? 1       Likely phrase/category (not in table)
+S+VP     phrase? 30      Likely phrase/category (not in table)
+SBAR     phrase  13      Subordinate clause (introduced by 'that', 'because', etc.)
+SBAR+S   phrase? 1       Likely phrase/category (not in table)
+SBAR+S+VP phrase? 1       Likely phrase/category (not in table)
+SBARQ    phrase  4       Direct question with fronted wh-word
+SQ       phrase  1       Inverted yes/no question
+TO       pos     1       Infinitive 'to'
+TOP      phrase? 2       Likely phrase/category (not in table)
+UCP      phrase? 3       Likely phrase/category (not in table)
+VB       pos     1       Verb, base form
+VBD      pos     1       Verb, past tense
+VBG      pos     1       Verb, gerund/present participle
+VBN      pos     1       Verb, past participle
+VBP      pos     1       Verb, non-3sg present
+VBZ      pos     1       Verb, 3sg present
+VP       phrase  74      Verb phrase
+WDT      pos     1       Wh-determiner (which, that)
+WHADVP   phrase  1       Wh-adverb phrase (why, how...)
+WHNP     phrase  9       Wh-noun phrase (who, what, which...)
+WHPP     phrase  1       Wh-prepositional phrase (in which, to whom...)
+WP       pos     1       Wh-pronoun (who, what)
+WP$      pos     1       Possessive wh-pronoun (whose)
+WRB      pos     1       Wh-adverb (where, when, how)
+``       pos     1       Opening quote
+Wrote symbol table to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_gpt.csv and /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/nonterminals_gpt.md
+
+[STEP COMPLETED] Describe PCFG (GPT) in 0.03s
+
+
+===== Analyze grammar entropy/top rules (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_grammar.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --top-k 6
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+== S top 6 rules ==
+Entropy H(S) = 2.312
+S -> NP VP   (p=0.314)
+S -> S .   (p=0.225)
+S -> S VP   (p=0.120)
+S -> S NP   (p=0.063)
+S -> S S   (p=0.031)
+S -> NP ADVP   (p=0.026)
+
+== NP top 6 rules ==
+Entropy H(NP) = 3.285
+NP -> NP PP   (p=0.141)
+NP -> DT NN   (p=0.091)
+NP -> NP NN   (p=0.091)
+NP -> NN   (p=0.075)
+NP -> DT JJ   (p=0.059)
+NP -> NP CC   (p=0.050)
+
+== VP top 6 rules ==
+Entropy H(VP) = 3.678
+VP -> VB NP   (p=0.099)
+VP -> VP PP   (p=0.090)
+VP -> VP VP   (p=0.070)
+VP -> VP CC   (p=0.051)
+VP -> VBG NP   (p=0.042)
+VP -> VBZ NP   (p=0.039)
+
+== PP top 6 rules ==
+Entropy H(PP) = 0.952
+PP -> IN NP   (p=0.808)
+PP -> IN S+VP   (p=0.066)
+PP -> PP NP   (p=0.023)
+PP -> PP S+VP   (p=0.014)
+PP -> ADVP IN   (p=0.009)
+PP -> IN SBAR   (p=0.009)
+
+== SBAR top 6 rules ==
+Entropy H(SBAR) = 2.084
+SBAR -> WHNP S+VP   (p=0.302)
+SBAR -> IN S   (p=0.190)
+SBAR -> WHADVP S   (p=0.190)
+SBAR -> WHNP S   (p=0.079)
+SBAR -> IN NN   (p=0.048)
+SBAR -> SBAR S+VP   (p=0.032)
+
+== ADJP top 6 rules ==
+Entropy H(ADJP) = 2.228
+ADJP -> RB JJ   (p=0.205)
+ADJP -> ADJP JJ   (p=0.179)
+ADJP -> JJ CC   (p=0.128)
+ADJP -> ADJP CC   (p=0.103)
+ADJP -> JJ   (p=0.103)
+ADJP -> ADJP ADJP   (p=0.077)
+
+== ADVP top 6 rules ==
+Entropy H(ADVP) = 1.143
+ADVP -> RB   (p=0.737)
+ADVP -> RB RB   (p=0.070)
+ADVP -> RBR   (p=0.035)
+ADVP -> ADVP    (p=0.035)
+ADVP -> JJ   (p=0.018)
+ADVP -> FW RB   (p=0.018)
+
+[STEP COMPLETED] Analyze grammar entropy/top rules (personal) in 0.02s
+
+
+===== Analyze grammar entropy/top rules (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_grammar.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --top-k 6
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+== S top 6 rules ==
+Entropy H(S) = 2.011
+S -> NP VP   (p=0.368)
+S -> S .   (p=0.265)
+S -> S VP   (p=0.089)
+S -> S S   (p=0.049)
+S -> S NP   (p=0.046)
+S -> S ,   (p=0.027)
+
+== NP top 6 rules ==
+Entropy H(NP) = 3.322
+NP -> NN   (p=0.098)
+NP -> NP PP   (p=0.090)
+NP -> DT NN   (p=0.090)
+NP -> NNS   (p=0.066)
+NP -> PRP   (p=0.066)
+NP -> NP NN   (p=0.056)
+
+== VP top 6 rules ==
+Entropy H(VP) = 3.820
+VP -> VB NP   (p=0.069)
+VP -> VBZ NP   (p=0.064)
+VP -> VBP NP   (p=0.059)
+VP -> VP PP   (p=0.056)
+VP -> VBD NP   (p=0.048)
+VP -> VBN PP   (p=0.038)
+
+== PP top 6 rules ==
+Entropy H(PP) = 0.817
+PP -> IN NP   (p=0.846)
+PP -> IN S+VP   (p=0.022)
+PP -> PP NP   (p=0.022)
+PP -> PP CC   (p=0.016)
+PP -> IN PP   (p=0.011)
+PP -> CONJP NP   (p=0.011)
+
+== SBAR top 6 rules ==
+Entropy H(SBAR) = 1.912
+SBAR -> IN S   (p=0.326)
+SBAR -> WHNP S+VP   (p=0.253)
+SBAR -> WHADVP S   (p=0.158)
+SBAR -> SBAR SBAR   (p=0.063)
+SBAR -> SBAR ,   (p=0.053)
+SBAR -> WHNP S   (p=0.032)
+
+== ADJP top 6 rules ==
+Entropy H(ADJP) = 2.412
+ADJP -> JJ   (p=0.282)
+ADJP -> RB JJ   (p=0.128)
+ADJP -> ADJP JJ   (p=0.103)
+ADJP -> JJ PP   (p=0.077)
+ADJP -> JJ CC   (p=0.051)
+ADJP -> RBS JJ   (p=0.051)
+
+== ADVP top 6 rules ==
+Entropy H(ADVP) = 0.867
+ADVP -> RB   (p=0.800)
+ADVP -> RB RB   (p=0.060)
+ADVP -> RB PP   (p=0.040)
+ADVP -> RBR IN   (p=0.020)
+ADVP -> NP RB   (p=0.020)
+ADVP -> RBS   (p=0.020)
+
+[STEP COMPLETED] Analyze grammar entropy/top rules (GPT) in 0.03s
+
+
+===== Compare structural style gaps (personal vs GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compare_styles.py --personal-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --top-k 12
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+
+=== Structural rules that are MOST 'you-ish' (you >> GPT) ===
+QP    -> RB CD                       Δ(you-GPT)= 19.31
+QP    -> RB DT                       Δ(you-GPT)= 19.31
+SINV  -> SINV .                      Δ(you-GPT)= 18.90
+SINV  -> PP VP                       Δ(you-GPT)= 18.90
+SINV  -> SINV NP                     Δ(you-GPT)= 18.90
+CONJP -> CONJP IN                    Δ(you-GPT)= 18.90
+CONJP -> RB RB                       Δ(you-GPT)= 18.90
+NML   -> NN NNS                      Δ(you-GPT)= 17.80
+NML   -> NML NNS                     Δ(you-GPT)= 17.80
+WHADVP -> RB WRB                      Δ(you-GPT)= 17.52
+WHADVP -> ADVP WRB                    Δ(you-GPT)= 17.52
+ADJP  -> RBR JJ                      Δ(you-GPT)= 17.44
+
+=== Structural rules that are MOST 'GPT-ish' (GPT >> you) ===
+SQ    -> VBP VP                      Δ(you-GPT)=-20.00
+SBARQ -> SBARQ .                     Δ(you-GPT)=-19.08
+SBARQ -> WHNP SQ                     Δ(you-GPT)=-18.39
+SBARQ -> PP ,                        Δ(you-GPT)=-18.39
+SBARQ -> SBARQ SBAR                  Δ(you-GPT)=-18.39
+NML   -> NN                          Δ(you-GPT)=-17.36
+NML   -> NN NN                       Δ(you-GPT)=-17.36
+WHNP  -> WP$ NN                      Δ(you-GPT)=-17.08
+WHNP  -> WHNP NN                     Δ(you-GPT)=-17.08
+WHNP  -> WHNP ,                      Δ(you-GPT)=-17.08
+ADJP  -> ADJP PP                     Δ(you-GPT)=-17.03
+ADJP  -> RBS JJ                      Δ(you-GPT)=-17.03
+
+[STEP COMPLETED] Compare structural style gaps (personal vs GPT) in 0.03s
+
+
+===== Graphviz PCFG fragment (personal) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_graph_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --focus-lhs S,NP,VP,PP,SBAR --top-n-rules 5 --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/pcfg_fragment_personal
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Graph written to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/pcfg_fragment_personal.pdf
+
+[STEP COMPLETED] Graphviz PCFG fragment (personal) in 0.15s
+
+
+===== Graphviz PCFG fragment (GPT) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_graph_pcfg.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --focus-lhs S,NP,VP,PP,SBAR --top-n-rules 5 --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/pcfg_fragment_gpt
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Graph written to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/pcfg_fragment_gpt.pdf
+
+[STEP COMPLETED] Graphviz PCFG fragment (GPT) in 0.15s
+
+
+===== CKY sanity check on GPT text (personal grammar) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/cky_POS.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt --sent-idx 0
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Loaded 100 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt
+
+=== WHOLE-TEXT SCORES (POS-based PCFG) ===
+Parsed sentences: 73 / 100
+Total log-prob (sum over parsed sentences): -4011.86498320547
+Average style score (avg logP per rule across sentences): -1.5662577693435678
+
+=== DETAILED DEBUG FOR SENTENCE INDEX 0 ===
+Sentence: Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines.
+POS TOKENS: ['JJ', 'NN', 'VBZ', 'IN', 'DT', 'JJ', 'CC', 'JJ', 'NN', ':', 'NN', 'VBZ', 'RB', 'DT', 'NN', 'IN', 'JJ', 'NNS', ',', 'CC', 'CD', 'IN', 'PRP$', 'NNS', '.']
+JJ → OK
+NN → OK
+VBZ → OK
+IN → OK
+DT → OK
+JJ → OK
+CC → OK
+JJ → OK
+NN → OK
+: → OK
+NN → OK
+VBZ → OK
+RB → OK
+DT → OK
+NN → OK
+IN → OK
+JJ → OK
+NNS → OK
+, → OK
+CC → OK
+CD → OK
+IN → OK
+PRP$ → OK
+NNS → OK
+. → OK
+No parse for this sentence under this POS-based grammar.
+
+[STEP COMPLETED] CKY sanity check on GPT text (personal grammar) in 1.41s
+
+
+===== Visualize CKY chart on personal sentence 0 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --sent The idea of racial capitalism is that the advancement of a capitalist society and the accumulation of capital are innately racially biased, and in practice widen the inequality gap between privileged and underprivileged members of the population. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_personal_0.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: The idea of racial capitalism is that the advancement of a capitalist society and the accumulation of capital are innately racially biased, and in practice widen the inequality gap between privileged and underprivileged members of the population.
+POS TOKENS: ['DT', 'NN', 'IN', 'JJ', 'NN', 'VBZ', 'IN', 'DT', 'NN', 'IN', 'DT', 'JJ', 'NN', 'CC', 'DT', 'NN', 'IN', 'NN', 'VBP', 'RB', 'RB', 'VBN', ',', 'CC', 'IN', 'NN', 'VBP', 'DT', 'NN', 'NN', 'IN', 'VBN', 'CC', 'JJ', 'NNS', 'IN', 'DT', 'NN', '.']
+Viterbi log-prob: -97.17806152600028
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_personal_0.png
+
+[STEP COMPLETED] Visualize CKY chart on personal sentence 0 in 3.28s
+
+
+===== Visualize CKY chart on personal sentence 1 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --sent This can be seen manifested throughout history, as everything from drug laws to traffic fines utilized racial bias and corrupt justifications to commodify a disenfranchised portion of their populations to maximize profit at the dominated group's expense. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_personal_1.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: This can be seen manifested throughout history, as everything from drug laws to traffic fines utilized racial bias and corrupt justifications to commodify a disenfranchised portion of their populations to maximize profit at the dominated group's expense.
+POS TOKENS: ['DT', 'MD', 'VB', 'VBN', 'VBN', 'IN', 'NN', ',', 'IN', 'NN', 'IN', 'NN', 'NNS', 'TO', 'NN', 'NNS', 'VBN', 'JJ', 'NN', 'CC', 'JJ', 'NNS', 'TO', 'VB', 'DT', 'JJ', 'NN', 'IN', 'PRP$', 'NNS', 'TO', 'VB', 'NN', 'IN', 'DT', 'JJ', 'NN', 'POS', 'NN', '.']
+[WARN] No parse found for this sentence under the grammar.
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_personal_1.png
+
+[STEP COMPLETED] Visualize CKY chart on personal sentence 1 in 3.32s
+
+
+===== Visualize CKY chart on GPT sentence 0 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --sent Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_gpt_0.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines.
+POS TOKENS: ['JJ', 'NN', 'VBZ', 'IN', 'DT', 'JJ', 'CC', 'JJ', 'NN', ':', 'NN', 'VBZ', 'RB', 'DT', 'NN', 'IN', 'JJ', 'NNS', ',', 'CC', 'CD', 'IN', 'PRP$', 'NNS', '.']
+Viterbi log-prob: -69.74412724199993
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_gpt_0.png
+
+[STEP COMPLETED] Visualize CKY chart on GPT sentence 0 in 2.36s
+
+
+===== Visualize CKY chart on GPT sentence 1 =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/visualize_cky_chart.py --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --sent The creation of wealth for some requires the exploitation of others, and throughout history those “others” have been defined along racial lines. --pos-grammar --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_gpt_1.png
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence: The creation of wealth for some requires the exploitation of others, and throughout history those “others” have been defined along racial lines.
+POS TOKENS: ['DT', 'NN', 'IN', 'NN', 'IN', 'DT', 'VBZ', 'DT', 'NN', 'IN', 'NNS', ',', 'CC', 'IN', 'NN', 'DT', 'JJ', 'NNS', 'VBP', 'VBP', 'VBN', 'VBN', 'IN', 'JJ', 'NNS', '.']
+Viterbi log-prob: -69.06015557761219
+[INFO] CKY chart visualization saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/viz/cky_chart_gpt_1.png
+
+[STEP COMPLETED] Visualize CKY chart on GPT sentence 1 in 2.44s
+
+
+===== Build POS style statistics (Pw, Ppos, etc.) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/build_style_stats_pos.py --you-text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.txt --gpt-text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt --out /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_stats_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Building stats for YOU from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.txt ...
+Building stats for GPT from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt ...
+Computing deltas (YOU vs GPT)...
+Saved style stats to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_stats_pos.json
+
+[STEP COMPLETED] Build POS style statistics (Pw, Ppos, etc.) in 1.28s
+
+
+===== Compute style baselines (mu_you_on_you, mu_gpt_on_gpt) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/compute_baselines.py --mine-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.txt --gpt-train /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt --personal_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --gpt_grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --out-baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_baselines.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Computing baseline for YOUR grammar on YOUR corpus...
+  mu_you_on_you: -1.4626334402238526
+
+Computing baseline for GPT grammar on GPT corpus...
+  mu_gpt_on_gpt: -1.4977795067664885
+
+Saved baselines to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_baselines.json
+
+[STEP COMPLETED] Compute style baselines (mu_you_on_you, mu_gpt_on_gpt) in 2.03s
+
+
+===== Rewrite GPT essay toward personal style (rewrite_POS.py) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/rewrite_POS.py --mine /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/personal_data/personal_racial_capitalism_clean.txt --gpt /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt --you-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json --gpt-grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_gpt_pos.json --baselines /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_baselines.json --out-essay /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/rewritten_gpt_essay_relative_pos.txt --out-log /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pos_change_log.json --cands /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/data/gpt_candidates_racial_capitalism.jsonl
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+[INFO] Loaded paraphrases for 99 sentences from /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/data/gpt_candidates_racial_capitalism.jsonl
+=== YOUR ESSAY ===
+Length (chars): 9873
+Average normalized relative style (you - GPT): 0.05731986294474806
+Average normalized logP_you per rule        : 0.03120676983625728
+Average normalized logP_gpt per rule        : -0.026113093108490776
+Interpretation: positive = closer to your training distribution than GPT's.
+
+=== ORIGINAL GPT ESSAY ===
+Length (chars): 11222
+Average normalized relative style (you - GPT): -0.11094409556294077
+Average normalized logP_you per rule        : -0.10135758804501904
+Average normalized logP_gpt per rule        : 0.00958650751792173
+
+
+=== PER-SENTENCE CHANGES (STRUCTURAL / POS-LEVEL) ===
+
+Sentence 0:
+  ORIGINAL : Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines.
+  REWRITTEN: Capitalism relies on inequity as fuel, not as an accident or mistake.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.006, Δ = 999999.994
+  POS pattern (orig): JJ NN VBZ IN DT JJ CC JJ NN : NN VBZ RB DT NN IN JJ NNS , CC CD IN PRP$ NNS .
+  POS pattern (new) :  NNP NNS IN NN IN NN , RB IN DT NN CC NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      CC → NN
+      IN → NN
+      NN → ,
+      NN → .
+      NN → CC
+      NNP → NNS
+      NNS → IN
+      RB → IN
+    Removed:
+      , → CC
+      : → NN
+      CC → CD
+      CC → JJ
+      CD → IN
+      DT → JJ
+      IN → JJ
+      IN → PRP$
+      JJ → CC
+      JJ → NN
+      JJ → NNS
+      NN → :
+      NN → VBZ
+      NNS → ,
+      NNS → .
+      PRP$ → NNS
+      RB → DT
+      VBZ → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 1:
+  ORIGINAL : The creation of wealth for some requires the exploitation of others, and throughout history those “others” have been defined along racial lines.
+  REWRITTEN: Prosperity for a few has historically depended on exploiting groups marked by race.
+  style_rel(orig) = -0.084, style_rel(new) = -0.030, Δ = 0.053
+  POS pattern (orig): DT NN IN NN IN DT VBZ DT NN IN NNS , CC IN NN DT JJ NNS VBP VBP VBN VBN IN JJ NNS .
+  POS pattern (new) :  NN IN DT JJ VBZ RB VBN IN VBG NNS VBN IN NN .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      JJ → VBZ
+      NN → .
+      NNS → VBN
+      RB → VBN
+      VBG → NNS
+      VBZ → RB
+    Removed:
+      , → CC
+      CC → IN
+      DT → NN
+      DT → VBZ
+      IN → JJ
+      IN → NNS
+      JJ → NNS
+      NN → DT
+      NNS → ,
+      NNS → .
+      NNS → VBP
+      VBN → VBN
+      VBP → VBN
+      VBP → VBP
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 2:
+  ORIGINAL : Race became a tool for sorting human beings into categories of economic value — who would profit, who would labor, who would be controlled, who would be discarded.
+  REWRITTEN: By racializing people, societies decided who benefits, who works, and who is marginalized.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.073, Δ = 999999.927
+  POS pattern (orig): NNP VBD DT NN IN VBG JJ NNS IN NNS IN JJ NN NN WP MD VB , WP MD NN , WP MD VB VBN , WP MD VB VBN .
+  POS pattern (new) :  IN VBG NNS , NNS VBD WP NNS , WP VBZ , CC WP VBZ VBN .
+  POS bigram changes:
+    Added:
+      , → CC
+      , → NNS
+      CC → WP
+      NNS → ,
+      NNS → VBD
+      VBD → WP
+      VBG → NNS
+      VBZ → ,
+      VBZ → VBN
+      WP → NNS
+      WP → VBZ
+    Removed:
+      DT → NN
+      IN → JJ
+      IN → NNS
+      JJ → NN
+      JJ → NNS
+      MD → NN
+      MD → VB
+      NN → ,
+      NN → IN
+      NN → NN
+      NN → WP
+      NNP → VBD
+      NNS → IN
+      VB → ,
+      VB → VBN
+      VBD → DT
+      VBG → JJ
+      VBN → ,
+      WP → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 3:
+  ORIGINAL : The consequences of this arrangement have shaped centuries of social reality, and they continue to define everyday life in ways that are easy to overlook because they have been so thoroughly normalized.
+  REWRITTEN: Normalization makes ongoing racial inequality seem ordinary instead of engineered.
+  style_rel(orig) = -0.233, style_rel(new) = -0.061, Δ = 0.172
+  POS pattern (orig): DT NNS IN DT NN VBP VBN NNS IN JJ NN , CC PRP VBP TO VB JJ NN IN NNS WDT VBP JJ TO VB IN PRP VBP VBN RB RB VBN .
+  POS pattern (new) :  NN VBZ VBG JJ NN VBP JJ RB IN VBN .
+  POS bigram changes:
+    Added:
+      IN → VBN
+      JJ → RB
+      NN → VBZ
+      RB → IN
+      VBG → JJ
+      VBZ → VBG
+    Removed:
+      , → CC
+      CC → PRP
+      DT → NN
+      DT → NNS
+      IN → DT
+      IN → JJ
+      IN → NNS
+      IN → PRP
+      JJ → TO
+      NN → ,
+      NN → IN
+      NNS → IN
+      NNS → WDT
+      PRP → VBP
+      RB → RB
+      RB → VBN
+      TO → VB
+      VB → IN
+      VB → JJ
+      VBN → NNS
+      VBN → RB
+      VBP → TO
+      VBP → VBN
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 4:
+  ORIGINAL : When you examine the history closely, capitalism’s growth is inseparable from the commodification of racialized groups.
+  REWRITTEN: The rise of capitalism cannot be understood without its racialized labor systems.
+  style_rel(orig) = -0.064, style_rel(new) = -0.027, Δ = 0.037
+  POS pattern (orig): WRB PRP VBP DT NN RB , NN NNP NN NN VBZ JJ IN DT NN IN JJ NNS .
+  POS pattern (new) :  DT NN IN NN MD RB VB VBN IN PRP$ JJ NN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → PRP$
+      JJ → NN
+      MD → RB
+      NN → MD
+      NN → NNS
+      PRP$ → JJ
+      RB → VB
+      VB → VBN
+      VBN → IN
+    Removed:
+      , → NN
+      IN → DT
+      IN → JJ
+      JJ → IN
+      JJ → NNS
+      NN → NN
+      NN → NNP
+      NN → RB
+      NN → VBZ
+      NNP → NN
+      PRP → VBP
+      RB → ,
+      VBP → DT
+      VBZ → JJ
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 5:
+  ORIGINAL : And the institutions that claim to study human behavior and society — history, science, psychology — have often worked to reinforce rather than challenge these structures.
+  REWRITTEN: Supposedly objective disciplines have sometimes helped uphold racial capitalism.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.003, Δ = 999999.997
+  POS pattern (orig): CC DT NNS WDT VBP TO VB JJ NN CC NN NNP NN , NN , NN NNS VBP RB VBN TO VB RB IN VB DT NNS .
+  POS pattern (new) :  RB JJ NNS VBP RB VBN JJ JJ NN .
+  POS bigram changes:
+    Added:
+      JJ → JJ
+      JJ → NNS
+      NN → .
+      RB → JJ
+      VBN → JJ
+    Removed:
+      , → NN
+      CC → DT
+      CC → NN
+      DT → NNS
+      IN → VB
+      NN → ,
+      NN → CC
+      NN → NNP
+      NN → NNS
+      NNP → NN
+      NNS → .
+      NNS → WDT
+      RB → IN
+      TO → VB
+      VB → DT
+      VB → JJ
+      VB → RB
+      VBN → TO
+      VBP → TO
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 6:
+  ORIGINAL : To understand racial capitalism, we have to begin with power.
+  REWRITTEN: Power is the starting point for analyzing racial capitalism.
+  style_rel(orig) = -0.256, style_rel(new) = -0.154, Δ = 0.102
+  POS pattern (orig): TO VB JJ NN , PRP VBP TO VB IN NN .
+  POS pattern (new) :  NN VBZ DT VBG NN IN VBG JJ NN .
+  POS bigram changes:
+    Added:
+      DT → VBG
+      IN → VBG
+      NN → IN
+      NN → VBZ
+      VBG → JJ
+      VBG → NN
+      VBZ → DT
+    Removed:
+      , → PRP
+      IN → NN
+      NN → ,
+      PRP → VBP
+      TO → VB
+      VB → IN
+      VB → JJ
+      VBP → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 7:
+  ORIGINAL : Capitalism concentrates power in the hands of those who own and control resources.
+  REWRITTEN: Power is centralized among capital holders.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.089, Δ = 999999.911
+  POS pattern (orig): NN VBZ NN IN DT NNS IN DT WP VBP CC VBP NNS .
+  POS pattern (new) :  NN VBZ VBN IN NN NNS .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → NNS
+      VBN → IN
+      VBZ → VBN
+    Removed:
+      CC → VBP
+      DT → NNS
+      DT → WP
+      IN → DT
+      NN → IN
+      NNS → IN
+      VBP → CC
+      VBP → NNS
+      VBZ → NN
+      WP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 8:
+  ORIGINAL : In a fair system, economic mobility would allow anyone to rise through effort and innovation.
+  REWRITTEN: In a fair system, economic mobility would allow anyone to rise through effort and innovation.
+  style_rel(orig) = -0.051, style_rel(new) = -0.051, Δ = 0.000
+  POS pattern (orig): IN DT JJ NN , JJ NN MD VB NN TO VB IN NN CC NN .
+  POS pattern (new) :  IN DT JJ NN , JJ NN MD VB NN TO VB IN NN CC NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 9:
+  ORIGINAL : But history shows that the playing field was uneven long before the game began.
+  REWRITTEN: Long before now, opportunities were distributed unfairly.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.006, Δ = 999999.994
+  POS pattern (orig): CC NN NNS IN DT NN NN VBD RB RB IN DT NN VBD .
+  POS pattern (new) :  JJ RB RB , NNS VBD VBN RB .
+  POS bigram changes:
+    Added:
+      , → NNS
+      JJ → RB
+      NNS → VBD
+      RB → ,
+      RB → .
+      VBD → VBN
+      VBN → RB
+    Removed:
+      CC → NN
+      DT → NN
+      IN → DT
+      NN → NN
+      NN → NNS
+      NN → VBD
+      NNS → IN
+      RB → IN
+      VBD → .
+      VBD → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 10:
+  ORIGINAL : Slavery, colonial extraction, segregation, discriminatory policy, and policing did more than limit opportunity — they generated enormous wealth for those at the top while structurally withholding it from those at the bottom.
+  REWRITTEN: Systems like slavery and colonialism enriched elites while trapping others in deprivation.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.001, Δ = 1000000.001
+  POS pattern (orig): NNP , JJ NN , NN , NN NN , CC VBG VBD JJR IN NN NN NNP PRP VBD JJ NN IN DT IN DT JJ IN RB VBG PRP IN DT IN DT NN .
+  POS pattern (new) :  NNS IN NN CC NN VBN NNS IN VBG NNS IN NN .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → VBG
+      NN → CC
+      NN → VBN
+      NNS → IN
+      VBG → NNS
+      VBN → NNS
+    Removed:
+      , → CC
+      , → JJ
+      , → NN
+      CC → VBG
+      DT → IN
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → RB
+      JJ → IN
+      JJ → NN
+      JJR → IN
+      NN → ,
+      NN → IN
+      NN → NN
+      NN → NNP
+      NNP → ,
+      NNP → PRP
+      PRP → IN
+      PRP → VBD
+      RB → VBG
+      VBD → JJ
+      VBD → JJR
+      VBG → PRP
+      VBG → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 11:
+  ORIGINAL : One of the most striking examples comes from the history of American law enforcement and incarceration.
+  REWRITTEN: The U.S. policing and prison system offers a clear illustration.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.077, Δ = 1000000.077
+  POS pattern (orig): CD IN DT RBS JJ NNS VBZ IN DT NN IN JJ NN NN CC NN .
+  POS pattern (new) :  DT NNP NN CC NN NN VBZ DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      DT → NNP
+      NN → VBZ
+      NNP → NN
+      VBZ → DT
+    Removed:
+      CD → IN
+      DT → NN
+      DT → RBS
+      IN → DT
+      IN → JJ
+      JJ → NNS
+      NN → IN
+      NNS → VBZ
+      RBS → JJ
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 12:
+  ORIGINAL : After the end of slavery, the Thirteenth Amendment famously prohibited forced labor — except as punishment for a crime.
+  REWRITTEN: Slavery was outlawed—except when someone was convicted of a crime.
+  style_rel(orig) = 0.060, style_rel(new) = 0.163, Δ = 0.104
+  POS pattern (orig): IN DT NN IN NN , DT NNP NNP RB VBD VBN NN NNP IN IN NN IN DT NN .
+  POS pattern (new) :  NN VBD IN WRB NN VBD VBN IN DT NN .
+  POS bigram changes:
+    Added:
+      IN → WRB
+      NN → VBD
+      VBD → IN
+      VBN → IN
+      WRB → NN
+    Removed:
+      , → DT
+      DT → NNP
+      IN → IN
+      IN → NN
+      NN → ,
+      NN → IN
+      NN → NNP
+      NNP → IN
+      NNP → NNP
+      NNP → RB
+      RB → VBD
+      VBN → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 13:
+  ORIGINAL : That loophole was not an oversight.
+  REWRITTEN: The exception was designed, not accidental.
+  style_rel(orig) = -0.105, style_rel(new) = -0.052, Δ = 0.053
+  POS pattern (orig): DT NN VBD RB DT NN .
+  POS pattern (new) :  DT NN VBD VBN , RB JJ .
+  POS bigram changes:
+    Added:
+      , → RB
+      JJ → .
+      RB → JJ
+      VBD → VBN
+      VBN → ,
+    Removed:
+      NN → .
+      RB → DT
+      VBD → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 14:
+  ORIGINAL : It created a direct pathway for slavery to continue in a new form.
+  REWRITTEN: It created a direct pathway for slavery to continue in a new form.
+  style_rel(orig) = -0.065, style_rel(new) = -0.065, Δ = 0.000
+  POS pattern (orig): PRP VBD DT JJ NN IN NN TO VB IN DT JJ NN .
+  POS pattern (new) :  PRP VBD DT JJ NN IN NN TO VB IN DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 15:
+  ORIGINAL : Black Americans, newly freed from plantation labor, were arrested on vague charges like vagrancy or “suspicious behavior,” then leased out to corporations and industries that needed cheap labor.
+  REWRITTEN: Corporations benefited from the re-enslavement of freed Black citizens through bogus arrests.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.229, Δ = 1000000.229
+  POS pattern (orig): NNP NNPS , RB VBN IN NN NN , VBD VBN IN NN NNS IN NN CC VBP JJ NN , NNP RB VBD RP TO NNS CC NNS WDT VBD JJ NN .
+  POS pattern (new) :  NNS VBD IN DT NN IN JJ NNP NNS IN JJ NNS .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      IN → JJ
+      JJ → NNP
+      JJ → NNS
+      NN → IN
+      NNP → NNS
+      NNS → .
+      NNS → VBD
+      VBD → IN
+    Removed:
+      , → NNP
+      , → RB
+      , → VBD
+      CC → NNS
+      CC → VBP
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → CC
+      NN → NN
+      NN → NNS
+      NNP → NNPS
+      NNP → RB
+      NNPS → ,
+      NNS → CC
+      NNS → WDT
+      RB → VBD
+      RB → VBN
+      RP → TO
+      TO → NNS
+      VBD → JJ
+      VBD → RP
+      VBD → VBN
+      VBN → IN
+      VBP → JJ
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 16:
+  ORIGINAL : Incarceration became profitable, and Black bodies once again became instruments of economic expansion.
+  REWRITTEN: Once again, Black people’s bodies fueled economic growth through captivity.
+  style_rel(orig) = -0.114, style_rel(new) = 0.060, Δ = 0.174
+  POS pattern (orig): NN VBD JJ , CC NNP NNS RB RB VBD NNS IN JJ NN .
+  POS pattern (new) :  RB RB , NNP NNS NNP NN NNS VBD JJ NN IN NN .
+  POS bigram changes:
+    Added:
+      , → NNP
+      IN → NN
+      NN → IN
+      NN → NNS
+      NNP → NN
+      NNS → NNP
+      NNS → VBD
+      RB → ,
+    Removed:
+      , → CC
+      CC → NNP
+      IN → JJ
+      JJ → ,
+      NN → VBD
+      NNS → IN
+      NNS → RB
+      RB → VBD
+      VBD → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 17:
+  ORIGINAL : The racial hierarchy had not disappeared; it had simply adapted to the legal system of a capitalist democracy.
+  REWRITTEN: Inequality persisted by reshaping itself to match new rules.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.045, Δ = 999999.955
+  POS pattern (orig): DT JJ NN VBD RB VBN : PRP VBD RB VBN TO DT JJ NN IN DT JJ NN .
+  POS pattern (new) :  NNP VBN IN VBG PRP TO VB JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      JJ → NNS
+      NNP → VBN
+      NNS → .
+      PRP → TO
+      TO → VB
+      VB → JJ
+      VBG → PRP
+      VBN → IN
+    Removed:
+      : → PRP
+      DT → JJ
+      IN → DT
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → VBD
+      PRP → VBD
+      RB → VBN
+      TO → DT
+      VBD → RB
+      VBN → :
+      VBN → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 18:
+  ORIGINAL : The pattern repeated itself years later under the banner of “law and order.” Harsh drug policies punished heavily in the communities least protected from poverty and systemic neglect.
+  REWRITTEN: The pattern repeated itself years later under the banner of “law and order.” Harsh drug policies punished heavily in the communities least protected from poverty and systemic neglect.
+  style_rel(orig) = -0.032, style_rel(new) = -0.032, Δ = 0.000
+  POS pattern (orig): DT NN VBN PRP NNS RB IN DT NN IN JJ NN CC JJ NNP NNP NN NNS VBD RB IN DT NNS VBP VBN IN NN CC JJ NN .
+  POS pattern (new) :  DT NN VBN PRP NNS RB IN DT NN IN JJ NN CC JJ NNP NNP NN NNS VBD RB IN DT NNS VBP VBN IN NN CC JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 19:
+  ORIGINAL : Crack cocaine — associated with Black neighborhoods — carried sentences far more severe than powder cocaine — linked to wealthier, whiter users.
+  REWRITTEN: Crack was punished more harshly than cocaine used by affluent white people.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.131, Δ = 1000000.131
+  POS pattern (orig): NNP NN NNP VBN IN NNP NNS NNP VBD NNS RB RBR JJ IN NN NN NN VBD TO JJR , JJR NNS .
+  POS pattern (new) :  NN VBD VBN RBR JJ IN NN VBN IN JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → JJ
+      JJ → NNS
+      NN → VBN
+      VBD → VBN
+      VBN → RBR
+    Removed:
+      , → JJR
+      IN → NNP
+      JJR → ,
+      JJR → NNS
+      NN → NN
+      NN → NNP
+      NNP → NN
+      NNP → NNS
+      NNP → VBD
+      NNP → VBN
+      NNS → NNP
+      NNS → RB
+      RB → RBR
+      TO → JJR
+      VBD → NNS
+      VBD → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 20:
+  ORIGINAL : The justification, framed as science and public safety, masked an economic logic: prisons filled, private contracts expanded, police departments gained funding, municipalities collected fines.
+  REWRITTEN: Economic gain—more prisoners, more money—drove policy under a disguise of safety.
+  style_rel(orig) = -0.195, style_rel(new) = 0.204, Δ = 0.399
+  POS pattern (orig): DT NN , VBN IN NN CC JJ NN , VBD DT JJ NN : NNS VBN , JJ NNS VBN , JJ NNS VBD NN , NNS VBD NNS .
+  POS pattern (new) :  NNP NN NNS , JJR JJ NN IN DT NN IN NN .
+  POS bigram changes:
+    Added:
+      , → JJR
+      IN → DT
+      JJR → JJ
+      NN → .
+      NN → IN
+      NN → NNS
+      NNP → NN
+      NNS → ,
+    Removed:
+      , → JJ
+      , → NNS
+      , → VBD
+      , → VBN
+      : → NNS
+      CC → JJ
+      DT → JJ
+      JJ → NNS
+      NN → ,
+      NN → :
+      NN → CC
+      NNS → .
+      NNS → VBD
+      NNS → VBN
+      VBD → DT
+      VBD → NN
+      VBD → NNS
+      VBN → ,
+      VBN → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 21:
+  ORIGINAL : Inequality was not incidental; it was profitable.
+  REWRITTEN: Profit thrived because of injustice, not despite it.
+  style_rel(orig) = -0.795, style_rel(new) = -0.117, Δ = 0.678
+  POS pattern (orig): NNP VBD RB JJ : PRP VBD JJ .
+  POS pattern (new) :  NN VBD IN IN NN , RB IN PRP .
+  POS bigram changes:
+    Added:
+      , → RB
+      IN → IN
+      IN → NN
+      IN → PRP
+      NN → ,
+      NN → VBD
+      PRP → .
+      RB → IN
+      VBD → IN
+    Removed:
+      : → PRP
+      JJ → .
+      JJ → :
+      NNP → VBD
+      PRP → VBD
+      RB → JJ
+      VBD → JJ
+      VBD → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 22:
+  ORIGINAL : These mechanisms are not confined to the most dramatic examples of imprisonment or legislation.
+  REWRITTEN: Racial capitalism also operates in ordinary, less noticeable spaces.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.188, Δ = 1000000.188
+  POS pattern (orig): DT NNS VBP RB VBN TO DT RBS JJ NNS IN NN CC NN .
+  POS pattern (new) :  JJ NN RB VBZ IN JJ , RBR JJ NNS .
+  POS bigram changes:
+    Added:
+      , → RBR
+      IN → JJ
+      JJ → ,
+      JJ → NN
+      NN → RB
+      NNS → .
+      RB → VBZ
+      RBR → JJ
+      VBZ → IN
+    Removed:
+      CC → NN
+      DT → NNS
+      DT → RBS
+      IN → NN
+      NN → .
+      NN → CC
+      NNS → IN
+      NNS → VBP
+      RB → VBN
+      RBS → JJ
+      TO → DT
+      VBN → TO
+      VBP → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 23:
+  ORIGINAL : Sometimes they appear in the small details of daily life.
+  REWRITTEN: The subtle moments of life reveal the same logic.
+  style_rel(orig) = -0.039, style_rel(new) = 0.035, Δ = 0.074
+  POS pattern (orig): RB PRP VBP IN DT JJ NNS IN JJ NN .
+  POS pattern (new) :  DT JJ NNS IN NN VBP DT JJ NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → VBP
+      VBP → DT
+    Removed:
+      IN → DT
+      IN → JJ
+      PRP → VBP
+      RB → PRP
+      VBP → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 24:
+  ORIGINAL : In cities like Ferguson, Missouri, minor infractions — jaywalking, a broken tail light, missing paperwork — became opportunities for local governments to extract money from residents, who were disproportionately Black and poor.
+  REWRITTEN: In places such as Ferguson, tiny violations became cash sources taken mostly from poor Black residents.
+  style_rel(orig) = -0.031, style_rel(new) = 0.073, Δ = 0.104
+  POS pattern (orig): IN NNS IN NNP , NNP , JJ NNS VBP NN , DT JJ NN NN , VBG NN NN VBD NNS IN JJ NNS TO VB NN IN NNS , WP VBD RB NNP CC JJ .
+  POS pattern (new) :  IN NNS JJ IN NNP , JJ NNS VBD NN NNS VBN RB IN JJ NNP NNS .
+  POS bigram changes:
+    Added:
+      JJ → IN
+      JJ → NNP
+      NN → NNS
+      NNP → NNS
+      NNS → .
+      NNS → JJ
+      NNS → VBD
+      NNS → VBN
+      RB → IN
+      VBD → NN
+      VBN → RB
+    Removed:
+      , → DT
+      , → NNP
+      , → VBG
+      , → WP
+      CC → JJ
+      DT → JJ
+      JJ → .
+      JJ → NN
+      NN → ,
+      NN → IN
+      NN → NN
+      NN → VBD
+      NNP → CC
+      NNS → ,
+      NNS → IN
+      NNS → TO
+      NNS → VBP
+      RB → NNP
+      TO → VB
+      VB → NN
+      VBD → NNS
+      VBD → RB
+      VBG → NN
+      VBP → NN
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 25:
+  ORIGINAL : A single unpaid ticket could snowball into hundreds of dollars in fees, arrest warrants, and job-threatening legal troubles.
+  REWRITTEN: One small fine could escalate into major financial and legal crises.
+  style_rel(orig) = -0.101, style_rel(new) = 0.134, Δ = 0.235
+  POS pattern (orig): DT JJ NN NN MD VB IN NNS IN NNS IN NNS , JJ NNS , CC JJ JJ NNS .
+  POS pattern (new) :  CD JJ NN MD VB IN JJ JJ CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CD → JJ
+      IN → JJ
+      JJ → CC
+    Removed:
+      , → CC
+      , → JJ
+      DT → JJ
+      IN → NNS
+      NN → NN
+      NNS → ,
+      NNS → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 26:
+  ORIGINAL : When people cannot pay, they are punished; when they are punished, they are charged even more.
+  REWRITTEN: The system penalizes poverty by making people poorer.
+  style_rel(orig) = -0.247, style_rel(new) = -0.040, Δ = 0.207
+  POS pattern (orig): WRB NNS MD RB VB , PRP VBP VBN : WRB PRP VBP VBN , PRP VBP VBN RB RBR .
+  POS pattern (new) :  DT NN VBZ NN IN VBG NNS NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → VBG
+      NN → .
+      NN → IN
+      NN → VBZ
+      NNS → NN
+      VBG → NNS
+      VBZ → NN
+    Removed:
+      , → PRP
+      : → WRB
+      MD → RB
+      NNS → MD
+      PRP → VBP
+      RB → RBR
+      RB → VB
+      RBR → .
+      VB → ,
+      VBN → ,
+      VBN → :
+      VBN → RB
+      VBP → VBN
+      WRB → NNS
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 27:
+  ORIGINAL : Poverty becomes a revenue stream.
+  REWRITTEN: The poor become a source of profit.
+  style_rel(orig) = -0.058, style_rel(new) = 0.014, Δ = 0.072
+  POS pattern (orig): NNP VBZ DT NN NN .
+  POS pattern (new) :  DT JJ VB DT NN IN NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → NN
+      JJ → VB
+      NN → IN
+      VB → DT
+    Removed:
+      NN → NN
+      NNP → VBZ
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 28:
+  ORIGINAL : Racial capitalism turns the struggle for survival into someone else’s gain.
+  REWRITTEN: One person’s fight to survive becomes another’s profit.
+  style_rel(orig) = -0.053, style_rel(new) = 0.165, Δ = 0.218
+  POS pattern (orig): JJ NN VBZ DT NN IN NN IN NN RB NNP NN NN .
+  POS pattern (new) :  CD NN NNP NN NN TO VB NNS DT NNP NN NN .
+  POS bigram changes:
+    Added:
+      CD → NN
+      DT → NNP
+      NN → NNP
+      NN → TO
+      NNS → DT
+      TO → VB
+      VB → NNS
+    Removed:
+      DT → NN
+      IN → NN
+      JJ → NN
+      NN → IN
+      NN → RB
+      NN → VBZ
+      RB → NNP
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 29:
+  ORIGINAL : The same logic extends into healthcare, housing, schooling — every domain where resources are distributed unevenly and those with the fewest resources have the highest costs.
+  REWRITTEN: The same logic extends into healthcare, housing, schooling — every domain where resources are distributed unevenly and those with the fewest resources have the highest costs.
+  style_rel(orig) = -0.110, style_rel(new) = -0.110, Δ = 0.000
+  POS pattern (orig): DT JJ JJ NNS IN NN , NN , VBG JJ DT NN WRB NNS VBP VBN RB CC DT IN DT JJS NNS VBP DT JJS NNS .
+  POS pattern (new) :  DT JJ JJ NNS IN NN , NN , VBG JJ DT NN WRB NNS VBP VBN RB CC DT IN DT JJS NNS VBP DT JJS NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 30:
+  ORIGINAL : In medical settings, whose pain is believed?
+  REWRITTEN: In medical settings, whose pain is believed?
+  style_rel(orig) = -1000000.000, style_rel(new) = -1000000.000, Δ = 0.000
+  POS pattern (orig): IN JJ NNS , WP$ NN VBZ VBN .
+  POS pattern (new) :  IN JJ NNS , WP$ NN VBZ VBN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 31:
+  ORIGINAL : Whose symptoms are dismissed?
+  REWRITTEN: Whose health concerns are not taken seriously?
+  style_rel(orig) = -0.228, style_rel(new) = -0.067, Δ = 0.161
+  POS pattern (orig): NNP NNS VBP VBN .
+  POS pattern (new) :  NNP NN NNS VBP RB VBN RB .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNP → NN
+      RB → .
+      RB → VBN
+      VBN → RB
+      VBP → RB
+    Removed:
+      NNP → NNS
+      VBN → .
+      VBP → VBN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 32:
+  ORIGINAL : Studies repeatedly show that Black patients receive poorer treatment than white patients, both due to bias and because the financial incentives of the U.S. healthcare system prioritize those who can pay more.
+  REWRITTEN: The healthcare economy rewards treating those who can afford it, worsening outcomes for Black patients.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.064, Δ = 1000000.064
+  POS pattern (orig): NNS RB VBP IN NNP NNS VBP JJR NN IN JJ NNS , DT JJ TO VB CC IN DT JJ NNS IN DT NNP NN NN VBP DT WP MD VB JJR .
+  POS pattern (new) :  DT JJ NN NNS VBG DT WP MD VB PRP , VBG NNS IN NNP NNS .
+  POS bigram changes:
+    Added:
+      , → VBG
+      JJ → NN
+      NN → NNS
+      NNS → .
+      NNS → VBG
+      PRP → ,
+      VB → PRP
+      VBG → DT
+      VBG → NNS
+    Removed:
+      , → DT
+      CC → IN
+      DT → NNP
+      IN → DT
+      IN → JJ
+      JJ → NNS
+      JJ → TO
+      JJR → .
+      JJR → NN
+      NN → IN
+      NN → NN
+      NN → VBP
+      NNP → NN
+      NNS → ,
+      NNS → RB
+      NNS → VBP
+      RB → VBP
+      TO → VB
+      VB → CC
+      VB → JJR
+      VBP → DT
+      VBP → IN
+      VBP → JJR
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 33:
+  ORIGINAL : Housing policy historically pushed Black families into underfunded neighborhoods with limited opportunity and higher exposure to environmental hazards, while property values — and therefore wealth accumulation — flourished in white suburbs protected by racist zoning laws.
+  REWRITTEN: Discriminatory housing laws deprived Black families of wealth opportunities and environmental safety.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.049, Δ = 999999.951
+  POS pattern (orig): NN NN RB VBN NNP NNS IN JJ NNS IN JJ NN CC JJR NN TO JJ NNS , IN NN NNS NNP CC RB NN NN NNP VBD IN JJ NNS VBN IN NN VBG NNS .
+  POS pattern (new) :  NNP NN NNS VBD NNP NNS IN NN NNS CC JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      NN → .
+      NNP → NN
+      NNS → CC
+      NNS → VBD
+      VBD → NNP
+    Removed:
+      , → IN
+      CC → JJR
+      CC → RB
+      IN → JJ
+      JJ → NNS
+      JJR → NN
+      NN → CC
+      NN → NN
+      NN → NNP
+      NN → RB
+      NN → TO
+      NN → VBG
+      NNP → CC
+      NNP → VBD
+      NNS → ,
+      NNS → .
+      NNS → NNP
+      NNS → VBN
+      RB → NN
+      RB → VBN
+      TO → JJ
+      VBD → IN
+      VBG → NNS
+      VBN → IN
+      VBN → NNP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 34:
+  ORIGINAL : Even the most celebrated pillar of equality, education, has a hidden function: sorting students into economic roles that support the existing hierarchy.
+  REWRITTEN: Education frequently reinforces class and racial structures instead of disrupting them.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.107, Δ = 999999.893
+  POS pattern (orig): RB DT RBS JJ NN IN NN , NN , VBZ DT JJ NN : JJ NNS IN JJ NNS WDT VBP DT VBG NN .
+  POS pattern (new) :  NN RB VBZ NN CC JJ NNS RB IN VBG PRP .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → VBG
+      NN → CC
+      NN → RB
+      NNS → RB
+      PRP → .
+      RB → IN
+      RB → VBZ
+      VBG → PRP
+      VBZ → NN
+    Removed:
+      , → NN
+      , → VBZ
+      : → JJ
+      DT → JJ
+      DT → RBS
+      DT → VBG
+      IN → JJ
+      IN → NN
+      JJ → NN
+      NN → ,
+      NN → .
+      NN → :
+      NN → IN
+      NNS → IN
+      NNS → WDT
+      RB → DT
+      RBS → JJ
+      VBG → NN
+      VBP → DT
+      VBZ → DT
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 35:
+  ORIGINAL : This is where psychology enters the conversation.
+  REWRITTEN: What this is suggests is that where psychology enters the conversation.
+  style_rel(orig) = -0.136, style_rel(new) = 0.263, Δ = 0.399
+  POS pattern (orig): DT VBZ WRB NN VBZ DT NN .
+  POS pattern (new) :  WP DT VBZ VBZ VBZ IN WRB NN VBZ DT NN .
+  POS bigram changes:
+    Added:
+      IN → WRB
+      VBZ → IN
+      VBZ → VBZ
+      WP → DT
+    Removed:
+      VBZ → WRB
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 36:
+  ORIGINAL : Psychology should be a science dedicated to understanding and helping humans.
+  REWRITTEN: Ideally, psychology exists to support and explain human well-being.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.064, Δ = 1000000.064
+  POS pattern (orig): NN MD VB DT NN VBN TO VBG CC VBG NNS .
+  POS pattern (new) :  RB , NN NNS TO VB CC VB JJ NN .
+  POS bigram changes:
+    Added:
+      , → NN
+      CC → VB
+      JJ → NN
+      NN → .
+      NN → NNS
+      NNS → TO
+      RB → ,
+      TO → VB
+      VB → CC
+      VB → JJ
+    Removed:
+      CC → VBG
+      DT → NN
+      MD → VB
+      NN → MD
+      NN → VBN
+      NNS → .
+      TO → VBG
+      VB → DT
+      VBG → CC
+      VBG → NNS
+      VBN → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 37:
+  ORIGINAL : But for much of its history, it has served the interests of those who held power.
+  REWRITTEN: Yet historically, psychology often aligned with the powerful.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.017, Δ = 1000000.017
+  POS pattern (orig): CC IN JJ IN PRP$ NN , PRP VBZ VBN DT NNS IN DT WP VBD NN .
+  POS pattern (new) :  RB RB , NN RB VBN IN DT JJ .
+  POS bigram changes:
+    Added:
+      , → NN
+      DT → JJ
+      JJ → .
+      NN → RB
+      RB → ,
+      RB → RB
+      RB → VBN
+      VBN → IN
+    Removed:
+      , → PRP
+      CC → IN
+      DT → NNS
+      DT → WP
+      IN → JJ
+      IN → PRP$
+      JJ → IN
+      NN → ,
+      NN → .
+      NNS → IN
+      PRP → VBZ
+      PRP$ → NN
+      VBD → NN
+      VBN → DT
+      VBZ → VBN
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 38:
+  ORIGINAL : Scientific racism dressed prejudice in the language of intelligence testing, biology, and mental health.
+  REWRITTEN: Racism hid behind claims of science — IQ tests, anatomical theories, psychiatry.
+  style_rel(orig) = -0.040, style_rel(new) = -0.039, Δ = 0.001
+  POS pattern (orig): NNP NN VBN NN IN DT NN IN NN NN , NN , CC JJ NN .
+  POS pattern (new) :  NN NN IN NNS IN NN NNP NNP NNS , JJ NNS , NN .
+  POS bigram changes:
+    Added:
+      , → JJ
+      IN → NNS
+      JJ → NNS
+      NN → NNP
+      NNP → NNP
+      NNP → NNS
+      NNS → ,
+      NNS → IN
+    Removed:
+      , → CC
+      CC → JJ
+      DT → NN
+      IN → DT
+      JJ → NN
+      NN → ,
+      NN → VBN
+      NNP → NN
+      VBN → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 39:
+  ORIGINAL : It claimed that unequal outcomes reflected inherent differences rather than structural oppression.
+  REWRITTEN: The message was that inequality comes from “natural” inferiority—not injustice.
+  style_rel(orig) = -0.217, style_rel(new) = 0.110, Δ = 0.327
+  POS pattern (orig): PRP VBD IN JJ NNS VBD JJ NNS RB IN JJ NN .
+  POS pattern (new) :  DT NN VBD IN NN VBZ IN JJ JJ NNP NN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → NN
+      JJ → JJ
+      JJ → NNP
+      NN → NN
+      NN → VBD
+      NN → VBZ
+      NNP → NN
+      VBZ → IN
+    Removed:
+      JJ → NN
+      JJ → NNS
+      NNS → RB
+      NNS → VBD
+      PRP → VBD
+      RB → IN
+      VBD → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 40:
+  ORIGINAL : Psychological “expertise” was used to justify segregation, forced assimilation, and discrimination under the guise of objectivity.
+  REWRITTEN: Psychological “expertise” was used to justify segregation, forced assimilation, and discrimination under the guise of objectivity.
+  style_rel(orig) = 0.173, style_rel(new) = 0.173, Δ = 0.000
+  POS pattern (orig): JJ NNP NN NN VBD VBN TO VB NN , VBN NN , CC NN IN DT NN IN NN .
+  POS pattern (new) :  JJ NNP NN NN VBD VBN TO VB NN , VBN NN , CC NN IN DT NN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 41:
+  ORIGINAL : Instead of asking how society harms marginalized groups, psychology often asked what was wrong with those groups for struggling within harmful systems.
+  REWRITTEN: Psychologists blamed the oppressed instead of the structures crushing them.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.069, Δ = 999999.931
+  POS pattern (orig): RB IN VBG WRB NN VBZ VBN NNS , NN RB VBD WP VBD JJ IN DT NNS IN VBG IN JJ NNS .
+  POS pattern (new) :  NNS VBD DT JJ RB IN DT NNS VBG PRP .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → RB
+      NNS → VBD
+      NNS → VBG
+      PRP → .
+      VBD → DT
+      VBG → PRP
+    Removed:
+      , → NN
+      IN → JJ
+      IN → VBG
+      JJ → IN
+      JJ → NNS
+      NN → RB
+      NN → VBZ
+      NNS → ,
+      NNS → .
+      NNS → IN
+      RB → VBD
+      VBD → JJ
+      VBD → WP
+      VBG → IN
+      VBG → WRB
+      VBN → NNS
+      VBZ → VBN
+      WP → VBD
+      WRB → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 42:
+  ORIGINAL : The result was a narrative that blamed the oppressed for the hardships imposed on them.
+  REWRITTEN: The narrative made structural violence look like personal failure.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.005, Δ = 999999.995
+  POS pattern (orig): DT NN VBD DT JJ WDT VBD DT VBN IN DT NNS VBN IN PRP .
+  POS pattern (new) :  DT JJ VBN JJ NN NN IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      JJ → NN
+      JJ → VBN
+      NN → .
+      NN → IN
+      NN → NN
+      VBN → JJ
+    Removed:
+      DT → NN
+      DT → NNS
+      DT → VBN
+      IN → DT
+      IN → PRP
+      JJ → WDT
+      NN → VBD
+      NNS → VBN
+      PRP → .
+      VBD → DT
+      VBN → IN
+      WDT → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 43:
+  ORIGINAL : Generations of people were told that their suffering was the outcome of personal deficits, not historical violence.
+  REWRITTEN: History’s wounds were reframed as individual weaknesses.
+  style_rel(orig) = -0.159, style_rel(new) = -0.022, Δ = 0.137
+  POS pattern (orig): NNS IN NNS VBD VBN IN PRP$ NN VBD DT NN IN JJ NNS , RB JJ NN .
+  POS pattern (new) :  NNP NNP NN NNS VBD VBN IN JJ NNS .
+  POS bigram changes:
+    Added:
+      NN → NNS
+      NNP → NN
+      NNP → NNP
+      NNS → .
+    Removed:
+      , → RB
+      DT → NN
+      IN → NNS
+      IN → PRP$
+      JJ → NN
+      NN → .
+      NN → IN
+      NN → VBD
+      NNS → ,
+      NNS → IN
+      PRP$ → NN
+      RB → JJ
+      VBD → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 44:
+  ORIGINAL : The wealthy and powerful remained unquestioned.
+  REWRITTEN: Those in control avoided scrutiny.
+  style_rel(orig) = -0.256, style_rel(new) = -0.136, Δ = 0.120
+  POS pattern (orig): DT NN CC JJ VBD JJ .
+  POS pattern (new) :  DT IN NN VBD NN .
+  POS bigram changes:
+    Added:
+      DT → IN
+      IN → NN
+      NN → .
+      NN → VBD
+      VBD → NN
+    Removed:
+      CC → JJ
+      DT → NN
+      JJ → .
+      JJ → VBD
+      NN → CC
+      VBD → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 45:
+  ORIGINAL : The oppressed were studied as problems rather than partners.
+  REWRITTEN: The oppressed were studied as problems rather than partners.
+  style_rel(orig) = -0.084, style_rel(new) = -0.084, Δ = 0.000
+  POS pattern (orig): DT VBN VBD VBN IN NNS RB IN NNS .
+  POS pattern (new) :  DT VBN VBD VBN IN NNS RB IN NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 46:
+  ORIGINAL : Yet not all scholarship accepted this arrangement.
+  REWRITTEN: Not every scholar went along with the oppressive narrative.
+  style_rel(orig) = -0.052, style_rel(new) = 0.077, Δ = 0.129
+  POS pattern (orig): RB RB DT NN VBD DT NN .
+  POS pattern (new) :  RB DT NN VBD IN IN DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → DT
+      IN → IN
+      JJ → NN
+      VBD → IN
+    Removed:
+      RB → RB
+      VBD → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 47:
+  ORIGINAL : Movements like History from Below and Liberation Psychology emerged to confront the ways knowledge can either reinforce or challenge power.
+  REWRITTEN: These schools of thought expose how research can either uphold or dismantle oppression.
+  style_rel(orig) = -0.019, style_rel(new) = -0.017, Δ = 0.002
+  POS pattern (orig): NNS IN NN IN NNP CC NNP NNP VBD TO VB DT NNS VBP MD VB NN CC NN NN .
+  POS pattern (new) :  DT NNS IN NN VB WRB NN MD VB JJ CC JJ NN .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      JJ → CC
+      JJ → NN
+      NN → MD
+      NN → VB
+      VB → JJ
+      VB → WRB
+      WRB → NN
+    Removed:
+      CC → NN
+      CC → NNP
+      IN → NNP
+      NN → CC
+      NN → IN
+      NN → NN
+      NNP → CC
+      NNP → NNP
+      NNP → VBD
+      NNS → VBP
+      TO → VB
+      VB → DT
+      VB → NN
+      VBD → TO
+      VBP → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 48:
+  ORIGINAL : History from Below shifts focus away from kings, nations, and powerful leaders toward the everyday people whose labor, resistance, and survival actually shape history.
+  REWRITTEN: This method centers ordinary people as the main drivers of historical change.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.064, Δ = 999999.936
+  POS pattern (orig): NN IN NNP NNS VB RB IN NNS , NNS , CC JJ NNS IN DT JJ NNS WP$ NN , NN , CC JJ RB JJ NN .
+  POS pattern (new) :  DT NN VBZ JJ NNS IN DT JJ NNS IN JJ NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → JJ
+      NN → VBZ
+      VBZ → JJ
+    Removed:
+      , → CC
+      , → NN
+      , → NNS
+      CC → JJ
+      IN → NNP
+      IN → NNS
+      JJ → RB
+      NN → ,
+      NN → IN
+      NNP → NNS
+      NNS → ,
+      NNS → VB
+      NNS → WP$
+      RB → IN
+      RB → JJ
+      VB → RB
+      WP$ → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 49:
+  ORIGINAL : It recognizes that the struggles of workers, enslaved people, and marginalized communities are not side notes — they are the foundation on which nations are built.
+  REWRITTEN: The labor and resistance of oppressed groups are core historical forces.
+  style_rel(orig) = -0.185, style_rel(new) = 0.042, Δ = 0.227
+  POS pattern (orig): PRP VBZ IN DT NNS IN NNS , VBN NNS , CC JJ NNS VBP RB JJ NNS IN PRP VBP DT NN IN WDT NNS VBP VBN .
+  POS pattern (new) :  DT NN CC NN IN JJ NNS VBP JJ JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → NN
+      IN → JJ
+      JJ → JJ
+      NN → CC
+      NNS → .
+      VBP → JJ
+    Removed:
+      , → CC
+      , → VBN
+      CC → JJ
+      DT → NNS
+      IN → DT
+      IN → NNS
+      IN → PRP
+      IN → WDT
+      NNS → ,
+      NNS → IN
+      PRP → VBP
+      PRP → VBZ
+      RB → JJ
+      VBN → .
+      VBN → NNS
+      VBP → DT
+      VBP → RB
+      VBP → VBN
+      VBZ → IN
+      WDT → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 50:
+  ORIGINAL : When you tell the story from their perspective, the image of progress looks very different.
+  REWRITTEN: Viewing history through their eyes transforms our understanding of “advancement.”
+  style_rel(orig) = -0.120, style_rel(new) = -0.047, Δ = 0.073
+  POS pattern (orig): WRB PRP VBP DT NN IN PRP$ NN , DT NN IN NN VBZ RB JJ .
+  POS pattern (new) :  VBG NN IN PRP$ NNS VBZ PRP$ NN IN JJ NN . NN
+  POS bigram changes:
+    Added:
+      . → NN
+      IN → JJ
+      JJ → NN
+      NN → .
+      NNS → VBZ
+      PRP$ → NNS
+      VBG → NN
+      VBZ → PRP$
+    Removed:
+      , → DT
+      DT → NN
+      IN → NN
+      JJ → .
+      NN → ,
+      NN → VBZ
+      PRP → VBP
+      RB → JJ
+      VBP → DT
+      VBZ → RB
+      WRB → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 51:
+  ORIGINAL : The wealth of modern capitalism does not appear as the reward of innovation alone, but as the accumulated profit of extraction and exclusion.
+  REWRITTEN: Extraction and inequality, not innovation alone, generated today’s wealth.
+  style_rel(orig) = 0.000, style_rel(new) = 0.058, Δ = 0.058
+  POS pattern (orig): DT NN IN JJ NN VBZ RB VB IN DT NN IN NN RB , CC IN DT JJ NN IN NN CC NN .
+  POS pattern (new) :  NN CC NN , RB NN RB , VBD NN NNP NN NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      , → VBD
+      NN → ,
+      NN → NN
+      NN → NNP
+      NNP → NN
+      RB → NN
+      VBD → NN
+    Removed:
+      , → CC
+      CC → IN
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → JJ
+      IN → NN
+      JJ → NN
+      NN → IN
+      NN → VBZ
+      RB → VB
+      VB → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 52:
+  ORIGINAL : Liberation Psychology takes a similar turn in a different field.
+  REWRITTEN: Liberation Psychology takes a similar turn in a different field.
+  style_rel(orig) = 0.078, style_rel(new) = 0.078, Δ = 0.000
+  POS pattern (orig): NNP NNP VBZ DT JJ NN IN DT JJ NN .
+  POS pattern (new) :  NNP NNP VBZ DT JJ NN IN DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 53:
+  ORIGINAL : Instead of treating individuals as isolated minds with internal disorders, it examines how social structures harm mental wellbeing.
+  REWRITTEN: The approach investigates external injustice as the root of suffering.
+  style_rel(orig) = -0.137, style_rel(new) = -0.083, Δ = 0.055
+  POS pattern (orig): RB IN VBG NNS IN JJ NNS IN JJ NNS , PRP VBZ WRB JJ NNS JJ JJ NN .
+  POS pattern (new) :  DT NN VBZ JJ NN IN DT NN IN NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → DT
+      IN → NN
+      NN → IN
+      NN → VBZ
+      VBZ → JJ
+    Removed:
+      , → PRP
+      IN → JJ
+      IN → VBG
+      JJ → JJ
+      JJ → NNS
+      NNS → ,
+      NNS → IN
+      NNS → JJ
+      PRP → VBZ
+      RB → IN
+      VBG → NNS
+      VBZ → WRB
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 54:
+  ORIGINAL : It recognizes that trauma, stress, and psychological suffering often stem from inequality — and that healing involves changing those systems, not forcing individuals to adapt to them.
+  REWRITTEN: Healing means altering the world, not pretending it’s fine.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.030, Δ = 1000000.030
+  POS pattern (orig): PRP VBZ IN NN , NN , CC JJ NN RB VBZ IN NN NN CC IN VBG NNS VBG DT NNS , RB VBG NNS TO VB TO PRP .
+  POS pattern (new) :  VBG NNS VBG DT NN , RB VBG PRP JJ JJ NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      JJ → JJ
+      NN → .
+      PRP → JJ
+      VBG → PRP
+    Removed:
+      , → CC
+      , → NN
+      CC → IN
+      CC → JJ
+      DT → NNS
+      IN → NN
+      IN → VBG
+      NN → CC
+      NN → NN
+      NN → RB
+      NNS → ,
+      NNS → TO
+      PRP → .
+      PRP → VBZ
+      RB → VBZ
+      TO → PRP
+      TO → VB
+      VB → TO
+      VBZ → IN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 55:
+  ORIGINAL : Where traditional psychology asked how to help marginalized people function within oppressive realities, liberation psychology asks how to dismantle the oppression itself.
+  REWRITTEN: Instead of adapting people to injustice, it targets the injustice.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.072, Δ = 999999.928
+  POS pattern (orig): WRB JJ NN VBD WRB TO VB JJ NNS VBP IN JJ NNS , NN NN VBZ WRB TO VB DT NN PRP .
+  POS pattern (new) :  RB IN VBG NNS TO VB , PRP VBZ DT NN .
+  POS bigram changes:
+    Added:
+      , → PRP
+      IN → VBG
+      NN → .
+      NNS → TO
+      PRP → VBZ
+      RB → IN
+      VB → ,
+      VBG → NNS
+      VBZ → DT
+    Removed:
+      , → NN
+      IN → JJ
+      JJ → NN
+      JJ → NNS
+      NN → NN
+      NN → PRP
+      NN → VBD
+      NN → VBZ
+      NNS → ,
+      NNS → VBP
+      PRP → .
+      VB → DT
+      VB → JJ
+      VBD → WRB
+      VBP → IN
+      VBZ → WRB
+      WRB → JJ
+      WRB → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 56:
+  ORIGINAL : These approaches flip the script.
+  REWRITTEN: The narrative is completely turned around.
+  style_rel(orig) = -0.109, style_rel(new) = -0.014, Δ = 0.095
+  POS pattern (orig): DT NNS VBP DT NN .
+  POS pattern (new) :  DT JJ VBZ RB VBN RP .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → VBZ
+      RB → VBN
+      RP → .
+      VBN → RP
+      VBZ → RB
+    Removed:
+      DT → NN
+      DT → NNS
+      NN → .
+      NNS → VBP
+      VBP → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 57:
+  ORIGINAL : They say that the perspective of the oppressed is not an alternative version of the story; it is the truth that the dominant narrative worked to bury.
+  REWRITTEN: The marginalized perspective becomes the primary truth, not a side note.
+  style_rel(orig) = -0.071, style_rel(new) = 0.032, Δ = 0.103
+  POS pattern (orig): PRP VBP IN DT NN IN DT VBN VBZ RB DT JJ NN IN DT NN : PRP VBZ DT NN IN DT JJ JJ VBN TO VB .
+  POS pattern (new) :  DT JJ NN VBZ DT JJ NN , RB DT NN NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      NN → ,
+      NN → .
+      NN → NN
+      NN → VBZ
+    Removed:
+      : → PRP
+      DT → VBN
+      IN → DT
+      JJ → JJ
+      JJ → VBN
+      NN → :
+      NN → IN
+      PRP → VBP
+      PRP → VBZ
+      TO → VB
+      VB → .
+      VBN → TO
+      VBN → VBZ
+      VBP → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 58:
+  ORIGINAL : Understanding racial capitalism is not only about history.
+  REWRITTEN: Racial capitalism isn’t just a historical topic.
+  style_rel(orig) = -0.027, style_rel(new) = 0.125, Δ = 0.151
+  POS pattern (orig): VBG JJ NN VBZ RB RB IN NN .
+  POS pattern (new) :  JJ NN NN NNP NN RB DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      NN → NN
+      NN → NNP
+      NN → RB
+      NNP → NN
+      RB → DT
+    Removed:
+      IN → NN
+      NN → VBZ
+      RB → IN
+      RB → RB
+      VBG → JJ
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 59:
+  ORIGINAL : It’s about recognizing how current systems continue to operate on the same principles.
+  REWRITTEN: We must see that the same dynamics still shape society now.
+  style_rel(orig) = -0.333, style_rel(new) = -0.106, Δ = 0.227
+  POS pattern (orig): PRP VBZ JJ IN VBG WRB JJ NNS VBP TO VB IN DT JJ NNS .
+  POS pattern (new) :  PRP MD VB IN DT JJ NNS RB VBP NN RB .
+  POS bigram changes:
+    Added:
+      MD → VB
+      NN → RB
+      NNS → RB
+      PRP → MD
+      RB → .
+      RB → VBP
+      VBP → NN
+    Removed:
+      IN → VBG
+      JJ → IN
+      NNS → .
+      NNS → VBP
+      PRP → VBZ
+      TO → VB
+      VBG → WRB
+      VBP → TO
+      VBZ → JJ
+      WRB → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 60:
+  ORIGINAL : Today, corporations profit from underpaid labor in gig economies where workers lack rights and stability.
+  REWRITTEN: Low-wage gig work creates profit while denying workers protections.
+  style_rel(orig) = -0.171, style_rel(new) = -0.054, Δ = 0.117
+  POS pattern (orig): NN , NNS VBP IN JJ NN IN NN NNS WRB NNS VBP NNS CC NN .
+  POS pattern (new) :  JJ NN NN VBZ NN IN VBG NNS NNS .
+  POS bigram changes:
+    Added:
+      IN → VBG
+      NN → NN
+      NN → VBZ
+      NNS → .
+      NNS → NNS
+      VBG → NNS
+      VBZ → NN
+    Removed:
+      , → NNS
+      CC → NN
+      IN → JJ
+      IN → NN
+      NN → ,
+      NN → .
+      NN → NNS
+      NNS → CC
+      NNS → VBP
+      NNS → WRB
+      VBP → IN
+      VBP → NNS
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 61:
+  ORIGINAL : Neighborhoods historically segregated still display predictable disparities in wealth and opportunity.
+  REWRITTEN: The economic map still mirrors the old color lines.
+  style_rel(orig) = -0.103, style_rel(new) = 0.082, Δ = 0.184
+  POS pattern (orig): NNS RB VBD RB VBN JJ NNS IN NN CC NN .
+  POS pattern (new) :  DT JJ NN RB VBZ DT JJ NN NNS .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NN
+      NN → NNS
+      NN → RB
+      NNS → .
+      RB → VBZ
+      VBZ → DT
+    Removed:
+      CC → NN
+      IN → NN
+      JJ → NNS
+      NN → .
+      NN → CC
+      NNS → IN
+      NNS → RB
+      RB → VBD
+      RB → VBN
+      VBD → RB
+      VBN → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 62:
+  ORIGINAL : Political campaigns rely on racial fear to win votes that protect elite financial interests.
+  REWRITTEN: Political campaigns rely on racial fear to win votes that protect elite financial interests.
+  style_rel(orig) = -0.094, style_rel(new) = -0.094, Δ = 0.000
+  POS pattern (orig): JJ NNS RB IN JJ NN TO VB NNS IN VBP JJ JJ NNS .
+  POS pattern (new) :  JJ NNS RB IN JJ NN TO VB NNS IN VBP JJ JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 63:
+  ORIGINAL : Mental health disorders rise in communities living under constant stress, and the burden is placed on individuals to cope while the structural causes remain intact.
+  REWRITTEN: Mental health disorders rise in communities living under constant stress, and the burden is placed on individuals to cope while the structural causes remain intact.
+  style_rel(orig) = -0.080, style_rel(new) = -0.080, Δ = 0.000
+  POS pattern (orig): NNP NN NNS VBP IN NNS VBG IN JJ NN , CC DT NN VBZ VBN IN NNS TO VB IN DT JJ NNS VBP JJ .
+  POS pattern (new) :  NNP NN NNS VBP IN NNS VBG IN JJ NN , CC DT NN VBZ VBN IN NNS TO VB IN DT JJ NNS VBP JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 64:
+  ORIGINAL : We also need to understand that racism adapts.
+  REWRITTEN: We also need to understand that racism adapts.
+  style_rel(orig) = 0.025, style_rel(new) = 0.025, Δ = 0.000
+  POS pattern (orig): PRP RB VBP TO VB DT NN VBZ .
+  POS pattern (new) :  PRP RB VBP TO VB DT NN VBZ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 65:
+  ORIGINAL : It rarely announces itself openly.
+  REWRITTEN: It often hides in subtlety.
+  style_rel(orig) = -0.140, style_rel(new) = -0.079, Δ = 0.061
+  POS pattern (orig): PRP RB VBZ PRP RB .
+  POS pattern (new) :  PRP RB VBZ IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → .
+      VBZ → IN
+    Removed:
+      RB → .
+      VBZ → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 66:
+  ORIGINAL : It appears through economic policies, scientific claims, and cultural norms that feel “neutral” but produce racially unequal outcomes.
+  REWRITTEN: Policies and norms present as objective often yield racial disparities.
+  style_rel(orig) = -0.065, style_rel(new) = 0.016, Δ = 0.081
+  POS pattern (orig): PRP VBZ IN JJ NNS , JJ NNS , CC JJ NNS WDT VBP JJ JJ NNS CC VBP RB JJ NNS .
+  POS pattern (new) :  NNS CC NNS JJ IN JJ RB VBP JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → NNS
+      JJ → IN
+      JJ → RB
+      NNS → JJ
+      RB → VBP
+    Removed:
+      , → CC
+      , → JJ
+      CC → JJ
+      CC → VBP
+      JJ → JJ
+      NNS → ,
+      NNS → WDT
+      PRP → VBZ
+      RB → JJ
+      VBP → RB
+      VBZ → IN
+      WDT → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 67:
+  ORIGINAL : That is what makes racial capitalism so persistent.
+  REWRITTEN: Its subtlety gives it staying power.
+  style_rel(orig) = -0.439, style_rel(new) = -0.075, Δ = 0.363
+  POS pattern (orig): DT VBZ WP VBZ JJ NN RB JJ .
+  POS pattern (new) :  PRP$ NN VBZ PRP VBG NN .
+  POS bigram changes:
+    Added:
+      NN → .
+      NN → VBZ
+      PRP → VBG
+      PRP$ → NN
+      VBG → NN
+      VBZ → PRP
+    Removed:
+      DT → VBZ
+      JJ → .
+      JJ → NN
+      NN → RB
+      RB → JJ
+      VBZ → JJ
+      VBZ → WP
+      WP → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 68:
+  ORIGINAL : It hides its exploitation behind the appearance of fairness.
+  REWRITTEN: Exploitation is masked by claims of equality.
+  style_rel(orig) = -0.089, style_rel(new) = -0.082, Δ = 0.007
+  POS pattern (orig): PRP VBZ PRP$ NN IN DT NN IN NN .
+  POS pattern (new) :  NN VBZ VBN IN NNS IN NN .
+  POS bigram changes:
+    Added:
+      IN → NNS
+      NN → VBZ
+      NNS → IN
+      VBN → IN
+      VBZ → VBN
+    Removed:
+      DT → NN
+      IN → DT
+      NN → IN
+      PRP → VBZ
+      PRP$ → NN
+      VBZ → PRP$
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 69:
+  ORIGINAL : It convinces society that success is simply a matter of effort, even when the ground is tilted so steeply that climbing is nearly impossible for some and effortless for others.
+  REWRITTEN: It convinces society that success is simply a matter of effort, even when the ground is tilted so steeply that climbing is nearly impossible for some and effortless for others.
+  style_rel(orig) = 0.012, style_rel(new) = 0.012, Δ = 0.000
+  POS pattern (orig): PRP VBZ NN IN NN VBZ RB DT NN IN NN , RB WRB DT NN VBZ VBN RB VB IN VBG VBZ RB JJ IN DT CC NN IN NNS .
+  POS pattern (new) :  PRP VBZ NN IN NN VBZ RB DT NN IN NN , RB WRB DT NN VBZ VBN RB VB IN VBG VBZ RB JJ IN DT CC NN IN NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 70:
+  ORIGINAL : The challenge ahead is not simply documenting inequality — we have centuries of documentation already.
+  REWRITTEN: The task now isn’t to collect more evidence — we’ve done that.
+  style_rel(orig) = -0.035, style_rel(new) = -0.030, Δ = 0.005
+  POS pattern (orig): DT NN RB VBZ RB RB VBG NN NN PRP VBP NNS IN NN RB .
+  POS pattern (new) :  DT NN RB VBZ JJ NN TO VB JJR NN IN PRP VBP JJ VBN DT .
+  POS bigram changes:
+    Added:
+      DT → .
+      IN → PRP
+      JJ → NN
+      JJ → VBN
+      JJR → NN
+      NN → IN
+      NN → TO
+      TO → VB
+      VB → JJR
+      VBN → DT
+      VBP → JJ
+      VBZ → JJ
+    Removed:
+      IN → NN
+      NN → NN
+      NN → PRP
+      NNS → IN
+      RB → .
+      RB → RB
+      RB → VBG
+      VBG → NN
+      VBP → NNS
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 71:
+  ORIGINAL : The challenge is deciding what to do with that knowledge.
+  REWRITTEN: Applying that understanding is the real test.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.097, Δ = 999999.903
+  POS pattern (orig): DT NN VBZ VBG WP TO VB IN DT NN .
+  POS pattern (new) :  VBG IN NN VBZ DT JJ NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → NN
+      JJ → NN
+      VBG → IN
+      VBZ → DT
+    Removed:
+      DT → NN
+      IN → DT
+      TO → VB
+      VB → IN
+      VBG → WP
+      VBZ → VBG
+      WP → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 72:
+  ORIGINAL : Psychology has an opportunity here to shift fully away from its past role as a tool of justification and toward a future focused on empowerment.
+  REWRITTEN: Psychology has an opportunity here to shift fully away from its past role as a tool of justification and toward a future focused on empowerment.
+  style_rel(orig) = 0.007, style_rel(new) = 0.007, Δ = 0.000
+  POS pattern (orig): NNP VBZ DT NN RB TO VB RB RB IN PRP$ JJ NN IN DT NN IN NN CC IN DT NN VBN IN NN .
+  POS pattern (new) :  NNP VBZ DT NN RB TO VB RB RB IN PRP$ JJ NN IN DT NN IN NN CC IN DT NN VBN IN NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 73:
+  ORIGINAL : Researchers are now studying how inequality affects cognitive development, mental health, stress responses, and identity.
+  REWRITTEN: Scientists investigate how inequity impacts brains, emotions, and sense of self.
+  style_rel(orig) = -0.181, style_rel(new) = -0.109, Δ = 0.072
+  POS pattern (orig): NNS VBP RB VBG WRB JJ VBZ JJ NN , JJ NN , NN NNS , CC NN .
+  POS pattern (new) :  NNS VBP WRB JJ NNS NNS , NNS , CC NN IN NN .
+  POS bigram changes:
+    Added:
+      , → NNS
+      IN → NN
+      JJ → NNS
+      NN → IN
+      NNS → NNS
+      VBP → WRB
+    Removed:
+      , → JJ
+      , → NN
+      JJ → NN
+      JJ → VBZ
+      NN → ,
+      NN → NNS
+      RB → VBG
+      VBG → WRB
+      VBP → RB
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 74:
+  ORIGINAL : They are identifying the pathways by which oppressive conditions produce harm.
+  REWRITTEN: We are learning exactly how inequality translates into harm.
+  style_rel(orig) = -0.170, style_rel(new) = -0.110, Δ = 0.061
+  POS pattern (orig): PRP VBP VBG DT NNS IN WDT JJ NNS VBP NN .
+  POS pattern (new) :  PRP VBP VBG RB WRB NN VBZ IN NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      NN → VBZ
+      RB → WRB
+      VBG → RB
+      VBZ → IN
+      WRB → NN
+    Removed:
+      DT → NNS
+      IN → WDT
+      JJ → NNS
+      NNS → IN
+      NNS → VBP
+      VBG → DT
+      VBP → NN
+      WDT → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 75:
+  ORIGINAL : This knowledge can become a tool for change if we let it.
+  REWRITTEN: What this knowledge suggests is that can become a tool for change if we let it.
+  style_rel(orig) = -0.077, style_rel(new) = -0.018, Δ = 0.060
+  POS pattern (orig): DT NN MD VB DT NN IN NN IN PRP VBP PRP .
+  POS pattern (new) :  WP DT NN VBZ VBZ IN MD VB DT NN IN NN IN PRP VBP PRP .
+  POS bigram changes:
+    Added:
+      IN → MD
+      NN → VBZ
+      VBZ → IN
+      VBZ → VBZ
+      WP → DT
+    Removed:
+      NN → MD
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 76:
+  ORIGINAL : There are signs of progress.
+  REWRITTEN: Some changes are already visible.
+  style_rel(orig) = -0.221, style_rel(new) = -0.008, Δ = 0.213
+  POS pattern (orig): EX VBP NNS IN NN .
+  POS pattern (new) :  DT NNS VBP RB JJ .
+  POS bigram changes:
+    Added:
+      DT → NNS
+      JJ → .
+      NNS → VBP
+      RB → JJ
+      VBP → RB
+    Removed:
+      EX → VBP
+      IN → NN
+      NN → .
+      NNS → IN
+      VBP → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 77:
+  ORIGINAL : Community-based mental health programs challenge the idea that help must come from experts outside the community.
+  REWRITTEN: Community-based mental health programs challenge the idea that help must come from experts outside the community.
+  style_rel(orig) = -0.067, style_rel(new) = -0.067, Δ = 0.000
+  POS pattern (orig): JJ JJ NN NNS VBP DT NN WDT VBZ MD VB IN NNS IN DT NN .
+  POS pattern (new) :  JJ JJ NN NNS VBP DT NN WDT VBZ MD VB IN NNS IN DT NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 78:
+  ORIGINAL : Social psychology experiments reveal how stereotypes are learned, how biases form, and how systems can be redesigned to reduce their impact.
+  REWRITTEN: Research uncovers the creation of bias and strategies to dismantle it.
+  style_rel(orig) = -0.150, style_rel(new) = -0.023, Δ = 0.127
+  POS pattern (orig): NNP NN NNS VB WRB NNS VBP VBN , WRB NNS VBP , CC WRB NNS MD VB VBN TO VB PRP$ NN .
+  POS pattern (new) :  NN VBZ DT NN IN NN CC NNS TO VB PRP .
+  POS bigram changes:
+    Added:
+      CC → NNS
+      DT → NN
+      IN → NN
+      NN → CC
+      NN → IN
+      NN → VBZ
+      NNS → TO
+      PRP → .
+      VB → PRP
+      VBZ → DT
+    Removed:
+      , → CC
+      , → WRB
+      CC → WRB
+      MD → VB
+      NN → .
+      NN → NNS
+      NNP → NN
+      NNS → MD
+      NNS → VB
+      NNS → VBP
+      PRP$ → NN
+      VB → PRP$
+      VB → VBN
+      VB → WRB
+      VBN → ,
+      VBN → TO
+      VBP → ,
+      VBP → VBN
+      WRB → NNS
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 79:
+  ORIGINAL : Liberation psychology emphasizes collective action over individual coping, helping people recognize that their struggles are not evidence of personal failure but symptoms of unjust systems.
+  REWRITTEN: It teaches that suffering comes from inequality, not individual deficiency.
+  style_rel(orig) = -0.096, style_rel(new) = -0.091, Δ = 0.004
+  POS pattern (orig): NNP NN VBZ JJ NN IN JJ NN , VBG NNS VBP IN PRP$ NNS VBP RB NN IN JJ NN CC NNS IN JJ NNS .
+  POS pattern (new) :  PRP VBZ IN VBG VBZ IN NN , RB JJ NN .
+  POS bigram changes:
+    Added:
+      , → RB
+      IN → NN
+      IN → VBG
+      NN → .
+      PRP → VBZ
+      RB → JJ
+      VBG → VBZ
+      VBZ → IN
+    Removed:
+      , → VBG
+      CC → NNS
+      IN → JJ
+      IN → PRP$
+      JJ → NNS
+      NN → CC
+      NN → IN
+      NN → VBZ
+      NNP → NN
+      NNS → .
+      NNS → IN
+      NNS → VBP
+      PRP$ → NNS
+      RB → NN
+      VBG → NNS
+      VBP → IN
+      VBP → RB
+      VBZ → JJ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 80:
+  ORIGINAL : History from Below encourages students — the future leaders and voters and policymakers — to see that the world they accept today was created by human decisions, and human decisions can change it.
+  REWRITTEN: Students learn that what exists now was constructed — and can be reconstructed.
+  style_rel(orig) = -0.136, style_rel(new) = 0.061, Δ = 0.197
+  POS pattern (orig): NN IN IN NNS NNS VBP DT NN NNS CC NNS CC NNS VBP TO VB IN DT NN PRP VBP NN VBD VBN IN JJ NNS , CC JJ NNS MD VB PRP .
+  POS pattern (new) :  NNS VBP IN WP VBZ RB VBD VBN JJ CC MD VB VBN .
+  POS bigram changes:
+    Added:
+      CC → MD
+      IN → WP
+      JJ → CC
+      RB → VBD
+      VB → VBN
+      VBN → .
+      VBN → JJ
+      VBP → IN
+      VBZ → RB
+      WP → VBZ
+    Removed:
+      , → CC
+      CC → JJ
+      CC → NNS
+      DT → NN
+      IN → DT
+      IN → IN
+      IN → JJ
+      IN → NNS
+      JJ → NNS
+      NN → IN
+      NN → NNS
+      NN → PRP
+      NN → VBD
+      NNS → ,
+      NNS → CC
+      NNS → MD
+      NNS → NNS
+      PRP → .
+      PRP → VBP
+      TO → VB
+      VB → IN
+      VB → PRP
+      VBN → IN
+      VBP → DT
+      VBP → NN
+      VBP → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 81:
+  ORIGINAL : Still, awareness is only the first step.
+  REWRITTEN: Still, awareness is only the first step.
+  style_rel(orig) = 0.079, style_rel(new) = 0.079, Δ = 0.000
+  POS pattern (orig): RB , NN VBZ RB DT JJ NN .
+  POS pattern (new) :  RB , NN VBZ RB DT JJ NN .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 82:
+  ORIGINAL : Racial capitalism is deeply rooted, fueled by laws, profit structures, media narratives, and even the subconscious assumptions we inherit from the world around us.
+  REWRITTEN: Its strength lies in structural and psychological entanglements.
+  style_rel(orig) = -0.073, style_rel(new) = 0.112, Δ = 0.184
+  POS pattern (orig): JJ NN VBZ RB VBN , VBN IN NNS , NN NNS , NNS NNS , CC RB DT JJ NNS PRP VBP IN DT NN IN PRP .
+  POS pattern (new) :  PRP$ NN VBZ IN JJ CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      IN → JJ
+      JJ → CC
+      NNS → .
+      PRP$ → NN
+      VBZ → IN
+    Removed:
+      , → CC
+      , → NN
+      , → NNS
+      , → VBN
+      CC → RB
+      DT → JJ
+      DT → NN
+      IN → DT
+      IN → NNS
+      IN → PRP
+      JJ → NN
+      NN → IN
+      NN → NNS
+      NNS → ,
+      NNS → NNS
+      NNS → PRP
+      PRP → .
+      PRP → VBP
+      RB → DT
+      RB → VBN
+      VBN → ,
+      VBN → IN
+      VBP → IN
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 83:
+  ORIGINAL : There is no single policy that will undo its effects, no brief period of reform that will erase centuries of exploitation.
+  REWRITTEN: The damage runs too deep for simple or short reforms.
+  style_rel(orig) = -0.060, style_rel(new) = 0.081, Δ = 0.141
+  POS pattern (orig): EX VBZ DT JJ NN WDT MD VB PRP$ NNS , DT JJ NN IN NN WDT MD VB NNS IN NN .
+  POS pattern (new) :  DT NN VBZ RB JJ IN JJ CC JJ NNS .
+  POS bigram changes:
+    Added:
+      CC → JJ
+      DT → NN
+      IN → JJ
+      JJ → CC
+      JJ → IN
+      JJ → NNS
+      NN → VBZ
+      NNS → .
+      RB → JJ
+      VBZ → RB
+    Removed:
+      , → DT
+      DT → JJ
+      EX → VBZ
+      IN → NN
+      JJ → NN
+      MD → VB
+      NN → .
+      NN → IN
+      NN → WDT
+      NNS → ,
+      NNS → IN
+      PRP$ → NNS
+      VB → NNS
+      VB → PRP$
+      VBZ → DT
+      WDT → MD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 84:
+  ORIGINAL : But shifting the lens — choosing to center the voices and experiences of those harmed by these systems — is a necessary beginning.
+  REWRITTEN: Change begins by centering the lived realities of the harmed.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.058, Δ = 1000000.058
+  POS pattern (orig): CC VBG DT JJ NN VBG TO VB DT NNS CC NNS IN DT VBN IN DT NNS VBP VBZ DT JJ NN .
+  POS pattern (new) :  NN VBZ IN VBG DT JJ NNS IN DT NN .
+  POS bigram changes:
+    Added:
+      DT → NN
+      IN → VBG
+      JJ → NNS
+      NN → VBZ
+      VBZ → IN
+    Removed:
+      CC → NNS
+      CC → VBG
+      DT → NNS
+      DT → VBN
+      JJ → NN
+      NN → VBG
+      NNS → CC
+      NNS → VBP
+      TO → VB
+      VB → DT
+      VBG → TO
+      VBN → IN
+      VBP → VBZ
+      VBZ → DT
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 85:
+  ORIGINAL : If society continues to learn history only from the perspective of conquerors and capitalism only from the perspective of beneficiaries, the injustice will stay invisible.
+  REWRITTEN: Stories told by the powerful alone ensure injustice stays disguised.
+  style_rel(orig) = -0.102, style_rel(new) = -0.024, Δ = 0.078
+  POS pattern (orig): IN NN VBZ TO VB NN RB IN DT NN IN NNS CC NN RB IN DT NN IN NNS , DT NN MD VB JJ .
+  POS pattern (new) :  NNS VBN IN DT JJ JJ VB JJ NNS VBN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → JJ
+      JJ → NNS
+      JJ → VB
+      NNS → VBN
+      VBN → .
+      VBN → IN
+    Removed:
+      , → DT
+      CC → NN
+      DT → NN
+      IN → NN
+      IN → NNS
+      JJ → .
+      MD → VB
+      NN → IN
+      NN → MD
+      NN → RB
+      NN → VBZ
+      NNS → ,
+      NNS → CC
+      RB → IN
+      TO → VB
+      VB → NN
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 86:
+  ORIGINAL : The question, ultimately, is what kind of world we want to build.
+  REWRITTEN: The real issue is imagining the world we’re trying to create.
+  style_rel(orig) = -0.235, style_rel(new) = -0.121, Δ = 0.114
+  POS pattern (orig): DT NN , RB , VBZ WP NN IN NN PRP VBP TO VB .
+  POS pattern (new) :  DT JJ NN VBZ VBG DT NN PRP VBP VB VBG TO VB .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NN
+      NN → VBZ
+      VB → VBG
+      VBG → DT
+      VBG → TO
+      VBP → VB
+      VBZ → VBG
+    Removed:
+      , → RB
+      , → VBZ
+      IN → NN
+      NN → ,
+      NN → IN
+      RB → ,
+      VBP → TO
+      VBZ → WP
+      WP → NN
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 87:
+  ORIGINAL : A system that requires some people to remain vulnerable for others to feel secure is not sustainable.
+  REWRITTEN: Security for the few at the expense of many is doomed to fail.
+  style_rel(orig) = -0.151, style_rel(new) = 0.013, Δ = 0.164
+  POS pattern (orig): DT NN WDT VBZ DT NNS TO VB JJ IN NNS TO VB NN VBZ RB JJ .
+  POS pattern (new) :  NN IN DT JJ IN DT NN IN JJ VBZ VBN TO VB .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      IN → DT
+      IN → JJ
+      JJ → VBZ
+      NN → IN
+      VB → .
+      VBN → TO
+      VBZ → VBN
+    Removed:
+      DT → NNS
+      IN → NNS
+      JJ → .
+      NN → VBZ
+      NN → WDT
+      NNS → TO
+      RB → JJ
+      VB → JJ
+      VB → NN
+      VBZ → DT
+      VBZ → RB
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 88:
+  ORIGINAL : A form of prosperity that depends on the suffering of others cannot be considered progress.
+  REWRITTEN: Wealth built on someone else’s pain isn’t progress at all.
+  style_rel(orig) = -0.113, style_rel(new) = 0.133, Δ = 0.245
+  POS pattern (orig): DT NN IN NN WDT VBZ IN DT NN IN NNS MD RB VB VBN NN .
+  POS pattern (new) :  NNP VBN IN NN RB NNP NN NN JJ NNP NN NN IN DT .
+  POS bigram changes:
+    Added:
+      DT → .
+      JJ → NNP
+      NN → JJ
+      NN → NN
+      NN → RB
+      NNP → NN
+      NNP → VBN
+      RB → NNP
+      VBN → IN
+    Removed:
+      DT → NN
+      IN → NNS
+      MD → RB
+      NN → .
+      NN → WDT
+      NNS → MD
+      RB → VB
+      VB → VBN
+      VBN → NN
+      VBZ → IN
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 89:
+  ORIGINAL : If we believe that human beings deserve dignity, opportunity, and autonomy, then we need an economic system that reflects those values.
+  REWRITTEN: Values like dignity and opportunity must be built into our economic structure.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.044, Δ = 999999.956
+  POS pattern (orig): IN PRP VBP IN JJ NNS VBP NN , NN , CC NN , RB PRP VBP DT JJ NN WDT VBZ DT NNS .
+  POS pattern (new) :  NNS IN NN CC NN MD VB VBN IN PRP$ JJ NN .
+  POS bigram changes:
+    Added:
+      IN → NN
+      IN → PRP$
+      MD → VB
+      NN → .
+      NN → CC
+      NN → MD
+      NNS → IN
+      PRP$ → JJ
+      VB → VBN
+      VBN → IN
+    Removed:
+      , → CC
+      , → NN
+      , → RB
+      DT → JJ
+      DT → NNS
+      IN → JJ
+      IN → PRP
+      JJ → NNS
+      NN → ,
+      NN → WDT
+      NNS → .
+      NNS → VBP
+      PRP → VBP
+      RB → PRP
+      VBP → DT
+      VBP → IN
+      VBP → NN
+      VBZ → DT
+      WDT → VBZ
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 90:
+  ORIGINAL : That requires re-examining the foundations rather than patching up the visible cracks.
+  REWRITTEN: That requires re-examining the foundations rather than patching up the visible cracks.
+  style_rel(orig) = 0.064, style_rel(new) = 0.064, Δ = 0.000
+  POS pattern (orig): DT VBZ VBG DT NNS RB IN VBG RP DT JJ NNS .
+  POS pattern (new) :  DT VBZ VBG DT NNS RB IN VBG RP DT JJ NNS .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 91:
+  ORIGINAL : Racial capitalism teaches us that inequality is not an accident — it is a design.
+  REWRITTEN: Inequality is baked into racial capitalism by design.
+  style_rel(orig) = -0.111, style_rel(new) = -0.066, Δ = 0.046
+  POS pattern (orig): JJ NN NNS PRP IN NN VBZ RB DT NN NN PRP VBZ DT NN .
+  POS pattern (new) :  NN VBZ VBN IN JJ NN IN NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      NN → IN
+      VBN → IN
+      VBZ → VBN
+    Removed:
+      DT → NN
+      NN → NN
+      NN → NNS
+      NN → PRP
+      NNS → PRP
+      PRP → IN
+      PRP → VBZ
+      RB → DT
+      VBZ → DT
+      VBZ → RB
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 92:
+  ORIGINAL : Liberation psychology and History from Below teach us that designs can be changed if the people they harm gain the ability to redefine the narrative.
+  REWRITTEN: These approaches remind us that systems can be rebuilt when the oppressed reclaim the story.
+  style_rel(orig) = -0.098, style_rel(new) = 0.070, Δ = 0.168
+  POS pattern (orig): NNP NN CC NN IN IN NN PRP IN NNS MD VB VBN IN DT NNS PRP VBP VBP DT NN TO VB DT JJ .
+  POS pattern (new) :  DT NNS VBP PRP IN NNS MD VB VBN WRB DT JJ NN DT NN .
+  POS bigram changes:
+    Added:
+      JJ → NN
+      NN → .
+      NN → DT
+      NNS → VBP
+      VBN → WRB
+      VBP → PRP
+      WRB → DT
+    Removed:
+      CC → NN
+      IN → DT
+      IN → IN
+      IN → NN
+      JJ → .
+      NN → CC
+      NN → IN
+      NN → PRP
+      NN → TO
+      NNP → NN
+      NNS → PRP
+      PRP → VBP
+      TO → VB
+      VB → DT
+      VBN → IN
+      VBP → DT
+      VBP → VBP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 93:
+  ORIGINAL : Psychology’s role must be to support that process, not obstruct it.
+  REWRITTEN: Psychology’s role must be to support that process, not obstruct it.
+  style_rel(orig) = -0.066, style_rel(new) = -0.066, Δ = 0.000
+  POS pattern (orig): NNP NNP JJ NN MD VB TO VB DT NN , RB IN PRP .
+  POS pattern (new) :  NNP NNP JJ NN MD VB TO VB DT NN , RB IN PRP .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 94:
+  ORIGINAL : History’s purpose must be to uncover the truth rather than protect the comfortable.
+  REWRITTEN: History’s purpose must be to uncover the truth rather than protect the comfortable.
+  style_rel(orig) = -0.061, style_rel(new) = -0.061, Δ = 0.000
+  POS pattern (orig): NNP NNP VBD JJ MD VB TO VB DT NN RB IN VB DT JJ .
+  POS pattern (new) :  NNP NNP VBD JJ MD VB TO VB DT NN RB IN VB DT JJ .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 95:
+  ORIGINAL : There is still a long way to go.
+  REWRITTEN: There is still a long way to go.
+  style_rel(orig) = -0.106, style_rel(new) = -0.106, Δ = 0.000
+  POS pattern (orig): EX VBZ RB DT JJ NN TO VB .
+  POS pattern (new) :  EX VBZ RB DT JJ NN TO VB .
+  No structural POS differences detected.
+  Source of chosen rewrite: heuristic rewrite/original
+
+Sentence 96:
+  ORIGINAL : But naming the connection between capitalism and racial exploitation gives us the language needed to challenge it.
+  REWRITTEN: Understanding the connection arms us with critical language.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.042, Δ = 999999.958
+  POS pattern (orig): CC VBG DT NN IN NN CC JJ NN VBZ PRP DT NN VBN TO VB PRP .
+  POS pattern (new) :  VBG DT NN NNS PRP IN JJ NN .
+  POS bigram changes:
+    Added:
+      IN → JJ
+      NN → .
+      NN → NNS
+      NNS → PRP
+      PRP → IN
+    Removed:
+      CC → JJ
+      CC → VBG
+      IN → NN
+      NN → CC
+      NN → IN
+      NN → VBN
+      NN → VBZ
+      PRP → .
+      PRP → DT
+      TO → VB
+      VB → PRP
+      VBN → TO
+      VBZ → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 97:
+  ORIGINAL : Listening to the stories of those who lived that exploitation gives us the motive to stop it.
+  REWRITTEN: Hearing the oppressed inspires action to end injustice.
+  style_rel(orig) = -1000000.000, style_rel(new) = 0.048, Δ = 1000000.048
+  POS pattern (orig): VBG TO DT NNS IN DT WP VBD DT NN VBZ PRP DT NN TO VB PRP .
+  POS pattern (new) :  VBG DT JJ NNS NN TO VB NN .
+  POS bigram changes:
+    Added:
+      DT → JJ
+      JJ → NNS
+      NN → .
+      NNS → NN
+      VB → NN
+      VBG → DT
+    Removed:
+      DT → NN
+      DT → NNS
+      DT → WP
+      IN → DT
+      NN → VBZ
+      NNS → IN
+      PRP → .
+      PRP → DT
+      TO → DT
+      VB → PRP
+      VBD → DT
+      VBG → TO
+      VBZ → PRP
+      WP → VBD
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 98:
+  ORIGINAL : And recognizing that systems are human creations gives us the responsibility to build something better.
+  REWRITTEN: Their human origins oblige us to reimagine them.
+  style_rel(orig) = -1000000.000, style_rel(new) = -0.090, Δ = 999999.910
+  POS pattern (orig): CC VBG IN NNS VBP JJ NNS VBZ PRP DT NN TO VB NN RBR .
+  POS pattern (new) :  PRP$ JJ NNS VBP PRP TO VB PRP .
+  POS bigram changes:
+    Added:
+      PRP → .
+      PRP → TO
+      PRP$ → JJ
+      VB → PRP
+      VBP → PRP
+    Removed:
+      CC → VBG
+      DT → NN
+      IN → NNS
+      NN → RBR
+      NN → TO
+      NNS → VBZ
+      PRP → DT
+      RBR → .
+      VB → NN
+      VBG → IN
+      VBP → JJ
+      VBZ → PRP
+  Source of chosen rewrite: GPT paraphrases
+
+Sentence 99:
+  ORIGINAL : If racial capitalism created the world we inherited, then our task now is to ensure it does not define the world we leave behind.
+  REWRITTEN: The legacy of racial capitalism should stop with us, not continue onward.
+  style_rel(orig) = -0.191, style_rel(new) = -0.132, Δ = 0.059
+  POS pattern (orig): IN JJ NN VBD DT NN PRP VBD , RB PRP$ NN RB VBZ TO VB PRP VBZ RB VB DT NN PRP VBP IN .
+  POS pattern (new) :  DT NN IN JJ NN MD VB IN PRP , RB VB RB .
+  POS bigram changes:
+    Added:
+      IN → PRP
+      MD → VB
+      NN → IN
+      NN → MD
+      PRP → ,
+      RB → .
+      VB → IN
+      VB → RB
+    Removed:
+      IN → .
+      NN → PRP
+      NN → RB
+      NN → VBD
+      PRP → VBD
+      PRP → VBP
+      PRP → VBZ
+      PRP$ → NN
+      RB → PRP$
+      RB → VBZ
+      TO → VB
+      VB → DT
+      VB → PRP
+      VBD → ,
+      VBD → DT
+      VBP → IN
+      VBZ → RB
+      VBZ → TO
+  Source of chosen rewrite: GPT paraphrases
+
+[INFO] Rewrote 81 out of 100 sentences.
+=== REWRITTEN GPT ESSAY (STYLE-ADAPTED) ===
+Length (chars): 7289
+Average normalized relative style (you - GPT): -0.0020245395696660783
+Average normalized logP_you per rule        : -0.04852730361115008
+Average normalized logP_gpt per rule        : -0.04650276404148401
+=== RELATIVE STYLE SHIFT (toward you, away from GPT) ===
+Before (you - GPT): -0.11094409556294077
+After  (you - GPT): -0.0020245395696660783
+Δ (after - before): 0.1089
+-> Rewritten GPT essay is more you-ish relative to GPT.
+
+Rewritten essay saved to: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/rewritten_gpt_essay_relative_pos.txt
+[INFO] Saved POS structural change log to /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pos_change_log.json
+
+[STEP COMPLETED] Rewrite GPT essay toward personal style (rewrite_POS.py) in 4.06s
+
+
+===== Diagnose per-sentence style (diagnose_sentence_style_pos.py) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/diagnose_sentence_style_pos.py --text /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/gpt_data/gpt_racial_capitalism_clean.txt --sent-idx 0 --style-stats /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/style_stats_pos.json --grammar /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol/models/pcfg_personal_pos.json
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3
+Sentence:
+Racial capitalism begins with a simple but unsettling idea: inequality is not a flaw in capitalist systems, but one of their engines.
+--------------------------------------------------------------------------------
+WORDS: ['Racial', 'capitalism', 'begins', 'with', 'a', 'simple', 'but', 'unsettling', 'idea', ':', 'inequality', 'is', 'not', 'a', 'flaw', 'in', 'capitalist', 'systems', ',', 'but', 'one', 'of', 'their', 'engines', '.']
+POS: ['JJ', 'NN', 'VBZ', 'IN', 'DT', 'JJ', 'CC', 'JJ', 'NN', ':', 'NN', 'VBZ', 'RB', 'DT', 'NN', 'IN', 'JJ', 'NNS', ',', 'CC', 'CD', 'IN', 'PRP$', 'NNS', '.']
+
+No POS-based parse under your grammar. (You can still inspect lexical & bigram style.)
+
+Top lexical GPT-ish words (log P_gpt - log P_you):
+  'begins'        POS=VBZ    weirdness=16.596
+  'simple'        POS=JJ     weirdness=15.642
+  'unsettling'    POS=JJ     weirdness=15.642
+  'engines'       POS=NNS    weirdness=15.582
+  'flaw'          POS=NN     weirdness=15.003
+  'but'           POS=CC     weirdness=2.073
+  'but'           POS=CC     weirdness=2.073
+  'not'           POS=RB     weirdness=1.754
+  'capitalism'    POS=NN     weirdness=1.053
+  'Racial'        POS=JJ     weirdness=1.048
+
+Top POS bigrams where GPT > YOU (log P_gpt - log P_you):
+  CD    -> IN      weirdness=20.723
+  :     -> NN      weirdness=18.777
+  CC    -> CD      weirdness=16.629
+  NN    -> :       weirdness=1.261
+  NNS   -> .       weirdness=0.936
+  CC    -> JJ      weirdness=0.792
+  RB    -> DT      weirdness=0.773
+  NN    -> VBZ     weirdness=0.528
+  NN    -> VBZ     weirdness=0.528
+  IN    -> JJ      weirdness=0.483
+
+Done.
+
+[STEP COMPLETED] Diagnose per-sentence style (diagnose_sentence_style_pos.py) in 1.20s
+
+
+===== Grammar fingerprint visualizations (PCFG + POS bigrams) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/grammar_fingerprint_viz.py
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol
+[SAVED] viz/pos_bigram_you_vs_gpt_heatmaps.png
+[SAVED] viz/pos_bigram_delta_heatmap.png
+[SAVED] viz/pos_entropy_scatter.png
+[SAVED] viz/pos_radial_fingerprint.png
+[SAVED] Grammar-level Sankey to viz/grammar_rule_sankey.html
+
+[STEP COMPLETED] Grammar fingerprint visualizations (PCFG + POS bigrams) in 2.33s
+
+
+===== Analyze POS changes (aggregate + visualizations) =====
+CMD: /opt/anaconda3/envs/lcproj/bin/python /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/analyze_pos_changes.py
+cwd: /Users/domgearing/Desktop/Yale_Fall_2025/Language_and_Computation/final_project_code_3/runs/2025-12-10_16-13-37_batch_alcohol
+[INFO] Loaded 100 sentence-level change records from models/pos_change_log.json
+
+=== TOP ADDED POS BIGRAMS (structural patterns you use more) ===
+  NN → . : 20
+  IN → NN : 17
+  NN → VBZ : 17
+  NN → IN : 14
+  JJ → NN : 13
+  DT → JJ : 13
+  IN → JJ : 13
+  NN → NNS : 11
+  NNS → . : 11
+  IN → VBG : 10
+  VBN → IN : 10
+  JJ → NNS : 10
+  NNP → NN : 10
+  DT → NN : 9
+  VBZ → IN : 9
+  VBG → NNS : 7
+  NNS → VBD : 7
+  NN → RB : 7
+  NN → NN : 7
+  , → RB : 6
+
+=== TOP REMOVED POS BIGRAMS (patterns GPT used more) ===
+  NN → IN : 25
+  DT → NN : 24
+  NNS → IN : 21
+  IN → JJ : 20
+  IN → DT : 20
+  IN → NN : 19
+  JJ → NN : 18
+  NNS → , : 18
+  NN → , : 18
+  JJ → NNS : 17
+  , → CC : 16
+  NN → NN : 16
+  TO → VB : 16
+  NNS → VBP : 14
+  DT → NNS : 14
+  NN → . : 14
+  NN → VBZ : 13
+  IN → NNS : 13
+  PRP → VBP : 13
+  NN → CC : 12
+
+=== TOP ADDED POS TAGS ===
+  NN: 189
+  JJ: 122
+  IN: 117
+  NNS: 95
+  VBZ: 68
+  RB: 67
+  DT: 53
+  .: 50
+  VBN: 50
+  VBG: 41
+  ,: 36
+  NNP: 34
+  VB: 33
+  PRP: 30
+  CC: 27
+  VBD: 26
+  VBP: 16
+  TO: 13
+  MD: 11
+  WRB: 10
+
+=== TOP REMOVED POS TAGS ===
+  NN: 295
+  IN: 201
+  NNS: 196
+  JJ: 150
+  DT: 137
+  ,: 116
+  RB: 112
+  VBP: 92
+  VBZ: 86
+  CC: 85
+  PRP: 78
+  VBN: 71
+  VBD: 71
+  VB: 68
+  TO: 55
+  NNP: 51
+  .: 49
+  VBG: 40
+  WDT: 24
+  WRB: 23
+[INFO] Saved plot: models/pos_change_plots/added_bigrams.png
+[INFO] Saved plot: models/pos_change_plots/removed_bigrams.png
+[INFO] Saved plot: models/pos_change_plots/added_pos.png
+[INFO] Saved plot: models/pos_change_plots/removed_pos.png
+[INFO] Saved heatmap: models/pos_change_plots/added_bigrams_heatmap.png
+[INFO] Saved heatmap: models/pos_change_plots/removed_bigrams_heatmap.png
+[INFO] Saved transition diagram: models/pos_change_plots/added_bigrams_graph.png
+[INFO] Saved transition diagram: models/pos_change_plots/removed_bigrams_graph.png
+[INFO] Saved POS bigram flow table (for Sankey) to models/pos_change_plots/pos_bigram_flows.csv
+[INFO] Saved Sankey diagram HTML to models/pos_change_plots/pos_bigram_sankey.html
+
+[STEP COMPLETED] Analyze POS changes (aggregate + visualizations) in 1.65s
