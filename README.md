@@ -22,10 +22,6 @@ This project compares structural (POS/PCFG) patterns between a user's writing an
    - Python 3.8+
    - pip
 
-   Example (if requirements.txt is present):
-
-       pip install -r requirements.txt
-
    At minimum you will likely need:
 
        pip install nltk numpy matplotlib networkx plotly
@@ -78,22 +74,22 @@ This project compares structural (POS/PCFG) patterns between a user's writing an
         --out-essay rewritten_gpt_essay_relative_pos.txt \
         --out-log models/pos_change_log.json
 
+-make_POS_trees.py - uses benepar (Berkeley Neural Parser) to create constituency trees whose terminal leaves are POS tags rather than lexical tokens (words). Use the non POS scripts to run on Lexical (word) tokens instead. 
+
 - pcfg_POS.py — Estimate a POS-based PCFG from POS-tree JSONL (converts trees to CNF, collects productions, and writes a JSON mapping from LHS → [ {rhs, prob, log_prob}, ... ]).
 
 - build_style_stats_pos.py — Build POS unigram/bigram and lexical Pw|POS statistics for personal and GPT texts and compute log-odds deltas.
 
 - analyze_pos_changes.py — Aggregate sentence-level POS change logs (from rewrite) and produce plots: top added/removed POS bigrams, heatmaps, transition diagrams, and Sankey flow HTML (if plotly is installed).
 
-- describe_pcfg.py — Print and export nonterminal symbol tables (CSV/MD) with brief descriptions.
-
 Other helper scripts (used by the pipeline): process_sample_text.py, make_POS_trees.py, visualize_cky_chart.py, visualize_graph_pcfg.py, grammar_fingerprint_viz.py, diagnose_sentence_style_pos.py, cky_POS.py, cky_viterbi.py, etc.
 
 ## Expected inputs & outputs (per-run)
 
 Inputs (copied to run folder):
-- personal raw text → run_dir/personal_data/
-- GPT raw text → run_dir/gpt_data/
-- optional paraphrase JSONL → run_dir/data/
+- personal raw text - run_dir/personal_data/
+- GPT raw text - run_dir/gpt_data/
+- optional paraphrase JSONL - run_dir/data/
 
 Produced outputs (under run_dir):
 - models/pcfg_personal_pos.json and models/pcfg_gpt_pos.json
@@ -130,17 +126,3 @@ Produced outputs (under run_dir):
 - models/ (PCFG JSONs, style baselines, stats)
 - runs/ (generated experiment runs)
 - final_visualizations/, COMPARISON_RESULTS/ (baked outputs included in repo)
-
-## Contributing
-
-- If you add or change dependencies, please update `requirements.txt`.
-- Add tests or small examples demonstrating new behavior.
-- Open issues or PRs for bugs, improvements, or documentation updates.
-
-## License
-
-No license file is included. If you intend to make the project public, consider adding an explicit LICENSE (e.g. MIT, Apache-2.0).
-
----
-
-If you want, I can also add a minimal `requirements.txt` derived from the imports in the scripts, or push this README to a different branch.
